@@ -1,0 +1,21 @@
+{
+  "case": "cap_records_5000",
+  "ids": [
+    "otel-log:cap5000"
+  ],
+  "project": true,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "generate": {
+          "kind": "records",
+          "session": "cap5000",
+          "from": 0,
+          "to": 5000
+        }
+      },
+      "now": 1790598300000
+    }
+  ]
+}

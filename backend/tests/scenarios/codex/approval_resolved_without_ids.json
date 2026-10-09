@@ -1,0 +1,12 @@
+{
+  "case": "approval_resolved_without_ids",
+  "now": 1790596800000,
+  "sessionId": "codex:aa03",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

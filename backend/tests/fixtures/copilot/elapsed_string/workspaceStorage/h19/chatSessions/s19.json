@@ -1,0 +1,1 @@
+{"version":3,"sessionId":"s19","creationDate":1790586000000,"requests":[{"requestId":"r1","timestamp":1790586000000,"message":{"text":"Elapsed as string"},"result":{"timings":{"totalElapsed":"5000"}},"response":[{"value":"one"},{"kind":"toolInvocationSerialized","toolId":"t1","toolCallId":"call-t1","isComplete":true}]}]}

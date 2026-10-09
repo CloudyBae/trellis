@@ -1,0 +1,12 @@
+{
+  "case": "instruction_prefix_filter",
+  "now": 1790596800000,
+  "sessionId": "codex:ip01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

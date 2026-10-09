@@ -1,0 +1,158 @@
+{
+  "function": "contentText",
+  "cases": [
+    {
+      "input": [
+        null
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "abc"
+      ],
+      "output": "abc"
+    },
+    {
+      "input": [
+        []
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        [
+          "a",
+          {
+            "type": "text",
+            "text": "b"
+          },
+          {
+            "type": "image"
+          },
+          {
+            "text": "c"
+          },
+          {
+            "value": "d"
+          },
+          {},
+          null,
+          5,
+          "",
+          {
+            "type": "text"
+          },
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      ],
+      "output": "a\nb\n[image]\nc\nd"
+    },
+    {
+      "input": [
+        [
+          {
+            "type": "text",
+            "text": 5
+          },
+          {
+            "type": "text",
+            "text": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "text",
+            "text": {
+              "a": 1
+            }
+          }
+        ]
+      ],
+      "output": "5\n1,2\n[object Object]"
+    },
+    {
+      "input": [
+        [
+          {
+            "text": "",
+            "value": "kept"
+          },
+          {
+            "text": null,
+            "value": "second"
+          }
+        ]
+      ],
+      "output": "second"
+    },
+    {
+      "input": [
+        {
+          "text": "t"
+        }
+      ],
+      "output": "t"
+    },
+    {
+      "input": [
+        {
+          "value": "v"
+        }
+      ],
+      "output": "v"
+    },
+    {
+      "input": [
+        {
+          "other": 1,
+          "list": [
+            1,
+            "two"
+          ]
+        }
+      ],
+      "output": "{\"other\":1,\"list\":[1,\"two\"]}"
+    },
+    {
+      "input": [
+        {
+          "text": null,
+          "value": "fallback"
+        }
+      ],
+      "output": "fallback"
+    },
+    {
+      "input": [
+        5
+      ],
+      "output": "5"
+    },
+    {
+      "input": [
+        true
+      ],
+      "output": "true"
+    },
+    {
+      "input": [
+        1.5
+      ],
+      "output": "1.5"
+    },
+    {
+      "input": [
+        [
+          "line sep",
+          "x\ud83d"
+        ]
+      ],
+      "output": "line sep\nx\ud83d"
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+[
+  {
+    "id": "codex:os01",
+    "rawId": "os01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 52,
+    "run": {
+      "name": "Run every shape",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/output_shapes/2026/09/28/rollout-2026-09-28T10-00-00-os01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Run every shape",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o0",
+            "out": "",
+            "ms": 100
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o1",
+            "out": "[]",
+            "ms": 100
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o2",
+            "out": "x",
+            "ms": 0
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o3",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o4",
+            "out": "x",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o5",
+            "out": "x",
+            "ms": 500
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o6",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o7",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o8",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o9",
+            "out": "from content",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o10",
+            "out": "fallback",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o11",
+            "out": "0",
+            "ms": 100
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o12",
+            "out": "false",
+            "ms": 100
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o13",
+            "out": "{\"a\":1}",
+            "ms": 100
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o14",
+            "out": "{\"output\":\"x\",\"duration_seconds\":Infinity}",
+            "ms": 100
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o15",
+            "out": "{\"output\":\"x\",\"exit_code\":NaN}",
+            "ms": 100
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o16",
+            "out": "{}",
+            "ms": 100
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o17",
+            "out": "[1,2]",
+            "ms": 100
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o18",
+            "out": "null",
+            "ms": 100
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o19",
+            "out": "5",
+            "ms": 100
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o20",
+            "out": "\"Exit code: 1\"",
+            "ms": 100
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o21",
+            "out": "Exit code: 1\nbody",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o22",
+            "out": "a\rExit code: 1",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o23",
+            "out": "a\u2028Exit code: 2",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o24",
+            "out": "a\u2029Exit code: 3",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o25",
+            "out": "Exit code: 0",
+            "ms": 100
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o26",
+            "out": "Exit code: 00",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o27",
+            "out": "Exit code: x\nExit code: 1",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o28",
+            "out": "Exit code: 0\nExit code: 1",
+            "ms": 100
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o29",
+            "out": "xExit code: 1",
+            "ms": 100
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o30",
+            "out": "Exit code: \u0663",
+            "ms": 100
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o31",
+            "out": "Exit code: 4\nbody",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o32",
+            "out": "a\nb",
+            "ms": 100
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o33",
+            "out": "t",
+            "ms": 100
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o34",
+            "out": "5",
+            "ms": 100
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o35",
+            "out": "",
+            "ms": 100
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o36",
+            "out": "",
+            "ms": 100
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o37",
+            "out": "true",
+            "ms": 100
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o38",
+            "out": "x",
+            "ms": 1
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o39",
+            "out": "x",
+            "ms": 3
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o40",
+            "out": "x",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o41",
+            "out": "x",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o42",
+            "out": "x",
+            "ms": 100,
+            "fail": true
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o43",
+            "out": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word\u2026",
+            "ms": 100
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o44",
+            "out": "x",
+            "ms": -1000
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o45",
+            "out": "x",
+            "ms": 0
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o46",
+            "out": "x",
+            "ms": 2000
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o47",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o48",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o49",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o50",
+            "out": "x",
+            "ms": 100
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo o51",
+            "out": "x",
+            "ms": 100
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/output_shapes/2026/09/28/rollout-2026-09-28T10-00-00-os01.jsonl",
+        "end": 52,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

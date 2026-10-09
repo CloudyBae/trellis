@@ -1,0 +1,12 @@
+{
+  "case": "trimmed",
+  "now": 1790596800000,
+  "sessionId": "cc:cccccccc-3333",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

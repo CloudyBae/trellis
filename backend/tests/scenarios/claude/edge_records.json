@@ -1,0 +1,12 @@
+{
+  "case": "edge_records",
+  "now": 1790596800000,
+  "sessionId": "cc:88888888-bbbb",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

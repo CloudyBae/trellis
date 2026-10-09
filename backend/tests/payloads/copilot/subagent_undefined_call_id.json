@@ -1,0 +1,93 @@
+[
+  {
+    "id": "copilot:s17",
+    "rawId": "s17",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 10,
+    "run": {
+      "name": "Call ids",
+      "repo": "call-ids",
+      "source": "GitHub Copilot",
+      "file": "~/subagent_undefined_call_id/workspaceStorage/h17/chatSessions/s17.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Call ids",
+        "context": [],
+        "turns": [
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "plain1",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "plain2",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "plain3",
+            "target": "",
+            "out": ""
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_undefined_call_id/workspaceStorage/h17/chatSessions/s17.json",
+        "end": 10,
+        "final": "complete",
+        "returned": {
+          "summary": "The chat ended.",
+          "items": []
+        },
+        "approxTimes": true
+      },
+      {
+        "id": 2,
+        "name": "A",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "first",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_undefined_call_id/workspaceStorage/h17/chatSessions/s17.json",
+        "parent": 1,
+        "end": 0,
+        "final": "complete",
+        "returned": {
+          "summary": "Finished.",
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "B",
+        "src": "GitHub Copilot",
+        "start": 5,
+        "task": "second",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_undefined_call_id/workspaceStorage/h17/chatSessions/s17.json",
+        "parent": 1,
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "Finished.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

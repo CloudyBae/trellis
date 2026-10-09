@@ -1,0 +1,12 @@
+{
+  "case": "subagent_done_while_live",
+  "now": 1790596800000,
+  "sessionId": "codex:sd01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

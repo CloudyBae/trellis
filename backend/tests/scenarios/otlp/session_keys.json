@@ -1,0 +1,25 @@
+{
+  "case": "session_keys",
+  "ids": [
+    "otel:second-wins",
+    "otel:third-wins",
+    "otel:thread-wins",
+    "otel:TR-k4",
+    "otel:undefined",
+    "otel:null",
+    "otel:5",
+    "otel:",
+    "otel:after-falsy",
+    "otel:first-wins"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

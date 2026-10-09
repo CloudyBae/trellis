@@ -1,0 +1,16 @@
+{
+  "case": "log_live_edge",
+  "ids": [
+    "otel-log:lv6"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593801000
+    }
+  ]
+}

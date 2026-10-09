@@ -1,0 +1,12 @@
+{
+  "case": "trim_whitespace",
+  "now": 1790596800000,
+  "sessionId": "copilot:s10",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

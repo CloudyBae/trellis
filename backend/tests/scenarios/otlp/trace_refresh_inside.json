@@ -1,0 +1,22 @@
+{
+  "case": "trace_refresh_inside",
+  "ids": [
+    "otel:lv3"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593202000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790593860999
+    }
+  ]
+}

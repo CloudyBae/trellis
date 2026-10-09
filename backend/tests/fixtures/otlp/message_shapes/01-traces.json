@@ -1,0 +1,1378 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "m1",
+              "name": "invoke_agent parts",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593201500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parts"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"via parts\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m2",
+              "name": "invoke_agent content-only",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "content-only"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":\"content only\"}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m3",
+              "name": "invoke_agent parts-empty",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593203500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parts-empty"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[],\"content\":\"fallback content\"}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m4",
+              "name": "invoke_agent unparseable",
+              "startTimeUnixNano": "1790593204000000000",
+              "endTimeUnixNano": "1790593204500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "unparseable"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "just words"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m5",
+              "name": "invoke_agent parsed-object",
+              "startTimeUnixNano": "1790593205000000000",
+              "endTimeUnixNano": "1790593205500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parsed-object"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "kvlistValue": {
+                            "values": [
+                              {
+                                "key": "role",
+                                "value": {
+                                  "stringValue": "user"
+                                }
+                              },
+                              {
+                                "key": "content",
+                                "value": {
+                                  "stringValue": "parsed"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m6",
+              "name": "invoke_agent wrong-role",
+              "startTimeUnixNano": "1790593206000000000",
+              "endTimeUnixNano": "1790593206500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "wrong-role"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"content\":\"wrong role\"}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m7",
+              "name": "invoke_agent number-json",
+              "startTimeUnixNano": "1790593207000000000",
+              "endTimeUnixNano": "1790593207500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "number-json"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "123"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m8",
+              "name": "invoke_agent parts-text-key",
+              "startTimeUnixNano": "1790593208000000000",
+              "endTimeUnixNano": "1790593208500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parts-text-key"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"text\":\"via text key\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m9",
+              "name": "invoke_agent parts-empty-content",
+              "startTimeUnixNano": "1790593209000000000",
+              "endTimeUnixNano": "1790593209500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parts-empty-content"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"content\":\"\",\"text\":\"fallback text\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m10",
+              "name": "invoke_agent parts-null",
+              "startTimeUnixNano": "1790593210000000000",
+              "endTimeUnixNano": "1790593210500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parts-null"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":null,\"content\":\"from content\"}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m11",
+              "name": "invoke_agent parts-no-fields",
+              "startTimeUnixNano": "1790593211000000000",
+              "endTimeUnixNano": "1790593211500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parts-no-fields"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m12",
+              "name": "invoke_agent parts-zero",
+              "startTimeUnixNano": "1790593212000000000",
+              "endTimeUnixNano": "1790593212500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "parts-zero"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"content\":0}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m13",
+              "name": "invoke_agent last-user",
+              "startTimeUnixNano": "1790593213000000000",
+              "endTimeUnixNano": "1790593213500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "last-user"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":\"first\"},{\"role\":\"assistant\",\"content\":\"skip\"},{\"role\":\"user\",\"content\":\"second\"}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m14",
+              "name": "invoke_agent no-role",
+              "startTimeUnixNano": "1790593214000000000",
+              "endTimeUnixNano": "1790593214500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "no-role"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"content\":\"no role\"}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m15",
+              "name": "invoke_agent primitives",
+              "startTimeUnixNano": "1790593215000000000",
+              "endTimeUnixNano": "1790593215500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "primitives"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[\"a\",\"b\"]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m16",
+              "name": "invoke_agent zero-element",
+              "startTimeUnixNano": "1790593216000000000",
+              "endTimeUnixNano": "1790593216500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "zero-element"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[0]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m17",
+              "name": "invoke_agent single-object",
+              "startTimeUnixNano": "1790593217000000000",
+              "endTimeUnixNano": "1790593217500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "single-object"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "{\"role\":\"user\",\"content\":\"single\"}"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m18",
+              "name": "invoke_agent single-string-json",
+              "startTimeUnixNano": "1790593218000000000",
+              "endTimeUnixNano": "1790593218500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "single-string-json"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "\"quoted\""
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m19",
+              "name": "invoke_agent empty-array",
+              "startTimeUnixNano": "1790593219000000000",
+              "endTimeUnixNano": "1790593219500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "empty-array"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m20",
+              "name": "invoke_agent array-value-string",
+              "startTimeUnixNano": "1790593220000000000",
+              "endTimeUnixNano": "1790593220500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "array-value-string"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":{\"text\":\"nested text\"}}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m21",
+              "name": "invoke_agent content-object-value",
+              "startTimeUnixNano": "1790593221000000000",
+              "endTimeUnixNano": "1790593221500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "content-object-value"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":{\"value\":\"nested value\"}}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m22",
+              "name": "invoke_agent content-object-zero",
+              "startTimeUnixNano": "1790593222000000000",
+              "endTimeUnixNano": "1790593222500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "content-object-zero"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":{\"text\":0}}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m23",
+              "name": "invoke_agent content-empty-list",
+              "startTimeUnixNano": "1790593223000000000",
+              "endTimeUnixNano": "1790593223500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "content-empty-list"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":{\"text\":[]}}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m24",
+              "name": "invoke_agent content-list",
+              "startTimeUnixNano": "1790593224000000000",
+              "endTimeUnixNano": "1790593224500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "content-list"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"list a\"},\"list b\",{\"type\":\"image\"}]}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m25",
+              "name": "invoke_agent number-role-list",
+              "startTimeUnixNano": "1790593225000000000",
+              "endTimeUnixNano": "1790593225500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "number-role-list"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":5,\"content\":\"numeric role\"}]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m26",
+              "name": "invoke_agent padded-json",
+              "startTimeUnixNano": "1790593226000000000",
+              "endTimeUnixNano": "1790593226500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "padded-json"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "  [{\"role\":\"user\",\"content\":\"padded\"}]  "
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m27",
+              "name": "invoke_agent nan-json",
+              "startTimeUnixNano": "1790593227000000000",
+              "endTimeUnixNano": "1790593227500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "nan-json"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[NaN]"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m28",
+              "name": "invoke_agent bool-message",
+              "startTimeUnixNano": "1790593228000000000",
+              "endTimeUnixNano": "1790593228500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "bool-message"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "boolValue": true
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m29",
+              "name": "invoke_agent int-message",
+              "startTimeUnixNano": "1790593229000000000",
+              "endTimeUnixNano": "1790593229500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "int-message"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "intValue": "9"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "m30",
+              "name": "invoke_agent empty-string",
+              "startTimeUnixNano": "1790593230000000000",
+              "endTimeUnixNano": "1790593230500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "empty-string"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o1",
+              "name": "invoke_agent out-parts",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593201500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms2"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "out-parts"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Final answer\\n- item one\\n- item two\"}]}]"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o2",
+              "name": "invoke_agent out-wrong-role",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms2"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "out-wrong-role"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"content\":\"not assistant\"}]"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o3",
+              "name": "invoke_agent out-plain",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593203500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms2"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "out-plain"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "plain output"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o4",
+              "name": "invoke_agent out-empty",
+              "startTimeUnixNano": "1790593204000000000",
+              "endTimeUnixNano": "1790593204500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms2"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "out-empty"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[]"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o5",
+              "name": "invoke_agent out-no-role",
+              "startTimeUnixNano": "1790593205000000000",
+              "endTimeUnixNano": "1790593205500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "ms2"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "out-no-role"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"content\":\"no role output\"}]"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

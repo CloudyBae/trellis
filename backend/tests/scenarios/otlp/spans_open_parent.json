@@ -1,0 +1,22 @@
+{
+  "case": "spans_open_parent",
+  "ids": [
+    "otel:conv1"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790596800000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790597399000
+    }
+  ]
+}

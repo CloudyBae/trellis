@@ -1,0 +1,16 @@
+{
+  "case": "log_live_inside",
+  "ids": [
+    "otel-log:lv5"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593800999
+    }
+  ]
+}

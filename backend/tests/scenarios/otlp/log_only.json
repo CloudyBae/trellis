@@ -1,0 +1,29 @@
+{
+  "case": "log_only",
+  "ids": [
+    "otel-log:sess9"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790596802000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "02-logs.json"
+      },
+      "now": 1790596803000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790597403000
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "case": "finished",
+  "now": 1790596800000,
+  "sessionId": "cc:11111111-aaaa",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

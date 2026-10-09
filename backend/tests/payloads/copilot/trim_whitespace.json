@@ -1,0 +1,58 @@
+[
+  {
+    "id": "copilot:s10",
+    "rawId": "s10",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 21,
+    "run": {
+      "name": "Fix the bug now\u001c\u0085",
+      "repo": "trim",
+      "source": "GitHub Copilot",
+      "file": "~/trim_whitespace/workspaceStorage/h10/chatSessions/s10.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Fix the bug now\u001c\u0085",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "msg",
+            "text": "Answer\u001c\u0085"
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "runInTerminal",
+            "target": "ls\u001c\u0085",
+            "out": ""
+          },
+          {
+            "at": 20,
+            "kind": "user",
+            "text": "follow up\u001c\u0085"
+          },
+          {
+            "at": 21,
+            "kind": "msg",
+            "text": "\u001c\u0085"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/trim_whitespace/workspaceStorage/h10/chatSessions/s10.json",
+        "end": 21,
+        "final": "complete",
+        "returned": {
+          "summary": "\u001c\u0085",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+]

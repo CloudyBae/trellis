@@ -1,0 +1,28 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "timeUnixNano": 1790506799999999999,
+              "attributes": [
+                { "key": "event.name", "value": { "stringValue": "claude_code.tool_result" } },
+                { "key": "session.id", "value": { "stringValue": "big" } },
+                { "key": "tool_name", "value": { "stringValue": "first" } }
+              ]
+            },
+            {
+              "timeUnixNano": "1790506800000000000",
+              "attributes": [
+                { "key": "event.name", "value": { "stringValue": "claude_code.tool_result" } },
+                { "key": "session.id", "value": { "stringValue": "big" } },
+                { "key": "tool_name", "value": { "stringValue": "second" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

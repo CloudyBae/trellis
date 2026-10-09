@@ -1,0 +1,12 @@
+{
+  "case": "subagent_completeness",
+  "now": 1790596800000,
+  "sessionId": "codex:ss01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

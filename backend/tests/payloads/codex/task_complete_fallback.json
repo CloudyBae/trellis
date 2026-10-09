@@ -1,0 +1,196 @@
+[
+  {
+    "id": "codex:tc01",
+    "rawId": "tc01",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 72,
+    "run": {
+      "name": "Coordinate the work",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Codex",
+        "start": 0,
+        "task": "Coordinate the work",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "msg",
+            "text": "All done."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc01.jsonl",
+        "end": 3,
+        "final": "complete",
+        "returned": {
+          "summary": "All done.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Alpha",
+        "src": "Codex",
+        "start": 10,
+        "task": "Task for Alpha",
+        "context": [],
+        "turns": [
+          {
+            "at": 11,
+            "kind": "msg",
+            "text": "Sub said this."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc02.jsonl",
+        "parent": 1,
+        "end": 12,
+        "final": "complete",
+        "returned": {
+          "summary": "Sub said this.",
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "Beta",
+        "src": "Codex",
+        "start": 20,
+        "task": "Task for Beta",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc03.jsonl",
+        "parent": 1,
+        "end": 21,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 4,
+        "name": "Gamma",
+        "src": "Codex",
+        "start": 30,
+        "task": "Task for Gamma",
+        "context": [],
+        "turns": [
+          {
+            "at": 31,
+            "kind": "msg",
+            "text": "Gamma spoke."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc04.jsonl",
+        "parent": 1,
+        "end": 32,
+        "final": "complete",
+        "returned": {
+          "summary": "Gamma spoke.",
+          "items": []
+        }
+      },
+      {
+        "id": 5,
+        "name": "Delta",
+        "src": "Codex",
+        "start": 40,
+        "task": "Task for Delta",
+        "context": [],
+        "turns": [
+          {
+            "at": 41,
+            "kind": "msg",
+            "text": "Ignored say."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc05.jsonl",
+        "parent": 1,
+        "end": 42,
+        "final": "complete",
+        "returned": {
+          "summary": "Ignored say.",
+          "items": []
+        }
+      },
+      {
+        "id": 6,
+        "name": "Epsilon",
+        "src": "Codex",
+        "start": 50,
+        "task": "Task for Epsilon",
+        "context": [],
+        "turns": [
+          {
+            "at": 51,
+            "kind": "msg",
+            "text": "Only say."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc06.jsonl",
+        "parent": 1,
+        "end": 51,
+        "final": "complete",
+        "returned": {
+          "summary": "Only say.",
+          "items": []
+        }
+      },
+      {
+        "id": 7,
+        "name": "Zeta",
+        "src": "Codex",
+        "start": 60,
+        "task": "Task for Zeta",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc07.jsonl",
+        "parent": 1,
+        "end": 61,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 8,
+        "name": "Eta",
+        "src": "Codex",
+        "start": 70,
+        "task": "Task for Eta",
+        "context": [],
+        "turns": [
+          {
+            "at": 71,
+            "kind": "msg",
+            "text": "Zero is falsy."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/task_complete_fallback/2026/09/28/rollout-2026-09-28T10-00-00-tc08.jsonl",
+        "parent": 1,
+        "end": 72,
+        "final": "complete",
+        "returned": {
+          "summary": "Zero is falsy.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

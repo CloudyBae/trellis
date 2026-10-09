@@ -1,0 +1,72 @@
+[
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel-log:lv7": {
+        "id": "otel-log:lv7",
+        "rawId": "lv7",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": null,
+    "logged": 0,
+    "sessions": {
+      "otel-log:lv7": {
+        "id": "otel-log:lv7",
+        "rawId": "lv7",
+        "live": false,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "end": 0,
+            "final": "complete",
+            "returned": {
+              "summary": "The log stream went quiet.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

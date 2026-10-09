@@ -1,0 +1,386 @@
+[
+  {
+    "returned": 11,
+    "logged": 0,
+    "sessions": {
+      "otel:co": {
+        "id": "otel:co",
+        "rawId": "co",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "Lead the work",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Lead",
+            "src": "Codex",
+            "start": 0,
+            "task": "Lead the work",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          },
+          {
+            "id": 2,
+            "name": "Complete",
+            "src": "Codex",
+            "start": 1,
+            "task": "Do the thing",
+            "context": [],
+            "turns": [],
+            "completeness": "complete",
+            "parent": 1,
+            "end": 2,
+            "final": "complete",
+            "returned": {
+              "summary": "Did the thing.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "TaskOnly",
+            "src": "Codex",
+            "start": 2,
+            "task": "Only a task",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 3,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "OutputOnly",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 4,
+            "final": "complete",
+            "returned": {
+              "summary": "Only output",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "Activity",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "just-a-tool",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "Chatty",
+            "src": "Codex",
+            "start": 5,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 6,
+                "kind": "msg",
+                "text": "chatty turn"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "PromptTask",
+            "src": "Codex",
+            "start": 6,
+            "task": "prompt as task",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 8,
+            "name": "EmptyOutput",
+            "src": "Codex",
+            "start": 7,
+            "task": "empty output",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 9,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 9,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "under-placeholder",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": null,
+    "logged": 0,
+    "sessions": {
+      "otel:co": {
+        "id": "otel:co",
+        "rawId": "co",
+        "live": false,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "Lead the work",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Lead",
+            "src": "Codex",
+            "start": 0,
+            "task": "Lead the work",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "The trace ended without this agent's span.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Complete",
+            "src": "Codex",
+            "start": 1,
+            "task": "Do the thing",
+            "context": [],
+            "turns": [],
+            "completeness": "complete",
+            "parent": 1,
+            "end": 2,
+            "final": "complete",
+            "returned": {
+              "summary": "Did the thing.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "TaskOnly",
+            "src": "Codex",
+            "start": 2,
+            "task": "Only a task",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 3,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "OutputOnly",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 4,
+            "final": "complete",
+            "returned": {
+              "summary": "Only output",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "Activity",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "just-a-tool",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "Chatty",
+            "src": "Codex",
+            "start": 5,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 6,
+                "kind": "msg",
+                "text": "chatty turn"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "PromptTask",
+            "src": "Codex",
+            "start": 6,
+            "task": "prompt as task",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 8,
+            "name": "EmptyOutput",
+            "src": "Codex",
+            "start": 7,
+            "task": "empty output",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 9,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 9,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "under-placeholder",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "The trace ended without this agent's span.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

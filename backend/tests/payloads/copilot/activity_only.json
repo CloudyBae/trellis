@@ -1,0 +1,44 @@
+[
+  {
+    "id": "copilot:s7",
+    "rawId": "s7",
+    "live": true,
+    "t0": 1790596755000,
+    "endAt": 30,
+    "run": {
+      "name": "No prompt was recorded.",
+      "repo": "tools",
+      "source": "GitHub Copilot",
+      "file": "~/activity_only/workspaceStorage/h7/chatSessions/s7.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "tool",
+            "name": "runInTerminal",
+            "target": "ls -la",
+            "out": ""
+          }
+        ],
+        "completeness": "activity_only",
+        "file": "~/activity_only/workspaceStorage/h7/chatSessions/s7.json",
+        "phases": [
+          {
+            "at": 30,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ],
+        "approxTimes": true
+      }
+    ]
+  }
+]

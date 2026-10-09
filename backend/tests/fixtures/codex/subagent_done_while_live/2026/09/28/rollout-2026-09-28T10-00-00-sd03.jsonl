@@ -1,0 +1,4 @@
+{"timestamp":"2026-09-28T11:59:07.000Z","type":"session_meta","payload":{"id":"sd03","cwd":"/work/acme/web","parent_session_id":"sd01","agent_name":"Idle"}}
+{"timestamp":"2026-09-28T11:59:07.500Z","type":"event_msg","payload":{"type":"user_message","message":"Task for Idle"}}
+{"timestamp":"2026-09-28T11:59:08.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"i1","arguments":"{\"command\":\"rm -rf build\"}"}}
+{"timestamp":"2026-09-28T11:59:09.000Z","type":"event_msg","payload":{"type":"approval_request","call_id":"i1","command":"rm -rf build"}}

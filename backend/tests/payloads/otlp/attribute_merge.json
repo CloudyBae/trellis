@@ -1,0 +1,226 @@
+[
+  {
+    "returned": 3,
+    "logged": 1,
+    "sessions": {
+      "otel:res-sess": {
+        "id": "otel:res-sess",
+        "rawId": "res-sess",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "from-resource",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:span-sess": {
+        "id": "otel:span-sess",
+        "rawId": "span-sess",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "second",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:T3": {
+        "id": "otel:T3",
+        "rawId": "T3",
+        "live": true,
+        "t0": 1790593202000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "from-resource",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:list-key-sess": null
+    }
+  },
+  {
+    "returned": 0,
+    "logged": 1,
+    "sessions": {
+      "otel:res-sess": {
+        "id": "otel:res-sess",
+        "rawId": "res-sess",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "from-resource",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:span-sess": {
+        "id": "otel:span-sess",
+        "rawId": "span-sess",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "second",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:T3": {
+        "id": "otel:T3",
+        "rawId": "T3",
+        "live": true,
+        "t0": 1790593202000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "from-resource",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:list-key-sess": null
+    }
+  }
+]

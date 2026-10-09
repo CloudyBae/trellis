@@ -1,0 +1,23 @@
+{
+  "name": "oversized_hook",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": true,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "repeat": "x",
+        "count": 4194305
+      }
+    }
+  ],
+  "responses": [
+    {
+      "reset": true
+    }
+  ]
+}

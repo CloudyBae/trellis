@@ -1,0 +1,69 @@
+{
+  "name": "json_array_body",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "[]"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/logs",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "[1,2]"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/metrics",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "[]"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "[1]"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    }
+  ]
+}

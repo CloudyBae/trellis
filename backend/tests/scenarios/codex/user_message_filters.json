@@ -1,0 +1,12 @@
+{
+  "case": "user_message_filters",
+  "now": 1790596800000,
+  "sessionId": "codex:uf01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel-log:lv5": {
+        "id": "otel-log:lv5",
+        "rawId": "lv5",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  }
+]

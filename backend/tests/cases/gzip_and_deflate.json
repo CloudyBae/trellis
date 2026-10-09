@@ -1,0 +1,92 @@
+{
+  "name": "gzip_and_deflate",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/logs",
+      "headers": {
+        "content-type": "application/json",
+        "content-encoding": "gzip"
+      },
+      "body": {
+        "base64": "H4sIAAAAAAAAE42QzQqCQBDHX0XmrGIHE32ATtEhqEuEbOsgS7oj+yGF+O5tbmWHhGZO8/Gf+c0MoFCTVRy3VGsoTsMnAcUAzBglLtagL13xDgVoVL3gGEvWIoTQs8ZOzdr1yvroQ+ANsxVGnCqEcTyPIWhO3bymoXqPnFTlQyNaPEhx2zFJTr3K8iTN11meJm9zq37iYI/S/AVTPmFi6/jLTlHbGQcWzldpLUjGoloeo7Alg9HqW/eatKjZuHrAAk7SMCFRTc/w/gCkE/qpfQEAAA=="
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/sessions"
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json",
+        "content-encoding": "deflate"
+      },
+      "body": {
+        "base64": "eJyrrgUAAXUA+Q=="
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/metrics",
+      "headers": {
+        "content-type": "application/json",
+        "content-encoding": "gzip"
+      },
+      "body": {
+        "base64": "H4sIAAAAAAAAE6uuBQBDv6ajAgAAAA=="
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": [
+        {
+          "id": "otel-log:remote-1",
+          "rawId": "remote-1",
+          "live": true,
+          "t0": 1790596795000,
+          "endAt": 0,
+          "via": "logs",
+          "run": {
+            "name": "From a container",
+            "repo": "",
+            "source": "Claude Code",
+            "file": "OpenTelemetry logs"
+          },
+          "agents": [
+            {
+              "id": 1,
+              "name": "Main agent",
+              "src": "Claude Code",
+              "start": 0,
+              "task": "From a container",
+              "context": [],
+              "turns": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    }
+  ]
+}

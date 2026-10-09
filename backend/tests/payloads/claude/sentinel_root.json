@@ -1,0 +1,46 @@
+[
+  {
+    "id": "cc:bbbbbbbb-2222",
+    "rawId": "bbbbbbbb-2222",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 3,
+    "hooks": false,
+    "run": {
+      "name": "Untitled session",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/sentinel_root/-work-acme-api/bbbbbbbb-2222.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "msg",
+            "text": "Continuing from earlier work."
+          },
+          {
+            "at": 3,
+            "kind": "msg",
+            "text": "The tests still pass."
+          }
+        ],
+        "completeness": "partial",
+        "file": "~/sentinel_root/-work-acme-api/bbbbbbbb-2222.jsonl",
+        "end": 3,
+        "final": "complete",
+        "returned": {
+          "summary": "The tests still pass.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

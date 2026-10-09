@@ -1,0 +1,39 @@
+{"type":"session_meta","payload":{"id":"tr01","cwd":"/work/acme/web","source":{"subagent":"worker"}}}
+{"timestamp":"2026-09-28T10:00:00.000Z","type":"turn_context","payload":{"cwd":"/work/acme/web"}}
+{"timestamp":true,"type":"event_msg","payload":{"type":"user_message","message":"Task with an odd stamp"}}
+{"timestamp":null,"type":"event_msg","payload":{"type":"user_message","message":"Second message, null stamp"}}
+{"timestamp":{},"type":"event_msg","payload":{"type":"user_message","message":"Third message, object stamp"}}
+{"timestamp":"2026-09-28T10:00:01.000Z","type":"event_msg","payload":{"type":5}}
+{"timestamp":"2026-09-28T10:00:01.000Z","type":"event_msg","payload":{"type":["exec_approval_request"],"call_id":"ap1","command":"ls -la"}}
+{"timestamp":"2026-09-28T10:00:02.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"ap1","arguments":"{\"command\":\"ls -la\"}"}}
+{"timestamp":"2026-09-28T10:00:03.000Z","type":"event_msg","payload":{"type":"error"}}
+{"timestamp":"2026-09-28T10:00:04.000Z","type":"event_msg","payload":{"type":"stream_error","message":5}}
+{"timestamp":"2026-09-28T10:00:05.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":\"ls\",\"x\":NaN}"}}
+{"timestamp":"2026-09-28T10:00:06.000Z","type":"response_item","payload":{"type":"function_call_output","output":"orphan output without an id"}}
+{"timestamp":"2026-09-28T10:00:07.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"n1","arguments":5}}
+{"timestamp":"2026-09-28T10:00:08.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"n2","arguments":null}}
+{"timestamp":"2026-09-28T10:00:09.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"n3","arguments":["{\"command\":\"from array\"}"]}}
+{"timestamp":"2026-09-28T10:00:10.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"n4","arguments":{"command":"from object"}}}
+{"timestamp":"2026-09-28T10:00:11.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":7,"arguments":"{\"command\":\"numeric id\"}"}}
+{"timestamp":"2026-09-28T10:00:12.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":7,"output":"numeric id result"}}
+{"timestamp":"2026-09-28T10:00:13.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":null,"arguments":"{\"command\":\"null id\"}"}}
+{"timestamp":"2026-09-28T10:00:14.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":null,"output":"null id result"}}
+{"timestamp":"2026-09-28T10:00:15.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"1","arguments":"{\"command\":\"string id\"}"}}
+{"timestamp":"2026-09-28T10:00:16.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":1,"output":"number result for string id"}}
+{"timestamp":"2026-09-28T10:00:17.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","input":{"command":"object patch"}}}
+{"timestamp":"2026-09-28T10:00:18.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"exec","call_id":9,"input":"{\"cmd\":\"custom cmd\"}"}}
+{"timestamp":"2026-09-28T10:00:19.000Z","type":"response_item","payload":{"type":"local_shell_call","action":{"command":["ls","-l"]}}}
+{"timestamp":"2026-09-28T10:00:20.000Z","type":"response_item","payload":{"type":"web_search_call","action":{"query":"how to"}}}
+{"timestamp":"2026-09-28T10:00:21.000Z","type":"response_item","payload":{"type":"web_search_call","action":"not an object"}}
+{"timestamp":"2026-09-28T10:00:22.000Z","type":"response_item","payload":{"type":"web_search_call","id":"search1","action":{"query":"with id"}}}
+{"timestamp":"2026-09-28T10:00:23.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":null}}
+{"timestamp":"2026-09-28T10:00:24.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[5,{"text":5},"text",{"text":"kept"}]}}
+{"timestamp":"2026-09-28T10:00:25.000Z","type":"response_item","payload":{"type":"unknown_kind","value":1}}
+{"timestamp":"2026-09-28T10:00:26.000Z","type":"unknown_record","payload":{"type":"user_message","message":"ignored"}}
+{"timestamp":"2026-09-28T10:00:27.000Z","type":"event_msg","payload":null}
+{"timestamp":"2026-09-28T10:00:28.000Z","type":"event_msg","payload":"text"}
+{"timestamp":"2026-09-28T10:00:29.000Z","type":"response_item","payload":[1,2]}
+5
+"string record"
+[1]
+{"timestamp":"2026-09-28T10:00:30.000Z","type":"event_msg","payload":{"type":"error","message":"final failure"}}

@@ -1,0 +1,111 @@
+{
+  "name": "malformed_json",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/logs",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "nope"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/metrics",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{,}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "  "
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "NaN"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    }
+  ]
+}

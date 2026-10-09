@@ -1,0 +1,12 @@
+{
+  "case": "timestamp_strings",
+  "now": 1790596800000,
+  "sessionId": "copilot:s18",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

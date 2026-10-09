@@ -1,0 +1,12 @@
+{
+  "case": "blocked_approval",
+  "now": 1790596800000,
+  "sessionId": "codex:iiii",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

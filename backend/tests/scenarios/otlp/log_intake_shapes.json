@@ -1,0 +1,79 @@
+{
+  "case": "log_intake_shapes",
+  "ids": [
+    "otel-log:lt"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "02-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "03-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "04-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "05-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "06-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "07-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "08-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "09-logs.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "10-logs.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

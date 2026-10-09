@@ -1,0 +1,104 @@
+{
+  "id": "cc:11111111-aaaa",
+  "rawId": "11111111-aaaa",
+  "live": false,
+  "t0": 1790589600000,
+  "endAt": 60,
+  "run": {
+    "name": "Rotate session tokens in src/auth/issue.ts",
+    "repo": "api (main)",
+    "source": "Claude Code",
+    "file": "~/claude-finished/-work-acme-api/11111111-aaaa.jsonl"
+  },
+  "hooks": false,
+  "agents": [
+    {
+      "id": 1,
+      "name": "Orchestrator",
+      "src": "Claude Code",
+      "start": 0,
+      "task": "Rotate session tokens in src/auth/issue.ts",
+      "context": [],
+      "turns": [
+        {
+          "at": 2,
+          "kind": "msg",
+          "text": "Looking first."
+        },
+        {
+          "at": 2,
+          "kind": "tool",
+          "name": "Read",
+          "target": "CLAUDE.md",
+          "out": "Conventions: pnpm",
+          "ms": 1000
+        },
+        {
+          "at": 60,
+          "kind": "msg",
+          "text": "Done. Explorer found 14 sites."
+        }
+      ],
+      "file": "~/claude-finished/-work-acme-api/11111111-aaaa.jsonl",
+      "end": 60,
+      "final": "complete",
+      "returned": {
+        "summary": "Done. Explorer found 14 sites.",
+        "items": []
+      }
+    },
+    {
+      "id": 2,
+      "name": "Explorer",
+      "src": "Claude Code",
+      "start": 5,
+      "task": "Find every place a session token is issued in src/auth/ and src/middleware/requireUser.ts.",
+      "context": [
+        "src/middleware/requireUser.ts"
+      ],
+      "turns": [
+        {
+          "at": 10,
+          "kind": "tool",
+          "name": "Grep",
+          "target": "session.token  src",
+          "out": "src/auth/issue.ts:41",
+          "ms": 1000
+        }
+      ],
+      "file": "~/claude-finished/-work-acme-api/11111111-aaaa/subagents/agent-aaa.jsonl",
+      "parent": 1,
+      "agentType": "Explore",
+      "brief": "Find token call sites",
+      "end": 40,
+      "final": "complete",
+      "returned": {
+        "summary": "14 call sites across 6 files.",
+        "items": [
+          "Issued in src/auth/issue.ts:41",
+          "Read by 9 middleware sites"
+        ],
+        "text": "14 call sites across 6 files.\n- Issued in src/auth/issue.ts:41\n- Read by 9 middleware sites"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Security reviewer",
+      "src": "Claude Code",
+      "start": 6,
+      "task": "Review the rotation design.",
+      "context": [],
+      "turns": [],
+      "file": "~/claude-finished/-work-acme-api/11111111-aaaa/subagents/agent-bbb.jsonl",
+      "parent": 1,
+      "agentType": "security-reviewer",
+      "brief": "Review design",
+      "end": 50,
+      "final": "failed",
+      "returned": {
+        "summary": "Agent crashed",
+        "items": []
+      }
+    }
+  ]
+}

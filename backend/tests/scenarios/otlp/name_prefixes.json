@@ -1,0 +1,80 @@
+{
+  "case": "name_prefixes",
+  "ids": [
+    "otel:np",
+    "otel:nm1",
+    "otel:nm2",
+    "otel:nm3",
+    "otel:nm4",
+    "otel:nm5",
+    "otel:nm6",
+    "otel:nm7",
+    "otel:nm8"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "02-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "03-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "04-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "05-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "06-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "07-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "08-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "09-traces.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

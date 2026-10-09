@@ -1,0 +1,12 @@
+{
+  "case": "root_empty_result",
+  "now": 1790596800000,
+  "sessionId": "copilot:s12",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

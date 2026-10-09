@@ -1,0 +1,2 @@
+{"timestamp":"2026-09-28T10:00:23.000Z","type":"session_meta","payload":{"id":"pv23","cwd":"/work/acme/web","agent_name":42,"parent_id":"pv00"}}
+{"timestamp":"2026-09-28T10:00:23.500Z","type":"event_msg","payload":{"type":"user_message","message":"Task pv23"}}

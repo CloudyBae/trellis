@@ -1,0 +1,60 @@
+[
+  {
+    "returned": 68,
+    "logged": 0,
+    "sessions": {
+      "otel:chain65": {
+        "id": "otel:chain65",
+        "rawId": "chain65",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Root",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "deep-tool",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          },
+          {
+            "id": 2,
+            "name": "Child",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

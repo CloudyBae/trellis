@@ -1,0 +1,128 @@
+[
+  {
+    "id": "copilot:s15",
+    "rawId": "s15",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 10,
+    "run": {
+      "name": "Outputs",
+      "repo": "output",
+      "source": "GitHub Copilot",
+      "file": "~/tool_output_forms/workspaceStorage/h15/chatSessions/s15.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Outputs",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "tool",
+            "name": "a",
+            "target": "",
+            "out": "  see [link](http://x) text  "
+          },
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "b",
+            "target": "",
+            "out": "{\"isError\":true,\"code\":3}",
+            "fail": true
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "c",
+            "target": "PT a",
+            "out": "PT a"
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "d",
+            "target": "",
+            "out": "5"
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "e",
+            "target": "",
+            "out": "{\"nested\":1}"
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "f",
+            "target": "zero",
+            "out": "zero"
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "g",
+            "target": "",
+            "out": "plain string"
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "h",
+            "target": "",
+            "out": "a\nb\n[image]"
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "i",
+            "target": "",
+            "out": "from content"
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "j",
+            "target": "after null",
+            "out": "after null"
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "k",
+            "target": "empty list",
+            "out": "empty list"
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "l",
+            "target": "",
+            "out": "42"
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "m",
+            "target": "",
+            "out": "{}"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/tool_output_forms/workspaceStorage/h15/chatSessions/s15.json",
+        "end": 10,
+        "final": "complete",
+        "returned": {
+          "summary": "The chat ended.",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+]

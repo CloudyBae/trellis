@@ -1,0 +1,65 @@
+[
+  {
+    "id": "codex:uf01",
+    "rawId": "uf01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 20,
+    "run": {
+      "name": "First real task",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/user_message_filters/2026/09/28/rollout-2026-09-28T10-00-00-uf01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "First real task",
+        "context": [],
+        "turns": [
+          {
+            "at": 6,
+            "kind": "user",
+            "text": "/compact keep it short"
+          },
+          {
+            "at": 8,
+            "kind": "user",
+            "text": "visible text"
+          },
+          {
+            "at": 10,
+            "kind": "user",
+            "text": "[object Object]"
+          },
+          {
+            "at": 11,
+            "kind": "user",
+            "text": "a,b"
+          },
+          {
+            "at": 12,
+            "kind": "user",
+            "text": "5"
+          },
+          {
+            "at": 20,
+            "kind": "user",
+            "text": "Interrupted."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/user_message_filters/2026/09/28/rollout-2026-09-28T10-00-00-uf01.jsonl",
+        "end": 20,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

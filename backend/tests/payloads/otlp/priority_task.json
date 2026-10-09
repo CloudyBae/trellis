@@ -1,0 +1,91 @@
+[
+  {
+    "returned": 4,
+    "logged": 0,
+    "sessions": {
+      "otel:pt": {
+        "id": "otel:pt",
+        "rawId": "pt",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 4,
+        "via": "traces",
+        "run": {
+          "name": "D1",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "p1",
+            "src": "Codex",
+            "start": 0,
+            "task": "D1",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "end": 1,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "p2",
+            "src": "Codex",
+            "start": 1,
+            "task": "M2",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 2,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "p3",
+            "src": "Codex",
+            "start": 2,
+            "task": "P3",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 3,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "p4",
+            "src": "Codex",
+            "start": 3,
+            "task": "M4",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 4,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

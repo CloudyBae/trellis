@@ -1,0 +1,15 @@
+{"timestamp":"2026-09-28T10:00:00.000Z","type":"session_meta","payload":{"id":"uf01","cwd":"/work/acme/web"}}
+{"timestamp":"2026-09-28T10:00:01.000Z","type":"event_msg","payload":{"type":"user_message","message":"First real task"}}
+{"timestamp":"2026-09-28T10:00:02.000Z","type":"event_msg","payload":{"type":"user_message","message":"<environment_context>cwd</environment_context>"}}
+{"timestamp":"2026-09-28T10:00:03.000Z","type":"event_msg","payload":{"type":"user_message","message":"<local-command-stdout>output</local-command-stdout>"}}
+{"timestamp":"2026-09-28T10:00:04.000Z","type":"event_msg","payload":{"type":"user_message","message":"<local-command-stderr>oops</local-command-stderr>"}}
+{"timestamp":"2026-09-28T10:00:05.000Z","type":"event_msg","payload":{"type":"user_message","message":"<task-notification>finished</task-notification>"}}
+{"timestamp":"2026-09-28T10:00:06.000Z","type":"event_msg","payload":{"type":"user_message","message":"<command-name>/compact</command-name><command-args>keep it short</command-args>"}}
+{"timestamp":"2026-09-28T10:00:07.000Z","type":"event_msg","payload":{"type":"user_message","message":"<command-name>/status</command-name><local-command-stdout>ok</local-command-stdout>"}}
+{"timestamp":"2026-09-28T10:00:08.000Z","type":"event_msg","payload":{"type":"user_message","message":"<system-reminder>hidden</system-reminder>visible text"}}
+{"timestamp":"2026-09-28T10:00:09.000Z","type":"event_msg","payload":{"type":"user_message","message":"   "}}
+{"timestamp":"2026-09-28T10:00:10.000Z","type":"event_msg","payload":{"type":"user_message","message":{"text":"object message"}}}
+{"timestamp":"2026-09-28T10:00:11.000Z","type":"event_msg","payload":{"type":"user_message","message":["a","b"]}}
+{"timestamp":"2026-09-28T10:00:12.000Z","type":"event_msg","payload":{"type":"user_message","message":5}}
+{"timestamp":"2026-09-28T10:00:13.000Z","type":"event_msg","payload":{"type":"user_message","message":null}}
+{"timestamp":"2026-09-28T10:00:20.000Z","type":"event_msg","payload":{"type":"turn_aborted"}}

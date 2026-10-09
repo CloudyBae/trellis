@@ -1,0 +1,16 @@
+{
+  "case": "name_trailing_whitespace",
+  "ids": [
+    "otel:nt2"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

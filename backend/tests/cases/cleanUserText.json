@@ -1,0 +1,143 @@
+{
+  "function": "cleanUserText",
+  "cases": [
+    {
+      "input": [
+        "plain prompt"
+      ],
+      "output": "plain prompt"
+    },
+    {
+      "input": [
+        null
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "<system-reminder>ignore me</system-reminder>Do the thing"
+      ],
+      "output": "Do the thing"
+    },
+    {
+      "input": [
+        "  <ide_opened_file>a.ts</ide_opened_file>\n<ide_selection>x</ide_selection> Fix it  "
+      ],
+      "output": "Fix it"
+    },
+    {
+      "input": [
+        "<system-reminder>never closed and then text"
+      ],
+      "output": "<system-reminder>never closed and then text"
+    },
+    {
+      "input": [
+        "<system-reminder>a</system-reminder>mid<system-reminder>b</system-reminder>end"
+      ],
+      "output": "midend"
+    },
+    {
+      "input": [
+        "<system-reminder>a</ide_selection>text</system-reminder>rest"
+      ],
+      "output": "rest"
+    },
+    {
+      "input": [
+        "<SYSTEM-REMINDER>upper</SYSTEM-REMINDER> kept"
+      ],
+      "output": "<SYSTEM-REMINDER>upper</SYSTEM-REMINDER> kept"
+    },
+    {
+      "input": [
+        "<system-reminder>line\r\nbreak sep</system-reminder>tail"
+      ],
+      "output": "tail"
+    },
+    {
+      "input": [
+        "<local-command-stdout>out</local-command-stdout>"
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "before <task-notification>x</task-notification>"
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "<local-command-stderr>err</local-command-stderr>"
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "<command-name>/compact</command-name><command-args>focus on auth</command-args>"
+      ],
+      "output": "/compact focus on auth"
+    },
+    {
+      "input": [
+        "<command-name>compact</command-name>"
+      ],
+      "output": "/compact"
+    },
+    {
+      "input": [
+        "<command-name>\n  /review  \n</command-name><command-args>  all files  </command-args>"
+      ],
+      "output": "/review all files"
+    },
+    {
+      "input": [
+        "<command-name> /wide </command-name><command-args> x </command-args>"
+      ],
+      "output": "/wide x"
+    },
+    {
+      "input": [
+        "<command-name>/a<b</command-name><command-name>/second</command-name>"
+      ],
+      "output": "/second"
+    },
+    {
+      "input": [
+        "<command-name>/a<b</command-name>"
+      ],
+      "output": "<command-name>/a<b</command-name>"
+    },
+    {
+      "input": [
+        "<command-name>/open"
+      ],
+      "output": "<command-name>/open"
+    },
+    {
+      "input": [
+        "<command-name>/x</command-name><command-args>never closed"
+      ],
+      "output": "/x"
+    },
+    {
+      "input": [
+        "<command-name></command-name><command-args></command-args>"
+      ],
+      "output": "/"
+    },
+    {
+      "input": [
+        "﻿ text with odd edges  "
+      ],
+      "output": "text with odd edges"
+    },
+    {
+      "input": [
+        "café über 中文 <environment_context>cwd</environment_context>"
+      ],
+      "output": "café über 中文"
+    }
+  ]
+}

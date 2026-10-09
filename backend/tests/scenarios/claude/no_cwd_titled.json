@@ -1,0 +1,12 @@
+{
+  "case": "no_cwd_titled",
+  "now": 1790596800000,
+  "sessionId": "cc:99999999-cccc",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

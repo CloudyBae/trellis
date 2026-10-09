@@ -1,0 +1,62 @@
+[
+  {
+    "id": "copilot:s9",
+    "rawId": "s9",
+    "live": true,
+    "t0": 1790596680000,
+    "endAt": 45,
+    "run": {
+      "name": "First",
+      "repo": "paths",
+      "source": "GitHub Copilot",
+      "file": "~/mutation_paths/workspaceStorage/h9/chatSessions/s9.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "First",
+        "context": [],
+        "turns": [
+          {
+            "at": 15,
+            "kind": "msg",
+            "text": "betagamma"
+          },
+          {
+            "at": 20,
+            "kind": "user",
+            "text": "Second"
+          },
+          {
+            "at": 25,
+            "kind": "msg",
+            "text": "onefrom the end"
+          },
+          {
+            "at": 40,
+            "kind": "user",
+            "text": ""
+          },
+          {
+            "at": 45,
+            "kind": "msg",
+            "text": "kept"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/mutation_paths/workspaceStorage/h9/chatSessions/s9.jsonl",
+        "phases": [
+          {
+            "at": 45,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ],
+        "approxTimes": true
+      }
+    ]
+  }
+]

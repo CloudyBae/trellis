@@ -1,0 +1,36 @@
+{
+  "case": "appended",
+  "now": 1790596800000,
+  "sessionId": "cc:33333333-cccc",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    },
+    {
+      "action": {
+        "type": "append",
+        "file": "-work-acme-api/33333333-cccc.jsonl",
+        "text": "{\"type\":\"assistant\","
+      }
+    },
+    {
+      "action": {
+        "type": "poll"
+      }
+    },
+    {
+      "action": {
+        "type": "append",
+        "file": "-work-acme-api/33333333-cccc.jsonl",
+        "text": "\"timestamp\":\"2026-09-28T12:00:00.000Z\",\"message\":{\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"One more thing.\"}]}}\n"
+      }
+    },
+    {
+      "action": {
+        "type": "poll"
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude"
+            }
+          },
+          {
+            "key": "session.id",
+            "value": {
+              "stringValue": "res-sess"
+            }
+          },
+          {
+            "key": "gen_ai.tool.name",
+            "value": {
+              "stringValue": "from-resource"
+            }
+          },
+          {
+            "key": "gen_ai.operation.name",
+            "value": {
+              "stringValue": "execute_tool"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "s1",
+              "name": "execute_tool one",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": []
+            },
+            {
+              "traceId": "T",
+              "spanId": "s2",
+              "name": "execute_tool two",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593201100000000",
+              "attributes": [
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "span-sess"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "first"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "second"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T3",
+              "spanId": "s3",
+              "name": "execute_tool three",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "session.id",
+                  "value": {}
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "s4",
+              "name": "execute_tool four",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593203100000000",
+              "attributes": [
+                {
+                  "value": {
+                    "stringValue": "z"
+                  }
+                },
+                {
+                  "key": [
+                    "session.id"
+                  ],
+                  "value": {
+                    "stringValue": "list-key-sess"
+                  }
+                },
+                5,
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

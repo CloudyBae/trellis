@@ -1,0 +1,67 @@
+{
+  "case": "live_blocked",
+  "now": 1790596800000,
+  "sessionId": "cc:22222222-bbbb",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "22222222-bbbb",
+          "hook_event_name": "Notification",
+          "message": "Claude needs your permission to use Bash"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "22222222-bbbb",
+          "hook_event_name": "PostToolUse",
+          "tool_name": "Bash"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "22222222-bbbb",
+          "hook_event_name": "PermissionRequest",
+          "tool_name": "Bash",
+          "agent_id": "aaa"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "22222222-bbbb",
+          "hook_event_name": "SubagentStop",
+          "agent_id": "aaa"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "22222222-bbbb",
+          "hook_event_name": "SessionEnd"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "refresh"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "case": "task_complete_fallback",
+  "now": 1790596800000,
+  "sessionId": "codex:tc01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

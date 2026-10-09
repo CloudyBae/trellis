@@ -1,0 +1,12 @@
+{
+  "case": "subagent_forms",
+  "now": 1790596800000,
+  "sessionId": "copilot:s16",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

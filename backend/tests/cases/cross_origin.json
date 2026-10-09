@@ -1,0 +1,145 @@
+{
+  "name": "cross_origin",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "origin": "https://evil.example"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "https://evil.example"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nowhere",
+      "headers": {
+        "origin": "https://evil.example"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "http://localhost.evil.example"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "http://localhost:"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "http://localhost/"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "HTTP://localhost"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "null"
+      },
+      "body": {
+        "text": "{}"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    }
+  ]
+}

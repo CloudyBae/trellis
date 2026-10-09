@@ -1,0 +1,36 @@
+{
+  "case": "refresh_both",
+  "ids": [
+    "otel:lv9",
+    "otel-log:lv9"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593202000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "02-logs.json"
+      },
+      "now": 1790593202000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790593802000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790593862000
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "case": "log_tool_results",
+  "ids": [
+    "otel-log:trs"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593800000
+    }
+  ]
+}

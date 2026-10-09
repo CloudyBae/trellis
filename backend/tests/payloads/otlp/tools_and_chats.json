@@ -1,0 +1,348 @@
+[
+  {
+    "returned": 14,
+    "logged": 0,
+    "sessions": {
+      "otel:tc1": {
+        "id": "otel:tc1",
+        "rawId": "tc1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 20,
+        "via": "traces",
+        "run": {
+          "name": "Coordinate the release",
+          "repo": "copilot-chat",
+          "source": "GitHub Copilot",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Orchestrator",
+            "src": "GitHub Copilot",
+            "start": 0,
+            "task": "Coordinate the release",
+            "context": [],
+            "turns": [
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "web_search",
+                "target": "not json first line",
+                "out": "timeout",
+                "ms": 900,
+                "fail": true
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "orphan",
+                "target": "",
+                "out": "42",
+                "ms": 100
+              },
+              {
+                "at": 11,
+                "kind": "msg",
+                "text": "plain reply"
+              }
+            ],
+            "completeness": "complete"
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "GitHub Copilot",
+            "start": 1,
+            "task": "Build it",
+            "context": [],
+            "turns": [
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "notes",
+                "target": "",
+                "out": "from kv",
+                "ms": 50
+              },
+              {
+                "at": 11,
+                "kind": "msg",
+                "text": "parsed reply"
+              }
+            ],
+            "completeness": "complete",
+            "parent": 1,
+            "end": 20,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "Explorer",
+            "src": "GitHub Copilot",
+            "start": 2,
+            "task": "Find all TODOs",
+            "context": [],
+            "turns": [
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "shell",
+                "target": "ls -la",
+                "out": "total 4",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "thinking"
+              }
+            ],
+            "completeness": "complete",
+            "parent": 1,
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Found 3.",
+              "items": [
+                "a.ts",
+                "b.ts"
+              ],
+              "text": "Found 3.\n- a.ts\n- b.ts"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Reviewer",
+            "src": "GitHub Copilot",
+            "start": 4,
+            "task": "Review the findings",
+            "context": [],
+            "turns": [
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "read_file",
+                "target": "/x/y.ts",
+                "out": "one\ntwo",
+                "ms": 100
+              }
+            ],
+            "completeness": "partial",
+            "parent": 3,
+            "end": 8,
+            "final": "failed",
+            "returned": {
+              "summary": "review failed",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "Agent",
+            "src": "GitHub Copilot",
+            "start": 8,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 8,
+                "kind": "tool",
+                "name": "lost",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": null,
+    "logged": 0,
+    "sessions": {
+      "otel:tc1": {
+        "id": "otel:tc1",
+        "rawId": "tc1",
+        "live": false,
+        "t0": 1790593200000,
+        "endAt": 20,
+        "via": "traces",
+        "run": {
+          "name": "Coordinate the release",
+          "repo": "copilot-chat",
+          "source": "GitHub Copilot",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Orchestrator",
+            "src": "GitHub Copilot",
+            "start": 0,
+            "task": "Coordinate the release",
+            "context": [],
+            "turns": [
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "web_search",
+                "target": "not json first line",
+                "out": "timeout",
+                "ms": 900,
+                "fail": true
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "orphan",
+                "target": "",
+                "out": "42",
+                "ms": 100
+              },
+              {
+                "at": 11,
+                "kind": "msg",
+                "text": "plain reply"
+              }
+            ],
+            "completeness": "complete",
+            "end": 20,
+            "final": "complete",
+            "returned": {
+              "summary": "The trace ended without this agent's span.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "GitHub Copilot",
+            "start": 1,
+            "task": "Build it",
+            "context": [],
+            "turns": [
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "notes",
+                "target": "",
+                "out": "from kv",
+                "ms": 50
+              },
+              {
+                "at": 11,
+                "kind": "msg",
+                "text": "parsed reply"
+              }
+            ],
+            "completeness": "complete",
+            "parent": 1,
+            "end": 20,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "Explorer",
+            "src": "GitHub Copilot",
+            "start": 2,
+            "task": "Find all TODOs",
+            "context": [],
+            "turns": [
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "shell",
+                "target": "ls -la",
+                "out": "total 4",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "thinking"
+              }
+            ],
+            "completeness": "complete",
+            "parent": 1,
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Found 3.",
+              "items": [
+                "a.ts",
+                "b.ts"
+              ],
+              "text": "Found 3.\n- a.ts\n- b.ts"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Reviewer",
+            "src": "GitHub Copilot",
+            "start": 4,
+            "task": "Review the findings",
+            "context": [],
+            "turns": [
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "read_file",
+                "target": "/x/y.ts",
+                "out": "one\ntwo",
+                "ms": 100
+              }
+            ],
+            "completeness": "partial",
+            "parent": 3,
+            "end": 8,
+            "final": "failed",
+            "returned": {
+              "summary": "review failed",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "Agent",
+            "src": "GitHub Copilot",
+            "start": 8,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 8,
+                "kind": "tool",
+                "name": "lost",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 20,
+            "final": "complete",
+            "returned": {
+              "summary": "The trace ended without this agent's span.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

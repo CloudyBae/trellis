@@ -1,0 +1,54 @@
+[
+  {
+    "id": "copilot:s13",
+    "rawId": "s13",
+    "live": true,
+    "t0": 1790596770000,
+    "endAt": 0,
+    "run": {
+      "name": "Delegate",
+      "repo": "empty-sub",
+      "source": "GitHub Copilot",
+      "file": "~/subagent_empty_result/workspaceStorage/h13/chatSessions/s13.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Delegate",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/subagent_empty_result/workspaceStorage/h13/chatSessions/s13.json",
+        "phases": [
+          {
+            "at": 0,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ],
+        "approxTimes": true
+      },
+      {
+        "id": 2,
+        "name": "Scout",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Look around",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_empty_result/workspaceStorage/h13/chatSessions/s13.json",
+        "parent": 1,
+        "end": 0,
+        "final": "complete",
+        "returned": {
+          "summary": "Scouted",
+          "items": []
+        }
+      }
+    ]
+  }
+]

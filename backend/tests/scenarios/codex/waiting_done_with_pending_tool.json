@@ -1,0 +1,12 @@
+{
+  "case": "waiting_done_with_pending_tool",
+  "now": 1790596800000,
+  "sessionId": "codex:wd04",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "cc:dddddddd-4444",
+    "rawId": "dddddddd-4444",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 31,
+    "hooks": false,
+    "run": {
+      "name": "Audit the dependencies",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/meta_only/-work-acme-api/dddddddd-4444.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Audit the dependencies",
+        "context": [],
+        "turns": [
+          {
+            "at": 31,
+            "kind": "msg",
+            "text": "Audit complete."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/meta_only/-work-acme-api/dddddddd-4444.jsonl",
+        "end": 31,
+        "final": "complete",
+        "returned": {
+          "summary": "Audit complete.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Explorer",
+        "src": "Claude Code",
+        "start": 2,
+        "task": "Audit the dependency list in package.json.",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/meta_only/-work-acme-api/dddddddd-4444/subagents/agent-ccc.jsonl",
+        "parent": 1,
+        "brief": "Audit deps",
+        "agentType": "Explore",
+        "end": 30,
+        "final": "complete",
+        "returned": {
+          "summary": "Audit finished",
+          "items": []
+        }
+      }
+    ]
+  }
+]

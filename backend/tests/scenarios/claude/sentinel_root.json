@@ -1,0 +1,12 @@
+{
+  "case": "sentinel_root",
+  "now": 1790596800000,
+  "sessionId": "cc:bbbbbbbb-2222",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

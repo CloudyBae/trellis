@@ -1,0 +1,162 @@
+:root {
+  --ground: #edf1e9;
+  --ground-2: #e4eadf;
+  --pane: #f7f9f4;
+  --ink: #223020;
+  --ink-2: #414d3c;
+  --ink-3: #56624f;
+  --rule: #d5ddcf;
+  --wire: rgba(34, 48, 32, 0.055);
+  --stem: #7c9a6a;
+  --stem-lit: #3f8f2f;
+  --stem-active: #5ea346;
+  --stem-done: #c6d1be;
+  --lit-filter: none;
+  --leaf: #86b06c;
+  --leaf-ink: #4a7536;
+  --leaf-soft: #a9c798;
+  --leaf-done: #a3b497;
+  --pollen: #e0be5e;
+  --pollen-ink: #7a5c0c;
+  --rose: #cf877b;
+  --rose-ink: #9a4436;
+  --bloom: #a99bcf;
+  --bloom-ink: #5f4f93;
+  --st-blocked: #f2ebcb;
+  --st-failed: #f3e0da;
+  --st-complete: #e9e6f2;
+  --pod-running: #dceacf;
+  --pod-waiting: #e2e7dc;
+  --pod-shadow: rgba(34, 48, 32, 0.5);
+  --pod-ring: rgba(34, 48, 32, 0.07);
+  --wash: rgba(124, 154, 106, 0.1);
+  --wash-strong: rgba(124, 154, 106, 0.18);
+  --focus: #3e6a34;
+  --shadow: 0 10px 30px -12px rgba(34, 48, 32, 0.25);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #1a1a19;
+    --ground-2: #252523;
+    --pane: #20201f;
+    --ink: #ecebe6;
+    --ink-2: #c3c1b9;
+    --ink-3: #98968e;
+    --rule: #33332f;
+    --wire: rgba(236, 235, 230, 0.05);
+    --stem: #7a9868;
+    --stem-lit: #d6e6c8;
+    --stem-active: #8dba73;
+    --stem-done: #454c41;
+    --lit-filter: none;
+    --leaf: #8dba73;
+    --leaf-ink: #8dba73;
+    --leaf-soft: #45503d;
+    --leaf-done: #5d6958;
+    --pollen: #d9b85a;
+    --pollen-ink: #e6c972;
+    --rose: #d08a80;
+    --rose-ink: #e9a499;
+    --bloom: #b3a5dd;
+    --bloom-ink: #c7bcea;
+    --st-blocked: #2c291b;
+    --st-failed: #2e2322;
+    --st-complete: #26242e;
+    --pod-running: #252c21;
+    --pod-waiting: #292927;
+    --pod-shadow: rgba(0, 0, 0, 0.8);
+    --pod-ring: rgba(236, 235, 230, 0.07);
+    --wash: rgba(236, 235, 230, 0.05);
+    --wash-strong: rgba(236, 235, 230, 0.09);
+    --focus: #a9d38f;
+    --shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground: #1a1a19;
+  --ground-2: #252523;
+  --pane: #20201f;
+  --ink: #ecebe6;
+  --ink-2: #c3c1b9;
+  --ink-3: #98968e;
+  --rule: #33332f;
+  --wire: rgba(236, 235, 230, 0.05);
+  --stem: #7a9868;
+  --stem-lit: #d6e6c8;
+  --stem-active: #8dba73;
+  --stem-done: #454c41;
+  --lit-filter: none;
+  --leaf: #8dba73;
+  --leaf-ink: #8dba73;
+  --leaf-soft: #45503d;
+  --leaf-done: #5d6958;
+  --pollen: #d9b85a;
+  --pollen-ink: #e6c972;
+  --rose: #d08a80;
+  --rose-ink: #e9a499;
+  --bloom: #b3a5dd;
+  --bloom-ink: #c7bcea;
+  --st-blocked: #2c291b;
+  --st-failed: #2e2322;
+  --st-complete: #26242e;
+  --pod-running: #252c21;
+  --pod-waiting: #292927;
+  --pod-shadow: rgba(0, 0, 0, 0.8);
+  --pod-ring: rgba(236, 235, 230, 0.07);
+  --wash: rgba(236, 235, 230, 0.05);
+  --wash-strong: rgba(236, 235, 230, 0.09);
+  --focus: #a9d38f;
+  --shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+}
+
+:root {
+  --font: "Alegreya Sans", "Gill Sans", "Optima", ui-sans-serif, system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --brand-font: "Quicksand", var(--font);
+
+  --text-2xs: 11px;
+  --text-xs: 11.5px;
+  --text-caption: 12px;
+  --text-note: 12.5px;
+  --text-label: 13px;
+  --text-meta: 13.5px;
+  --text-state: 14px;
+  --text-control: 14.5px;
+  --text-item: 15.5px;
+  --text-body: 16px;
+  --text-title: 17px;
+  --text-run: 18px;
+  --text-mark: 22px;
+  --text-display: 30px;
+
+  --space-hair: 2px;
+  --space-3xs: 3px;
+  --space-2xs: 4px;
+  --space-xs: 6px;
+  --space-s: 8px;
+  --space-sm: 10px;
+  --space-m: 12px;
+  --space-md: 16px;
+  --space-ml: 24px;
+  --space-lg: 28px;
+  --space-illustration: 30px;
+  --space-gap: 32px;
+
+  --radius-key: 6px;
+  --radius-chip: 7px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-popover: 18px;
+  --radius-round: 50%;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-hover: 200ms;
+  --duration-press: 250ms;
+  --duration-count: 700ms;
+}

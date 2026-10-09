@@ -1,0 +1,16 @@
+{
+  "case": "timestamp_missing",
+  "ids": [
+    "otel-log:ts1"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593215000
+    }
+  ]
+}

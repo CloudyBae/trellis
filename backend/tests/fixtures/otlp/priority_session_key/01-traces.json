@@ -1,0 +1,148 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "TR-k1",
+              "spanId": "k1",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id"
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "s1"
+                  }
+                },
+                {
+                  "key": "conversation.id",
+                  "value": {
+                    "stringValue": "c1"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k2",
+              "spanId": "k2",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "g2"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "s2"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k3",
+              "spanId": "k3",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id"
+                },
+                {
+                  "key": "conversation.id",
+                  "value": {
+                    "stringValue": "c3"
+                  }
+                },
+                {
+                  "key": "thread.id",
+                  "value": {
+                    "stringValue": "t3"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k4",
+              "spanId": "k4",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "g4"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "s4"
+                  }
+                },
+                {
+                  "key": "conversation.id",
+                  "value": {
+                    "stringValue": "c4"
+                  }
+                },
+                {
+                  "key": "thread.id",
+                  "value": {
+                    "stringValue": "t4"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

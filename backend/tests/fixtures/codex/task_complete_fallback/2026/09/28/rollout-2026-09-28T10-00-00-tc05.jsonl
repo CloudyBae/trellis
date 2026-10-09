@@ -1,0 +1,4 @@
+{"timestamp":"2026-09-28T09:00:40.000Z","type":"session_meta","payload":{"id":"tc05","cwd":"/work/acme/web","parent_session_id":"tc01","agent_name":"Delta"}}
+{"timestamp":"2026-09-28T09:00:40.500Z","type":"event_msg","payload":{"type":"user_message","message":"Task for Delta"}}
+{"timestamp":"2026-09-28T09:00:41.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Ignored say."}]}}
+{"timestamp":"2026-09-28T09:00:42.000Z","type":"event_msg","payload":{"type":"task_complete","last_agent_message":7}}

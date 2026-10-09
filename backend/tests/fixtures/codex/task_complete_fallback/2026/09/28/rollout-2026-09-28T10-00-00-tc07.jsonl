@@ -1,0 +1,2 @@
+{"timestamp":"2026-09-28T09:01:00.000Z","type":"session_meta","payload":{"id":"tc07","cwd":"/work/acme/web","parent_session_id":"tc01","agent_name":"Zeta"}}
+{"timestamp":"2026-09-28T09:01:00.500Z","type":"event_msg","payload":{"type":"user_message","message":"Task for Zeta"}}

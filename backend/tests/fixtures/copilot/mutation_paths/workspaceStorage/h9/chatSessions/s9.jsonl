@@ -1,0 +1,14 @@
+{"kind":0,"v":{"version":3,"sessionId":"s9","creationDate":1790596680000,"requests":[{"requestId":"r1","timestamp":1790596680000,"message":{"text":"First"},"result":{"timings":{"totalElapsed":5000}},"response":[{"value":"alpha"}]},{"requestId":"r2","timestamp":1790596700000,"message":{"text":"Second"},"result":{"timings":{"totalElapsed":5000}},"response":[{"value":"one"},{"value":"two"},{"value":"three"}]},{"requestId":"r3","timestamp":1790596720000,"message":{"text":"Third"},"result":{"timings":{"totalElapsed":5000}},"response":[{"value":"kept"}]}]}}
+{"kind":1,"k":["requests",0,"result"],"v":{"timings":{"totalElapsed":15000}}}
+{"kind":2,"k":["requests",0,"response"],"v":[{"value":"beta"}]}
+{"kind":2,"k":["requests",1,"response"],"i":1,"v":[{"value":"replaced tail"}]}
+{not json
+{"kind":3,"k":["requests",2,"message"]}
+{"kind":3,"k":["requests",0,"response",0]}
+{"kind":2,"k":["requests",0,"response"],"i":9,"v":[{"value":"gamma"}]}
+{"kind":2,"k":["requests",1,"response"],"i":-1,"v":[{"value":"from the end"}]}
+{"kind":1,"k":["requests",7,"result"],"v":{}}
+{"kind":2,"k":["missing","list"],"v":[{"value":"lost"}]}
+{"kind":1,"k":"requests","v":[]}
+{"kind":1,"k":["requests",1,"response","name"],"v":"ignored"}
+{"kind":3,"k":["requests",4,"message"]}

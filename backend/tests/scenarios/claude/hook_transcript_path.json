@@ -1,0 +1,44 @@
+{
+  "case": "hook_transcript_path",
+  "now": 1790596800000,
+  "sessionId": "cc:66666666-ffff",
+  "steps": [
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "hook_event_name": "SessionStart",
+          "transcript_path": "${root}/-work-acme-api/66666666-ffff.jsonl"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "66666666-ffff",
+          "hook_event_name": "SessionStart"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "66666666-ffff",
+          "hook_event_name": "SessionStart",
+          "transcript_path": "${root}/-work-acme-api/66666666-ffff.jsonl"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "66666666-ffff",
+          "hook_event_name": "NotARealEvent"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4836 @@
+[
+  {
+    "id": "codex:tp01",
+    "rawId": "tp01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 61,
+    "run": {
+      "name": "No prompt was recorded.",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/trimmed_prefix/2026/09/28/rollout-2026-09-28T10-00-00-tp01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 23,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 25,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 26,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 27,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 28,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 29,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 31,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 32,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 33,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 34,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 35,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 36,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 37,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 38,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 39,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 40,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 41,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 42,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 43,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 44,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 45,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 46,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 47,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 48,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 49,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 51,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 52,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 53,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 54,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 55,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 56,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 57,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 58,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 59,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 60,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 61,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 61,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 61,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 61,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          },
+          {
+            "at": 61,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 50
+          }
+        ],
+        "completeness": "partial",
+        "file": "~/trimmed_prefix/2026/09/28/rollout-2026-09-28T10-00-00-tp01.jsonl",
+        "end": 61,
+        "final": "complete",
+        "returned": {
+          "summary": "Spoke before any prompt.",
+          "items": []
+        },
+        "trimmed": 1
+      }
+    ]
+  }
+]

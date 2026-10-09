@@ -1,0 +1,40 @@
+{
+  "case": "agent_graphs",
+  "ids": [
+    "otel:cy",
+    "otel:cy2",
+    "otel:cy3",
+    "otel:cy4"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "02-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "03-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "04-traces.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

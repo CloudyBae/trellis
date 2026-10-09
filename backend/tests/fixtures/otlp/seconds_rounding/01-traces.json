@@ -1,0 +1,347 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "zero",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "zero"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t500",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200500000000",
+              "endTimeUnixNano": "1790593200510000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-500"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t999",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200999000000",
+              "endTimeUnixNano": "1790593201009000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-999"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t1499",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593201499000000",
+              "endTimeUnixNano": "1790593201509000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-1499"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t1500",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593201500000000",
+              "endTimeUnixNano": "1790593201510000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-1500"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t2499",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593202499000000",
+              "endTimeUnixNano": "1790593202509000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-2499"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t2500",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593202500000000",
+              "endTimeUnixNano": "1790593202510000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-2500"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t3500",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593203500000000",
+              "endTimeUnixNano": "1790593203510000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-3500"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t4500",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593204500000000",
+              "endTimeUnixNano": "1790593204510000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-4500"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t5499",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593205499000000",
+              "endTimeUnixNano": "1790593205509000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "at-5499"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "agent",
+              "name": "invoke_agent",
+              "startTimeUnixNano": "1790593200500000000",
+              "endTimeUnixNano": "1790593202500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.description",
+                  "value": {
+                    "stringValue": "rounding"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "chat",
+              "parentSpanId": "agent",
+              "name": "chat m",
+              "startTimeUnixNano": "1790593206000000000",
+              "endTimeUnixNano": "1790593206500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "sr"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "half"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

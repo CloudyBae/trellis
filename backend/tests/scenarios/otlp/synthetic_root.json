@@ -1,0 +1,22 @@
+{
+  "case": "synthetic_root",
+  "ids": [
+    "otel:sy"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593204000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790593803400
+    }
+  ]
+}

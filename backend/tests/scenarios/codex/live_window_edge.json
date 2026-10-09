@@ -1,0 +1,12 @@
+{
+  "case": "live_window_edge",
+  "now": 1790596800000,
+  "sessionId": "codex:lw01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

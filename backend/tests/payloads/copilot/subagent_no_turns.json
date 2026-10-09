@@ -1,0 +1,54 @@
+[
+  {
+    "id": "copilot:s5",
+    "rawId": "s5",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 40,
+    "run": {
+      "name": "Run a task",
+      "repo": "main",
+      "source": "GitHub Copilot",
+      "file": "~/subagent_no_turns/workspaceStorage/h5/chatSessions/s5.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Run a task",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/subagent_no_turns/workspaceStorage/h5/chatSessions/s5.json",
+        "phases": [
+          {
+            "at": 40,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ],
+        "approxTimes": true
+      },
+      {
+        "id": 2,
+        "name": "Worker",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Do the work",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_no_turns/workspaceStorage/h5/chatSessions/s5.json",
+        "parent": 1,
+        "end": 0,
+        "final": "complete",
+        "returned": {
+          "summary": "Finished.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "codex:fff",
+    "rawId": "fff",
+    "live": false,
+    "t0": 1790593200000,
+    "endAt": 2,
+    "run": {
+      "name": "No prompt was recorded.",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/activity_only/2026/09/28/rollout-2026-09-28T10-00-00-fff.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "shell",
+            "target": "echo test",
+            "out": "test",
+            "ms": 1000
+          }
+        ],
+        "completeness": "activity_only",
+        "file": "~/activity_only/2026/09/28/rollout-2026-09-28T10-00-00-fff.jsonl",
+        "end": 2,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

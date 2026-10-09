@@ -1,0 +1,39 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "x7",
+              "name": {
+                "startsWith": "x"
+              },
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "nm7"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

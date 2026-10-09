@@ -1,0 +1,12 @@
+{
+  "case": "mutation_invalid_utf8",
+  "now": 1790596800000,
+  "sessionId": "copilot:s21",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

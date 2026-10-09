@@ -1,0 +1,69 @@
+@theme inline {
+  --color-ground: var(--ground);
+  --color-ground-2: var(--ground-2);
+  --color-pane: var(--pane);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-wash: var(--wash);
+  --color-wash-strong: var(--wash-strong);
+  --color-focus: var(--focus);
+  --color-stem: var(--stem);
+  --color-leaf: var(--leaf);
+  --color-pollen: var(--pollen);
+  --color-pollen-ink: var(--pollen-ink);
+  --color-rose: var(--rose);
+  --color-rose-ink: var(--rose-ink);
+  --color-bloom: var(--bloom);
+  --color-bloom-ink: var(--bloom-ink);
+  --color-st-blocked: var(--st-blocked);
+  --color-st-failed: var(--st-failed);
+  --color-st-complete: var(--st-complete);
+  --color-pod-running: var(--pod-running);
+  --color-pod-waiting: var(--pod-waiting);
+  --color-background: var(--ground);
+  --color-foreground: var(--ink);
+  --color-popover: var(--pane);
+  --color-border: var(--rule);
+  --color-ring: var(--focus);
+  --color-muted-foreground: var(--ink-3);
+  --color-accent: var(--wash);
+
+  --spacing-zero: 0px;
+  --spacing-hair: var(--space-hair);
+  --spacing-3xs: var(--space-3xs);
+  --spacing-2xs: var(--space-2xs);
+  --spacing-xs: var(--space-xs);
+  --spacing-s: var(--space-s);
+  --spacing-sm: var(--space-sm);
+  --spacing-m: var(--space-m);
+  --spacing-md: var(--space-md);
+  --spacing-ml: var(--space-ml);
+  --spacing-lg: var(--space-lg);
+  --spacing-gap: var(--space-gap);
+  --spacing-icon-s: 14px;
+  --spacing-icon-l: 19px;
+  --spacing-control: 36px;
+  --spacing-cta: 46px;
+  --spacing-menu: 380px;
+
+  --container-empty: 470px;
+  --container-copy: 40ch;
+
+  --font-mono: var(--mono);
+  --font-brand: var(--brand-font);
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --leading-snug: 1.3;
+  --leading-tight: 1.15;
+  --leading-body: 1.5;
+  --tracking-tight: -0.025em;
+
+  --shadow-menu: var(--shadow);
+  --shadow-raised: 0 2px 8px -4px var(--pod-shadow);
+  --ease-brand: var(--ease-out);
+  --default-transition-duration: var(--duration-hover);
+  --default-transition-timing-function: ease;
+}

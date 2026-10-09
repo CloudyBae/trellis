@@ -1,0 +1,130 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "n1",
+              "name": "invoke_agent Stripped",
+              "startTimeUnixNano": "1790593210000000000",
+              "endTimeUnixNano": "1790593210500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "an"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n2",
+              "name": "invoke_agent Ignored",
+              "startTimeUnixNano": "1790593211000000000",
+              "endTimeUnixNano": "1790593211500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "an"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "Attr"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n3",
+              "name": "invoke_agent",
+              "startTimeUnixNano": "1790593212000000000",
+              "endTimeUnixNano": "1790593212500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "an"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n4",
+              "name": "invoke_agent Zero",
+              "startTimeUnixNano": "1790593213000000000",
+              "endTimeUnixNano": "1790593213500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "an"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "intValue": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

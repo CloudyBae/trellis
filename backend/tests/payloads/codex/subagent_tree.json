@@ -1,0 +1,58 @@
+[
+  {
+    "id": "codex:gggg",
+    "rawId": "gggg",
+    "live": true,
+    "t0": 1790596710000,
+    "endAt": 6,
+    "run": {
+      "name": "Explore the codebase",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/subagent_tree/2026/09/28/rollout-2026-09-28T10-00-00-gggg.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Codex",
+        "start": 0,
+        "task": "Explore the codebase",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "Agent",
+            "target": "Look for shell files",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_tree/2026/09/28/rollout-2026-09-28T10-00-00-gggg.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Explorer",
+        "src": "Codex",
+        "start": 3,
+        "task": "Find all shell scripts",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "find . -name *.sh",
+            "out": "scripts/build.sh\nscripts/test.sh",
+            "ms": 1000
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_tree/2026/09/28/rollout-2026-09-28T10-00-00-hhhh.jsonl",
+        "parent": 1
+      }
+    ]
+  }
+]

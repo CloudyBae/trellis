@@ -1,0 +1,4 @@
+{"timestamp":"2026-09-28T09:00:30.000Z","type":"session_meta","payload":{"id":"tc04","cwd":"/work/acme/web","parent_session_id":"tc01","agent_name":"Gamma"}}
+{"timestamp":"2026-09-28T09:00:30.500Z","type":"event_msg","payload":{"type":"user_message","message":"Task for Gamma"}}
+{"timestamp":"2026-09-28T09:00:31.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Gamma spoke."}]}}
+{"timestamp":"2026-09-28T09:00:32.000Z","type":"event_msg","payload":{"type":"task_complete","last_agent_message":{"nested":true}}}

@@ -1,0 +1,50 @@
+{
+  "case": "prompt_clears_ended",
+  "now": 1790596800000,
+  "sessionId": "cc:55555555-eeee",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "55555555-eeee",
+          "hook_event_name": "Notification",
+          "notification_type": "permission_prompt",
+          "message": ""
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "55555555-eeee",
+          "hook_event_name": "SessionEnd"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "55555555-eeee",
+          "hook_event_name": "UserPromptSubmit"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "55555555-eeee",
+          "hook_event_name": "SessionStart"
+        }
+      }
+    }
+  ]
+}

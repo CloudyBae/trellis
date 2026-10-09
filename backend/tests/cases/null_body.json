@@ -1,0 +1,75 @@
+{
+  "name": "null_body",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "null"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/logs",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "null"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/metrics",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "null"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "null"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 400,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    }
+  ]
+}

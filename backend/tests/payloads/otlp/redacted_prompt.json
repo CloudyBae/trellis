@@ -1,0 +1,225 @@
+[
+  {
+    "returned": 11,
+    "logged": 1,
+    "sessions": {
+      "otel-log:red1": {
+        "id": "otel-log:red1",
+        "rawId": "red1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 2,
+        "via": "logs",
+        "run": {
+          "name": "A prompt of 120 characters (prompt text is not exported unless the tool is told\u2026",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "A prompt of 120 characters (prompt text is not exported unless the tool is told to log it).",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "user",
+                "text": "Second real prompt"
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "Bash",
+                "target": "ls",
+                "out": ""
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:red2": {
+        "id": "otel-log:red2",
+        "rawId": "red2",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "Bash",
+                "target": "ls",
+                "out": ""
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:red3": {
+        "id": "otel-log:red3",
+        "rawId": "red3",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "A prompt of 0 characters (prompt text is not exported unless the tool is told to\u2026",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "A prompt of 0 characters (prompt text is not exported unless the tool is told to log it).",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:red4": null,
+      "otel-log:red5": {
+        "id": "otel-log:red5",
+        "rawId": "red5",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "A prompt of unknown characters (prompt text is not exported unless the tool is\u2026",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "A prompt of unknown characters (prompt text is not exported unless the tool is told to log it).",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:red6": {
+        "id": "otel-log:red6",
+        "rawId": "red6",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "A prompt of  characters (prompt text is not exported unless the tool is told to\u2026",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "A prompt of  characters (prompt text is not exported unless the tool is told to log it).",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:red7": {
+        "id": "otel-log:red7",
+        "rawId": "red7",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "A prompt of unknown characters (prompt text is not exported unless the tool is\u2026",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "A prompt of unknown characters (prompt text is not exported unless the tool is told to log it).",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:real1": {
+        "id": "otel-log:real1",
+        "rawId": "real1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 2,
+        "via": "logs",
+        "run": {
+          "name": "Real first",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "Real first\nsecond line",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "user",
+                "text": "A prompt of 9 characters (prompt text is not exported unless the tool is told to log it)."
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "Bash",
+                "target": "ls",
+                "out": ""
+              }
+            ],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  }
+]

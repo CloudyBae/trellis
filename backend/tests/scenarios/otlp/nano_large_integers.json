@@ -1,0 +1,24 @@
+{
+  "case": "nano_large_integers",
+  "ids": [
+    "otel:big",
+    "otel-log:big"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593205000
+    },
+    {
+      "action": {
+        "type": "logs",
+        "file": "02-logs.json"
+      },
+      "now": 1790593205000
+    }
+  ]
+}

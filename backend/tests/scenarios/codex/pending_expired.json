@@ -1,0 +1,12 @@
+{
+  "case": "pending_expired",
+  "now": 1790596800000,
+  "sessionId": "codex:ps02",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

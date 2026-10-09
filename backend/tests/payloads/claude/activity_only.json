@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cc:eeeeeeee-5555",
+    "rawId": "eeeeeeee-5555",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 5,
+    "hooks": false,
+    "run": {
+      "name": "Untitled session",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/activity_only/-work-acme-api/eeeeeeee-5555.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "tool",
+            "name": "Read",
+            "target": "package.json",
+            "out": "{}",
+            "ms": 1000
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "Grep",
+            "target": "TODO  src",
+            "out": "none",
+            "ms": 1000
+          }
+        ],
+        "completeness": "activity_only",
+        "file": "~/activity_only/-work-acme-api/eeeeeeee-5555.jsonl",
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 4,
+        "task": "No handoff was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "ls",
+            "out": "package.json",
+            "ms": 1000
+          }
+        ],
+        "completeness": "activity_only",
+        "file": "~/activity_only/-work-acme-api/eeeeeeee-5555/subagents/agent-solo.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": "",
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "Stopped when the session ended, without a recorded result.",
+          "items": [],
+          "note": "No explicit return was recorded; this is its last message."
+        }
+      }
+    ]
+  }
+]

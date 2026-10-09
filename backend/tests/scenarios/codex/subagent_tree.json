@@ -1,0 +1,12 @@
+{
+  "case": "subagent_tree",
+  "now": 1790596800000,
+  "sessionId": "codex:gggg",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

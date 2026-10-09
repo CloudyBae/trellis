@@ -1,0 +1,254 @@
+[
+  {
+    "returned": 7,
+    "logged": 10,
+    "sessions": {
+      "otel:nf": {
+        "id": "otel:nf",
+        "rawId": "nf",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 24,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "start-form-1",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "start-form-5",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "start-form-6",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 20,
+                "kind": "tool",
+                "name": "end-form-true",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 23,
+                "kind": "tool",
+                "name": "end-form-null",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 24,
+                "kind": "tool",
+                "name": "end-form-zero",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 26,
+                "kind": "tool",
+                "name": "end-form-negative",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nf2": null
+    }
+  },
+  {
+    "returned": 5,
+    "logged": 0,
+    "sessions": {
+      "otel:nf": {
+        "id": "otel:nf",
+        "rawId": "nf",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 24,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "start-form-1",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "start-form-5",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "start-form-6",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 20,
+                "kind": "tool",
+                "name": "end-form-true",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 23,
+                "kind": "tool",
+                "name": "end-form-null",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 24,
+                "kind": "tool",
+                "name": "end-form-zero",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 26,
+                "kind": "tool",
+                "name": "end-form-negative",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nf2": {
+        "id": "otel:nf2",
+        "rawId": "nf2",
+        "live": false,
+        "t0": 0,
+        "endAt": 8,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "no-times",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "int-number",
+                "target": "",
+                "out": "",
+                "ms": 500
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "float-number",
+                "target": "",
+                "out": "",
+                "ms": 500
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "string-number",
+                "target": "",
+                "out": "",
+                "ms": 500
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "exponent-number",
+                "target": "",
+                "out": "",
+                "ms": 500
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

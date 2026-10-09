@@ -1,0 +1,23 @@
+{
+  "case": "map_keys",
+  "ids": [
+    "otel:mk"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "02-traces.json"
+      },
+      "now": 1790593231000
+    }
+  ]
+}

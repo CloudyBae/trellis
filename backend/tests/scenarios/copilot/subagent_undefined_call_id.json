@@ -1,0 +1,12 @@
+{
+  "case": "subagent_undefined_call_id",
+  "now": 1790596800000,
+  "sessionId": "copilot:s17",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

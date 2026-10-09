@@ -1,0 +1,53 @@
+{
+  "name": "unsupported_methods",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "PUT",
+      "path": "/"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/sessions"
+    },
+    {
+      "method": "OPTIONS",
+      "path": "/v1/traces"
+    },
+    {
+      "method": "PATCH",
+      "path": "/nope"
+    }
+  ],
+  "responses": [
+    {
+      "status": 405,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 405,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 405,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 405,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    }
+  ]
+}

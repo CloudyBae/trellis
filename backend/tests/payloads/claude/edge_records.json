@@ -1,0 +1,91 @@
+[
+  {
+    "id": "cc:88888888-bbbb",
+    "rawId": "88888888-bbbb",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 12,
+    "hooks": false,
+    "run": {
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\ud83d\u2026",
+      "repo": "api",
+      "source": "Claude Code",
+      "file": "~/edge_records/-work-acme-api/88888888-bbbb.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\ud83d\ude00 then more words to follow",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "half one"
+          },
+          {
+            "at": 3,
+            "kind": "msg",
+            "text": "half three"
+          },
+          {
+            "at": 0,
+            "kind": "msg",
+            "text": "empty stamp"
+          },
+          {
+            "at": 0,
+            "kind": "msg",
+            "text": "bad stamp"
+          },
+          {
+            "at": 0,
+            "kind": "msg",
+            "text": "numeric stamp"
+          },
+          {
+            "at": 7,
+            "kind": "msg",
+            "text": "offset stamp"
+          },
+          {
+            "at": 8,
+            "kind": "user",
+            "text": "Interrupted."
+          },
+          {
+            "at": 9,
+            "kind": "user",
+            "text": "Interrupted."
+          },
+          {
+            "at": 10,
+            "kind": "user",
+            "text": "\u001c[Request interrupted by user]"
+          },
+          {
+            "at": 11,
+            "kind": "user",
+            "text": "Note: [Request interrupted by user] appears mid-sentence"
+          },
+          {
+            "at": 12,
+            "kind": "msg",
+            "text": "API Error: overloaded"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/edge_records/-work-acme-api/88888888-bbbb.jsonl",
+        "end": 12,
+        "final": "failed",
+        "returned": {
+          "summary": "offset stamp",
+          "items": []
+        }
+      }
+    ]
+  }
+]

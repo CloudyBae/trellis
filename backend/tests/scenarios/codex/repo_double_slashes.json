@@ -1,0 +1,12 @@
+{
+  "case": "repo_double_slashes",
+  "now": 1790596800000,
+  "sessionId": "codex:rn03",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

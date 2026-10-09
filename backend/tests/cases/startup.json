@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "argv": [
+        "--port",
+        "{port}"
+      ],
+      "lines": [
+        "trellis: watching claude, codex, copilot (last 24h); 0 session(s) so far",
+        "trellis: open http://127.0.0.1:{port}   ·   OTLP/HTTP JSON at http://127.0.0.1:{port}/v1/traces and /v1/logs"
+      ]
+    },
+    {
+      "argv": [
+        "--port",
+        "{port}",
+        "--host",
+        "0.0.0.0",
+        "--only",
+        "codex",
+        "--since",
+        "7d"
+      ],
+      "lines": [
+        "trellis: watching codex (last 7d); 0 session(s) so far",
+        "trellis: open http://127.0.0.1:{port}   ·   OTLP/HTTP JSON at http://127.0.0.1:{port}/v1/traces and /v1/logs"
+      ]
+    },
+    {
+      "argv": [
+        "-p",
+        "{port}",
+        "--only",
+        "claude,copilot",
+        "--since",
+        "90m"
+      ],
+      "lines": [
+        "trellis: watching claude, copilot (last 90m); 0 session(s) so far",
+        "trellis: open http://127.0.0.1:{port}   ·   OTLP/HTTP JSON at http://127.0.0.1:{port}/v1/traces and /v1/logs"
+      ]
+    },
+    {
+      "argv": [
+        "--port",
+        "{port}",
+        "--since",
+        "2"
+      ],
+      "lines": [
+        "trellis: watching claude, codex, copilot (last 2); 0 session(s) so far",
+        "trellis: open http://127.0.0.1:{port}   ·   OTLP/HTTP JSON at http://127.0.0.1:{port}/v1/traces and /v1/logs"
+      ]
+    },
+    {
+      "argv": [
+        "--port",
+        "{port}",
+        "--only",
+        "claude",
+        "--only",
+        "codex"
+      ],
+      "lines": [
+        "trellis: watching codex (last 24h); 0 session(s) so far",
+        "trellis: open http://127.0.0.1:{port}   ·   OTLP/HTTP JSON at http://127.0.0.1:{port}/v1/traces and /v1/logs"
+      ]
+    },
+    {
+      "argv": [
+        "--port",
+        "{port}",
+        "--host",
+        "localhost"
+      ],
+      "lines": [
+        "trellis: watching claude, codex, copilot (last 24h); 0 session(s) so far",
+        "trellis: open http://localhost:{port}   ·   OTLP/HTTP JSON at http://localhost:{port}/v1/traces and /v1/logs"
+      ]
+    }
+  ]
+}

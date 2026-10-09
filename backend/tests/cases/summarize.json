@@ -1,0 +1,452 @@
+{
+  "function": "summarize",
+  "cases": [
+    {
+      "input": [
+        null
+      ],
+      "output": {
+        "summary": "Returned without a message.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        ""
+      ],
+      "output": {
+        "summary": "Returned without a message.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "   \n  "
+      ],
+      "output": {
+        "summary": "Returned without a message.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "agentId: abc123"
+      ],
+      "output": {
+        "summary": "Returned without a message.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "Short.\nagentId: abc"
+      ],
+      "output": {
+        "summary": "Short.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "14 call sites across 6 files.\n- Issued in src/auth/issue.ts:41\n- Read by 9 middleware sites\nagentId: abc"
+      ],
+      "output": {
+        "summary": "14 call sites across 6 files.",
+        "items": [
+          "Issued in src/auth/issue.ts:41",
+          "Read by 9 middleware sites"
+        ],
+        "text": "14 call sites across 6 files.\n- Issued in src/auth/issue.ts:41\n- Read by 9 middleware sites"
+      }
+    },
+    {
+      "input": [
+        "Done. Explorer found 14 sites."
+      ],
+      "output": {
+        "summary": "Done. Explorer found 14 sites.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "First sentence is long enough. Second sentence follows here."
+      ],
+      "output": {
+        "summary": "First sentence is long enough.",
+        "items": [],
+        "text": "First sentence is long enough. Second sentence follows here."
+      }
+    },
+    {
+      "input": [
+        "Ends without punctuation but is long enough"
+      ],
+      "output": {
+        "summary": "Ends without punctuation but is long enough",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "## Heading\n\nThe body starts here and goes on.\n- one\n- two"
+      ],
+      "output": {
+        "summary": "The body starts here and goes on.",
+        "items": [
+          "one",
+          "two"
+        ],
+        "text": "## Heading\n\nThe body starts here and goes on.\n- one\n- two"
+      }
+    },
+    {
+      "input": [
+        "# Title only"
+      ],
+      "output": {
+        "summary": "Title only",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "- bullet one\n- bullet two\n* bullet three"
+      ],
+      "output": {
+        "summary": "bullet one",
+        "items": [
+          "bullet one",
+          "bullet two",
+          "bullet three"
+        ],
+        "text": "- bullet one\n- bullet two\n* bullet three"
+      }
+    },
+    {
+      "input": [
+        "1. first\n2) second\n10. tenth\n3.notitem"
+      ],
+      "output": {
+        "summary": "3.notitem",
+        "items": [
+          "first",
+          "second",
+          "tenth"
+        ],
+        "text": "1. first\n2) second\n10. tenth\n3.notitem"
+      }
+    },
+    {
+      "input": [
+        "```\ncode\n```\nAfter the code fence, the prose."
+      ],
+      "output": {
+        "summary": "code",
+        "items": [],
+        "text": "```\ncode\n```\nAfter the code fence, the prose."
+      }
+    },
+    {
+      "input": [
+        "| a | b |\n| - | - |\nTable then prose sentence here."
+      ],
+      "output": {
+        "summary": "Table then prose sentence here.",
+        "items": [],
+        "text": "| a | b |\n| - | - |\nTable then prose sentence here."
+      }
+    },
+    {
+      "input": [
+        "**Bold lead** and `code` in a sentence that ends here."
+      ],
+      "output": {
+        "summary": "Bold lead and code in a sentence that ends here.",
+        "items": [],
+        "text": "**Bold lead** and `code` in a sentence that ends here."
+      }
+    },
+    {
+      "input": [
+        "**a**\n`x`\nA proper sentence follows after markers."
+      ],
+      "output": {
+        "summary": "A proper sentence follows after markers.",
+        "items": [],
+        "text": "**a**\n`x`\nA proper sentence follows after markers."
+      }
+    },
+    {
+      "input": [
+        "a\nBc\nA longer explanation line here."
+      ],
+      "output": {
+        "summary": "A longer explanation line here.",
+        "items": [],
+        "text": "a\nBc\nA longer explanation line here."
+      }
+    },
+    {
+      "input": [
+        "line one\r\nagentId: crlf\r\nline three continues on"
+      ],
+      "output": {
+        "summary": "line one",
+        "items": [],
+        "text": "line one\r\n\r\nline three continues on"
+      }
+    },
+    {
+      "input": [
+        "keep agentId: sep more text follows here ok"
+      ],
+      "output": {
+        "summary": "keep  more text follows here ok",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "agentId: first\nagentId: second\nreal content here for you."
+      ],
+      "output": {
+        "summary": "real content here for you.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "  agentId: indented stays\nreal content follows now."
+      ],
+      "output": {
+        "summary": "agentId: indented stays",
+        "items": [],
+        "text": "agentId: indented stays\nreal content follows now."
+      }
+    },
+    {
+      "input": [
+        "x agentId: inside line"
+      ],
+      "output": {
+        "summary": "x agentId: inside line",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "Sentence with 😀😀😀😀😀😀 emoji. And more."
+      ],
+      "output": {
+        "summary": "Sentence with 😀😀😀😀😀😀 emoji.",
+        "items": [],
+        "text": "Sentence with 😀😀😀😀😀😀 emoji. And more."
+      }
+    },
+    {
+      "input": [
+        "Twelve chars. Then more words after that"
+      ],
+      "output": {
+        "summary": "Twelve chars.",
+        "items": [],
+        "text": "Twelve chars. Then more words after that"
+      }
+    },
+    {
+      "input": [
+        "Elevenchars. Then more words after"
+      ],
+      "output": {
+        "summary": "Elevenchars. Then more words after",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "Version 3.14 is out! Really.\n- item"
+      ],
+      "output": {
+        "summary": "Version 3.14 is out!",
+        "items": [
+          "item"
+        ],
+        "text": "Version 3.14 is out! Really.\n- item"
+      }
+    },
+    {
+      "input": [
+        "﻿  Lead whitespace sentence here.  Next."
+      ],
+      "output": {
+        "summary": "Lead whitespace sentence here.",
+        "items": [],
+        "text": "Lead whitespace sentence here.  Next."
+      }
+    },
+    {
+      "input": [
+        "Ends with question? Yes indeed it does."
+      ],
+      "output": {
+        "summary": "Ends with question?",
+        "items": [],
+        "text": "Ends with question? Yes indeed it does."
+      }
+    },
+    {
+      "input": [
+        "Dots... trailing more words here maybe."
+      ],
+      "output": {
+        "summary": "Dots... trailing more words here maybe.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "- item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item \n- second"
+      ],
+      "output": {
+        "summary": "item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item…",
+        "items": [
+          "item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item…",
+          "second"
+        ],
+        "text": "- item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item item \n- second"
+      }
+    },
+    {
+      "input": [
+        "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word "
+      ],
+      "output": {
+        "summary": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word…",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "٣. arabic digit line\nReal prose line here now."
+      ],
+      "output": {
+        "summary": "٣. arabic digit line",
+        "items": [],
+        "text": "٣. arabic digit line\nReal prose line here now."
+      }
+    },
+    {
+      "input": [
+        "１. fullwidth digit line\nReal prose line here now."
+      ],
+      "output": {
+        "summary": "１. fullwidth digit line",
+        "items": [],
+        "text": "１. fullwidth digit line\nReal prose line here now."
+      }
+    },
+    {
+      "input": [
+        "-  nbsp bullet\nProse line follows here."
+      ],
+      "output": {
+        "summary": "Prose line follows here.",
+        "items": [
+          "nbsp bullet"
+        ],
+        "text": "-  nbsp bullet\nProse line follows here."
+      }
+    },
+    {
+      "input": [
+        "-　ideographic bullet\nProse line follows here."
+      ],
+      "output": {
+        "summary": "Prose line follows here.",
+        "items": [
+          "ideographic bullet"
+        ],
+        "text": "-　ideographic bullet\nProse line follows here."
+      }
+    },
+    {
+      "input": [
+        "# spaced heading\nProse line follows here."
+      ],
+      "output": {
+        "summary": "Prose line follows here.",
+        "items": [],
+        "text": "# spaced heading\nProse line follows here."
+      }
+    },
+    {
+      "input": [
+        "• dot bullet\n• another one\nNo prose."
+      ],
+      "output": {
+        "summary": "No prose.",
+        "items": [
+          "dot bullet",
+          "another one"
+        ],
+        "text": "• dot bullet\n• another one\nNo prose."
+      }
+    },
+    {
+      "input": [
+        "1) one\n2) two\n3) three\n4) four\n5) five\n6) six\n7) seven\n8) eight"
+      ],
+      "output": {
+        "summary": "one",
+        "items": [
+          "one",
+          "two",
+          "three",
+          "four",
+          "five",
+          "six"
+        ],
+        "text": "1) one\n2) two\n3) three\n4) four\n5) five\n6) six\n7) seven\n8) eight"
+      }
+    },
+    {
+      "input": [
+        "Multi\nline\nsummary that is short"
+      ],
+      "output": {
+        "summary": "Multi",
+        "items": [],
+        "text": "Multi\nline\nsummary that is short"
+      }
+    },
+    {
+      "input": [
+        "**unclosed bold text with enough length here."
+      ],
+      "output": {
+        "summary": "**unclosed bold text with enough length here.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "**a b** split across separator and text follows."
+      ],
+      "output": {
+        "summary": "**a b** split across separator and text follows.",
+        "items": []
+      }
+    },
+    {
+      "input": [
+        "**ab**cd**ef** sentence with two bold runs ok."
+      ],
+      "output": {
+        "summary": "abcdef sentence with two bold runs ok.",
+        "items": [],
+        "text": "**ab**cd**ef** sentence with two bold runs ok."
+      }
+    }
+  ]
+}

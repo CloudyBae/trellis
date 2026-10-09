@@ -1,0 +1,269 @@
+[
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:lv9": {
+        "id": "otel:lv9",
+        "rawId": "lv9",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 1,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "probe",
+                "target": "",
+                "out": "",
+                "ms": 1000
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:lv9": null
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:lv9": {
+        "id": "otel:lv9",
+        "rawId": "lv9",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 1,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "probe",
+                "target": "",
+                "out": "",
+                "ms": 1000
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:lv9": {
+        "id": "otel-log:lv9",
+        "rawId": "lv9",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": null,
+    "logged": 0,
+    "sessions": {
+      "otel:lv9": {
+        "id": "otel:lv9",
+        "rawId": "lv9",
+        "live": false,
+        "t0": 1790593200000,
+        "endAt": 1,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "probe",
+                "target": "",
+                "out": "",
+                "ms": 1000
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 1,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel-log:lv9": {
+        "id": "otel-log:lv9",
+        "rawId": "lv9",
+        "live": false,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "end": 0,
+            "final": "complete",
+            "returned": {
+              "summary": "The log stream went quiet.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": null,
+    "logged": 0,
+    "sessions": {
+      "otel:lv9": {
+        "id": "otel:lv9",
+        "rawId": "lv9",
+        "live": false,
+        "t0": 1790593200000,
+        "endAt": 1,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "probe",
+                "target": "",
+                "out": "",
+                "ms": 1000
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 1,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel-log:lv9": {
+        "id": "otel-log:lv9",
+        "rawId": "lv9",
+        "live": false,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "end": 0,
+            "final": "complete",
+            "returned": {
+              "summary": "The log stream went quiet.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

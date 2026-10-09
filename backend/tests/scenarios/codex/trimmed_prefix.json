@@ -1,0 +1,12 @@
+{
+  "case": "trimmed_prefix",
+  "now": 1790596800000,
+  "sessionId": "codex:tp01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

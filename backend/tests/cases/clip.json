@@ -1,0 +1,173 @@
+{
+  "function": "clip",
+  "cases": [
+    {
+      "input": [
+        "hello",
+        10
+      ],
+      "output": "hello"
+    },
+    {
+      "input": [
+        "hello world foo bar",
+        11
+      ],
+      "output": "hello world…"
+    },
+    {
+      "input": [
+        "hello world, foo bar baz",
+        13
+      ],
+      "output": "hello world…"
+    },
+    {
+      "input": [
+        "aaaaaaaaaa😀bbbb",
+        11
+      ],
+      "output": "aaaaaaaaaa\ud83d…"
+    },
+    {
+      "input": [
+        "aaaaaaaaaa😀bbbb cc",
+        12
+      ],
+      "output": "aaaaaaaaaa😀…"
+    },
+    {
+      "input": [
+        "😀😀😀😀 tail text here",
+        9
+      ],
+      "output": "😀😀😀😀…"
+    },
+    {
+      "input": [
+        "word word word word word word word word word word ",
+        20
+      ],
+      "output": "word word word word…"
+    },
+    {
+      "input": [
+        null,
+        5
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        12345,
+        3
+      ],
+      "output": "123…"
+    },
+    {
+      "input": [
+        "a b",
+        2
+      ],
+      "output": "a…"
+    },
+    {
+      "input": [
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        10
+      ],
+      "output": "xxxxxxxxxx…"
+    },
+    {
+      "input": [
+        "abcdefghij klmnopqrstuvwxyz",
+        12
+      ],
+      "output": "abcdefghij…"
+    },
+    {
+      "input": [
+        "abcdefghij klmnopqrstuvwxyz",
+        8
+      ],
+      "output": "abcdefgh…"
+    },
+    {
+      "input": [
+        "end of the line...........   and more",
+        30
+      ],
+      "output": "end of the line…"
+    },
+    {
+      "input": [
+        "alpha beta gamma",
+        8
+      ],
+      "output": "alpha be…"
+    },
+    {
+      "input": [
+        "abc﻿﻿ defgh",
+        5
+      ],
+      "output": "abc…"
+    },
+    {
+      "input": [
+        "abc　　 defgh",
+        6
+      ],
+      "output": "abc…"
+    },
+    {
+      "input": [
+        "café crème brûlée",
+        10
+      ],
+      "output": "café crème…"
+    },
+    {
+      "input": [
+        "exact",
+        5
+      ],
+      "output": "exact"
+    },
+    {
+      "input": [
+        "",
+        3
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "line one\nline two continues here",
+        14
+      ],
+      "output": "line one\nline…"
+    },
+    {
+      "input": [
+        "semi;: colon, and dot. more words",
+        22
+      ],
+      "output": "semi;: colon, and dot…"
+    },
+    {
+      "input": [
+        "    words here and there",
+        10
+      ],
+      "output": "    words…"
+    },
+    {
+      "input": [
+        "ab℀cd 😀😀ef gh",
+        9
+      ],
+      "output": "ab℀cd 😀\ud83d…"
+    }
+  ]
+}

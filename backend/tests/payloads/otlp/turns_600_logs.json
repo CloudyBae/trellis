@@ -1,0 +1,33 @@
+[
+  {
+    "returned": 600,
+    "logged": 0,
+    "sessions": {
+      "otel-log:rec600": {
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 599,
+        "agents": [
+          {
+            "id": 1,
+            "turns": 600,
+            "trimmed": null,
+            "first": [
+              "tool",
+              "tool0",
+              0
+            ],
+            "last": [
+              "tool",
+              "tool599",
+              599
+            ]
+          }
+        ],
+        "completeness": [
+          "activity_only"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,218 @@
+[
+  null,
+  null,
+  {
+    "id": "cc:66666666-ffff",
+    "rawId": "66666666-ffff",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 60,
+    "hooks": true,
+    "run": {
+      "name": "Rotate session tokens in src/auth/issue.ts",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Rotate session tokens in src/auth/issue.ts",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "msg",
+            "text": "Looking first."
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "Read",
+            "target": "CLAUDE.md",
+            "out": "Conventions: pnpm",
+            "ms": 1000
+          },
+          {
+            "at": 60,
+            "kind": "msg",
+            "text": "Done. Explorer found 14 sites."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff.jsonl",
+        "end": 60,
+        "final": "complete",
+        "returned": {
+          "summary": "Done. Explorer found 14 sites.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Explorer",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Find every place a session token is issued in src/auth/ and src/middleware/requireUser.ts.",
+        "context": [
+          "src/middleware/requireUser.ts"
+        ],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Grep",
+            "target": "session.token  src",
+            "out": "src/auth/issue.ts:41",
+            "ms": 1000
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff/subagents/agent-aaa.jsonl",
+        "parent": 1,
+        "brief": "Find token call sites",
+        "agentType": "Explore",
+        "end": 40,
+        "final": "complete",
+        "returned": {
+          "summary": "14 call sites across 6 files.",
+          "items": [
+            "Issued in src/auth/issue.ts:41",
+            "Read by 9 middleware sites"
+          ],
+          "text": "14 call sites across 6 files.\n- Issued in src/auth/issue.ts:41\n- Read by 9 middleware sites"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Security reviewer",
+        "src": "Claude Code",
+        "start": 6,
+        "task": "Review the rotation design.",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff/subagents/agent-bbb.jsonl",
+        "parent": 1,
+        "brief": "Review design",
+        "agentType": "security-reviewer",
+        "end": 50,
+        "final": "failed",
+        "returned": {
+          "summary": "Agent crashed",
+          "items": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "cc:66666666-ffff",
+    "rawId": "66666666-ffff",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 60,
+    "hooks": true,
+    "run": {
+      "name": "Rotate session tokens in src/auth/issue.ts",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Rotate session tokens in src/auth/issue.ts",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "msg",
+            "text": "Looking first."
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "Read",
+            "target": "CLAUDE.md",
+            "out": "Conventions: pnpm",
+            "ms": 1000
+          },
+          {
+            "at": 60,
+            "kind": "msg",
+            "text": "Done. Explorer found 14 sites."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff.jsonl",
+        "end": 60,
+        "final": "complete",
+        "returned": {
+          "summary": "Done. Explorer found 14 sites.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Explorer",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Find every place a session token is issued in src/auth/ and src/middleware/requireUser.ts.",
+        "context": [
+          "src/middleware/requireUser.ts"
+        ],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Grep",
+            "target": "session.token  src",
+            "out": "src/auth/issue.ts:41",
+            "ms": 1000
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff/subagents/agent-aaa.jsonl",
+        "parent": 1,
+        "brief": "Find token call sites",
+        "agentType": "Explore",
+        "end": 40,
+        "final": "complete",
+        "returned": {
+          "summary": "14 call sites across 6 files.",
+          "items": [
+            "Issued in src/auth/issue.ts:41",
+            "Read by 9 middleware sites"
+          ],
+          "text": "14 call sites across 6 files.\n- Issued in src/auth/issue.ts:41\n- Read by 9 middleware sites"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Security reviewer",
+        "src": "Claude Code",
+        "start": 6,
+        "task": "Review the rotation design.",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/hook_transcript_path/-work-acme-api/66666666-ffff/subagents/agent-bbb.jsonl",
+        "parent": 1,
+        "brief": "Review design",
+        "agentType": "security-reviewer",
+        "end": 50,
+        "final": "failed",
+        "returned": {
+          "summary": "Agent crashed",
+          "items": []
+        }
+      }
+    ]
+  }
+]

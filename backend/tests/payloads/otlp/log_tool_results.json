@@ -1,0 +1,376 @@
+[
+  {
+    "returned": 48,
+    "logged": 0,
+    "sessions": {
+      "otel-log:trs": {
+        "id": "otel-log:trs",
+        "rawId": "trs",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 470,
+        "via": "logs",
+        "run": {
+          "name": "Run all",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "Run all",
+            "context": [],
+            "turns": [
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "tool-1",
+                "target": "",
+                "out": "",
+                "ms": 1200
+              },
+              {
+                "at": 20,
+                "kind": "tool",
+                "name": "tool-2",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 30,
+                "kind": "tool",
+                "name": "tool-3",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 40,
+                "kind": "tool",
+                "name": "tool-4",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 48,
+                "kind": "tool",
+                "name": "tool-5",
+                "target": "",
+                "out": "",
+                "ms": 1500.5
+              },
+              {
+                "at": 60,
+                "kind": "tool",
+                "name": "tool-6",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 70,
+                "kind": "tool",
+                "name": "tool-7",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 80,
+                "kind": "tool",
+                "name": "tool-8",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 90,
+                "kind": "tool",
+                "name": "tool-9",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 100,
+                "kind": "tool",
+                "name": "tool-10",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 111,
+                "kind": "tool",
+                "name": "tool-11",
+                "target": "",
+                "out": "",
+                "ms": -500
+              },
+              {
+                "at": 120,
+                "kind": "tool",
+                "name": "tool-12",
+                "target": "",
+                "out": "",
+                "ms": 7
+              },
+              {
+                "at": 129,
+                "kind": "tool",
+                "name": "tool-13",
+                "target": "",
+                "out": "",
+                "ms": 1000
+              },
+              {
+                "at": 140,
+                "kind": "tool",
+                "name": "tool-14",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 150,
+                "kind": "tool",
+                "name": "tool-15",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 160,
+                "kind": "tool",
+                "name": "tool-16",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 170,
+                "kind": "tool",
+                "name": "tool-17",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 180,
+                "kind": "tool",
+                "name": "tool-18",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 190,
+                "kind": "tool",
+                "name": "tool-19",
+                "target": "",
+                "out": "",
+                "ms": 2
+              },
+              {
+                "at": 200,
+                "kind": "tool",
+                "name": "tool-20",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 210,
+                "kind": "tool",
+                "name": "tool-21",
+                "target": "",
+                "out": "",
+                "ms": 5
+              },
+              {
+                "at": 220,
+                "kind": "tool",
+                "name": "tool-22",
+                "target": "",
+                "out": "",
+                "ms": 5
+              },
+              {
+                "at": 230,
+                "kind": "tool",
+                "name": "tool-23",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 240,
+                "kind": "tool",
+                "name": "tool-24",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 250,
+                "kind": "tool",
+                "name": "tool-25",
+                "target": "",
+                "out": "Failed.",
+                "fail": true
+              },
+              {
+                "at": 260,
+                "kind": "tool",
+                "name": "tool-26",
+                "target": "",
+                "out": "Failed.",
+                "fail": true
+              },
+              {
+                "at": 270,
+                "kind": "tool",
+                "name": "tool-27",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 280,
+                "kind": "tool",
+                "name": "tool-28",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 290,
+                "kind": "tool",
+                "name": "tool-29",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 300,
+                "kind": "tool",
+                "name": "tool-30",
+                "target": "",
+                "out": "Failed.",
+                "fail": true
+              },
+              {
+                "at": 310,
+                "kind": "tool",
+                "name": "tool-31",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 320,
+                "kind": "tool",
+                "name": "n",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 330,
+                "kind": "tool",
+                "name": "tool",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 340,
+                "kind": "tool",
+                "name": "n2",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 350,
+                "kind": "tool",
+                "name": "tool-35",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 360,
+                "kind": "tool",
+                "name": "tool-36",
+                "target": "0",
+                "out": ""
+              },
+              {
+                "at": 370,
+                "kind": "tool",
+                "name": "tool-37",
+                "target": "viaargs2",
+                "out": ""
+              },
+              {
+                "at": 380,
+                "kind": "tool",
+                "name": "tool-38",
+                "target": "/a/b",
+                "out": ""
+              },
+              {
+                "at": 390,
+                "kind": "tool",
+                "name": "tool-39",
+                "target": "ls -l",
+                "out": ""
+              },
+              {
+                "at": 400,
+                "kind": "tool",
+                "name": "tool-40",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 410,
+                "kind": "tool",
+                "name": "tool-41",
+                "target": "",
+                "out": "boom"
+              },
+              {
+                "at": 420,
+                "kind": "tool",
+                "name": "tool-42",
+                "target": "",
+                "out": "0"
+              },
+              {
+                "at": 430,
+                "kind": "tool",
+                "name": "tool-43",
+                "target": "",
+                "out": "a,b"
+              },
+              {
+                "at": 440,
+                "kind": "tool",
+                "name": "tool-44",
+                "target": "",
+                "out": "[object Object]"
+              },
+              {
+                "at": 450,
+                "kind": "tool",
+                "name": "tool-45",
+                "target": "",
+                "out": "Failed.",
+                "fail": true
+              },
+              {
+                "at": 460,
+                "kind": "tool",
+                "name": "tool-46",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 470,
+                "kind": "tool",
+                "name": "tool-47",
+                "target": "",
+                "out": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\u2026"
+              }
+            ],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  }
+]

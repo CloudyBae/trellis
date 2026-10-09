@@ -1,0 +1,12 @@
+{
+  "case": "tool_name_prefix",
+  "now": 1790596800000,
+  "sessionId": "copilot:s11",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

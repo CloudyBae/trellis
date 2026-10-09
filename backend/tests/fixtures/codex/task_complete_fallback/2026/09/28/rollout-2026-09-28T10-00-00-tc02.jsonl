@@ -1,0 +1,4 @@
+{"timestamp":"2026-09-28T09:00:10.000Z","type":"session_meta","payload":{"id":"tc02","cwd":"/work/acme/web","parent_session_id":"tc01","agent_name":"Alpha"}}
+{"timestamp":"2026-09-28T09:00:10.500Z","type":"event_msg","payload":{"type":"user_message","message":"Task for Alpha"}}
+{"timestamp":"2026-09-28T09:00:11.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Sub said this."}]}}
+{"timestamp":"2026-09-28T09:00:12.000Z","type":"event_msg","payload":{"type":"task_complete","last_agent_message":""}}

@@ -1,0 +1,12 @@
+{
+  "case": "tool_output_forms",
+  "now": 1790596800000,
+  "sessionId": "copilot:s15",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

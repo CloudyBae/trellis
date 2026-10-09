@@ -1,0 +1,41 @@
+[
+  {
+    "id": "copilot:s12",
+    "rawId": "s12",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 0,
+    "run": {
+      "name": "Question",
+      "repo": "empty-result",
+      "source": "GitHub Copilot",
+      "file": "~/root_empty_result/workspaceStorage/h12/chatSessions/s12.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Question",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "msg",
+            "text": "Answer text."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/root_empty_result/workspaceStorage/h12/chatSessions/s12.json",
+        "end": 0,
+        "final": "complete",
+        "returned": {
+          "summary": "Answer text.",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+]

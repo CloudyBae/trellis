@@ -1,0 +1,16 @@
+{"name":"replay","tick":0,"session":{"replay":true,"t0":40,"endAt":162,"live":true,"nowAt":0},"value":0}
+{"name":"replay","tick":5,"session":{"replay":true,"t0":40,"endAt":162,"live":true,"nowAt":0},"value":0}
+{"name":"replay","tick":100,"session":{"replay":true,"t0":40,"endAt":162,"live":true,"nowAt":0},"value":60}
+{"name":"replay","tick":400,"session":{"replay":true,"t0":40,"endAt":162,"live":true,"nowAt":0},"value":360}
+{"name":"replay-from-zero","tick":0,"session":{"replay":true,"t0":0,"endAt":162,"live":false,"nowAt":0},"value":0}
+{"name":"replay-from-zero","tick":5,"session":{"replay":true,"t0":0,"endAt":162,"live":false,"nowAt":0},"value":5}
+{"name":"replay-from-zero","tick":100,"session":{"replay":true,"t0":0,"endAt":162,"live":false,"nowAt":0},"value":100}
+{"name":"replay-from-zero","tick":400,"session":{"replay":true,"t0":0,"endAt":162,"live":false,"nowAt":0},"value":400}
+{"name":"live","tick":0,"session":{"live":true,"t0":0,"nowAt":312},"value":312}
+{"name":"live","tick":5,"session":{"live":true,"t0":0,"nowAt":312},"value":317}
+{"name":"live","tick":100,"session":{"live":true,"t0":0,"nowAt":312},"value":412}
+{"name":"live","tick":400,"session":{"live":true,"t0":0,"nowAt":312},"value":712}
+{"name":"still","tick":0,"session":{"live":false,"t0":0,"nowAt":2140},"value":2140}
+{"name":"still","tick":5,"session":{"live":false,"t0":0,"nowAt":2140},"value":2140}
+{"name":"still","tick":100,"session":{"live":false,"t0":0,"nowAt":2140},"value":2140}
+{"name":"still","tick":400,"session":{"live":false,"t0":0,"nowAt":2140},"value":2140}

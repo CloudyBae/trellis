@@ -1,0 +1,243 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "TR-k1",
+              "spanId": "k1",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "second-wins"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k2",
+              "spanId": "k2",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": ""
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "intValue": "abc"
+                  }
+                },
+                {
+                  "key": "conversation.id",
+                  "value": {
+                    "stringValue": "third-wins"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k3",
+              "spanId": "k3",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "thread.id",
+                  "value": {
+                    "stringValue": "thread-wins"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k4",
+              "spanId": "k4",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                }
+              ]
+            },
+            {
+              "spanId": "k5",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": null,
+              "spanId": "k6",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k7",
+              "spanId": "k7",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "intValue": "5"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "",
+              "spanId": "k8",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k9",
+              "spanId": "k9",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "boolValue": false
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "doubleValue": 0
+                  }
+                },
+                {
+                  "key": "thread.id",
+                  "value": {
+                    "stringValue": "after-falsy"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "TR-k10",
+              "spanId": "k10",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593200100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "first-wins"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "ignored"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

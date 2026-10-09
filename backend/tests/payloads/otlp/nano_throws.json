@@ -1,0 +1,2100 @@
+[
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 1,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 2,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 3,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 4,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 5,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 6,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 2,
+    "logged": 0,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 99,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 99,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 99,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 8,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 99,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 99,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 8,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 99,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 99,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 8,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 10,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 99,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 99,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 8,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 10,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 11,
+                "kind": "tool",
+                "name": "good-11",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 99,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 2,
+    "logged": 0,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 0,
+        "endAt": 1790593301,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "bad-12",
+                "target": "",
+                "out": "",
+                "ms": 1790593301000
+              },
+              {
+                "at": 1790593201,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593202,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593203,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593204,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593205,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593206,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593207,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593208,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593209,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593210,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593211,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593212,
+                "kind": "tool",
+                "name": "good-11",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593213,
+                "kind": "tool",
+                "name": "good-12",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593300,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 0,
+        "endAt": 1790593301,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "bad-12",
+                "target": "",
+                "out": "",
+                "ms": 1790593301000
+              },
+              {
+                "at": 1790593201,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593202,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593203,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593204,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593205,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593206,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593207,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593208,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593209,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593210,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593211,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593212,
+                "kind": "tool",
+                "name": "good-11",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593213,
+                "kind": "tool",
+                "name": "good-12",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593214,
+                "kind": "tool",
+                "name": "good-13",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593300,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 0,
+        "endAt": 1790593301,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "bad-12",
+                "target": "",
+                "out": "",
+                "ms": 1790593301000
+              },
+              {
+                "at": 1790593201,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593202,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593203,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593204,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593205,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593206,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593207,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593208,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593209,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593210,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593211,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593212,
+                "kind": "tool",
+                "name": "good-11",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593213,
+                "kind": "tool",
+                "name": "good-12",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593214,
+                "kind": "tool",
+                "name": "good-13",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593215,
+                "kind": "tool",
+                "name": "good-14",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593300,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 0,
+        "endAt": 1790593301,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "bad-12",
+                "target": "",
+                "out": "",
+                "ms": 1790593301000
+              },
+              {
+                "at": 1790593201,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593202,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593203,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593204,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593205,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593206,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593207,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593208,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593209,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593210,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593211,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593212,
+                "kind": "tool",
+                "name": "good-11",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593213,
+                "kind": "tool",
+                "name": "good-12",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593214,
+                "kind": "tool",
+                "name": "good-13",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593215,
+                "kind": "tool",
+                "name": "good-14",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593216,
+                "kind": "tool",
+                "name": "good-15",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593300,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 0,
+        "endAt": 1790593301,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "bad-12",
+                "target": "",
+                "out": "",
+                "ms": 1790593301000
+              },
+              {
+                "at": 1790593201,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593202,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593203,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593204,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593205,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593206,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593207,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593208,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593209,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593210,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593211,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593212,
+                "kind": "tool",
+                "name": "good-11",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593213,
+                "kind": "tool",
+                "name": "good-12",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593214,
+                "kind": "tool",
+                "name": "good-13",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593215,
+                "kind": "tool",
+                "name": "good-14",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593216,
+                "kind": "tool",
+                "name": "good-15",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593291,
+                "kind": "tool",
+                "name": "good-90",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593300,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:nt": {
+        "id": "otel:nt",
+        "rawId": "nt",
+        "live": true,
+        "t0": 0,
+        "endAt": 1790593301,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "bad-12",
+                "target": "",
+                "out": "",
+                "ms": 1790593301000
+              },
+              {
+                "at": 1790593201,
+                "kind": "tool",
+                "name": "good-0",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593202,
+                "kind": "tool",
+                "name": "good-1",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593203,
+                "kind": "tool",
+                "name": "good-2",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593204,
+                "kind": "tool",
+                "name": "good-3",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593205,
+                "kind": "tool",
+                "name": "good-4",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593206,
+                "kind": "tool",
+                "name": "good-5",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593207,
+                "kind": "tool",
+                "name": "good-6",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593208,
+                "kind": "tool",
+                "name": "good-7",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593209,
+                "kind": "tool",
+                "name": "good-8",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593210,
+                "kind": "tool",
+                "name": "good-9",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593211,
+                "kind": "tool",
+                "name": "good-10",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593212,
+                "kind": "tool",
+                "name": "good-11",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593213,
+                "kind": "tool",
+                "name": "good-12",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593214,
+                "kind": "tool",
+                "name": "good-13",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593215,
+                "kind": "tool",
+                "name": "good-14",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593216,
+                "kind": "tool",
+                "name": "good-15",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593291,
+                "kind": "tool",
+                "name": "good-90",
+                "target": "",
+                "out": "",
+                "ms": 50
+              },
+              {
+                "at": 1790593300,
+                "kind": "tool",
+                "name": "bad-7",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 1790593300,
+                "kind": "tool",
+                "name": "good-99",
+                "target": "",
+                "out": "",
+                "ms": 50
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  }
+]

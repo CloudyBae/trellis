@@ -1,0 +1,476 @@
+[
+  {
+    "returned": 18,
+    "logged": 0,
+    "sessions": {
+      "otel:src1": {
+        "id": "otel:src1",
+        "rawId": "src1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "CLAUDE-code",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src2": {
+        "id": "otel:src2",
+        "rawId": "src2",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "my-codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src3": {
+        "id": "otel:src3",
+        "rawId": "src3",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "GitHub Copilot",
+          "source": "GitHub Copilot",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "GitHub Copilot",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src4": {
+        "id": "otel:src4",
+        "rawId": "src4",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "VSCode",
+          "source": "GitHub Copilot",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "GitHub Copilot",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src5": {
+        "id": "otel:src5",
+        "rawId": "src5",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "v\u017fcode",
+          "source": "v\u017fcode",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "v\u017fcode",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src6": {
+        "id": "otel:src6",
+        "rawId": "src6",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "cop\u0131lot",
+          "source": "cop\u0131lot",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "cop\u0131lot",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src7": {
+        "id": "otel:src7",
+        "rawId": "src7",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "\u212aelvin-svc",
+          "source": "\u212aelvin-svc",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "\u212aelvin-svc",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src8": {
+        "id": "otel:src8",
+        "rawId": "src8",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex-CLAUDE",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src9": {
+        "id": "otel:src9",
+        "rawId": "src9",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "copilot-codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src10": {
+        "id": "otel:src10",
+        "rawId": "src10",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "unknown-svc",
+          "source": "unknown-svc",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "unknown-svc",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src11": {
+        "id": "otel:src11",
+        "rawId": "src11",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "OpenTelemetry",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "OpenTelemetry",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src12": {
+        "id": "otel:src12",
+        "rawId": "src12",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "OpenTelemetry",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "OpenTelemetry",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src13": {
+        "id": "otel:src13",
+        "rawId": "src13",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "OpenTelemetry",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "OpenTelemetry",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src14": {
+        "id": "otel:src14",
+        "rawId": "src14",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "OpenTelemetry",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "OpenTelemetry",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:srcNum": {
+        "id": "otel:srcNum",
+        "rawId": "srcNum",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "7",
+          "source": "7",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "7",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src15": {
+        "id": "otel:src15",
+        "rawId": "src15",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "CoDeX",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:src16": {
+        "id": "otel:src16",
+        "rawId": "src16",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "Claude\n",
+          "source": "Claude Code",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:srcOverride": {
+        "id": "otel:srcOverride",
+        "rawId": "srcOverride",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "override-svc",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  }
+]

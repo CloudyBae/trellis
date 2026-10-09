@@ -1,0 +1,16 @@
+{
+  "case": "empty_ids",
+  "ids": [
+    "otel:ei"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

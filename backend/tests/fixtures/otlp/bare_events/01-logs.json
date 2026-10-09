@@ -1,0 +1,190 @@
+{
+  "resourceLogs": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            }
+          }
+        ]
+      },
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "timeUnixNano": "1790593200000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "user_prompt"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "bare0"
+                  }
+                },
+                {
+                  "key": "prompt",
+                  "value": {
+                    "stringValue": "p"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "rejected"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593201000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "api_error"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "bare1"
+                  }
+                },
+                {
+                  "key": "prompt",
+                  "value": {
+                    "stringValue": "p"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "rejected"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593202000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "bare2"
+                  }
+                },
+                {
+                  "key": "prompt",
+                  "value": {
+                    "stringValue": "p"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "rejected"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593203000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "api_request"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "bare3"
+                  }
+                },
+                {
+                  "key": "prompt",
+                  "value": {
+                    "stringValue": "p"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "rejected"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593204000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "tool_result"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "bare4"
+                  }
+                },
+                {
+                  "key": "prompt",
+                  "value": {
+                    "stringValue": "p"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "rejected"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593200000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "x.user_prompt"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "control"
+                  }
+                },
+                {
+                  "key": "prompt",
+                  "value": {
+                    "stringValue": "kept"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

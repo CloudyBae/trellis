@@ -1,0 +1,56 @@
+[
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:turns601": {
+        "live": true,
+        "t0": 1790593199000,
+        "endAt": 901,
+        "agents": [
+          {
+            "id": 1,
+            "turns": 0,
+            "trimmed": null,
+            "first": null,
+            "last": null
+          }
+        ],
+        "completeness": [
+          "complete"
+        ]
+      }
+    }
+  },
+  {
+    "returned": 601,
+    "logged": 0,
+    "sessions": {
+      "otel:turns601": {
+        "live": true,
+        "t0": 1790593199000,
+        "endAt": 901,
+        "agents": [
+          {
+            "id": 1,
+            "turns": 600,
+            "trimmed": 1,
+            "first": [
+              "tool",
+              "tool1",
+              2
+            ],
+            "last": [
+              "tool",
+              "tool600",
+              601
+            ]
+          }
+        ],
+        "completeness": [
+          "partial"
+        ]
+      }
+    }
+  }
+]

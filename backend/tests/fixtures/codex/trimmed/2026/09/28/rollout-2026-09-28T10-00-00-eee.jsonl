@@ -1,0 +1,1204 @@
+{"timestamp":"2026-09-28T10:00:00.000Z","type":"session_meta","payload":{"id":"eee","cwd":"/work/acme/web"}}
+{"timestamp":"2026-09-28T10:00:01.000Z","type":"event_msg","payload":{"type":"user_message","message":"Do something"}}
+{"timestamp":"2026-09-28T10:00:02.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t0","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t0","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t1","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t1","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t2","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t2","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t3","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t3","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t4","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t4","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t5","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t5","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t6","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t6","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t7","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t7","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t8","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t8","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t9","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:02.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t9","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t10","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t10","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t11","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t11","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t12","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t12","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t13","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t13","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t14","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t14","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t15","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t15","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t16","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t16","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t17","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t17","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t18","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t18","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t19","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:03.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t19","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t20","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t20","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t21","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t21","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t22","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t22","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t23","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t23","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t24","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t24","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t25","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t25","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t26","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t26","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t27","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t27","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t28","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t28","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t29","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:04.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t29","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t30","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t30","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t31","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t31","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t32","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t32","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t33","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t33","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t34","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t34","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t35","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t35","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t36","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t36","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t37","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t37","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t38","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t38","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t39","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:05.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t39","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t40","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t40","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t41","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t41","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t42","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t42","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t43","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t43","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t44","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t44","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t45","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t45","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t46","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t46","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t47","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t47","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t48","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t48","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t49","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:06.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t49","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t50","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t50","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t51","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t51","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t52","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t52","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t53","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t53","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t54","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t54","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t55","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t55","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t56","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t56","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t57","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t57","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t58","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t58","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t59","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:07.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t59","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t60","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t60","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t61","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t61","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t62","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t62","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t63","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t63","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t64","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t64","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t65","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t65","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t66","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t66","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t67","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t67","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t68","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t68","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t69","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:08.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t69","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t70","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t70","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t71","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t71","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t72","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t72","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t73","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t73","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t74","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t74","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t75","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t75","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t76","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t76","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t77","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t77","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t78","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t78","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t79","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:09.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t79","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t80","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t80","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t81","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t81","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t82","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t82","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t83","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t83","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t84","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t84","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t85","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t85","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t86","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t86","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t87","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t87","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t88","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t88","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t89","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:10.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t89","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t90","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t90","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t91","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t91","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t92","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t92","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t93","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t93","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t94","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t94","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t95","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t95","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t96","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t96","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t97","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t97","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t98","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t98","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t99","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:11.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t99","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t100","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t100","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t101","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t101","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t102","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t102","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t103","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t103","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t104","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t104","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t105","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t105","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t106","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t106","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t107","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t107","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t108","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t108","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t109","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:12.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t109","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t110","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t110","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t111","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t111","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t112","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t112","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t113","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t113","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t114","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t114","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t115","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t115","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t116","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t116","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t117","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t117","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t118","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t118","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t119","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:13.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t119","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t120","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t120","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t121","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t121","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t122","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t122","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t123","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t123","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t124","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t124","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t125","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t125","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t126","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t126","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t127","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t127","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t128","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t128","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t129","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:14.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t129","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t130","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t130","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t131","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t131","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t132","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t132","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t133","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t133","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t134","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t134","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t135","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t135","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t136","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t136","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t137","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t137","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t138","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t138","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t139","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:15.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t139","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t140","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t140","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t141","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t141","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t142","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t142","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t143","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t143","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t144","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t144","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t145","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t145","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t146","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t146","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t147","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t147","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t148","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t148","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t149","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:16.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t149","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t150","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t150","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t151","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t151","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t152","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t152","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t153","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t153","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t154","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t154","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t155","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t155","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t156","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t156","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t157","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t157","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t158","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t158","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t159","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:17.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t159","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t160","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t160","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t161","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t161","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t162","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t162","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t163","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t163","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t164","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t164","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t165","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t165","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t166","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t166","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t167","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t167","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t168","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t168","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t169","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:18.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t169","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t170","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t170","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t171","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t171","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t172","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t172","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t173","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t173","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t174","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t174","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t175","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t175","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t176","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t176","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t177","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t177","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t178","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t178","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t179","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:19.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t179","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t180","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t180","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t181","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t181","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t182","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t182","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t183","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t183","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t184","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t184","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t185","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t185","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t186","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t186","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t187","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t187","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t188","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t188","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t189","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:20.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t189","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t190","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t190","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t191","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t191","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t192","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t192","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t193","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t193","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t194","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t194","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t195","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t195","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t196","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t196","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t197","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t197","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t198","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t198","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t199","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:21.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t199","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t200","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t200","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t201","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t201","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t202","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t202","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t203","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t203","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t204","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t204","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t205","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t205","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t206","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t206","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t207","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t207","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t208","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t208","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t209","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:22.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t209","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t210","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t210","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t211","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t211","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t212","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t212","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t213","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t213","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t214","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t214","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t215","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t215","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t216","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t216","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t217","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t217","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t218","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t218","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t219","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:23.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t219","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t220","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t220","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t221","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t221","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t222","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t222","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t223","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t223","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t224","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t224","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t225","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t225","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t226","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t226","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t227","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t227","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t228","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t228","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t229","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:24.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t229","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t230","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t230","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t231","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t231","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t232","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t232","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t233","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t233","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t234","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t234","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t235","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t235","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t236","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t236","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t237","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t237","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t238","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t238","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t239","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:25.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t239","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t240","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t240","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t241","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t241","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t242","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t242","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t243","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t243","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t244","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t244","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t245","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t245","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t246","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t246","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t247","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t247","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t248","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t248","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t249","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:26.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t249","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t250","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t250","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t251","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t251","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t252","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t252","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t253","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t253","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t254","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t254","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t255","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t255","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t256","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t256","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t257","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t257","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t258","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t258","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t259","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:27.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t259","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t260","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t260","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t261","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t261","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t262","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t262","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t263","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t263","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t264","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t264","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t265","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t265","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t266","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t266","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t267","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t267","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t268","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t268","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t269","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:28.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t269","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t270","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t270","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t271","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t271","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t272","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t272","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t273","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t273","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t274","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t274","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t275","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t275","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t276","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t276","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t277","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t277","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t278","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t278","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t279","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:29.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t279","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t280","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t280","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t281","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t281","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t282","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t282","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t283","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t283","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t284","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t284","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t285","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t285","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t286","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t286","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t287","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t287","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t288","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t288","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t289","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:30.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t289","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t290","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t290","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t291","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t291","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t292","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t292","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t293","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t293","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t294","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t294","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t295","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t295","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t296","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t296","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t297","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t297","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t298","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t298","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t299","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:31.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t299","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t300","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t300","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t301","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t301","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t302","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t302","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t303","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t303","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t304","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t304","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t305","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t305","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t306","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t306","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t307","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t307","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t308","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t308","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t309","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:32.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t309","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t310","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t310","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t311","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t311","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t312","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t312","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t313","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t313","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t314","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t314","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t315","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t315","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t316","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t316","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t317","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t317","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t318","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t318","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t319","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:33.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t319","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t320","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t320","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t321","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t321","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t322","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t322","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t323","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t323","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t324","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t324","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t325","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t325","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t326","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t326","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t327","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t327","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t328","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t328","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t329","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:34.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t329","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t330","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t330","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t331","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t331","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t332","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t332","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t333","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t333","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t334","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t334","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t335","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t335","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t336","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t336","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t337","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t337","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t338","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t338","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t339","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:35.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t339","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t340","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t340","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t341","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t341","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t342","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t342","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t343","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t343","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t344","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t344","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t345","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t345","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t346","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t346","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t347","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t347","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t348","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t348","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t349","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:36.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t349","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t350","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t350","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t351","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t351","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t352","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t352","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t353","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t353","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t354","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t354","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t355","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t355","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t356","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t356","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t357","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t357","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t358","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t358","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t359","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:37.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t359","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t360","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t360","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t361","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t361","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t362","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t362","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t363","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t363","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t364","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t364","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t365","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t365","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t366","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t366","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t367","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t367","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t368","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t368","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t369","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:38.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t369","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t370","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t370","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t371","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t371","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t372","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t372","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t373","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t373","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t374","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t374","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t375","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t375","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t376","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t376","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t377","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t377","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t378","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t378","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t379","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:39.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t379","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t380","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t380","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t381","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t381","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t382","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t382","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t383","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t383","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t384","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t384","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t385","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t385","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t386","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t386","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t387","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t387","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t388","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t388","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t389","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:40.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t389","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t390","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t390","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t391","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t391","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t392","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t392","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t393","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t393","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t394","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t394","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t395","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t395","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t396","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t396","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t397","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t397","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t398","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t398","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t399","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:41.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t399","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t400","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t400","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t401","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t401","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t402","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t402","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t403","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t403","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t404","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t404","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t405","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t405","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t406","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t406","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t407","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t407","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t408","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t408","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t409","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:42.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t409","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t410","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t410","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t411","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t411","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t412","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t412","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t413","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t413","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t414","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t414","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t415","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t415","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t416","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t416","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t417","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t417","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t418","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t418","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t419","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:43.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t419","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t420","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t420","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t421","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t421","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t422","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t422","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t423","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t423","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t424","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t424","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t425","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t425","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t426","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t426","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t427","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t427","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t428","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t428","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t429","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:44.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t429","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t430","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t430","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t431","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t431","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t432","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t432","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t433","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t433","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t434","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t434","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t435","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t435","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t436","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t436","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t437","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t437","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t438","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t438","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t439","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:45.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t439","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t440","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t440","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t441","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t441","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t442","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t442","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t443","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t443","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t444","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t444","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t445","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t445","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t446","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t446","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t447","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t447","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t448","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t448","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t449","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:46.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t449","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t450","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t450","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t451","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t451","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t452","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t452","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t453","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t453","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t454","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t454","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t455","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t455","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t456","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t456","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t457","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t457","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t458","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t458","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t459","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:47.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t459","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t460","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t460","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t461","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t461","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t462","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t462","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t463","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t463","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t464","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t464","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t465","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t465","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t466","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t466","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t467","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t467","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t468","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t468","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t469","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:48.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t469","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t470","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t470","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t471","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t471","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t472","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t472","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t473","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t473","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t474","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t474","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t475","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t475","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t476","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t476","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t477","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t477","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t478","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t478","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t479","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:49.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t479","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t480","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t480","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t481","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t481","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t482","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t482","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t483","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t483","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t484","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t484","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t485","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t485","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t486","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t486","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t487","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t487","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t488","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t488","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t489","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:50.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t489","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t490","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t490","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t491","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t491","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t492","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t492","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t493","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t493","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t494","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t494","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t495","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t495","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t496","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t496","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t497","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t497","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t498","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t498","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t499","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:51.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t499","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t500","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t500","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t501","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t501","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t502","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t502","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t503","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t503","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t504","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t504","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t505","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t505","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t506","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t506","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t507","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t507","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t508","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t508","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t509","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:52.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t509","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t510","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t510","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t511","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t511","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t512","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t512","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t513","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t513","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t514","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t514","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t515","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t515","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t516","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t516","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t517","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t517","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t518","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t518","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t519","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:53.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t519","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t520","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t520","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t521","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t521","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t522","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t522","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t523","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t523","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t524","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t524","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t525","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t525","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t526","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t526","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t527","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t527","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t528","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t528","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t529","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:54.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t529","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t530","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t530","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t531","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t531","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t532","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t532","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t533","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t533","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t534","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t534","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t535","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t535","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t536","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t536","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t537","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t537","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t538","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t538","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t539","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:55.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t539","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t540","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t540","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t541","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t541","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t542","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t542","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t543","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t543","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t544","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t544","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t545","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t545","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t546","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t546","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t547","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t547","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t548","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t548","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t549","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:56.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t549","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t550","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t550","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t551","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t551","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t552","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t552","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t553","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t553","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t554","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t554","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t555","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t555","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t556","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t556","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t557","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t557","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t558","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t558","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t559","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:57.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t559","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t560","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t560","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t561","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t561","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t562","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t562","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t563","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t563","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t564","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t564","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t565","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t565","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t566","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t566","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t567","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t567","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t568","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t568","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t569","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:58.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t569","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t570","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t570","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t571","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t571","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t572","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t572","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t573","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t573","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t574","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t574","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t575","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t575","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t576","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t576","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t577","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t577","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t578","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t578","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t579","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:00:59.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t579","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t580","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t580","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t581","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t581","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t582","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t582","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t583","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t583","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t584","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t584","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t585","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t585","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t586","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t586","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t587","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t587","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t588","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t588","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t589","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:00.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t589","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t590","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t590","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.100Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t591","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.150Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t591","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.200Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t592","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.250Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t592","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.300Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t593","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.350Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t593","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.400Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t594","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.450Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t594","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.500Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t595","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.550Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t595","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.600Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t596","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.650Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t596","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.700Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t597","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.750Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t597","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.800Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t598","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.850Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t598","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.900Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t599","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:01.950Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t599","output":"{\"output\":\"test\"}"}}
+{"timestamp":"2026-09-28T10:01:02.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"t600","arguments":"{\"command\":\"echo test\"}"}}
+{"timestamp":"2026-09-28T10:01:02.050Z","type":"response_item","payload":{"type":"function_call_output","call_id":"t600","output":"{\"output\":\"test\"}"}}

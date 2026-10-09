@@ -1,0 +1,50 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude"
+            }
+          },
+          {
+            "key": "session.id",
+            "value": {
+              "stringValue": "res-sess"
+            }
+          },
+          {
+            "key": "gen_ai.tool.name",
+            "value": {
+              "stringValue": "from-resource"
+            }
+          },
+          {
+            "key": "gen_ai.operation.name",
+            "value": {
+              "stringValue": "execute_tool"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "s5",
+              "name": "execute_tool five",
+              "startTimeUnixNano": "1790593204000000000",
+              "endTimeUnixNano": "1790593204100000000",
+              "attributes": [
+                null
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

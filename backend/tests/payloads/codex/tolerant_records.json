@@ -1,0 +1,176 @@
+[
+  {
+    "id": "codex:tr01",
+    "rawId": "tr01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 30,
+    "run": {
+      "name": "Task with an odd stamp",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/tolerant_records/2026/09/28/rollout-2026-09-28T10-00-00-tr01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Task with an odd stamp",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "user",
+            "text": "Second message, null stamp"
+          },
+          {
+            "at": 0,
+            "kind": "user",
+            "text": "Third message, object stamp"
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "ls -la",
+            "out": "No result was recorded."
+          },
+          {
+            "at": 3,
+            "kind": "msg",
+            "text": ""
+          },
+          {
+            "at": 4,
+            "kind": "msg",
+            "text": "5"
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "{\"command\":\"ls\",\"x\":NaN}",
+            "out": "number result for string id",
+            "ms": 11000
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "shell",
+            "target": "5",
+            "out": "No result was recorded."
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "",
+            "out": "No result was recorded."
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "shell",
+            "target": "{\"command\":\"from array\"}",
+            "out": "No result was recorded."
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "shell",
+            "target": "from object",
+            "out": "No result was recorded."
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "shell",
+            "target": "numeric id",
+            "out": "number result for string id",
+            "ms": 5000
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "shell",
+            "target": "null id",
+            "out": "number result for string id",
+            "ms": 3000
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "shell",
+            "target": "string id",
+            "out": "No result was recorded."
+          },
+          {
+            "at": 17,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "object patch",
+            "out": "number result for string id",
+            "ms": 0
+          },
+          {
+            "at": 18,
+            "kind": "tool",
+            "name": "exec",
+            "target": "custom cmd",
+            "out": "number result for string id",
+            "ms": 0
+          },
+          {
+            "at": 19,
+            "kind": "tool",
+            "name": "shell",
+            "target": "ls -l",
+            "out": "number result for string id",
+            "ms": 0
+          },
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "web_search",
+            "target": "how to",
+            "out": ""
+          },
+          {
+            "at": 21,
+            "kind": "tool",
+            "name": "web_search",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 22,
+            "kind": "tool",
+            "name": "web_search",
+            "target": "with id",
+            "out": ""
+          },
+          {
+            "at": 24,
+            "kind": "msg",
+            "text": "5\nkept"
+          },
+          {
+            "at": 30,
+            "kind": "msg",
+            "text": "final failure"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/tolerant_records/2026/09/28/rollout-2026-09-28T10-00-00-tr01.jsonl",
+        "end": 30,
+        "final": "failed",
+        "returned": {
+          "summary": "kept",
+          "items": []
+        }
+      }
+    ]
+  }
+]

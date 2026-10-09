@@ -1,0 +1,16 @@
+{
+  "case": "snake_logs",
+  "ids": [
+    "otel-log:snake"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

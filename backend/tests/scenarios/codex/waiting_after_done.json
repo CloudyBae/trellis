@@ -1,0 +1,12 @@
+{
+  "case": "waiting_after_done",
+  "now": 1790596800000,
+  "sessionId": "codex:wd01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

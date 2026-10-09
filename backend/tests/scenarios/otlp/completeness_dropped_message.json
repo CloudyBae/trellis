@@ -1,0 +1,29 @@
+{
+  "case": "completeness_dropped_message",
+  "ids": [
+    "otel:dm"
+  ],
+  "project": true,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593900000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "generate": {
+          "kind": "spans",
+          "session": "dm",
+          "from": 0,
+          "to": 600,
+          "parent": "agent1"
+        }
+      },
+      "now": 1790593900000
+    }
+  ]
+}

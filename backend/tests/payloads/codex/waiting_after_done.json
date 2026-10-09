@@ -1,0 +1,41 @@
+[
+  {
+    "id": "codex:wd01",
+    "rawId": "wd01",
+    "live": true,
+    "t0": 1790596777000,
+    "endAt": 3,
+    "run": {
+      "name": "Say hello",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/waiting_after_done/2026/09/28/rollout-2026-09-28T10-00-00-wd01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Say hello",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "msg",
+            "text": "Hello."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/waiting_after_done/2026/09/28/rollout-2026-09-28T10-00-00-wd01.jsonl",
+        "phases": [
+          {
+            "at": 3,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ]
+      }
+    ]
+  }
+]

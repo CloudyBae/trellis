@@ -1,0 +1,52 @@
+[
+  {
+    "id": "copilot:s8",
+    "rawId": "s8",
+    "live": true,
+    "t0": 1790596710000,
+    "endAt": 35,
+    "run": {
+      "name": "Initial",
+      "repo": "jsonl",
+      "source": "GitHub Copilot",
+      "file": "~/mutation_log/workspaceStorage/h8/chatSessions/s8.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Initial",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "msg",
+            "text": "Response"
+          },
+          {
+            "at": 25,
+            "kind": "user",
+            "text": "Second"
+          },
+          {
+            "at": 35,
+            "kind": "msg",
+            "text": "More response"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/mutation_log/workspaceStorage/h8/chatSessions/s8.jsonl",
+        "phases": [
+          {
+            "at": 35,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ],
+        "approxTimes": true
+      }
+    ]
+  }
+]

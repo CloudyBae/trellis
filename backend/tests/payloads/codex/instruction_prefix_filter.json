@@ -1,0 +1,50 @@
+[
+  {
+    "id": "codex:ip01",
+    "rawId": "ip01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 10,
+    "run": {
+      "name": "First real prompt",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/instruction_prefix_filter/2026/09/28/rollout-2026-09-28T10-00-00-ip01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "First real prompt",
+        "context": [],
+        "turns": [
+          {
+            "at": 6,
+            "kind": "user",
+            "text": "#AGENTS.md is not the header"
+          },
+          {
+            "at": 7,
+            "kind": "user",
+            "text": "note # AGENTS.md in the middle"
+          },
+          {
+            "at": 9,
+            "kind": "user",
+            "text": "real after"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/instruction_prefix_filter/2026/09/28/rollout-2026-09-28T10-00-00-ip01.jsonl",
+        "end": 10,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

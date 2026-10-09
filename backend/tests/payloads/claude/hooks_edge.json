@@ -1,0 +1,561 @@
+[
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": false,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl",
+        "phases": [
+          {
+            "at": 60,
+            "state": "blocked",
+            "note": "Waiting for your approval to run Bash npm test."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl",
+        "phases": [
+          {
+            "at": 60,
+            "state": "blocked",
+            "note": "Approve to use Bash\u001cmore"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl",
+        "phases": [
+          {
+            "at": 60,
+            "state": "blocked",
+            "note": "Waiting for your approval to run Bash npm test."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": "",
+        "phases": [
+          {
+            "at": 60,
+            "state": "blocked",
+            "note": "Waiting for your approval to run Bash npm test."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cc:77777777-aaaa",
+    "rawId": "77777777-aaaa",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 20,
+    "hooks": true,
+    "run": {
+      "name": "Run the checks.",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Run the checks.",
+        "context": [],
+        "turns": [
+          {
+            "at": 20,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Agent",
+        "src": "Claude Code",
+        "start": 5,
+        "task": "Check lint",
+        "context": [],
+        "turns": [
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "Bash",
+            "target": "npm run lint",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/hooks_edge/-work-acme-api/77777777-aaaa/subagents/agent-agent-x.jsonl",
+        "parent": 1,
+        "brief": "",
+        "agentType": ""
+      }
+    ]
+  }
+]

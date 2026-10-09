@@ -1,0 +1,62 @@
+[
+  {
+    "id": "copilot:s6",
+    "rawId": "s6",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 50,
+    "run": {
+      "name": "Run work",
+      "repo": "complete",
+      "source": "GitHub Copilot",
+      "file": "~/complete_subagent/workspaceStorage/h6/chatSessions/s6.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Run work",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/complete_subagent/workspaceStorage/h6/chatSessions/s6.json",
+        "phases": [
+          {
+            "at": 50,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ],
+        "approxTimes": true
+      },
+      {
+        "id": 2,
+        "name": "Worker",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Run the work",
+        "context": [],
+        "turns": [
+          {
+            "at": 50,
+            "kind": "tool",
+            "name": "runInTerminal",
+            "target": "echo done",
+            "out": ""
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/complete_subagent/workspaceStorage/h6/chatSessions/s6.json",
+        "parent": 1,
+        "end": 50,
+        "final": "complete",
+        "returned": {
+          "summary": "Work done.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

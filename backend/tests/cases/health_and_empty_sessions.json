@@ -1,0 +1,35 @@
+{
+  "name": "health_and_empty_sessions",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/health"
+    },
+    {
+      "method": "GET",
+      "path": "/api/sessions"
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {
+        "ok": true,
+        "sources": [
+          "claude",
+          "codex",
+          "copilot"
+        ],
+        "sessions": 0
+      }
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": []
+    }
+  ]
+}

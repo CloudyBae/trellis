@@ -1,0 +1,136 @@
+[
+  {
+    "id": "codex:ss01",
+    "rawId": "ss01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 5,
+    "run": {
+      "name": "Lead the work",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/subagent_completeness/2026/09/28/rollout-2026-09-28T10-00-00-ss01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Codex",
+        "start": 0,
+        "task": "Lead the work",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "Delegating."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_completeness/2026/09/28/rollout-2026-09-28T10-00-00-ss01.jsonl",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "Delegating.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Chatty",
+        "src": "Codex",
+        "start": 2,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 3,
+            "kind": "msg",
+            "text": "No task was recorded."
+          }
+        ],
+        "completeness": "partial",
+        "file": "~/subagent_completeness/2026/09/28/rollout-2026-09-28T10-00-00-ss02.jsonl",
+        "parent": 1,
+        "end": 3,
+        "final": "complete",
+        "returned": {
+          "summary": "No task was recorded.",
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "Busy",
+        "src": "Codex",
+        "start": 3,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "ls",
+            "out": "x",
+            "ms": 100
+          }
+        ],
+        "completeness": "activity_only",
+        "file": "~/subagent_completeness/2026/09/28/rollout-2026-09-28T10-00-00-ss03.jsonl",
+        "parent": 1,
+        "end": 4,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 4,
+        "name": "Tasked",
+        "src": "Codex",
+        "start": 4,
+        "task": "Task for Tasked",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "ls",
+            "out": "x",
+            "ms": 100
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_completeness/2026/09/28/rollout-2026-09-28T10-00-00-ss04.jsonl",
+        "parent": 1,
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 5,
+        "name": "Empty",
+        "src": "Codex",
+        "start": 5,
+        "task": "No prompt was recorded.",
+        "context": [],
+        "turns": [],
+        "completeness": "activity_only",
+        "file": "~/subagent_completeness/2026/09/28/rollout-2026-09-28T10-00-00-ss05.jsonl",
+        "parent": 1,
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

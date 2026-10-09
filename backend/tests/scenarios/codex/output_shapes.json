@@ -1,0 +1,12 @@
+{
+  "case": "output_shapes",
+  "now": 1790596800000,
+  "sessionId": "codex:os01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

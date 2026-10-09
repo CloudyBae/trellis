@@ -1,0 +1,12 @@
+{
+  "case": "repo_numeric_branch",
+  "now": 1790596800000,
+  "sessionId": "codex:rn04",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

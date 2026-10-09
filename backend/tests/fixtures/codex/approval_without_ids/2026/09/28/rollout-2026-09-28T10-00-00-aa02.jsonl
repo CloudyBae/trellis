@@ -1,0 +1,4 @@
+{"timestamp":"2026-09-28T11:59:37.000Z","type":"session_meta","payload":{"id":"aa02","cwd":"/work/acme/web"}}
+{"timestamp":"2026-09-28T11:59:38.000Z","type":"event_msg","payload":{"type":"user_message","message":"Run the checks"}}
+{"timestamp":"2026-09-28T11:59:39.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":\"npm test\"}"}}
+{"timestamp":"2026-09-28T11:59:40.000Z","type":"event_msg","payload":{"type":"exec_approval_request","command":"npm test"}}

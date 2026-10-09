@@ -1,0 +1,236 @@
+[
+  {
+    "returned": 12,
+    "logged": 1,
+    "sessions": {
+      "otel-log:ts1": {
+        "id": "otel-log:ts1",
+        "rawId": "ts1",
+        "live": true,
+        "t0": 1790553600000,
+        "endAt": 39615,
+        "via": "logs",
+        "run": {
+          "name": "timestamps",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "timestamps",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "date-only",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39605,
+                "kind": "tool",
+                "name": "valid",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39607,
+                "kind": "tool",
+                "name": "zero-string",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39608,
+                "kind": "tool",
+                "name": "observed",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39609,
+                "kind": "tool",
+                "name": "zero-number",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39612,
+                "kind": "tool",
+                "name": "offset",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39613,
+                "kind": "tool",
+                "name": "primary-wins",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "invalid",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "empty",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "missing",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "epoch",
+                "target": "",
+                "out": ""
+              }
+            ],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 2,
+    "logged": 0,
+    "sessions": {
+      "otel-log:ts1": {
+        "id": "otel-log:ts1",
+        "rawId": "ts1",
+        "live": true,
+        "t0": 1790553600000,
+        "endAt": 39630,
+        "via": "logs",
+        "run": {
+          "name": "timestamps",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "timestamps",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "date-only",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39605,
+                "kind": "tool",
+                "name": "valid",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39607,
+                "kind": "tool",
+                "name": "zero-string",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39608,
+                "kind": "tool",
+                "name": "observed",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39609,
+                "kind": "tool",
+                "name": "zero-number",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39612,
+                "kind": "tool",
+                "name": "offset",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39613,
+                "kind": "tool",
+                "name": "primary-wins",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "invalid",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "empty",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "missing",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39615,
+                "kind": "tool",
+                "name": "epoch",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39620,
+                "kind": "tool",
+                "name": "later-valid",
+                "target": "",
+                "out": ""
+              },
+              {
+                "at": 39630,
+                "kind": "tool",
+                "name": "later-now",
+                "target": "",
+                "out": ""
+              }
+            ],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  }
+]

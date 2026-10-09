@@ -1,0 +1,3 @@
+{"kind":0,"v":{"version":3,"sessionId":"s8","creationDate":1790596710000,"requests":[]}}
+{"kind":1,"k":["requests"],"v":[{"requestId":"r1","timestamp":1790596710000,"message":{"text":"Initial"},"result":{"timings":{"totalElapsed":20000}},"response":[{"value":"Response"}]}]}
+{"kind":2,"k":["requests"],"v":[{"requestId":"r2","timestamp":1790596735000,"message":{"text":"Second"},"result":{"timings":{"totalElapsed":10000}},"response":[{"value":"More response"}]}]}

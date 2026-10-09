@@ -1,0 +1,33 @@
+{
+  "case": "source_names",
+  "ids": [
+    "otel:src1",
+    "otel:src2",
+    "otel:src3",
+    "otel:src4",
+    "otel:src5",
+    "otel:src6",
+    "otel:src7",
+    "otel:src8",
+    "otel:src9",
+    "otel:src10",
+    "otel:src11",
+    "otel:src12",
+    "otel:src13",
+    "otel:src14",
+    "otel:srcNum",
+    "otel:src15",
+    "otel:src16",
+    "otel:srcOverride"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

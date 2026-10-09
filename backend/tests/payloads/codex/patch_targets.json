@@ -1,0 +1,170 @@
+[
+  {
+    "id": "codex:pt01",
+    "rawId": "pt01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 30,
+    "run": {
+      "name": "Patch things",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/patch_targets/2026/09/28/rollout-2026-09-28T10-00-00-pt01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Patch things",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "a.txt",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "b.txt",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "c.txt\u001f",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "d1, d2 (+2)",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "*** Update File: ",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "x",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "mid.txt *** Add File: tail",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "e1, e2",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 11,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "f",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 12,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "h",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 13,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "5",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 14,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "i.txt",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 15,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "*** update file: lower.txt",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 16,
+            "kind": "tool",
+            "name": "apply_patch",
+            "target": "*** Move File: moved.txt",
+            "out": "done",
+            "ms": 100
+          },
+          {
+            "at": 30,
+            "kind": "tool",
+            "name": "exec",
+            "target": "src/x.ts",
+            "out": "No result was recorded."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/patch_targets/2026/09/28/rollout-2026-09-28T10-00-00-pt01.jsonl",
+        "end": 30,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

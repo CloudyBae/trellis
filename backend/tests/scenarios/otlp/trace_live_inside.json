@@ -1,0 +1,16 @@
+{
+  "case": "trace_live_inside",
+  "ids": [
+    "otel:lv1"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593800999
+    }
+  ]
+}

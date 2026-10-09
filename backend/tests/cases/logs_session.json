@@ -1,0 +1,76 @@
+{
+  "name": "logs_session",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/logs",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{\"resourceLogs\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"claude-code\"}}]},\"scopeLogs\":[{\"logRecords\":[{\"timeUnixNano\":\"1790596795000000000\",\"attributes\":[{\"key\":\"event.name\",\"value\":{\"stringValue\":\"claude_code.user_prompt\"}},{\"key\":\"session.id\",\"value\":{\"stringValue\":\"remote-1\"}},{\"key\":\"prompt\",\"value\":{\"stringValue\":\"From a container\"}}]}]}]}]}"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/sessions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/health"
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": [
+        {
+          "id": "otel-log:remote-1",
+          "rawId": "remote-1",
+          "live": true,
+          "t0": 1790596795000,
+          "endAt": 0,
+          "via": "logs",
+          "run": {
+            "name": "From a container",
+            "repo": "",
+            "source": "Claude Code",
+            "file": "OpenTelemetry logs"
+          },
+          "agents": [
+            {
+              "id": 1,
+              "name": "Main agent",
+              "src": "Claude Code",
+              "start": 0,
+              "task": "From a container",
+              "context": [],
+              "turns": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {
+        "ok": true,
+        "sources": [
+          "claude",
+          "codex",
+          "copilot"
+        ],
+        "sessions": 1
+      }
+    }
+  ]
+}

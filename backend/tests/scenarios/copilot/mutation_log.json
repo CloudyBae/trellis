@@ -1,0 +1,12 @@
+{
+  "case": "mutation_log",
+  "now": 1790596800000,
+  "sessionId": "copilot:s8",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

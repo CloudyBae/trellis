@@ -1,0 +1,16 @@
+{
+  "case": "completeness_open_output",
+  "ids": [
+    "otel:oo"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

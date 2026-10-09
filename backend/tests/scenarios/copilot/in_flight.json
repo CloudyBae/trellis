@@ -1,0 +1,12 @@
+{
+  "case": "in_flight",
+  "now": 1790596800000,
+  "sessionId": "copilot:s2",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

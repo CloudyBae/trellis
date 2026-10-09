@@ -1,0 +1,323 @@
+[
+  {
+    "returned": 36,
+    "logged": 10,
+    "sessions": {
+      "otel:vs": {
+        "id": "otel:vs",
+        "rawId": "vs",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 45,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "result-plain",
+                "target": "",
+                "out": "plain",
+                "ms": 10
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "result-int-string",
+                "target": "",
+                "out": "5",
+                "ms": 10
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "result-int-number",
+                "target": "",
+                "out": "7",
+                "ms": 10
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "result-int-null",
+                "target": "",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "result-double",
+                "target": "",
+                "out": "1.5",
+                "ms": 10
+              },
+              {
+                "at": 8,
+                "kind": "tool",
+                "name": "result-double-integral",
+                "target": "",
+                "out": "2",
+                "ms": 10
+              },
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "result-bool",
+                "target": "",
+                "out": "true",
+                "ms": 10
+              },
+              {
+                "at": 10,
+                "kind": "tool",
+                "name": "result-array-strings",
+                "target": "",
+                "out": "a\nb",
+                "ms": 10
+              },
+              {
+                "at": 11,
+                "kind": "tool",
+                "name": "result-array-mixed",
+                "target": "",
+                "out": "a",
+                "ms": 10
+              },
+              {
+                "at": 12,
+                "kind": "tool",
+                "name": "result-array-empty-object",
+                "target": "",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 15,
+                "kind": "tool",
+                "name": "result-array-null-values",
+                "target": "",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 16,
+                "kind": "tool",
+                "name": "result-kv-text",
+                "target": "",
+                "out": "kvtext",
+                "ms": 10
+              },
+              {
+                "at": 17,
+                "kind": "tool",
+                "name": "result-kv-order",
+                "target": "",
+                "out": "{\"b\":3,\"10\":2,\"2\":\"x\"}",
+                "ms": 10
+              },
+              {
+                "at": 18,
+                "kind": "tool",
+                "name": "result-kv-undefined-member",
+                "target": "",
+                "out": "{\"a\":null}",
+                "ms": 10
+              },
+              {
+                "at": 19,
+                "kind": "tool",
+                "name": "result-kv-nested",
+                "target": "",
+                "out": "{\"k\":[null,\"z\"]}",
+                "ms": 10
+              },
+              {
+                "at": 20,
+                "kind": "tool",
+                "name": "result-kv-null-values",
+                "target": "",
+                "out": "{}",
+                "ms": 10
+              },
+              {
+                "at": 22,
+                "kind": "tool",
+                "name": "result-kv-empty",
+                "target": "",
+                "out": "{}",
+                "ms": 10
+              },
+              {
+                "at": 23,
+                "kind": "tool",
+                "name": "result-empty-object",
+                "target": "",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 24,
+                "kind": "tool",
+                "name": "result-raw-string",
+                "target": "",
+                "out": "raw string",
+                "ms": 10
+              },
+              {
+                "at": 25,
+                "kind": "tool",
+                "name": "result-raw-number",
+                "target": "",
+                "out": "5",
+                "ms": 10
+              },
+              {
+                "at": 26,
+                "kind": "tool",
+                "name": "result-raw-zero",
+                "target": "",
+                "out": "0",
+                "ms": 10
+              },
+              {
+                "at": 27,
+                "kind": "tool",
+                "name": "result-raw-null",
+                "target": "",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 28,
+                "kind": "tool",
+                "name": "result-raw-false",
+                "target": "",
+                "out": "false",
+                "ms": 10
+              },
+              {
+                "at": 31,
+                "kind": "tool",
+                "name": "result-string-null",
+                "target": "",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 33,
+                "kind": "tool",
+                "name": "result-string-first",
+                "target": "",
+                "out": "s",
+                "ms": 10
+              },
+              {
+                "at": 34,
+                "kind": "tool",
+                "name": "result-int-before-double",
+                "target": "",
+                "out": "3",
+                "ms": 10
+              },
+              {
+                "at": 35,
+                "kind": "tool",
+                "name": "result-text-object",
+                "target": "",
+                "out": "ignored",
+                "ms": 10
+              },
+              {
+                "at": 36,
+                "kind": "tool",
+                "name": "arguments-json-string",
+                "target": "ls",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 37,
+                "kind": "tool",
+                "name": "arguments-kv-command",
+                "target": "kvcmd",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 38,
+                "kind": "tool",
+                "name": "arguments-array",
+                "target": "x",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 39,
+                "kind": "tool",
+                "name": "arguments-int",
+                "target": "5",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 41,
+                "kind": "tool",
+                "name": "arguments-plain-text",
+                "target": "plain args",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 42,
+                "kind": "tool",
+                "name": "arguments-bool",
+                "target": "true",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 43,
+                "kind": "tool",
+                "name": "arguments-empty",
+                "target": "",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 44,
+                "kind": "tool",
+                "name": "arguments-kv-path",
+                "target": "/a/b.txt",
+                "out": "status text",
+                "ms": 10
+              },
+              {
+                "at": 45,
+                "kind": "tool",
+                "name": "arguments-kv-pattern",
+                "target": "todo  src",
+                "out": "status text",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  }
+]

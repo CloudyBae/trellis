@@ -1,0 +1,63 @@
+{
+  "name": "hook_without_session",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{\"hook_event_name\":\"Stop\"}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{\"session_id\":\"unknown-session\",\"hook_event_name\":\"TotallyNew\"}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{\"session_id\":5,\"hook_event_name\":\"Stop\"}"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/sessions"
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": []
+    }
+  ]
+}

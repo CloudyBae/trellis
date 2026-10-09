@@ -1,0 +1,5 @@
+{"sessionId":"99999999-cccc","gitBranch":"feature/x","version":"2.1.0","type":"user","timestamp":"2026-09-28T10:00:00.000Z","message":{"role":"user","content":"Tidy the web bundle"}}
+{"type":"summary","summary":"Old summary","leafUuid":"u1"}
+{"sessionId":"99999999-cccc","gitBranch":"feature/x","version":"2.1.0","type":"assistant","timestamp":"2026-09-28T10:00:04.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Bundle tidied."}]}}
+{"type":"ai-title","aiTitle":"Generated title","sessionId":"99999999-cccc"}
+{"type":"custom-title","customTitle":"","sessionId":"99999999-cccc"}

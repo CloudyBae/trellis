@@ -1,0 +1,16 @@
+{
+  "case": "seconds_rounding",
+  "ids": [
+    "otel:sr"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593211500
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "case": "intake_shapes",
+  "ids": [
+    "otel:iv",
+    "otel:undefined"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "02-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "03-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "04-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "05-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "06-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "07-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "08-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "09-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "10-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "11-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "12-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "13-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "14-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "15-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "16-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "17-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "18-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "19-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "20-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "21-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "22-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "23-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "24-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "25-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "26-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "27-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "28-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "29-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "30-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "31-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "32-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "33-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "34-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "35-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "36-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "37-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "38-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "39-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "40-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "41-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "42-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "43-traces.json"
+      },
+      "now": 1790593260000
+    }
+  ]
+}

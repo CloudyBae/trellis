@@ -1,0 +1,146 @@
+{
+  "name": "wrong_host",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "headers": {
+        "host": "evil.example"
+      }
+    },
+    {
+      "method": "HEAD",
+      "path": "/api/sessions",
+      "headers": {
+        "host": "evil.example"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nope",
+      "headers": {
+        "host": "evil.example"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "headers": {
+        "host": "127.0.0.1"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "headers": {
+        "host": "127.0.0.1:1"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "headers": {
+        "host": "localhost:{port}"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "headers": {
+        "host": "[::1]:{port}"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "headers": {
+        "host": "LOCALHOST:{port}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hooks/claude",
+      "headers": {
+        "content-type": "application/json",
+        "host": "evil.example"
+      },
+      "body": {
+        "text": "{}"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json"
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {
+        "ok": true,
+        "sources": [
+          "claude",
+          "codex",
+          "copilot"
+        ],
+        "sessions": 0
+      }
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {
+        "ok": true,
+        "sources": [
+          "claude",
+          "codex",
+          "copilot"
+        ],
+        "sessions": 0
+      }
+    },
+    {
+      "status": 403,
+      "contentType": "application/json",
+      "keys": [
+        "error"
+      ]
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    }
+  ]
+}

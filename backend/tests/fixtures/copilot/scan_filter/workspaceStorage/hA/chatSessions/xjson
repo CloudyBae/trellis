@@ -1,0 +1,1 @@
+{"version":3,"sessionId":"file-no-dot","creationDate":1790586000000,"requests":[{"requestId":"r1","timestamp":1790586000000,"message":{"text":"file-no-dot"},"result":{"timings":{"totalElapsed":1000}},"response":[{"value":"ok"}]}]}

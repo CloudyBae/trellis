@@ -1,0 +1,40 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": 0,
+      "instrumentationLibrarySpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "g62",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593263000000000",
+              "endTimeUnixNano": "1790593263010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "iv"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "good-62"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

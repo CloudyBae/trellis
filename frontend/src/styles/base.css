@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 400 var(--text-body) / 1.5 var(--font);
+  -webkit-font-smoothing: antialiased;
+  caret-color: var(--focus);
+  font-variant-numeric: lining-nums;
+}
+::selection {
+  background: var(--leaf-soft);
+  color: var(--ink);
+}
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  button {
+    font: inherit;
+    color: inherit;
+  }
+  a {
+    color: inherit;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--stem);
+  }
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rule);
+  border-radius: 10px;
+  border: 3px solid var(--ground);
+}
+.num,
+.mono,
+time,
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+.mono {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  letter-spacing: -0.01em;
+}
+[hidden] {
+  display: none !important;
+}
+.sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,1490 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "r",
+              "name": "invoke_agent Root",
+              "startTimeUnixNano": "1790593200000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "Root"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "c",
+              "parentSpanId": "r",
+              "name": "invoke_agent Child",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593209000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "Child"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i1",
+              "parentSpanId": "c",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i2",
+              "parentSpanId": "i1",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i3",
+              "parentSpanId": "i2",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i4",
+              "parentSpanId": "i3",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i5",
+              "parentSpanId": "i4",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i6",
+              "parentSpanId": "i5",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i7",
+              "parentSpanId": "i6",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i8",
+              "parentSpanId": "i7",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i9",
+              "parentSpanId": "i8",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i10",
+              "parentSpanId": "i9",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i11",
+              "parentSpanId": "i10",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i12",
+              "parentSpanId": "i11",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i13",
+              "parentSpanId": "i12",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i14",
+              "parentSpanId": "i13",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i15",
+              "parentSpanId": "i14",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i16",
+              "parentSpanId": "i15",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i17",
+              "parentSpanId": "i16",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i18",
+              "parentSpanId": "i17",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i19",
+              "parentSpanId": "i18",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i20",
+              "parentSpanId": "i19",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i21",
+              "parentSpanId": "i20",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i22",
+              "parentSpanId": "i21",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i23",
+              "parentSpanId": "i22",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i24",
+              "parentSpanId": "i23",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i25",
+              "parentSpanId": "i24",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i26",
+              "parentSpanId": "i25",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i27",
+              "parentSpanId": "i26",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i28",
+              "parentSpanId": "i27",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i29",
+              "parentSpanId": "i28",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i30",
+              "parentSpanId": "i29",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i31",
+              "parentSpanId": "i30",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i32",
+              "parentSpanId": "i31",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i33",
+              "parentSpanId": "i32",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i34",
+              "parentSpanId": "i33",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i35",
+              "parentSpanId": "i34",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i36",
+              "parentSpanId": "i35",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i37",
+              "parentSpanId": "i36",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i38",
+              "parentSpanId": "i37",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i39",
+              "parentSpanId": "i38",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i40",
+              "parentSpanId": "i39",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i41",
+              "parentSpanId": "i40",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i42",
+              "parentSpanId": "i41",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i43",
+              "parentSpanId": "i42",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i44",
+              "parentSpanId": "i43",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i45",
+              "parentSpanId": "i44",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i46",
+              "parentSpanId": "i45",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i47",
+              "parentSpanId": "i46",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i48",
+              "parentSpanId": "i47",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i49",
+              "parentSpanId": "i48",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i50",
+              "parentSpanId": "i49",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i51",
+              "parentSpanId": "i50",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i52",
+              "parentSpanId": "i51",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i53",
+              "parentSpanId": "i52",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i54",
+              "parentSpanId": "i53",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i55",
+              "parentSpanId": "i54",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i56",
+              "parentSpanId": "i55",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i57",
+              "parentSpanId": "i56",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i58",
+              "parentSpanId": "i57",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i59",
+              "parentSpanId": "i58",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i60",
+              "parentSpanId": "i59",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i61",
+              "parentSpanId": "i60",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i62",
+              "parentSpanId": "i61",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "i63",
+              "parentSpanId": "i62",
+              "name": "internal step",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "internal"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "deep",
+              "parentSpanId": "i63",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593203100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "chain63"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "deep-tool"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

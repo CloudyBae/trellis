@@ -1,0 +1,30 @@
+{
+  "case": "stop_then_end",
+  "now": 1790596800000,
+  "sessionId": "cc:44444444-dddd",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "44444444-dddd",
+          "hook_event_name": "Stop"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "44444444-dddd",
+          "hook_event_name": "SessionEnd"
+        }
+      }
+    }
+  ]
+}

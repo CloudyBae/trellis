@@ -1,0 +1,9 @@
+[
+  {
+    "returned": 0,
+    "logged": 0,
+    "sessions": {
+      "otel:snake": null
+    }
+  }
+]

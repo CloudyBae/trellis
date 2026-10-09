@@ -1,0 +1,22 @@
+{
+  "case": "log_refresh_edge",
+  "ids": [
+    "otel-log:lv8"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593202000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790593861000
+    }
+  ]
+}

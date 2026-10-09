@@ -1,0 +1,12 @@
+{
+  "case": "sentinel_prompt",
+  "now": 1790596800000,
+  "sessionId": "copilot:s3",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

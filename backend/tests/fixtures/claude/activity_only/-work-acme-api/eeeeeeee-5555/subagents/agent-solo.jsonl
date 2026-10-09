@@ -1,0 +1,2 @@
+{"sessionId":"eeeeeeee-5555","cwd":"/work/acme/api","gitBranch":"main","version":"2.1.0","isSidechain":true,"agentId":"solo","type":"assistant","timestamp":"2026-09-28T10:00:04.000Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"s1","name":"Bash","input":{"command":"ls"}}]}}
+{"sessionId":"eeeeeeee-5555","cwd":"/work/acme/api","gitBranch":"main","version":"2.1.0","isSidechain":true,"agentId":"solo","type":"user","timestamp":"2026-09-28T10:00:05.000Z","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"s1","content":"package.json"}]}}

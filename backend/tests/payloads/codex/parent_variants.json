@@ -1,0 +1,322 @@
+[
+  {
+    "id": "codex:pv00",
+    "rawId": "pv00",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 61,
+    "run": {
+      "name": "Root of the variants",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv00.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Codex",
+        "start": 0,
+        "task": "Root of the variants",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv00.jsonl",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "S01",
+        "src": "Codex",
+        "start": 1,
+        "task": "Task pv01",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv01.jsonl",
+        "parent": 1,
+        "end": 2,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "S02",
+        "src": "Codex",
+        "start": 2,
+        "task": "Task pv02",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv02.jsonl",
+        "parent": 1,
+        "end": 3,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 4,
+        "name": "S03",
+        "src": "Codex",
+        "start": 3,
+        "task": "Task pv03",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv03.jsonl",
+        "parent": 1,
+        "end": 4,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 5,
+        "name": "S04",
+        "src": "Codex",
+        "start": 4,
+        "task": "Task pv04",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv04.jsonl",
+        "parent": 1,
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 6,
+        "name": "S05",
+        "src": "Codex",
+        "start": 5,
+        "task": "Task pv05",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv05.jsonl",
+        "parent": 1,
+        "end": 6,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 7,
+        "name": "S06",
+        "src": "Codex",
+        "start": 6,
+        "task": "Task pv06",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv06.jsonl",
+        "parent": 1,
+        "end": 7,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 8,
+        "name": "S07",
+        "src": "Codex",
+        "start": 7,
+        "task": "Task pv07",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv07.jsonl",
+        "parent": 1,
+        "end": 8,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 9,
+        "name": "S08",
+        "src": "Codex",
+        "start": 8,
+        "task": "Task pv08",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv08.jsonl",
+        "parent": 1,
+        "end": 9,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 10,
+        "name": "S13",
+        "src": "Codex",
+        "start": 13,
+        "task": "Task pv13",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv13.jsonl",
+        "parent": 1,
+        "end": 14,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 11,
+        "name": "S16",
+        "src": "Codex",
+        "start": 16,
+        "task": "Task pv16",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv16.jsonl",
+        "parent": 1,
+        "end": 17,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 12,
+        "name": "S18",
+        "src": "Codex",
+        "start": 18,
+        "task": "Task pv18",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv18.jsonl",
+        "parent": 1,
+        "end": 19,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 13,
+        "name": "S21",
+        "src": "Codex",
+        "start": 21,
+        "task": "Task pv21",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv21.jsonl",
+        "parent": 1,
+        "end": 22,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 14,
+        "name": "S22",
+        "src": "Codex",
+        "start": 22,
+        "task": "Task pv22",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv22.jsonl",
+        "parent": 1,
+        "end": 23,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 15,
+        "name": "Subagent",
+        "src": "Codex",
+        "start": 23,
+        "task": "Task pv23",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv23.jsonl",
+        "parent": 1,
+        "end": 24,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 16,
+        "name": "Subagent",
+        "src": "Codex",
+        "start": 24,
+        "task": "Task pv24",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv24.jsonl",
+        "parent": 1,
+        "end": 25,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 17,
+        "name": "Grandchild",
+        "src": "Codex",
+        "start": 60,
+        "task": "Task pv90",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/parent_variants/2026/09/28/rollout-2026-09-28T10-00-00-pv90.jsonl",
+        "parent": 2,
+        "end": 61,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

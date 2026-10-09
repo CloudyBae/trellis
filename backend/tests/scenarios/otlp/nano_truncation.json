@@ -1,0 +1,16 @@
+{
+  "case": "nano_truncation",
+  "ids": [
+    "otel:nt-trunc"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593200000
+    }
+  ]
+}

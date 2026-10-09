@@ -1,0 +1,26 @@
+{
+  "case": "attribute_merge",
+  "ids": [
+    "otel:res-sess",
+    "otel:span-sess",
+    "otel:T3",
+    "otel:list-key-sess"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593210000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "02-traces.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

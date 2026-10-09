@@ -1,0 +1,54 @@
+{
+  "literals": [
+    {
+      "text": "1790506799999999999",
+      "string": "1790506800000000000",
+      "isInteger": true
+    },
+    {
+      "text": "1790506801000000001",
+      "string": "1790506801000000000",
+      "isInteger": true
+    },
+    {
+      "text": "9007199254740993",
+      "string": "9007199254740992",
+      "isInteger": true
+    },
+    {
+      "text": "-9007199254740993",
+      "string": "-9007199254740992",
+      "isInteger": true
+    },
+    {
+      "text": "9007199254740992",
+      "string": "9007199254740992",
+      "isInteger": true
+    },
+    {
+      "text": "12345",
+      "string": "12345",
+      "isInteger": true
+    },
+    {
+      "text": "-7",
+      "string": "-7",
+      "isInteger": true
+    },
+    {
+      "text": "0",
+      "string": "0",
+      "isInteger": true
+    },
+    {
+      "text": "1e3",
+      "string": "1000",
+      "isInteger": true
+    },
+    {
+      "text": "2.50",
+      "string": "2.5",
+      "isInteger": false
+    }
+  ]
+}

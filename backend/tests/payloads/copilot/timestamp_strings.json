@@ -1,0 +1,79 @@
+[
+  {
+    "id": "copilot:s18",
+    "rawId": "s18",
+    "live": true,
+    "t0": 1790586000000,
+    "endAt": 40,
+    "run": {
+      "name": "First",
+      "repo": "stamps",
+      "source": "GitHub Copilot",
+      "file": "~/timestamp_strings/workspaceStorage/h18/chatSessions/s18.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "First",
+        "context": [],
+        "turns": [
+          {
+            "at": 4,
+            "kind": "msg",
+            "text": "one"
+          },
+          {
+            "at": 0,
+            "kind": "user",
+            "text": "Empty stamp"
+          },
+          {
+            "at": 2,
+            "kind": "msg",
+            "text": "two"
+          },
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "t2",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 20,
+            "kind": "user",
+            "text": "Numeric string stamp"
+          },
+          {
+            "at": 24,
+            "kind": "msg",
+            "text": "three"
+          },
+          {
+            "at": 24,
+            "kind": "tool",
+            "name": "t3",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 40,
+            "kind": "user",
+            "text": "Numeric string, one part"
+          },
+          {
+            "at": 40,
+            "kind": "msg",
+            "text": "four"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/timestamp_strings/workspaceStorage/h18/chatSessions/s18.json",
+        "approxTimes": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+{"sessionId":"77777777-aaaa","cwd":"/work/acme/api","gitBranch":"main","version":"2.1.0","isSidechain":true,"agentId":"agent-x","type":"user","timestamp":"2026-09-28T11:59:05.000Z","message":{"role":"user","content":"Check lint"}}
+{"sessionId":"77777777-aaaa","cwd":"/work/acme/api","gitBranch":"main","version":"2.1.0","isSidechain":true,"agentId":"agent-x","type":"assistant","timestamp":"2026-09-28T11:59:10.000Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"sub1","name":"Bash","input":{"command":"npm run lint"}}]}}

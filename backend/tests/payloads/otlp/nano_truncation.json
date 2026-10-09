@@ -1,0 +1,65 @@
+[
+  {
+    "returned": 3,
+    "logged": 0,
+    "sessions": {
+      "otel:nt-trunc": {
+        "id": "otel:nt-trunc",
+        "rawId": "nt-trunc",
+        "live": false,
+        "t0": -1499,
+        "endAt": 5,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "negative-start",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "one-second",
+                "target": "",
+                "out": "",
+                "ms": 0
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "positive-tail",
+                "target": "",
+                "out": "",
+                "ms": 501
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "returned": 2,
+    "logged": 0,
+    "sessions": {
+      "otel:dm": {
+        "live": false,
+        "t0": 1790593190000,
+        "endAt": 5,
+        "agents": [
+          {
+            "id": 1,
+            "turns": 1,
+            "trimmed": null,
+            "first": [
+              "msg",
+              "early message",
+              5
+            ],
+            "last": [
+              "msg",
+              "early message",
+              5
+            ]
+          }
+        ],
+        "completeness": [
+          "partial"
+        ]
+      }
+    }
+  },
+  {
+    "returned": 600,
+    "logged": 0,
+    "sessions": {
+      "otel:dm": {
+        "live": true,
+        "t0": 1790593190000,
+        "endAt": 609,
+        "agents": [
+          {
+            "id": 1,
+            "turns": 600,
+            "trimmed": 1,
+            "first": [
+              "tool",
+              "tool0",
+              10
+            ],
+            "last": [
+              "tool",
+              "tool599",
+              609
+            ]
+          }
+        ],
+        "completeness": [
+          "partial"
+        ]
+      }
+    }
+  }
+]

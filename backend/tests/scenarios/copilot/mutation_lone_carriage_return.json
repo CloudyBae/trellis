@@ -1,0 +1,12 @@
+{
+  "case": "mutation_lone_carriage_return",
+  "now": 1790596800000,
+  "sessionId": "copilot:s20",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

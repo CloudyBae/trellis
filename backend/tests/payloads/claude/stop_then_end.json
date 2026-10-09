@@ -1,0 +1,153 @@
+[
+  {
+    "id": "cc:44444444-dddd",
+    "rawId": "44444444-dddd",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 58,
+    "hooks": false,
+    "run": {
+      "name": "Summarise the release notes",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/stop_then_end/-work-acme-api/44444444-dddd.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Summarise the release notes",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "msg",
+            "text": "Reading the notes."
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "Read",
+            "target": "RELEASE.md",
+            "out": "Release notes body",
+            "ms": 1000
+          },
+          {
+            "at": 58,
+            "kind": "msg",
+            "text": "Here is the summary."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/stop_then_end/-work-acme-api/44444444-dddd.jsonl"
+      }
+    ]
+  },
+  {
+    "id": "cc:44444444-dddd",
+    "rawId": "44444444-dddd",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 58,
+    "hooks": true,
+    "run": {
+      "name": "Summarise the release notes",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/stop_then_end/-work-acme-api/44444444-dddd.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Summarise the release notes",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "msg",
+            "text": "Reading the notes."
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "Read",
+            "target": "RELEASE.md",
+            "out": "Release notes body",
+            "ms": 1000
+          },
+          {
+            "at": 58,
+            "kind": "msg",
+            "text": "Here is the summary."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/stop_then_end/-work-acme-api/44444444-dddd.jsonl",
+        "phases": [
+          {
+            "at": 58,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cc:44444444-dddd",
+    "rawId": "44444444-dddd",
+    "live": false,
+    "t0": 1790596740000,
+    "endAt": 58,
+    "hooks": true,
+    "run": {
+      "name": "Summarise the release notes",
+      "repo": "api (main)",
+      "source": "Claude Code",
+      "file": "~/stop_then_end/-work-acme-api/44444444-dddd.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Summarise the release notes",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "msg",
+            "text": "Reading the notes."
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "Read",
+            "target": "RELEASE.md",
+            "out": "Release notes body",
+            "ms": 1000
+          },
+          {
+            "at": 58,
+            "kind": "msg",
+            "text": "Here is the summary."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/stop_then_end/-work-acme-api/44444444-dddd.jsonl",
+        "end": 58,
+        "final": "complete",
+        "returned": {
+          "summary": "Here is the summary.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,453 @@
+{
+  "function": "targetOf",
+  "cases": [
+    {
+      "input": [
+        null
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        ""
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "plain string\nsecond"
+      ],
+      "output": "plain string"
+    },
+    {
+      "input": [
+        "{\"command\":\"ls -la\\nfoo\"}"
+      ],
+      "output": "ls -la"
+    },
+    {
+      "input": [
+        "{\"file_path\":\"/work/a/b.ts\"}",
+        "/work/a"
+      ],
+      "output": "b.ts"
+    },
+    {
+      "input": [
+        "[1,2]"
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "[\"x\",\"y\"]"
+      ],
+      "output": "x"
+    },
+    {
+      "input": [
+        "\"quoted\""
+      ],
+      "output": "quoted"
+    },
+    {
+      "input": [
+        "123"
+      ],
+      "output": "123"
+    },
+    {
+      "input": [
+        "true"
+      ],
+      "output": "true"
+    },
+    {
+      "input": [
+        "null"
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "{bad json"
+      ],
+      "output": "{bad json"
+    },
+    {
+      "input": [
+        "NaN"
+      ],
+      "output": "NaN"
+    },
+    {
+      "input": [
+        "Infinity"
+      ],
+      "output": "Infinity"
+    },
+    {
+      "input": [
+        "-Infinity"
+      ],
+      "output": "-Infinity"
+    },
+    {
+      "input": [
+        "{\"n\":NaN}"
+      ],
+      "output": "{\"n\":NaN}"
+    },
+    {
+      "input": [
+        "  {\"path\": \"/home/synthetic/x.ts\"}  "
+      ],
+      "output": "~/x.ts"
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "bash",
+            "-lc",
+            "rg -n x"
+          ]
+        }
+      ],
+      "output": "rg -n x"
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "zsh",
+            "-c",
+            "x y"
+          ]
+        }
+      ],
+      "output": "x y"
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "sh",
+            "a"
+          ]
+        }
+      ],
+      "output": "sh a"
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "/bin/bash",
+            "-lc",
+            "echo hi"
+          ]
+        }
+      ],
+      "output": "echo hi"
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "bash/",
+            "-lc",
+            "echo slash"
+          ]
+        }
+      ],
+      "output": "echo slash"
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "ls",
+            "-la",
+            null
+          ]
+        }
+      ],
+      "output": "ls -la "
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "ls",
+            "-la",
+            "dir"
+          ]
+        }
+      ],
+      "output": "ls -la dir"
+    },
+    {
+      "input": [
+        {
+          "command": [
+            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "b",
+            "c"
+          ]
+        }
+      ],
+      "output": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…"
+    },
+    {
+      "input": [
+        {
+          "cmd": "do it"
+        }
+      ],
+      "output": "do it"
+    },
+    {
+      "input": [
+        {
+          "command": "a\nb"
+        }
+      ],
+      "output": "a"
+    },
+    {
+      "input": [
+        {
+          "command": 5,
+          "file_path": "/x/y"
+        }
+      ],
+      "output": "/x/y"
+    },
+    {
+      "input": [
+        {
+          "command": null,
+          "cmd": "fallback"
+        }
+      ],
+      "output": "fallback"
+    },
+    {
+      "input": [
+        {
+          "pattern": "foo",
+          "path": "/work/a/src"
+        },
+        "/work/a"
+      ],
+      "output": "foo  src"
+    },
+    {
+      "input": [
+        {
+          "pattern": "foo"
+        }
+      ],
+      "output": "foo"
+    },
+    {
+      "input": [
+        {
+          "pattern": "foo",
+          "path": 7
+        }
+      ],
+      "output": "foo  7"
+    },
+    {
+      "input": [
+        {
+          "pattern": "foo",
+          "path": ""
+        }
+      ],
+      "output": "foo"
+    },
+    {
+      "input": [
+        {
+          "file_path": "/home/synthetic/x.ts"
+        }
+      ],
+      "output": "~/x.ts"
+    },
+    {
+      "input": [
+        {
+          "file_path": "/work/apple/x",
+          "path": "/other"
+        },
+        "/work/a"
+      ],
+      "output": "/work/apple/x"
+    },
+    {
+      "input": [
+        {
+          "notebook_path": "/work/a/n.ipynb"
+        },
+        "/work/a"
+      ],
+      "output": "n.ipynb"
+    },
+    {
+      "input": [
+        {
+          "filePath": "/work/a/f.ts"
+        },
+        "/work/a"
+      ],
+      "output": "f.ts"
+    },
+    {
+      "input": [
+        {
+          "url": "http://x.test\nmore"
+        }
+      ],
+      "output": "http://x.test"
+    },
+    {
+      "input": [
+        {
+          "query": "q\nz",
+          "url": 5
+        }
+      ],
+      "output": "q"
+    },
+    {
+      "input": [
+        {
+          "skill": "s"
+        }
+      ],
+      "output": "s"
+    },
+    {
+      "input": [
+        {
+          "description": "d"
+        }
+      ],
+      "output": "d"
+    },
+    {
+      "input": [
+        {
+          "prompt": "p"
+        }
+      ],
+      "output": "p"
+    },
+    {
+      "input": [
+        {
+          "message": "m"
+        }
+      ],
+      "output": "m"
+    },
+    {
+      "input": [
+        {
+          "other": 5,
+          "second": "val"
+        }
+      ],
+      "output": "val"
+    },
+    {
+      "input": [
+        {
+          "1": "one",
+          "b": "two"
+        }
+      ],
+      "output": "one"
+    },
+    {
+      "input": [
+        {
+          "1": "one",
+          "b": "two"
+        }
+      ],
+      "output": "one"
+    },
+    {
+      "input": [
+        {
+          "2": "two-num",
+          "b": "two",
+          "01": "zero-one"
+        }
+      ],
+      "output": "two-num"
+    },
+    {
+      "input": [
+        {
+          "a": "",
+          "b": "later"
+        }
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        {}
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        {
+          "nothing": 1
+        }
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        [
+          "a",
+          "b"
+        ]
+      ],
+      "output": "a"
+    },
+    {
+      "input": [
+        []
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        42
+      ],
+      "output": "42"
+    },
+    {
+      "input": [
+        false
+      ],
+      "output": "false"
+    },
+    {
+      "input": [
+        {
+          "file_path": "über/café.ts"
+        }
+      ],
+      "output": "über/café.ts"
+    }
+  ]
+}

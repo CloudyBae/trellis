@@ -1,0 +1,96 @@
+{
+  "case": "hooks_edge",
+  "now": 1790596800000,
+  "sessionId": "cc:77777777-aaaa",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "Notification",
+          "notification_type": "permission_prompt",
+          "message": "Approve to use Bash\ufefftail"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "PostToolUse",
+          "tool_name": "Bash"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "Notification",
+          "notification_type": "permission_prompt",
+          "message": "Approve to use Bash\u001cmore"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "Stop"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "Notification",
+          "notification_type": "other",
+          "message": "permi\u017f\u017fion needed"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "Notification",
+          "notification_type": "other",
+          "message": "PERMISSION needed"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "PermissionRequest",
+          "tool_name": "Bash",
+          "agent_id": "agent-x"
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "hook",
+        "payload": {
+          "session_id": "77777777-aaaa",
+          "hook_event_name": "PostToolUse",
+          "tool_name": "Bash"
+        }
+      }
+    }
+  ]
+}

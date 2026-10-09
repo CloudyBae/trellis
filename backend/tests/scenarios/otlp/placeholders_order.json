@@ -1,0 +1,22 @@
+{
+  "case": "placeholders_order",
+  "ids": [
+    "otel:ph"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790593805000
+    }
+  ]
+}

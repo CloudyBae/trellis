@@ -1,0 +1,33 @@
+[
+  {
+    "returned": 5000,
+    "logged": 0,
+    "sessions": {
+      "otel:span5000": {
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 4999,
+        "agents": [
+          {
+            "id": 1,
+            "turns": 600,
+            "trimmed": 4400,
+            "first": [
+              "tool",
+              "tool4400",
+              4400
+            ],
+            "last": [
+              "tool",
+              "tool4999",
+              4999
+            ]
+          }
+        ],
+        "completeness": [
+          "activity_only"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "case": "clip_units",
+  "now": 1790596800000,
+  "sessionId": "codex:cu01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

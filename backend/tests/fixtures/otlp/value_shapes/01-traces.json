@@ -1,0 +1,1803 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "r1",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593201010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-plain"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "plain"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r2",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-int-string"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": "5"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r3",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593203010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-int-number"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": 7
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r4",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593204000000000",
+              "endTimeUnixNano": "1790593204010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-int-null"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": null
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r5",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593205000000000",
+              "endTimeUnixNano": "1790593205010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-int-empty"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": ""
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r6",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593206000000000",
+              "endTimeUnixNano": "1790593206010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-int-text"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": "abc"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r7",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593207000000000",
+              "endTimeUnixNano": "1790593207010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-int-float"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": "5.5"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r8",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593208000000000",
+              "endTimeUnixNano": "1790593208010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-double"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "doubleValue": 1.5
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r9",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593209000000000",
+              "endTimeUnixNano": "1790593209010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-double-integral"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "doubleValue": 2.0
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r10",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593210000000000",
+              "endTimeUnixNano": "1790593210010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-bool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "boolValue": true
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r11",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593211000000000",
+              "endTimeUnixNano": "1790593211010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-array-strings"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "a"
+                        },
+                        {
+                          "stringValue": "b"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r12",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593212000000000",
+              "endTimeUnixNano": "1790593212010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-array-mixed"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "a"
+                        },
+                        {
+                          "intValue": "2"
+                        },
+                        {
+                          "boolValue": true
+                        },
+                        {
+                          "doubleValue": 1.5
+                        },
+                        {}
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r13",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593213000000000",
+              "endTimeUnixNano": "1790593213010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-array-empty-object"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "arrayValue": {}
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r14",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593214000000000",
+              "endTimeUnixNano": "1790593214010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-array-number"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "arrayValue": 5
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r15",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593215000000000",
+              "endTimeUnixNano": "1790593215010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-array-string"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "arrayValue": "abc"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r16",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593216000000000",
+              "endTimeUnixNano": "1790593216010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-array-null-values"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "arrayValue": {
+                      "values": null
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r17",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593217000000000",
+              "endTimeUnixNano": "1790593217010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-kv-text"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "kvlistValue": {
+                      "values": [
+                        {
+                          "key": "text",
+                          "value": {
+                            "stringValue": "kvtext"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r18",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593218000000000",
+              "endTimeUnixNano": "1790593218010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-kv-order"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "kvlistValue": {
+                      "values": [
+                        {
+                          "key": "b",
+                          "value": {
+                            "intValue": "1"
+                          }
+                        },
+                        {
+                          "key": "10",
+                          "value": {
+                            "intValue": "2"
+                          }
+                        },
+                        {
+                          "key": "2",
+                          "value": {
+                            "stringValue": "x"
+                          }
+                        },
+                        {
+                          "key": "b",
+                          "value": {
+                            "intValue": "3"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r19",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593219000000000",
+              "endTimeUnixNano": "1790593219010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-kv-undefined-member"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "kvlistValue": {
+                      "values": [
+                        {
+                          "key": "a",
+                          "value": {}
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r20",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593220000000000",
+              "endTimeUnixNano": "1790593220010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-kv-nested"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "kvlistValue": {
+                      "values": [
+                        {
+                          "key": "k",
+                          "value": {
+                            "arrayValue": {
+                              "values": [
+                                {},
+                                {
+                                  "stringValue": "z"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r21",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593221000000000",
+              "endTimeUnixNano": "1790593221010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-kv-null-values"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "kvlistValue": {
+                      "values": null
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r22",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593222000000000",
+              "endTimeUnixNano": "1790593222010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-kv-number"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "kvlistValue": 5
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r23",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593223000000000",
+              "endTimeUnixNano": "1790593223010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-kv-empty"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "kvlistValue": {}
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r24",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593224000000000",
+              "endTimeUnixNano": "1790593224010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-empty-object"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {}
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r25",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593225000000000",
+              "endTimeUnixNano": "1790593225010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-raw-string"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "raw string"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r26",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593226000000000",
+              "endTimeUnixNano": "1790593226010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-raw-number"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": "5"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r27",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593227000000000",
+              "endTimeUnixNano": "1790593227010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-raw-zero"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "intValue": "0"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r28",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593228000000000",
+              "endTimeUnixNano": "1790593228010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-raw-null"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": null
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r29",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593229000000000",
+              "endTimeUnixNano": "1790593229010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-raw-false"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "boolValue": false
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r30",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593230000000000",
+              "endTimeUnixNano": "1790593230010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-raw-empty-list"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": []
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r31",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593231000000000",
+              "endTimeUnixNano": "1790593231010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-raw-list"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": [
+                    "x"
+                  ]
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r32",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593232000000000",
+              "endTimeUnixNano": "1790593232010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-string-null"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": null
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r33",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593233000000000",
+              "endTimeUnixNano": "1790593233010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-string-number"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": 5
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r34",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593234000000000",
+              "endTimeUnixNano": "1790593234010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-string-first"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "s",
+                    "intValue": "1"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r35",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593235000000000",
+              "endTimeUnixNano": "1790593235010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-int-before-double"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "doubleValue": 1.5,
+                    "intValue": "3"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r36",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593236000000000",
+              "endTimeUnixNano": "1790593236010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "result-text-object"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.result",
+                  "value": {
+                    "stringValue": "ignored",
+                    "other": 1
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r37",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593237000000000",
+              "endTimeUnixNano": "1790593237010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-json-string"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "{\"command\":\"ls\"}"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r38",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593238000000000",
+              "endTimeUnixNano": "1790593238010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-kv-command"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "kvlistValue": {
+                      "values": [
+                        {
+                          "key": "command",
+                          "value": {
+                            "stringValue": "kvcmd"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r39",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593239000000000",
+              "endTimeUnixNano": "1790593239010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-array"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "x"
+                        },
+                        {
+                          "stringValue": "y"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r40",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593240000000000",
+              "endTimeUnixNano": "1790593240010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-int"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "intValue": "5"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r41",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593241000000000",
+              "endTimeUnixNano": "1790593241010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-int-text"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "intValue": "abc"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r42",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593242000000000",
+              "endTimeUnixNano": "1790593242010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-plain-text"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "stringValue": "plain args\nsecond"
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r43",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593243000000000",
+              "endTimeUnixNano": "1790593243010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-bool"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "boolValue": true
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r44",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593244000000000",
+              "endTimeUnixNano": "1790593244010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-empty"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {}
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r45",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593245000000000",
+              "endTimeUnixNano": "1790593245010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-kv-path"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "kvlistValue": {
+                      "values": [
+                        {
+                          "key": "path",
+                          "value": {
+                            "stringValue": "/a/b.txt"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            },
+            {
+              "traceId": "T",
+              "spanId": "r46",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593246000000000",
+              "endTimeUnixNano": "1790593246010000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "vs"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "arguments-kv-pattern"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.call.arguments",
+                  "value": {
+                    "kvlistValue": {
+                      "values": [
+                        {
+                          "key": "pattern",
+                          "value": {
+                            "stringValue": "todo"
+                          }
+                        },
+                        {
+                          "key": "path",
+                          "value": {
+                            "stringValue": "src"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "status": {
+                "message": "status text"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

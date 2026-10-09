@@ -1,0 +1,28 @@
+.tool-leaf {
+  fill: var(--leaf);
+  stroke: var(--leaf-ink);
+  stroke-width: 0.9;
+  stroke-linejoin: round;
+  transition:
+    opacity var(--duration-fade) ease,
+    fill var(--duration-recolor) ease;
+}
+.tool-leaf.failed {
+  fill: var(--rose);
+  stroke: var(--rose-ink);
+}
+.tool-leaf.pending {
+  fill: none;
+  stroke-width: 1.2;
+}
+.done .tool-leaf {
+  fill: var(--leaf-done);
+  stroke-opacity: 0.55;
+}
+.done .tool-leaf.failed {
+  fill: var(--rose);
+  stroke-opacity: 1;
+}
+.done .tool-leaf.pending {
+  fill: none;
+}

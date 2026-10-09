@@ -1,0 +1,57 @@
+[
+  {
+    "returned": 3,
+    "logged": 0,
+    "sessions": {
+      "otel:nt2": {
+        "id": "otel:nt2",
+        "rawId": "nt2",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker  \t",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "tool_b \u00a0",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "tool_c",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

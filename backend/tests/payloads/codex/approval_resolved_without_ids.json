@@ -1,0 +1,37 @@
+[
+  {
+    "id": "codex:aa03",
+    "rawId": "aa03",
+    "live": true,
+    "t0": 1790596776000,
+    "endAt": 4,
+    "run": {
+      "name": "Run the checks",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/approval_resolved_without_ids/2026/09/28/rollout-2026-09-28T10-00-00-aa03.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Run the checks",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "npm test",
+            "out": "ok",
+            "ms": 2000
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/approval_resolved_without_ids/2026/09/28/rollout-2026-09-28T10-00-00-aa03.jsonl"
+      }
+    ]
+  }
+]

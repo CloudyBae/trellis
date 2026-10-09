@@ -1,0 +1,83 @@
+@utility text-2xs {
+  font-size: var(--text-2xs);
+}
+
+@utility text-xs {
+  font-size: var(--text-xs);
+}
+
+@utility text-caption {
+  font-size: var(--text-caption);
+}
+
+@utility text-note {
+  font-size: var(--text-note);
+}
+
+@utility text-label {
+  font-size: var(--text-label);
+}
+
+@utility text-meta {
+  font-size: var(--text-meta);
+}
+
+@utility text-state {
+  font-size: var(--text-state);
+}
+
+@utility text-control {
+  font-size: var(--text-control);
+}
+
+@utility text-item {
+  font-size: var(--text-item);
+}
+
+@utility text-body {
+  font-size: var(--text-body);
+}
+
+@utility text-title {
+  font-size: var(--text-title);
+}
+
+@utility text-run {
+  font-size: var(--text-run);
+}
+
+@utility text-mark {
+  font-size: var(--text-mark);
+}
+
+@utility text-display {
+  font-size: var(--text-display);
+}
+
+@utility rounded-key {
+  border-radius: var(--radius-key);
+}
+
+@utility rounded-chip {
+  border-radius: var(--radius-chip);
+}
+
+@utility rounded-sm {
+  border-radius: var(--radius-sm);
+}
+
+@utility rounded-md {
+  border-radius: var(--radius-md);
+}
+
+@utility rounded-lg {
+  border-radius: var(--radius-lg);
+}
+
+@utility rounded-popover {
+  border-radius: var(--radius-popover);
+}
+
+@utility rounded-round {
+  border-radius: var(--radius-round);
+}

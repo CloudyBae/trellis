@@ -1,0 +1,1133 @@
+{
+  "copilot:array": {
+    "id": "copilot:array",
+    "rawId": "array",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "array",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w19/chatSessions/array.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "array",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w19/chatSessions/array.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:backslashes": {
+    "id": "copilot:backslashes",
+    "rawId": "backslashes",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "backslashes",
+      "repo": "win",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w17/chatSessions/backslashes.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "backslashes",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w17/chatSessions/backslashes.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:bad_escape": {
+    "id": "copilot:bad_escape",
+    "rawId": "bad_escape",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "bad_escape",
+      "repo": "bad%zzname",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w03/chatSessions/bad_escape.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "bad_escape",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w03/chatSessions/bad_escape.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:bare_string": {
+    "id": "copilot:bare_string",
+    "rawId": "bare_string",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "bare_string",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w02/chatSessions/bare_string.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "bare_string",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w02/chatSessions/bare_string.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:broken_json": {
+    "id": "copilot:broken_json",
+    "rawId": "broken_json",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "broken",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w_broken_json/chatSessions/broken_json.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "broken",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w_broken_json/chatSessions/broken_json.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:dot_segments": {
+    "id": "copilot:dot_segments",
+    "rawId": "dot_segments",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "dot_segments",
+      "repo": "d",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w13/chatSessions/dot_segments.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "dot_segments",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w13/chatSessions/dot_segments.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:empty_folder_falls_through": {
+    "id": "copilot:empty_folder_falls_through",
+    "rawId": "empty_folder_falls_through",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "empty_folder_falls_through",
+      "repo": "second",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w10/chatSessions/empty_folder_falls_through.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "empty_folder_falls_through",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w10/chatSessions/empty_folder_falls_through.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:empty_window": {
+    "id": "copilot:empty_window",
+    "rawId": "empty_window",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "empty window",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/globalStorage/emptyWindowChatSessions/empty_window.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "empty window",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/globalStorage/emptyWindowChatSessions/empty_window.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:encoded_slash": {
+    "id": "copilot:encoded_slash",
+    "rawId": "encoded_slash",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "encoded_slash",
+      "repo": "y",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w07/chatSessions/encoded_slash.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "encoded_slash",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w07/chatSessions/encoded_slash.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:encoded_space": {
+    "id": "copilot:encoded_space",
+    "rawId": "encoded_space",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "encoded_space",
+      "repo": "my proj",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w06/chatSessions/encoded_space.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "encoded_space",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w06/chatSessions/encoded_space.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:folder_wins": {
+    "id": "copilot:folder_wins",
+    "rawId": "folder_wins",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "folder_wins",
+      "repo": "first",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w09/chatSessions/folder_wins.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "folder_wins",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w09/chatSessions/folder_wins.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:http_host_only": {
+    "id": "copilot:http_host_only",
+    "rawId": "http_host_only",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "http_host_only",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w16/chatSessions/http_host_only.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "http_host_only",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w16/chatSessions/http_host_only.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:invalid_utf8_escape": {
+    "id": "copilot:invalid_utf8_escape",
+    "rawId": "invalid_utf8_escape",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "invalid_utf8_escape",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w05/chatSessions/invalid_utf8_escape.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "invalid_utf8_escape",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w05/chatSessions/invalid_utf8_escape.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:leading_space": {
+    "id": "copilot:leading_space",
+    "rawId": "leading_space",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "leading_space",
+      "repo": "padded",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w24/chatSessions/leading_space.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "leading_space",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w24/chatSessions/leading_space.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:missing_json": {
+    "id": "copilot:missing_json",
+    "rawId": "missing_json",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "missing",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w_missing_json/chatSessions/missing_json.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "missing",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w_missing_json/chatSessions/missing_json.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:number": {
+    "id": "copilot:number",
+    "rawId": "number",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "number",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w18/chatSessions/number.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "number",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w18/chatSessions/number.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:object": {
+    "id": "copilot:object",
+    "rawId": "object",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "object",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w20/chatSessions/object.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "object",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w20/chatSessions/object.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:opaque": {
+    "id": "copilot:opaque",
+    "rawId": "opaque",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "opaque",
+      "repo": "box",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w25/chatSessions/opaque.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "opaque",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w25/chatSessions/opaque.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:parent_last": {
+    "id": "copilot:parent_last",
+    "rawId": "parent_last",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "parent_last",
+      "repo": "a",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w14/chatSessions/parent_last.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "parent_last",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w14/chatSessions/parent_last.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:plain": {
+    "id": "copilot:plain",
+    "rawId": "plain",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "plain",
+      "repo": "proj",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w01/chatSessions/plain.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "plain",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w01/chatSessions/plain.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:query_fragment": {
+    "id": "copilot:query_fragment",
+    "rawId": "query_fragment",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "query_fragment",
+      "repo": "proj",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w12/chatSessions/query_fragment.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "query_fragment",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w12/chatSessions/query_fragment.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:remote": {
+    "id": "copilot:remote",
+    "rawId": "remote",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "remote",
+      "repo": "remote-proj",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w11/chatSessions/remote.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "remote",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w11/chatSessions/remote.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:root_only": {
+    "id": "copilot:root_only",
+    "rawId": "root_only",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "root_only",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w15/chatSessions/root_only.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "root_only",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w15/chatSessions/root_only.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:scheme_only": {
+    "id": "copilot:scheme_only",
+    "rawId": "scheme_only",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "scheme_only",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w22/chatSessions/scheme_only.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "scheme_only",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w22/chatSessions/scheme_only.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:trailing_slash": {
+    "id": "copilot:trailing_slash",
+    "rawId": "trailing_slash",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "trailing_slash",
+      "repo": "proj",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w00/chatSessions/trailing_slash.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "trailing_slash",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w00/chatSessions/trailing_slash.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:truncated_escape": {
+    "id": "copilot:truncated_escape",
+    "rawId": "truncated_escape",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "truncated_escape",
+      "repo": "proj%",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w04/chatSessions/truncated_escape.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "truncated_escape",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w04/chatSessions/truncated_escape.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:unicode": {
+    "id": "copilot:unicode",
+    "rawId": "unicode",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "unicode",
+      "repo": "caf\u00e9",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w21/chatSessions/unicode.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "unicode",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w21/chatSessions/unicode.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:uppercase_scheme": {
+    "id": "copilot:uppercase_scheme",
+    "rawId": "uppercase_scheme",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "uppercase_scheme",
+      "repo": "upper",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w23/chatSessions/uppercase_scheme.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "uppercase_scheme",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w23/chatSessions/uppercase_scheme.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:workspace_key": {
+    "id": "copilot:workspace_key",
+    "rawId": "workspace_key",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "workspace_key",
+      "repo": "team.code-workspace",
+      "source": "GitHub Copilot",
+      "file": "~/workspace_names/workspaceStorage/w08/chatSessions/workspace_key.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "workspace_key",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/workspace_names/workspaceStorage/w08/chatSessions/workspace_key.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cc:99999999-cccc",
+    "rawId": "99999999-cccc",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 4,
+    "hooks": false,
+    "run": {
+      "name": "Generated title",
+      "repo": "web (feature/x)",
+      "source": "Claude Code",
+      "file": "~/no_cwd_titled/-work-acme-web/99999999-cccc.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Claude Code",
+        "start": 0,
+        "task": "Tidy the web bundle",
+        "context": [],
+        "turns": [
+          {
+            "at": 4,
+            "kind": "msg",
+            "text": "Bundle tidied."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/no_cwd_titled/-work-acme-web/99999999-cccc.jsonl",
+        "end": 4,
+        "final": "complete",
+        "returned": {
+          "summary": "Bundle tidied.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

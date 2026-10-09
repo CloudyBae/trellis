@@ -1,0 +1,34 @@
+[
+  {
+    "id": "codex:rn02",
+    "rawId": "rn02",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 1,
+    "run": {
+      "name": "Where am I",
+      "repo": "",
+      "source": "Codex",
+      "file": "~/repo_root_cwd/2026/09/28/rollout-2026-09-28T10-00-00-rn02.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Where am I",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/repo_root_cwd/2026/09/28/rollout-2026-09-28T10-00-00-rn02.jsonl",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

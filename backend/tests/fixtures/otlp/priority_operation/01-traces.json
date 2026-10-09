@@ -1,0 +1,112 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "o1",
+              "name": "invoke_agent FromName",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593209000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "op"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o2",
+              "name": "execute_tool toolname",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593201100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "op"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "intValue": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o3",
+              "name": "execute_tool ignored",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "op"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "custom"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "o4",
+              "name": "chat x",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593203100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "op"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "boolValue": false
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "chat text"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

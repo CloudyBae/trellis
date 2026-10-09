@@ -1,0 +1,101 @@
+[
+  {
+    "id": "copilot:s14",
+    "rawId": "s14",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 10,
+    "run": {
+      "name": "Targets",
+      "repo": "target",
+      "source": "GitHub Copilot",
+      "file": "~/tool_target_chain/workspaceStorage/h14/chatSessions/s14.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Targets",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "tool",
+            "name": "a",
+            "target": "ls",
+            "out": ""
+          },
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "b",
+            "target": "PAST",
+            "out": "PAST"
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "c",
+            "target": "5",
+            "out": ""
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "d",
+            "target": "T x",
+            "out": ""
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "e",
+            "target": "cmd",
+            "out": ""
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "f",
+            "target": "orig",
+            "out": ""
+          },
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "g",
+            "target": "PV",
+            "out": "PV"
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "h",
+            "target": "inv-h",
+            "out": ""
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "i",
+            "target": "",
+            "out": "",
+            "fail": true,
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/tool_target_chain/workspaceStorage/h14/chatSessions/s14.json",
+        "end": 10,
+        "final": "complete",
+        "returned": {
+          "summary": "The chat ended.",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+]

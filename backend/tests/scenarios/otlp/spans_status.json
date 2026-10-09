@@ -1,0 +1,24 @@
+{
+  "case": "spans_status",
+  "ids": [
+    "otel:st",
+    "otel:st2"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593260000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "file": "02-traces.json"
+      },
+      "now": 1790593260000
+    }
+  ]
+}

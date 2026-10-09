@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "argv": [
+        "--port",
+        "abc"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--port",
+        ""
+      ],
+      "nodeStarted": true,
+      "nodeExitCode": null,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--port",
+        "1.5"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        "abc"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        ""
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        "-1"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        ".5h"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        "1."
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        "2x"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        "h"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        "90m "
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    },
+    {
+      "argv": [
+        "--since",
+        "1e3"
+      ],
+      "nodeStarted": false,
+      "nodeExitCode": 1,
+      "nodeStderrNonEmpty": true
+    }
+  ]
+}

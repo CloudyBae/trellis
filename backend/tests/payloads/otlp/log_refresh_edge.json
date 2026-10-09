@@ -1,0 +1,66 @@
+[
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel-log:lv8": {
+        "id": "otel-log:lv8",
+        "rawId": "lv8",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": null,
+    "logged": 0,
+    "sessions": {
+      "otel-log:lv8": {
+        "id": "otel-log:lv8",
+        "rawId": "lv8",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "probe",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "probe",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  }
+]

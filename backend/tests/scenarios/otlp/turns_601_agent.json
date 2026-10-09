@@ -1,0 +1,29 @@
+{
+  "case": "turns_601_agent",
+  "ids": [
+    "otel:turns601"
+  ],
+  "project": true,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790594200000
+    },
+    {
+      "action": {
+        "type": "traces",
+        "generate": {
+          "kind": "spans",
+          "session": "turns601",
+          "from": 0,
+          "to": 601,
+          "parent": "agent1"
+        }
+      },
+      "now": 1790594200000
+    }
+  ]
+}

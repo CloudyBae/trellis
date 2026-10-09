@@ -1,0 +1,92 @@
+[
+  {
+    "id": "copilot:s11",
+    "rawId": "s11",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 10,
+    "run": {
+      "name": "Names",
+      "repo": "prefix",
+      "source": "GitHub Copilot",
+      "file": "~/tool_name_prefix/workspaceStorage/h11/chatSessions/s11.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Names",
+        "context": [],
+        "turns": [
+          {
+            "at": 0,
+            "kind": "tool",
+            "name": "run_copilot_x",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 1,
+            "kind": "tool",
+            "name": "copilot_x",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "Copilot_upper",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "y",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 7,
+            "kind": "tool",
+            "name": "z",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 9,
+            "kind": "tool",
+            "name": "tool",
+            "target": "",
+            "out": ""
+          },
+          {
+            "at": 10,
+            "kind": "tool",
+            "name": "7",
+            "target": "",
+            "out": ""
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/tool_name_prefix/workspaceStorage/h11/chatSessions/s11.json",
+        "end": 10,
+        "final": "complete",
+        "returned": {
+          "summary": "The chat ended.",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+]

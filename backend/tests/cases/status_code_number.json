@@ -1,0 +1,75 @@
+{
+  "name": "status_code_number",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": {
+        "text": "{\"resourceSpans\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"codex\"}}]},\"scopeSpans\":[{\"spans\":[{\"traceId\":\"T-conv-number\",\"spanId\":\"root\",\"name\":\"invoke_agent\",\"startTimeUnixNano\":\"1790596740000000000\",\"endTimeUnixNano\":\"1790596799000000000\",\"attributes\":[{\"key\":\"gen_ai.operation.name\",\"value\":{\"stringValue\":\"invoke_agent\"}},{\"key\":\"gen_ai.conversation.id\",\"value\":{\"stringValue\":\"conv-number\"}},{\"key\":\"gen_ai.agent.name\",\"value\":{\"stringValue\":\"main\"}}]},{\"traceId\":\"T-conv-number\",\"spanId\":\"tool\",\"parentSpanId\":\"root\",\"name\":\"execute_tool shell\",\"startTimeUnixNano\":\"1790596770000000000\",\"endTimeUnixNano\":\"1790596771000000000\",\"attributes\":[{\"key\":\"gen_ai.operation.name\",\"value\":{\"stringValue\":\"execute_tool\"}},{\"key\":\"gen_ai.conversation.id\",\"value\":{\"stringValue\":\"conv-number\"}},{\"key\":\"gen_ai.tool.name\",\"value\":{\"stringValue\":\"shell\"}}],\"status\":{\"code\":2,\"message\":\"boom\"}}]}]}]}"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/sessions"
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": [
+        {
+          "id": "otel:conv-number",
+          "rawId": "conv-number",
+          "live": true,
+          "t0": 1790596740000,
+          "endAt": 59,
+          "via": "traces",
+          "run": {
+            "name": "No task was recorded in the trace.",
+            "repo": "codex",
+            "source": "Codex",
+            "file": "OpenTelemetry traces"
+          },
+          "agents": [
+            {
+              "id": 1,
+              "name": "main",
+              "src": "Codex",
+              "start": 0,
+              "task": "No task was recorded in the trace.",
+              "context": [],
+              "turns": [
+                {
+                  "at": 30,
+                  "kind": "tool",
+                  "name": "shell",
+                  "target": "",
+                  "out": "boom",
+                  "ms": 1000,
+                  "fail": true
+                }
+              ],
+              "end": 59,
+              "final": "complete",
+              "returned": {
+                "summary": "Finished.",
+                "items": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

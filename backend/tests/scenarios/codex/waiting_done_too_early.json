@@ -1,0 +1,12 @@
+{
+  "case": "waiting_done_too_early",
+  "now": 1790596800000,
+  "sessionId": "codex:wd03",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

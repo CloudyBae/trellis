@@ -1,0 +1,12 @@
+{
+  "case": "sentinel_task",
+  "now": 1790596800000,
+  "sessionId": "codex:ddd",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

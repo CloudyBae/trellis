@@ -1,0 +1,49 @@
+[
+  {
+    "id": "codex:rn01",
+    "rawId": "rn01",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 4,
+    "run": {
+      "name": "Where am I",
+      "repo": "api (dev/x)",
+      "source": "Codex",
+      "file": "~/repo_trailing_slash/2026/09/28/rollout-2026-09-28T10-00-00-rn01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Where am I",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "read_file",
+            "target": "/work/acme/web/src/a.ts",
+            "out": "No result was recorded."
+          },
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "read_file",
+            "target": "/work/acme/api/src/b.ts",
+            "out": "No result was recorded."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/repo_trailing_slash/2026/09/28/rollout-2026-09-28T10-00-00-rn01.jsonl",
+        "end": 4,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

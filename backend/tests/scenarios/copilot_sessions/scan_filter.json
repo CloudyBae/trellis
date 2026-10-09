@@ -1,0 +1,33 @@
+{
+  "case": "scan_filter",
+  "now": 1790596800000,
+  "extraFiles": [
+    {
+      "relative": "workspaceStorage/hA/chatSessions/x.json\n",
+      "content": {
+        "version": 3,
+        "sessionId": "file-json-newline",
+        "creationDate": 1790586000000,
+        "requests": [
+          {
+            "requestId": "r1",
+            "timestamp": 1790586000000,
+            "message": {
+              "text": "newline name"
+            },
+            "result": {
+              "timings": {
+                "totalElapsed": 1000
+              }
+            },
+            "response": [
+              {
+                "value": "ok"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "case": "bare_events",
+  "ids": [
+    "otel-log:bare0",
+    "otel-log:bare1",
+    "otel-log:bare2",
+    "otel-log:bare3",
+    "otel-log:bare4",
+    "otel-log:control"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "copilot:s16",
+    "rawId": "s16",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 10,
+    "run": {
+      "name": "Forms",
+      "repo": "forms",
+      "source": "GitHub Copilot",
+      "file": "~/subagent_forms/workspaceStorage/h16/chatSessions/s16.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Forms",
+        "context": [],
+        "turns": [
+          {
+            "at": 6,
+            "kind": "tool",
+            "name": "sub agent",
+            "target": "not a subagent",
+            "out": ""
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_forms/workspaceStorage/h16/chatSessions/s16.json",
+        "end": 10,
+        "final": "complete",
+        "returned": {
+          "summary": "The chat ended.",
+          "items": []
+        },
+        "approxTimes": true
+      },
+      {
+        "id": 2,
+        "name": "Subagent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "only desc",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_forms/workspaceStorage/h16/chatSessions/s16.json",
+        "parent": 1,
+        "brief": "only desc",
+        "end": 0,
+        "final": "complete",
+        "returned": {
+          "summary": "Finished.",
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "Subagent",
+        "src": "GitHub Copilot",
+        "start": 2,
+        "task": "link inv",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_forms/workspaceStorage/h16/chatSessions/s16.json",
+        "parent": 1,
+        "brief": "",
+        "end": 2,
+        "final": "complete",
+        "returned": {
+          "summary": "Finished.",
+          "items": []
+        }
+      },
+      {
+        "id": 4,
+        "name": "Subagent",
+        "src": "GitHub Copilot",
+        "start": 4,
+        "task": "no tsd task",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_forms/workspaceStorage/h16/chatSessions/s16.json",
+        "parent": 1,
+        "end": 4,
+        "final": "complete",
+        "returned": {
+          "summary": "Finished.",
+          "items": []
+        }
+      },
+      {
+        "id": 5,
+        "name": "Named",
+        "src": "GitHub Copilot",
+        "start": 8,
+        "task": "null desc",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_forms/workspaceStorage/h16/chatSessions/s16.json",
+        "parent": 1,
+        "brief": null,
+        "end": 8,
+        "final": "failed",
+        "returned": {
+          "summary": "Result text.",
+          "items": []
+        }
+      },
+      {
+        "id": 6,
+        "name": "Subagent",
+        "src": "GitHub Copilot",
+        "start": 10,
+        "task": "See [docs](http://x) here",
+        "context": [],
+        "turns": [],
+        "completeness": "partial",
+        "file": "~/subagent_forms/workspaceStorage/h16/chatSessions/s16.json",
+        "parent": 1,
+        "brief": "brief",
+        "end": 10,
+        "final": "complete",
+        "returned": {
+          "summary": "Past msg",
+          "items": []
+        }
+      }
+    ]
+  }
+]

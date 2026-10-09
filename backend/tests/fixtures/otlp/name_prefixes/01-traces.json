@@ -1,0 +1,335 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "n1",
+              "name": "invoke_agent ﻿ Worker",
+              "startTimeUnixNano": "1790593200000000000",
+              "endTimeUnixNano": "1790593209000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n2",
+              "parentSpanId": "n1",
+              "name": "create_agent Builder",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593208000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "create_agent"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n3",
+              "parentSpanId": "n1",
+              "name": "invoke_agentX",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593207000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n4",
+              "parentSpanId": "n1",
+              "name": "invoke_agent",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593206000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n5",
+              "parentSpanId": "n1",
+              "name": "invoke_agentBob",
+              "startTimeUnixNano": "1790593203500000000",
+              "endTimeUnixNano": "1790593205900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n6",
+              "parentSpanId": "n1",
+              "name": "invoke_agent\u001fCarl",
+              "startTimeUnixNano": "1790593203600000000",
+              "endTimeUnixNano": "1790593205800000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n7",
+              "parentSpanId": "n1",
+              "name": "invoke_agent﻿",
+              "startTimeUnixNano": "1790593203700000000",
+              "endTimeUnixNano": "1790593205700000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "n8",
+              "parentSpanId": "n1",
+              "name": "INVOKE_AGENT ignored",
+              "startTimeUnixNano": "1790593203800000000",
+              "endTimeUnixNano": "1790593205600000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t1",
+              "parentSpanId": "n2",
+              "name": "execute_tool﻿tool_a",
+              "startTimeUnixNano": "1790593204000000000",
+              "endTimeUnixNano": "1790593204100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t2",
+              "parentSpanId": "n2",
+              "name": "execute_tool",
+              "startTimeUnixNano": "1790593204200000000",
+              "endTimeUnixNano": "1790593204300000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t3",
+              "parentSpanId": "n2",
+              "name": "execute_toolX",
+              "startTimeUnixNano": "1790593204400000000",
+              "endTimeUnixNano": "1790593204500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t4",
+              "parentSpanId": "n2",
+              "name": "Execute_tool caps",
+              "startTimeUnixNano": "1790593204600000000",
+              "endTimeUnixNano": "1790593204700000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "t5",
+              "parentSpanId": "n2",
+              "name": "chat something",
+              "startTimeUnixNano": "1790593204800000000",
+              "endTimeUnixNano": "1790593204900000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                },
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "c1",
+              "parentSpanId": "n3",
+              "name": "chat gpt",
+              "startTimeUnixNano": "1790593204000000000",
+              "endTimeUnixNano": "1790593204100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "chatted"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "c2",
+              "parentSpanId": "n3",
+              "name": "chatty",
+              "startTimeUnixNano": "1790593204200000000",
+              "endTimeUnixNano": "1790593204300000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "chatty too"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "c3",
+              "parentSpanId": "n3",
+              "name": "Chat caps",
+              "startTimeUnixNano": "1790593204400000000",
+              "endTimeUnixNano": "1790593204500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "ignored"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "numeric-name",
+              "parentSpanId": "n1",
+              "name": 5,
+              "startTimeUnixNano": "1790593205000000000",
+              "endTimeUnixNano": "1790593205100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "np"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "NumericName"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "returned": 8,
+    "logged": 8,
+    "sessions": {
+      "otel:mk": {
+        "id": "otel:mk",
+        "rawId": "mk",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 17,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Str",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 10,
+                "kind": "tool",
+                "name": "tool-str",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 1,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Undef",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 12,
+                "kind": "tool",
+                "name": "tool-null-parent",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 4,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "TieFirst",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 17,
+                "kind": "tool",
+                "name": "tool-x",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "TieSecond",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 1,
+    "sessions": {
+      "otel:mk": {
+        "id": "otel:mk",
+        "rawId": "mk",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 17,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Str",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 10,
+                "kind": "tool",
+                "name": "tool-str",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 1,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Undef",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 12,
+                "kind": "tool",
+                "name": "tool-null-parent",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 4,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "TieFirstRenamed",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 17,
+                "kind": "tool",
+                "name": "tool-x",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "TieSecond",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

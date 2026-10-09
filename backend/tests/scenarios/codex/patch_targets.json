@@ -1,0 +1,12 @@
+{
+  "case": "patch_targets",
+  "now": 1790596800000,
+  "sessionId": "codex:pt01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

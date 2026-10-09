@@ -1,0 +1,6 @@
+{"kind":0,"v":{"version":3,"sessionId":"s20","creationDate":1790586000000,"requests":[{"requestId":"r1","timestamp":1790586000000,"message":{"text":"Start"},"result":{"timings":{"totalElapsed":5000}},"response":[{"value":"before"}]}]}}
+{"kind":2,"k":["requests",0,"response"],"v":[{"value":"joined one"}]}{"kind":2,"k":["requests",0,"response"],"v":[{"value":"joined two"}]}
+{"kind":2,"k":["requests",0,"response"],"v":[{"value":"crlf line"}]}
+ ﻿
+
+{"kind":2,"k":["requests",0,"response"],"v":[{"value":"after"}]}

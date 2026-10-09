@@ -1,0 +1,376 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "codex"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "T",
+              "spanId": "a0",
+              "name": "invoke_agent Lead",
+              "startTimeUnixNano": "1790593200000000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "Lead"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.description",
+                  "value": {
+                    "stringValue": "Lead the work"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "a1",
+              "parentSpanId": "a0",
+              "name": "invoke_agent Complete",
+              "startTimeUnixNano": "1790593201000000000",
+              "endTimeUnixNano": "1790593201500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "Complete"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.description",
+                  "value": {
+                    "stringValue": "Do the thing"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Did the thing.\"}]}]"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "a2",
+              "parentSpanId": "a0",
+              "name": "invoke_agent TaskOnly",
+              "startTimeUnixNano": "1790593202000000000",
+              "endTimeUnixNano": "1790593202500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "TaskOnly"
+                  }
+                },
+                {
+                  "key": "gen_ai.input.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"user\",\"parts\":[{\"type\":\"text\",\"content\":\"Only a task\"}]}]"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "a3",
+              "parentSpanId": "a0",
+              "name": "invoke_agent OutputOnly",
+              "startTimeUnixNano": "1790593203000000000",
+              "endTimeUnixNano": "1790593203500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "OutputOnly"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[{\"role\":\"assistant\",\"parts\":[{\"type\":\"text\",\"content\":\"Only output\"}]}]"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "a4",
+              "parentSpanId": "a0",
+              "name": "invoke_agent Activity",
+              "startTimeUnixNano": "1790593204000000000",
+              "endTimeUnixNano": "1790593204500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "Activity"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "a5",
+              "parentSpanId": "a0",
+              "name": "invoke_agent Chatty",
+              "startTimeUnixNano": "1790593205000000000",
+              "endTimeUnixNano": "1790593205500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "Chatty"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "a6",
+              "parentSpanId": "a0",
+              "name": "invoke_agent PromptTask",
+              "startTimeUnixNano": "1790593206000000000",
+              "endTimeUnixNano": "1790593206500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "PromptTask"
+                  }
+                },
+                {
+                  "key": "gen_ai.prompt",
+                  "value": {
+                    "stringValue": "prompt as task"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "a7",
+              "parentSpanId": "a0",
+              "name": "invoke_agent EmptyOutput",
+              "startTimeUnixNano": "1790593207000000000",
+              "endTimeUnixNano": "1790593207500000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "invoke_agent"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.name",
+                  "value": {
+                    "stringValue": "EmptyOutput"
+                  }
+                },
+                {
+                  "key": "gen_ai.agent.description",
+                  "value": {
+                    "stringValue": "empty output"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "[]"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "ta4",
+              "parentSpanId": "a4",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593204500000000",
+              "endTimeUnixNano": "1790593204600000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "just-a-tool"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "ca5",
+              "parentSpanId": "a5",
+              "name": "chat m",
+              "startTimeUnixNano": "1790593205500000000",
+              "endTimeUnixNano": "1790593205600000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "chat"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.output.messages",
+                  "value": {
+                    "stringValue": "chatty turn"
+                  }
+                }
+              ]
+            },
+            {
+              "traceId": "T",
+              "spanId": "lost",
+              "parentSpanId": "gone",
+              "name": "execute_tool shell",
+              "startTimeUnixNano": "1790593209000000000",
+              "endTimeUnixNano": "1790593209100000000",
+              "attributes": [
+                {
+                  "key": "gen_ai.operation.name",
+                  "value": {
+                    "stringValue": "execute_tool"
+                  }
+                },
+                {
+                  "key": "gen_ai.conversation.id",
+                  "value": {
+                    "stringValue": "co"
+                  }
+                },
+                {
+                  "key": "gen_ai.tool.name",
+                  "value": {
+                    "stringValue": "under-placeholder"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

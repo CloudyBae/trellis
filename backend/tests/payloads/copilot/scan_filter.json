@@ -1,0 +1,119 @@
+{
+  "copilot:empty-window-json": {
+    "id": "copilot:empty-window-json",
+    "rawId": "empty-window-json",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "empty-window-json",
+      "repo": "",
+      "source": "GitHub Copilot",
+      "file": "~/scan_filter/globalStorage/emptyWindowChatSessions/y.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "empty-window-json",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/scan_filter/globalStorage/emptyWindowChatSessions/y.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:file-json": {
+    "id": "copilot:file-json",
+    "rawId": "file-json",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "file-json",
+      "repo": "scan",
+      "source": "GitHub Copilot",
+      "file": "~/scan_filter/workspaceStorage/hA/chatSessions/x.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "file-json",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/scan_filter/workspaceStorage/hA/chatSessions/x.json",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  },
+  "copilot:file-jsonl": {
+    "id": "copilot:file-jsonl",
+    "rawId": "file-jsonl",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 1,
+    "run": {
+      "name": "log file",
+      "repo": "scan",
+      "source": "GitHub Copilot",
+      "file": "~/scan_filter/workspaceStorage/hA/chatSessions/x.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "log file",
+        "context": [],
+        "turns": [
+          {
+            "at": 1,
+            "kind": "msg",
+            "text": "ok"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/scan_filter/workspaceStorage/hA/chatSessions/x.jsonl",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "ok",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+}

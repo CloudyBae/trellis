@@ -1,0 +1,69 @@
+{
+  "name": "local_origin",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "http://localhost:5173"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "https://127.0.0.1"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": "http://[::1]:5173"
+      },
+      "body": {
+        "text": "{}"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/traces",
+      "headers": {
+        "origin": ""
+      },
+      "body": {
+        "text": "{}"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {}
+    }
+  ]
+}

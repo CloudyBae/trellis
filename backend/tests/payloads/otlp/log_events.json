@@ -1,0 +1,289 @@
+[
+  {
+    "returned": 9,
+    "logged": 0,
+    "sessions": {
+      "otel-log:ev1": {
+        "id": "otel-log:ev1",
+        "rawId": "ev1",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "Bash",
+                "target": "",
+                "out": ""
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:ev2": {
+        "id": "otel-log:ev2",
+        "rawId": "ev2",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "Bash",
+                "target": "",
+                "out": ""
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:ev3": null,
+      "otel-log:ev4": null,
+      "otel-log:ev5": null,
+      "otel-log:ev6": null,
+      "otel-log:ev6b": {
+        "id": "otel-log:ev6b",
+        "rawId": "ev6b",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "a",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "a",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "Nested",
+                "target": "",
+                "out": ""
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:ev7": {
+        "id": "otel-log:ev7",
+        "rawId": "ev7",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "custom",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "custom",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "msg",
+                "text": "API error: unknown"
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:ev8": {
+        "id": "otel-log:ev8",
+        "rawId": "ev8",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "x",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "x",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:ev9": {
+        "id": "otel-log:ev9",
+        "rawId": "ev9",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "GitHub Copilot",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "GitHub Copilot",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "msg",
+                "text": "A tool was not approved (rejected)."
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel-log:ev10": {
+        "id": "otel-log:ev10",
+        "rawId": "ev10",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "hello",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "hello",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      },
+      "otel-log:ev11": {
+        "id": "otel-log:ev11",
+        "rawId": "ev11",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "hi",
+          "repo": "",
+          "source": "keeper",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "keeper",
+            "start": 0,
+            "task": "hi",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      },
+      "otel-log:ev12": null,
+      "otel-log:1.5": {
+        "id": "otel-log:1.5",
+        "rawId": "1.5",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "No prompt was recorded in the logs.",
+          "repo": "",
+          "source": "x",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "x",
+            "start": 0,
+            "task": "No prompt was recorded in the logs.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "msg",
+                "text": "API error: unknown"
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      }
+    }
+  }
+]

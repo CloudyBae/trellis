@@ -1,0 +1,47 @@
+{
+  "function": "tilde",
+  "cases": [
+    {
+      "input": [
+        "/home/synthetic/proj/a.ts"
+      ],
+      "output": "~/proj/a.ts"
+    },
+    {
+      "input": [
+        "/home/syntheticx/proj"
+      ],
+      "output": "~x/proj"
+    },
+    {
+      "input": [
+        "/home/synthetic"
+      ],
+      "output": "~"
+    },
+    {
+      "input": [
+        "/other/place"
+      ],
+      "output": "/other/place"
+    },
+    {
+      "input": [
+        ""
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        null
+      ],
+      "output": null
+    },
+    {
+      "input": [
+        "relative/path"
+      ],
+      "output": "relative/path"
+    }
+  ]
+}

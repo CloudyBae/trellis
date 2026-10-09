@@ -1,0 +1,85 @@
+{
+  "id": "cc:22222222-bbbb",
+  "rawId": "22222222-bbbb",
+  "live": true,
+  "t0": 1790596770000,
+  "endAt": 28,
+  "run": {
+    "name": "Rotate session tokens in src/auth/issue.ts",
+    "repo": "api (main)",
+    "source": "Claude Code",
+    "file": "~/claude-live/-work-acme-api/22222222-bbbb.jsonl"
+  },
+  "hooks": false,
+  "agents": [
+    {
+      "id": 1,
+      "name": "Orchestrator",
+      "src": "Claude Code",
+      "start": 0,
+      "task": "Rotate session tokens in src/auth/issue.ts",
+      "context": [],
+      "turns": [
+        {
+          "at": 2,
+          "kind": "msg",
+          "text": "Looking first."
+        },
+        {
+          "at": 2,
+          "kind": "tool",
+          "name": "Read",
+          "target": "CLAUDE.md",
+          "out": "Conventions: pnpm",
+          "ms": 1000
+        }
+      ],
+      "file": "~/claude-live/-work-acme-api/22222222-bbbb.jsonl"
+    },
+    {
+      "id": 2,
+      "name": "Explorer",
+      "src": "Claude Code",
+      "start": 5,
+      "task": "Find every place a session token is issued in src/auth/ and src/middleware/requireUser.ts.",
+      "context": [
+        "src/middleware/requireUser.ts"
+      ],
+      "turns": [
+        {
+          "at": 10,
+          "kind": "tool",
+          "name": "Grep",
+          "target": "session.token  src",
+          "out": "src/auth/issue.ts:41",
+          "ms": 1000
+        },
+        {
+          "at": 28,
+          "kind": "tool",
+          "name": "Bash",
+          "target": "npm audit --json",
+          "out": "No result yet.",
+          "pending": true
+        }
+      ],
+      "file": "~/claude-live/-work-acme-api/22222222-bbbb/subagents/agent-aaa.jsonl",
+      "parent": 1,
+      "agentType": "Explore",
+      "brief": "Find token call sites"
+    },
+    {
+      "id": 3,
+      "name": "Security reviewer",
+      "src": "Claude Code",
+      "start": 6,
+      "task": "Review the rotation design.",
+      "context": [],
+      "turns": [],
+      "file": "~/claude-live/-work-acme-api/22222222-bbbb/subagents/agent-bbb.jsonl",
+      "parent": 1,
+      "agentType": "security-reviewer",
+      "brief": "Review design"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "codex:ps04",
+    "rawId": "ps04",
+    "live": true,
+    "t0": 1790593197001,
+    "endAt": 3,
+    "run": {
+      "name": "Run the slow job",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/pending_window_inside/2026/09/28/rollout-2026-09-28T10-00-00-ps04.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Run the slow job",
+        "context": [],
+        "turns": [
+          {
+            "at": 3,
+            "kind": "tool",
+            "name": "shell",
+            "target": "slow-job",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/pending_window_inside/2026/09/28/rollout-2026-09-28T10-00-00-ps04.jsonl"
+      }
+    ]
+  }
+]

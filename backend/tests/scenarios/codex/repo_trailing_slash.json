@@ -1,0 +1,12 @@
+{
+  "case": "repo_trailing_slash",
+  "now": 1790596800000,
+  "sessionId": "codex:rn01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

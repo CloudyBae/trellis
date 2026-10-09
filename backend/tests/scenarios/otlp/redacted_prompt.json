@@ -1,0 +1,23 @@
+{
+  "case": "redacted_prompt",
+  "ids": [
+    "otel-log:red1",
+    "otel-log:red2",
+    "otel-log:red3",
+    "otel-log:red4",
+    "otel-log:red5",
+    "otel-log:red6",
+    "otel-log:red7",
+    "otel-log:real1"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

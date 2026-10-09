@@ -1,0 +1,54 @@
+[
+  {
+    "returned": 4,
+    "logged": 0,
+    "sessions": {
+      "otel:op": {
+        "id": "otel:op",
+        "rawId": "op",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "FromName",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "toolname",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 3,
+                "kind": "msg",
+                "text": "chat text"
+              }
+            ],
+            "completeness": "partial",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

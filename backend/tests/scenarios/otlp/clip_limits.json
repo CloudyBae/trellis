@@ -1,0 +1,27 @@
+{
+  "case": "clip_limits",
+  "ids": [
+    "otel:cl1",
+    "otel:cl2",
+    "otel:cl3",
+    "otel:cl4",
+    "otel:cl5",
+    "otel:cl6",
+    "otel:cl7",
+    "otel:cl8",
+    "otel:cl9",
+    "otel:cl10",
+    "otel:cl11",
+    "otel:cl12"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

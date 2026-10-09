@@ -1,0 +1,12 @@
+{
+  "case": "shell_output",
+  "now": 1790596800000,
+  "sessionId": "codex:abc",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

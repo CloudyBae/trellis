@@ -1,0 +1,39 @@
+[
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel-log:bare0": null,
+      "otel-log:bare1": null,
+      "otel-log:bare2": null,
+      "otel-log:bare3": null,
+      "otel-log:bare4": null,
+      "otel-log:control": {
+        "id": "otel-log:control",
+        "rawId": "control",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "logs",
+        "run": {
+          "name": "kept",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "kept",
+            "context": [],
+            "turns": [],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  }
+]

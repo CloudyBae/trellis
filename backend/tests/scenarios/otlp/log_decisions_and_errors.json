@@ -1,0 +1,16 @@
+{
+  "case": "log_decisions_and_errors",
+  "ids": [
+    "otel-log:dc"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593260000
+    }
+  ]
+}

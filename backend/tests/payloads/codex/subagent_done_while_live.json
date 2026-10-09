@@ -1,0 +1,104 @@
+[
+  {
+    "id": "codex:sd01",
+    "rawId": "sd01",
+    "live": true,
+    "t0": 1790596740000,
+    "endAt": 11,
+    "run": {
+      "name": "Delegate the work",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/subagent_done_while_live/2026/09/28/rollout-2026-09-28T10-00-00-sd01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Codex",
+        "start": 0,
+        "task": "Delegate the work",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "spawn_agent",
+            "target": "Do part one",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_done_while_live/2026/09/28/rollout-2026-09-28T10-00-00-sd01.jsonl"
+      },
+      {
+        "id": 2,
+        "name": "Worker",
+        "src": "Codex",
+        "start": 3,
+        "task": "Task for Worker",
+        "context": [],
+        "turns": [
+          {
+            "at": 4,
+            "kind": "tool",
+            "name": "shell",
+            "target": "ls",
+            "out": "a b",
+            "ms": 1000
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_done_while_live/2026/09/28/rollout-2026-09-28T10-00-00-sd02.jsonl",
+        "parent": 1,
+        "end": 6,
+        "final": "complete",
+        "returned": {
+          "summary": "Listed the files.",
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "Idle",
+        "src": "Codex",
+        "start": 7,
+        "task": "Task for Idle",
+        "context": [],
+        "turns": [
+          {
+            "at": 8,
+            "kind": "tool",
+            "name": "shell",
+            "target": "rm -rf build",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/subagent_done_while_live/2026/09/28/rollout-2026-09-28T10-00-00-sd03.jsonl",
+        "parent": 1,
+        "phases": [
+          {
+            "at": 9,
+            "state": "blocked",
+            "note": "Waiting for your approval to run shell rm -rf build."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Quiet",
+        "src": "Codex",
+        "start": 10,
+        "task": "Task for Quiet",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/subagent_done_while_live/2026/09/28/rollout-2026-09-28T10-00-00-sd04.jsonl",
+        "parent": 1
+      }
+    ]
+  }
+]

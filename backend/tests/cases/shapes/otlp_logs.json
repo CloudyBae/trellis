@@ -1,0 +1,35 @@
+{
+  "id": "otel-log:sess9",
+  "rawId": "sess9",
+  "live": true,
+  "t0": 1790596800000,
+  "endAt": 2,
+  "via": "logs",
+  "run": {
+    "name": "Upgrade to Node 22",
+    "repo": "",
+    "source": "Claude Code",
+    "file": "OpenTelemetry logs"
+  },
+  "agents": [
+    {
+      "id": 1,
+      "name": "Main agent",
+      "src": "Claude Code",
+      "start": 0,
+      "task": "Upgrade to Node 22",
+      "context": [],
+      "turns": [
+        {
+          "at": 1,
+          "kind": "tool",
+          "name": "Bash",
+          "target": "pnpm test",
+          "out": "Failed.",
+          "ms": 1200,
+          "fail": true
+        }
+      ]
+    }
+  ]
+}

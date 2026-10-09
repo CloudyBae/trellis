@@ -1,0 +1,35 @@
+{"timestamp":"2026-09-28T10:00:00.000Z","type":"session_meta","payload":{"id":"pt01","cwd":"/work/acme/web"}}
+{"timestamp":"2026-09-28T10:00:00.500Z","type":"event_msg","payload":{"type":"user_message","message":"Patch things"}}
+{"timestamp":"2026-09-28T10:00:01.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p0","input":"*** Begin Patch\n*** Update File: a.txt\rzzz"}}
+{"timestamp":"2026-09-28T10:00:01.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p0","output":"done"}}
+{"timestamp":"2026-09-28T10:00:02.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p1","input":"*** Update File: b.txt﻿"}}
+{"timestamp":"2026-09-28T10:00:02.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p1","output":"done"}}
+{"timestamp":"2026-09-28T10:00:03.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p2","input":"*** Update File: c.txt\u001f"}}
+{"timestamp":"2026-09-28T10:00:03.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p2","output":"done"}}
+{"timestamp":"2026-09-28T10:00:04.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p3","input":"*** Update File: d1\n*** Add File: d2\n*** Delete File: d3\n*** Update File: d4"}}
+{"timestamp":"2026-09-28T10:00:04.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p3","output":"done"}}
+{"timestamp":"2026-09-28T10:00:05.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p4","input":"*** Update File:  "}}
+{"timestamp":"2026-09-28T10:00:05.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p4","output":"done"}}
+{"timestamp":"2026-09-28T10:00:06.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p5","input":"*** Update File: \nnext"}}
+{"timestamp":"2026-09-28T10:00:06.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p5","output":"done"}}
+{"timestamp":"2026-09-28T10:00:07.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p6","input":{"command":"x"}}}
+{"timestamp":"2026-09-28T10:00:07.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p6","output":"done"}}
+{"timestamp":"2026-09-28T10:00:08.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p7"}}
+{"timestamp":"2026-09-28T10:00:08.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p7","output":"done"}}
+{"timestamp":"2026-09-28T10:00:09.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p8","input":"foo *** Update File: mid.txt *** Add File: tail"}}
+{"timestamp":"2026-09-28T10:00:09.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p8","output":"done"}}
+{"timestamp":"2026-09-28T10:00:10.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p9","input":"*** Update File: e1\r\n*** Update File: e2"}}
+{"timestamp":"2026-09-28T10:00:10.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p9","output":"done"}}
+{"timestamp":"2026-09-28T10:00:11.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p10","input":"*** Update File: f g"}}
+{"timestamp":"2026-09-28T10:00:11.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p10","output":"done"}}
+{"timestamp":"2026-09-28T10:00:12.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p11","input":["*** Update File: h"]}}
+{"timestamp":"2026-09-28T10:00:12.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p11","output":"done"}}
+{"timestamp":"2026-09-28T10:00:13.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p12","input":5}}
+{"timestamp":"2026-09-28T10:00:13.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p12","output":"done"}}
+{"timestamp":"2026-09-28T10:00:14.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p13","input":"*** Update File:  i.txt　"}}
+{"timestamp":"2026-09-28T10:00:14.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p13","output":"done"}}
+{"timestamp":"2026-09-28T10:00:15.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p14","input":"*** update file: lower.txt"}}
+{"timestamp":"2026-09-28T10:00:15.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p14","output":"done"}}
+{"timestamp":"2026-09-28T10:00:16.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"p15","input":"*** Move File: moved.txt"}}
+{"timestamp":"2026-09-28T10:00:16.100Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"p15","output":"done"}}
+{"timestamp":"2026-09-28T10:00:30.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"exec","call_id":"other","input":"{\"path\":\"/work/acme/web/src/x.ts\"}"}}

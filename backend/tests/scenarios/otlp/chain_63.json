@@ -1,0 +1,16 @@
+{
+  "case": "chain_63",
+  "ids": [
+    "otel:chain63"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

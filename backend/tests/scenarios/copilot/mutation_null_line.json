@@ -1,0 +1,12 @@
+{
+  "case": "mutation_null_line",
+  "now": 1790596800000,
+  "sessionId": null,
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

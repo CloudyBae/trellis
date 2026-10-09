@@ -1,0 +1,34 @@
+[
+  {
+    "id": "codex:rn05",
+    "rawId": "rn05",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 1,
+    "run": {
+      "name": "Where am I",
+      "repo": "",
+      "source": "Codex",
+      "file": "~/repo_numeric_cwd/2026/09/28/rollout-2026-09-28T10-00-00-rn05.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Where am I",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/repo_numeric_cwd/2026/09/28/rollout-2026-09-28T10-00-00-rn05.jsonl",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

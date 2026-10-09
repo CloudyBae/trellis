@@ -1,0 +1,10 @@
+{"timestamp":"2026-09-28T11:59:31.000Z","type":"session_meta","payload":{"id":"ap01","cwd":"/work/acme/web"}}
+{"timestamp":"2026-09-28T11:59:32.000Z","type":"event_msg","payload":{"type":"user_message","message":"Run the checks"}}
+{"timestamp":"2026-09-28T11:59:33.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"c1","arguments":"{\"command\":\"npm run lint\"}"}}
+{"timestamp":"2026-09-28T11:59:34.000Z","type":"event_msg","payload":{"type":"approval_request","call_id":"c1","command":"npm run lint"}}
+{"timestamp":"2026-09-28T11:59:35.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"c1","output":"{\"output\":\"clean\",\"metadata\":{\"exit_code\":0}}"}}
+{"timestamp":"2026-09-28T11:59:36.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","call_id":"c2","arguments":"{\"command\":\"npm test\"}"}}
+{"timestamp":"2026-09-28T11:59:37.000Z","type":"event_msg","payload":{"type":"apply_patch_approval_request","call_id":"c2","changes":{"a.txt":{}}}}
+{"timestamp":"2026-09-28T11:59:38.000Z","type":"event_msg","payload":{"type":"exec_approval_request\n","call_id":"c2","command":"npm test"}}
+{"timestamp":"2026-09-28T11:59:39.000Z","type":"event_msg","payload":{"type":"exec_approval_request_started","call_id":"c2","command":"npm test"}}
+{"timestamp":"2026-09-28T11:59:40.000Z","type":"event_msg","payload":{"type":"EXEC_APPROVAL_REQUEST","call_id":"c2","command":"npm test"}}

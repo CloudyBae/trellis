@@ -1,0 +1,71 @@
+.crumbs {
+  --crumbs-height: 40px;
+  --crumbs-inset: 20px;
+  --crumb-gap: 5px;
+  order: -1;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  flex: none;
+  height: var(--crumbs-height);
+  display: flex;
+  align-items: center;
+  gap: var(--space-hair);
+  padding: 0 var(--crumbs-inset);
+  overflow-x: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  background: var(--ground);
+  transition: box-shadow var(--duration-press) ease;
+}
+.crumbs::-webkit-scrollbar {
+  display: none;
+}
+.crumbs.scrolled {
+  box-shadow: 0 1px 0 var(--rule);
+}
+.crumb {
+  flex: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--crumb-gap);
+  border: 0;
+  background: none;
+  padding: var(--space-2xs) var(--space-s);
+  border-radius: var(--radius-sm);
+  color: var(--ink-3);
+  font: 500 var(--text-control) / 1.2 var(--font);
+  cursor: pointer;
+  transition:
+    color var(--duration-hover) ease,
+    background-color var(--duration-hover) ease;
+}
+.crumb:hover {
+  background: var(--wash);
+  color: var(--ink);
+}
+.crumb .cn {
+  margin-left: 0;
+  font-size: var(--text-note);
+}
+.crumb.now {
+  cursor: default;
+  color: var(--ink);
+}
+.crumb.now:hover {
+  background: none;
+}
+.crumb-sep {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  color: var(--ink-3);
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  .crumbs {
+    --crumbs-height: 44px;
+    --crumbs-inset: var(--space-sm);
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "case": "trimmed_turns",
+  "now": 1790596800000,
+  "sessionId": "copilot:s4",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

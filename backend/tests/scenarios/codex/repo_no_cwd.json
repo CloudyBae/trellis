@@ -1,0 +1,12 @@
+{
+  "case": "repo_no_cwd",
+  "now": 1790596800000,
+  "sessionId": "codex:rn06",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

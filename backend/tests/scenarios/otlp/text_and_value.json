@@ -1,0 +1,16 @@
+{
+  "case": "text_and_value",
+  "ids": [
+    "otel:tv"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    }
+  ]
+}

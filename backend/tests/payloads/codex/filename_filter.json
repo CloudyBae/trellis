@@ -1,0 +1,125 @@
+[
+  null,
+  {
+    "id": "codex:fn00",
+    "rawId": "fn00",
+    "live": false,
+    "t0": 1790589600000,
+    "endAt": 18,
+    "run": {
+      "name": "Root of the names",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/filename_filter/2026/09/28/rollout-2026-09-28T10-00-00-fn00.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Orchestrator",
+        "src": "Codex",
+        "start": 0,
+        "task": "Root of the names",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/filename_filter/2026/09/28/rollout-2026-09-28T10-00-00-fn00.jsonl",
+        "end": 1,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Good",
+        "src": "Codex",
+        "start": 1,
+        "task": "Task good",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/filename_filter/2026/09/28/rollout-good.jsonl",
+        "parent": 1,
+        "end": 2,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "name": "Bare",
+        "src": "Codex",
+        "start": 2,
+        "task": "Task bare",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/filename_filter/2026/09/28/rollout-.jsonl",
+        "parent": 1,
+        "end": 3,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 4,
+        "name": "Accent",
+        "src": "Codex",
+        "start": 3,
+        "task": "Task accent",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/filename_filter/2026/09/28/rollout-\u00e9.jsonl",
+        "parent": 1,
+        "end": 4,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 5,
+        "name": "Depth four",
+        "src": "Codex",
+        "start": 15,
+        "task": "Task depth-four",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/filename_filter/a/b/c/d/rollout-depth4.jsonl",
+        "parent": 1,
+        "end": 16,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      },
+      {
+        "id": 6,
+        "name": "Edge of window",
+        "src": "Codex",
+        "start": 17,
+        "task": "Task edge-of-window",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/filename_filter/2026/09/28/rollout-edge.jsonl",
+        "parent": 1,
+        "end": 18,
+        "final": "complete",
+        "returned": {
+          "summary": "The session ended.",
+          "items": []
+        }
+      }
+    ]
+  }
+]

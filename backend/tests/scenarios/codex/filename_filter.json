@@ -1,0 +1,93 @@
+{
+  "case": "filename_filter",
+  "now": 1790596800000,
+  "sessionId": "codex:fn00",
+  "steps": [
+    {
+      "action": {
+        "type": "write",
+        "files": [
+          {
+            "file": "2026/09/28/rollout-good.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:01.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn01\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"good\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:01.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task good\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:02.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn02\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"bare\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:02.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task bare\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-\u00e9.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:03.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn03\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"accent\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:03.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task accent\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-x.jsonl\n",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:04.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn04\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"newline-end\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:04.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task newline-end\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-a\rb.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:05.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn05\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"carriage-return\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:05.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task carriage-return\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-a\u2028b.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:06.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn06\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"line-separator\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:06.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task line-separator\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-a\u2029b.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:07.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn07\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"paragraph-separator\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:07.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task paragraph-separator\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-a\nb.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:08.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn08\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"newline-middle\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:08.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task newline-middle\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-x.jsonl.bak",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:09.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn09\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"backup\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:09.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task backup\"}}\n"
+          },
+          {
+            "file": "2026/09/28/prefix-rollout-x.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:10.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn10\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"prefixed\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:10.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task prefixed\"}}\n"
+          },
+          {
+            "file": "2026/09/28/Rollout-x.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:11.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn11\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"capital\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:11.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task capital\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-x.JSONL",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:12.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn12\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"upper-extension\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:12.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task upper-extension\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:13.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn13\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"no-dash\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:13.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task no-dash\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-x.json",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:14.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn14\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"json-only\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:14.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task json-only\"}}\n"
+          },
+          {
+            "file": "a/b/c/d/rollout-depth4.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:15.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn15\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"depth-four\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:15.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task depth-four\"}}\n"
+          },
+          {
+            "file": "a/b/c/d/e/rollout-depth5.jsonl",
+            "text": "{\"timestamp\":\"2026-09-28T10:00:16.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn16\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"depth-five\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:16.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task depth-five\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-edge.jsonl",
+            "ageMs": 86400000,
+            "text": "{\"timestamp\":\"2026-09-28T10:00:17.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn17\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"edge-of-window\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:17.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task edge-of-window\"}}\n"
+          },
+          {
+            "file": "2026/09/28/rollout-stale.jsonl",
+            "ageMs": 86401000,
+            "text": "{\"timestamp\":\"2026-09-28T10:00:18.000Z\",\"type\":\"session_meta\",\"payload\":{\"id\":\"fn18\",\"cwd\":\"/work/acme/web\",\"agent_name\":\"stale\",\"parent_id\":\"fn00\"}}\n{\"timestamp\":\"2026-09-28T10:00:18.500Z\",\"type\":\"event_msg\",\"payload\":{\"type\":\"user_message\",\"message\":\"Task stale\"}}\n"
+          }
+        ]
+      }
+    },
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

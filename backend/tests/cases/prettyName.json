@@ -1,0 +1,125 @@
+{
+  "function": "prettyName",
+  "cases": [
+    {
+      "input": [
+        null
+      ],
+      "output": "Agent"
+    },
+    {
+      "input": [
+        ""
+      ],
+      "output": "Agent"
+    },
+    {
+      "input": [
+        "Explore"
+      ],
+      "output": "Explorer"
+    },
+    {
+      "input": [
+        "EXPLORE"
+      ],
+      "output": "Explorer"
+    },
+    {
+      "input": [
+        " plan "
+      ],
+      "output": "Planner"
+    },
+    {
+      "input": [
+        "general-purpose"
+      ],
+      "output": "General agent"
+    },
+    {
+      "input": [
+        "general"
+      ],
+      "output": "General agent"
+    },
+    {
+      "input": [
+        "impeccable-finish-reviewer"
+      ],
+      "output": "Impeccable finish reviewer"
+    },
+    {
+      "input": [
+        "security_reviewer"
+      ],
+      "output": "Security reviewer"
+    },
+    {
+      "input": [
+        "camelCaseName"
+      ],
+      "output": "Camel case name"
+    },
+    {
+      "input": [
+        "SNAKE_CASE"
+      ],
+      "output": "Snake case"
+    },
+    {
+      "input": [
+        "ab--cd__ef"
+      ],
+      "output": "Ab cd ef"
+    },
+    {
+      "input": [
+        "ÉCOLE-agent"
+      ],
+      "output": "École agent"
+    },
+    {
+      "input": [
+        "ßeta"
+      ],
+      "output": "SSeta"
+    },
+    {
+      "input": [
+        "ǆa"
+      ],
+      "output": "Ǆa"
+    },
+    {
+      "input": [
+        "𐐨name"
+      ],
+      "output": "𐐨name"
+    },
+    {
+      "input": [
+        "😀face"
+      ],
+      "output": "😀face"
+    },
+    {
+      "input": [
+        5
+      ],
+      "output": "5"
+    },
+    {
+      "input": [
+        "   "
+      ],
+      "output": ""
+    },
+    {
+      "input": [
+        "x"
+      ],
+      "output": "X"
+    }
+  ]
+}

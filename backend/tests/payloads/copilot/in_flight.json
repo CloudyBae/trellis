@@ -1,0 +1,29 @@
+[
+  {
+    "id": "copilot:s2",
+    "rawId": "s2",
+    "live": true,
+    "t0": 1790596770000,
+    "endAt": 0,
+    "run": {
+      "name": "Summarize the docs",
+      "repo": "app",
+      "source": "GitHub Copilot",
+      "file": "~/in_flight/workspaceStorage/h2/chatSessions/s2.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Summarize the docs",
+        "context": [],
+        "turns": [],
+        "completeness": "complete",
+        "file": "~/in_flight/workspaceStorage/h2/chatSessions/s2.json",
+        "approxTimes": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "case": "turns_601_logs",
+  "ids": [
+    "otel-log:rec601"
+  ],
+  "project": true,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "generate": {
+          "kind": "records",
+          "session": "rec601",
+          "from": 0,
+          "to": 601
+        }
+      },
+      "now": 1790593900000
+    }
+  ]
+}

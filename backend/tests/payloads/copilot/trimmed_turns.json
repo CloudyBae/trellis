@@ -1,0 +1,3038 @@
+[
+  {
+    "id": "copilot:s4",
+    "rawId": "s4",
+    "live": true,
+    "t0": 1790596500000,
+    "endAt": 1221,
+    "run": {
+      "name": "Start a chat",
+      "repo": "big",
+      "source": "GitHub Copilot",
+      "file": "~/trimmed_turns/workspaceStorage/h4/chatSessions/s4.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Start a chat",
+        "context": [],
+        "turns": [
+          {
+            "at": 622,
+            "kind": "user",
+            "text": "Turn 311"
+          },
+          {
+            "at": 623,
+            "kind": "msg",
+            "text": "Response to turn 311"
+          },
+          {
+            "at": 624,
+            "kind": "user",
+            "text": "Turn 312"
+          },
+          {
+            "at": 625,
+            "kind": "msg",
+            "text": "Response to turn 312"
+          },
+          {
+            "at": 626,
+            "kind": "user",
+            "text": "Turn 313"
+          },
+          {
+            "at": 627,
+            "kind": "msg",
+            "text": "Response to turn 313"
+          },
+          {
+            "at": 628,
+            "kind": "user",
+            "text": "Turn 314"
+          },
+          {
+            "at": 629,
+            "kind": "msg",
+            "text": "Response to turn 314"
+          },
+          {
+            "at": 630,
+            "kind": "user",
+            "text": "Turn 315"
+          },
+          {
+            "at": 631,
+            "kind": "msg",
+            "text": "Response to turn 315"
+          },
+          {
+            "at": 632,
+            "kind": "user",
+            "text": "Turn 316"
+          },
+          {
+            "at": 633,
+            "kind": "msg",
+            "text": "Response to turn 316"
+          },
+          {
+            "at": 634,
+            "kind": "user",
+            "text": "Turn 317"
+          },
+          {
+            "at": 635,
+            "kind": "msg",
+            "text": "Response to turn 317"
+          },
+          {
+            "at": 636,
+            "kind": "user",
+            "text": "Turn 318"
+          },
+          {
+            "at": 637,
+            "kind": "msg",
+            "text": "Response to turn 318"
+          },
+          {
+            "at": 638,
+            "kind": "user",
+            "text": "Turn 319"
+          },
+          {
+            "at": 639,
+            "kind": "msg",
+            "text": "Response to turn 319"
+          },
+          {
+            "at": 640,
+            "kind": "user",
+            "text": "Turn 320"
+          },
+          {
+            "at": 641,
+            "kind": "msg",
+            "text": "Response to turn 320"
+          },
+          {
+            "at": 642,
+            "kind": "user",
+            "text": "Turn 321"
+          },
+          {
+            "at": 643,
+            "kind": "msg",
+            "text": "Response to turn 321"
+          },
+          {
+            "at": 644,
+            "kind": "user",
+            "text": "Turn 322"
+          },
+          {
+            "at": 645,
+            "kind": "msg",
+            "text": "Response to turn 322"
+          },
+          {
+            "at": 646,
+            "kind": "user",
+            "text": "Turn 323"
+          },
+          {
+            "at": 647,
+            "kind": "msg",
+            "text": "Response to turn 323"
+          },
+          {
+            "at": 648,
+            "kind": "user",
+            "text": "Turn 324"
+          },
+          {
+            "at": 649,
+            "kind": "msg",
+            "text": "Response to turn 324"
+          },
+          {
+            "at": 650,
+            "kind": "user",
+            "text": "Turn 325"
+          },
+          {
+            "at": 651,
+            "kind": "msg",
+            "text": "Response to turn 325"
+          },
+          {
+            "at": 652,
+            "kind": "user",
+            "text": "Turn 326"
+          },
+          {
+            "at": 653,
+            "kind": "msg",
+            "text": "Response to turn 326"
+          },
+          {
+            "at": 654,
+            "kind": "user",
+            "text": "Turn 327"
+          },
+          {
+            "at": 655,
+            "kind": "msg",
+            "text": "Response to turn 327"
+          },
+          {
+            "at": 656,
+            "kind": "user",
+            "text": "Turn 328"
+          },
+          {
+            "at": 657,
+            "kind": "msg",
+            "text": "Response to turn 328"
+          },
+          {
+            "at": 658,
+            "kind": "user",
+            "text": "Turn 329"
+          },
+          {
+            "at": 659,
+            "kind": "msg",
+            "text": "Response to turn 329"
+          },
+          {
+            "at": 660,
+            "kind": "user",
+            "text": "Turn 330"
+          },
+          {
+            "at": 661,
+            "kind": "msg",
+            "text": "Response to turn 330"
+          },
+          {
+            "at": 662,
+            "kind": "user",
+            "text": "Turn 331"
+          },
+          {
+            "at": 663,
+            "kind": "msg",
+            "text": "Response to turn 331"
+          },
+          {
+            "at": 664,
+            "kind": "user",
+            "text": "Turn 332"
+          },
+          {
+            "at": 665,
+            "kind": "msg",
+            "text": "Response to turn 332"
+          },
+          {
+            "at": 666,
+            "kind": "user",
+            "text": "Turn 333"
+          },
+          {
+            "at": 667,
+            "kind": "msg",
+            "text": "Response to turn 333"
+          },
+          {
+            "at": 668,
+            "kind": "user",
+            "text": "Turn 334"
+          },
+          {
+            "at": 669,
+            "kind": "msg",
+            "text": "Response to turn 334"
+          },
+          {
+            "at": 670,
+            "kind": "user",
+            "text": "Turn 335"
+          },
+          {
+            "at": 671,
+            "kind": "msg",
+            "text": "Response to turn 335"
+          },
+          {
+            "at": 672,
+            "kind": "user",
+            "text": "Turn 336"
+          },
+          {
+            "at": 673,
+            "kind": "msg",
+            "text": "Response to turn 336"
+          },
+          {
+            "at": 674,
+            "kind": "user",
+            "text": "Turn 337"
+          },
+          {
+            "at": 675,
+            "kind": "msg",
+            "text": "Response to turn 337"
+          },
+          {
+            "at": 676,
+            "kind": "user",
+            "text": "Turn 338"
+          },
+          {
+            "at": 677,
+            "kind": "msg",
+            "text": "Response to turn 338"
+          },
+          {
+            "at": 678,
+            "kind": "user",
+            "text": "Turn 339"
+          },
+          {
+            "at": 679,
+            "kind": "msg",
+            "text": "Response to turn 339"
+          },
+          {
+            "at": 680,
+            "kind": "user",
+            "text": "Turn 340"
+          },
+          {
+            "at": 681,
+            "kind": "msg",
+            "text": "Response to turn 340"
+          },
+          {
+            "at": 682,
+            "kind": "user",
+            "text": "Turn 341"
+          },
+          {
+            "at": 683,
+            "kind": "msg",
+            "text": "Response to turn 341"
+          },
+          {
+            "at": 684,
+            "kind": "user",
+            "text": "Turn 342"
+          },
+          {
+            "at": 685,
+            "kind": "msg",
+            "text": "Response to turn 342"
+          },
+          {
+            "at": 686,
+            "kind": "user",
+            "text": "Turn 343"
+          },
+          {
+            "at": 687,
+            "kind": "msg",
+            "text": "Response to turn 343"
+          },
+          {
+            "at": 688,
+            "kind": "user",
+            "text": "Turn 344"
+          },
+          {
+            "at": 689,
+            "kind": "msg",
+            "text": "Response to turn 344"
+          },
+          {
+            "at": 690,
+            "kind": "user",
+            "text": "Turn 345"
+          },
+          {
+            "at": 691,
+            "kind": "msg",
+            "text": "Response to turn 345"
+          },
+          {
+            "at": 692,
+            "kind": "user",
+            "text": "Turn 346"
+          },
+          {
+            "at": 693,
+            "kind": "msg",
+            "text": "Response to turn 346"
+          },
+          {
+            "at": 694,
+            "kind": "user",
+            "text": "Turn 347"
+          },
+          {
+            "at": 695,
+            "kind": "msg",
+            "text": "Response to turn 347"
+          },
+          {
+            "at": 696,
+            "kind": "user",
+            "text": "Turn 348"
+          },
+          {
+            "at": 697,
+            "kind": "msg",
+            "text": "Response to turn 348"
+          },
+          {
+            "at": 698,
+            "kind": "user",
+            "text": "Turn 349"
+          },
+          {
+            "at": 699,
+            "kind": "msg",
+            "text": "Response to turn 349"
+          },
+          {
+            "at": 700,
+            "kind": "user",
+            "text": "Turn 350"
+          },
+          {
+            "at": 701,
+            "kind": "msg",
+            "text": "Response to turn 350"
+          },
+          {
+            "at": 702,
+            "kind": "user",
+            "text": "Turn 351"
+          },
+          {
+            "at": 703,
+            "kind": "msg",
+            "text": "Response to turn 351"
+          },
+          {
+            "at": 704,
+            "kind": "user",
+            "text": "Turn 352"
+          },
+          {
+            "at": 705,
+            "kind": "msg",
+            "text": "Response to turn 352"
+          },
+          {
+            "at": 706,
+            "kind": "user",
+            "text": "Turn 353"
+          },
+          {
+            "at": 707,
+            "kind": "msg",
+            "text": "Response to turn 353"
+          },
+          {
+            "at": 708,
+            "kind": "user",
+            "text": "Turn 354"
+          },
+          {
+            "at": 709,
+            "kind": "msg",
+            "text": "Response to turn 354"
+          },
+          {
+            "at": 710,
+            "kind": "user",
+            "text": "Turn 355"
+          },
+          {
+            "at": 711,
+            "kind": "msg",
+            "text": "Response to turn 355"
+          },
+          {
+            "at": 712,
+            "kind": "user",
+            "text": "Turn 356"
+          },
+          {
+            "at": 713,
+            "kind": "msg",
+            "text": "Response to turn 356"
+          },
+          {
+            "at": 714,
+            "kind": "user",
+            "text": "Turn 357"
+          },
+          {
+            "at": 715,
+            "kind": "msg",
+            "text": "Response to turn 357"
+          },
+          {
+            "at": 716,
+            "kind": "user",
+            "text": "Turn 358"
+          },
+          {
+            "at": 717,
+            "kind": "msg",
+            "text": "Response to turn 358"
+          },
+          {
+            "at": 718,
+            "kind": "user",
+            "text": "Turn 359"
+          },
+          {
+            "at": 719,
+            "kind": "msg",
+            "text": "Response to turn 359"
+          },
+          {
+            "at": 720,
+            "kind": "user",
+            "text": "Turn 360"
+          },
+          {
+            "at": 721,
+            "kind": "msg",
+            "text": "Response to turn 360"
+          },
+          {
+            "at": 722,
+            "kind": "user",
+            "text": "Turn 361"
+          },
+          {
+            "at": 723,
+            "kind": "msg",
+            "text": "Response to turn 361"
+          },
+          {
+            "at": 724,
+            "kind": "user",
+            "text": "Turn 362"
+          },
+          {
+            "at": 725,
+            "kind": "msg",
+            "text": "Response to turn 362"
+          },
+          {
+            "at": 726,
+            "kind": "user",
+            "text": "Turn 363"
+          },
+          {
+            "at": 727,
+            "kind": "msg",
+            "text": "Response to turn 363"
+          },
+          {
+            "at": 728,
+            "kind": "user",
+            "text": "Turn 364"
+          },
+          {
+            "at": 729,
+            "kind": "msg",
+            "text": "Response to turn 364"
+          },
+          {
+            "at": 730,
+            "kind": "user",
+            "text": "Turn 365"
+          },
+          {
+            "at": 731,
+            "kind": "msg",
+            "text": "Response to turn 365"
+          },
+          {
+            "at": 732,
+            "kind": "user",
+            "text": "Turn 366"
+          },
+          {
+            "at": 733,
+            "kind": "msg",
+            "text": "Response to turn 366"
+          },
+          {
+            "at": 734,
+            "kind": "user",
+            "text": "Turn 367"
+          },
+          {
+            "at": 735,
+            "kind": "msg",
+            "text": "Response to turn 367"
+          },
+          {
+            "at": 736,
+            "kind": "user",
+            "text": "Turn 368"
+          },
+          {
+            "at": 737,
+            "kind": "msg",
+            "text": "Response to turn 368"
+          },
+          {
+            "at": 738,
+            "kind": "user",
+            "text": "Turn 369"
+          },
+          {
+            "at": 739,
+            "kind": "msg",
+            "text": "Response to turn 369"
+          },
+          {
+            "at": 740,
+            "kind": "user",
+            "text": "Turn 370"
+          },
+          {
+            "at": 741,
+            "kind": "msg",
+            "text": "Response to turn 370"
+          },
+          {
+            "at": 742,
+            "kind": "user",
+            "text": "Turn 371"
+          },
+          {
+            "at": 743,
+            "kind": "msg",
+            "text": "Response to turn 371"
+          },
+          {
+            "at": 744,
+            "kind": "user",
+            "text": "Turn 372"
+          },
+          {
+            "at": 745,
+            "kind": "msg",
+            "text": "Response to turn 372"
+          },
+          {
+            "at": 746,
+            "kind": "user",
+            "text": "Turn 373"
+          },
+          {
+            "at": 747,
+            "kind": "msg",
+            "text": "Response to turn 373"
+          },
+          {
+            "at": 748,
+            "kind": "user",
+            "text": "Turn 374"
+          },
+          {
+            "at": 749,
+            "kind": "msg",
+            "text": "Response to turn 374"
+          },
+          {
+            "at": 750,
+            "kind": "user",
+            "text": "Turn 375"
+          },
+          {
+            "at": 751,
+            "kind": "msg",
+            "text": "Response to turn 375"
+          },
+          {
+            "at": 752,
+            "kind": "user",
+            "text": "Turn 376"
+          },
+          {
+            "at": 753,
+            "kind": "msg",
+            "text": "Response to turn 376"
+          },
+          {
+            "at": 754,
+            "kind": "user",
+            "text": "Turn 377"
+          },
+          {
+            "at": 755,
+            "kind": "msg",
+            "text": "Response to turn 377"
+          },
+          {
+            "at": 756,
+            "kind": "user",
+            "text": "Turn 378"
+          },
+          {
+            "at": 757,
+            "kind": "msg",
+            "text": "Response to turn 378"
+          },
+          {
+            "at": 758,
+            "kind": "user",
+            "text": "Turn 379"
+          },
+          {
+            "at": 759,
+            "kind": "msg",
+            "text": "Response to turn 379"
+          },
+          {
+            "at": 760,
+            "kind": "user",
+            "text": "Turn 380"
+          },
+          {
+            "at": 761,
+            "kind": "msg",
+            "text": "Response to turn 380"
+          },
+          {
+            "at": 762,
+            "kind": "user",
+            "text": "Turn 381"
+          },
+          {
+            "at": 763,
+            "kind": "msg",
+            "text": "Response to turn 381"
+          },
+          {
+            "at": 764,
+            "kind": "user",
+            "text": "Turn 382"
+          },
+          {
+            "at": 765,
+            "kind": "msg",
+            "text": "Response to turn 382"
+          },
+          {
+            "at": 766,
+            "kind": "user",
+            "text": "Turn 383"
+          },
+          {
+            "at": 767,
+            "kind": "msg",
+            "text": "Response to turn 383"
+          },
+          {
+            "at": 768,
+            "kind": "user",
+            "text": "Turn 384"
+          },
+          {
+            "at": 769,
+            "kind": "msg",
+            "text": "Response to turn 384"
+          },
+          {
+            "at": 770,
+            "kind": "user",
+            "text": "Turn 385"
+          },
+          {
+            "at": 771,
+            "kind": "msg",
+            "text": "Response to turn 385"
+          },
+          {
+            "at": 772,
+            "kind": "user",
+            "text": "Turn 386"
+          },
+          {
+            "at": 773,
+            "kind": "msg",
+            "text": "Response to turn 386"
+          },
+          {
+            "at": 774,
+            "kind": "user",
+            "text": "Turn 387"
+          },
+          {
+            "at": 775,
+            "kind": "msg",
+            "text": "Response to turn 387"
+          },
+          {
+            "at": 776,
+            "kind": "user",
+            "text": "Turn 388"
+          },
+          {
+            "at": 777,
+            "kind": "msg",
+            "text": "Response to turn 388"
+          },
+          {
+            "at": 778,
+            "kind": "user",
+            "text": "Turn 389"
+          },
+          {
+            "at": 779,
+            "kind": "msg",
+            "text": "Response to turn 389"
+          },
+          {
+            "at": 780,
+            "kind": "user",
+            "text": "Turn 390"
+          },
+          {
+            "at": 781,
+            "kind": "msg",
+            "text": "Response to turn 390"
+          },
+          {
+            "at": 782,
+            "kind": "user",
+            "text": "Turn 391"
+          },
+          {
+            "at": 783,
+            "kind": "msg",
+            "text": "Response to turn 391"
+          },
+          {
+            "at": 784,
+            "kind": "user",
+            "text": "Turn 392"
+          },
+          {
+            "at": 785,
+            "kind": "msg",
+            "text": "Response to turn 392"
+          },
+          {
+            "at": 786,
+            "kind": "user",
+            "text": "Turn 393"
+          },
+          {
+            "at": 787,
+            "kind": "msg",
+            "text": "Response to turn 393"
+          },
+          {
+            "at": 788,
+            "kind": "user",
+            "text": "Turn 394"
+          },
+          {
+            "at": 789,
+            "kind": "msg",
+            "text": "Response to turn 394"
+          },
+          {
+            "at": 790,
+            "kind": "user",
+            "text": "Turn 395"
+          },
+          {
+            "at": 791,
+            "kind": "msg",
+            "text": "Response to turn 395"
+          },
+          {
+            "at": 792,
+            "kind": "user",
+            "text": "Turn 396"
+          },
+          {
+            "at": 793,
+            "kind": "msg",
+            "text": "Response to turn 396"
+          },
+          {
+            "at": 794,
+            "kind": "user",
+            "text": "Turn 397"
+          },
+          {
+            "at": 795,
+            "kind": "msg",
+            "text": "Response to turn 397"
+          },
+          {
+            "at": 796,
+            "kind": "user",
+            "text": "Turn 398"
+          },
+          {
+            "at": 797,
+            "kind": "msg",
+            "text": "Response to turn 398"
+          },
+          {
+            "at": 798,
+            "kind": "user",
+            "text": "Turn 399"
+          },
+          {
+            "at": 799,
+            "kind": "msg",
+            "text": "Response to turn 399"
+          },
+          {
+            "at": 800,
+            "kind": "user",
+            "text": "Turn 400"
+          },
+          {
+            "at": 801,
+            "kind": "msg",
+            "text": "Response to turn 400"
+          },
+          {
+            "at": 802,
+            "kind": "user",
+            "text": "Turn 401"
+          },
+          {
+            "at": 803,
+            "kind": "msg",
+            "text": "Response to turn 401"
+          },
+          {
+            "at": 804,
+            "kind": "user",
+            "text": "Turn 402"
+          },
+          {
+            "at": 805,
+            "kind": "msg",
+            "text": "Response to turn 402"
+          },
+          {
+            "at": 806,
+            "kind": "user",
+            "text": "Turn 403"
+          },
+          {
+            "at": 807,
+            "kind": "msg",
+            "text": "Response to turn 403"
+          },
+          {
+            "at": 808,
+            "kind": "user",
+            "text": "Turn 404"
+          },
+          {
+            "at": 809,
+            "kind": "msg",
+            "text": "Response to turn 404"
+          },
+          {
+            "at": 810,
+            "kind": "user",
+            "text": "Turn 405"
+          },
+          {
+            "at": 811,
+            "kind": "msg",
+            "text": "Response to turn 405"
+          },
+          {
+            "at": 812,
+            "kind": "user",
+            "text": "Turn 406"
+          },
+          {
+            "at": 813,
+            "kind": "msg",
+            "text": "Response to turn 406"
+          },
+          {
+            "at": 814,
+            "kind": "user",
+            "text": "Turn 407"
+          },
+          {
+            "at": 815,
+            "kind": "msg",
+            "text": "Response to turn 407"
+          },
+          {
+            "at": 816,
+            "kind": "user",
+            "text": "Turn 408"
+          },
+          {
+            "at": 817,
+            "kind": "msg",
+            "text": "Response to turn 408"
+          },
+          {
+            "at": 818,
+            "kind": "user",
+            "text": "Turn 409"
+          },
+          {
+            "at": 819,
+            "kind": "msg",
+            "text": "Response to turn 409"
+          },
+          {
+            "at": 820,
+            "kind": "user",
+            "text": "Turn 410"
+          },
+          {
+            "at": 821,
+            "kind": "msg",
+            "text": "Response to turn 410"
+          },
+          {
+            "at": 822,
+            "kind": "user",
+            "text": "Turn 411"
+          },
+          {
+            "at": 823,
+            "kind": "msg",
+            "text": "Response to turn 411"
+          },
+          {
+            "at": 824,
+            "kind": "user",
+            "text": "Turn 412"
+          },
+          {
+            "at": 825,
+            "kind": "msg",
+            "text": "Response to turn 412"
+          },
+          {
+            "at": 826,
+            "kind": "user",
+            "text": "Turn 413"
+          },
+          {
+            "at": 827,
+            "kind": "msg",
+            "text": "Response to turn 413"
+          },
+          {
+            "at": 828,
+            "kind": "user",
+            "text": "Turn 414"
+          },
+          {
+            "at": 829,
+            "kind": "msg",
+            "text": "Response to turn 414"
+          },
+          {
+            "at": 830,
+            "kind": "user",
+            "text": "Turn 415"
+          },
+          {
+            "at": 831,
+            "kind": "msg",
+            "text": "Response to turn 415"
+          },
+          {
+            "at": 832,
+            "kind": "user",
+            "text": "Turn 416"
+          },
+          {
+            "at": 833,
+            "kind": "msg",
+            "text": "Response to turn 416"
+          },
+          {
+            "at": 834,
+            "kind": "user",
+            "text": "Turn 417"
+          },
+          {
+            "at": 835,
+            "kind": "msg",
+            "text": "Response to turn 417"
+          },
+          {
+            "at": 836,
+            "kind": "user",
+            "text": "Turn 418"
+          },
+          {
+            "at": 837,
+            "kind": "msg",
+            "text": "Response to turn 418"
+          },
+          {
+            "at": 838,
+            "kind": "user",
+            "text": "Turn 419"
+          },
+          {
+            "at": 839,
+            "kind": "msg",
+            "text": "Response to turn 419"
+          },
+          {
+            "at": 840,
+            "kind": "user",
+            "text": "Turn 420"
+          },
+          {
+            "at": 841,
+            "kind": "msg",
+            "text": "Response to turn 420"
+          },
+          {
+            "at": 842,
+            "kind": "user",
+            "text": "Turn 421"
+          },
+          {
+            "at": 843,
+            "kind": "msg",
+            "text": "Response to turn 421"
+          },
+          {
+            "at": 844,
+            "kind": "user",
+            "text": "Turn 422"
+          },
+          {
+            "at": 845,
+            "kind": "msg",
+            "text": "Response to turn 422"
+          },
+          {
+            "at": 846,
+            "kind": "user",
+            "text": "Turn 423"
+          },
+          {
+            "at": 847,
+            "kind": "msg",
+            "text": "Response to turn 423"
+          },
+          {
+            "at": 848,
+            "kind": "user",
+            "text": "Turn 424"
+          },
+          {
+            "at": 849,
+            "kind": "msg",
+            "text": "Response to turn 424"
+          },
+          {
+            "at": 850,
+            "kind": "user",
+            "text": "Turn 425"
+          },
+          {
+            "at": 851,
+            "kind": "msg",
+            "text": "Response to turn 425"
+          },
+          {
+            "at": 852,
+            "kind": "user",
+            "text": "Turn 426"
+          },
+          {
+            "at": 853,
+            "kind": "msg",
+            "text": "Response to turn 426"
+          },
+          {
+            "at": 854,
+            "kind": "user",
+            "text": "Turn 427"
+          },
+          {
+            "at": 855,
+            "kind": "msg",
+            "text": "Response to turn 427"
+          },
+          {
+            "at": 856,
+            "kind": "user",
+            "text": "Turn 428"
+          },
+          {
+            "at": 857,
+            "kind": "msg",
+            "text": "Response to turn 428"
+          },
+          {
+            "at": 858,
+            "kind": "user",
+            "text": "Turn 429"
+          },
+          {
+            "at": 859,
+            "kind": "msg",
+            "text": "Response to turn 429"
+          },
+          {
+            "at": 860,
+            "kind": "user",
+            "text": "Turn 430"
+          },
+          {
+            "at": 861,
+            "kind": "msg",
+            "text": "Response to turn 430"
+          },
+          {
+            "at": 862,
+            "kind": "user",
+            "text": "Turn 431"
+          },
+          {
+            "at": 863,
+            "kind": "msg",
+            "text": "Response to turn 431"
+          },
+          {
+            "at": 864,
+            "kind": "user",
+            "text": "Turn 432"
+          },
+          {
+            "at": 865,
+            "kind": "msg",
+            "text": "Response to turn 432"
+          },
+          {
+            "at": 866,
+            "kind": "user",
+            "text": "Turn 433"
+          },
+          {
+            "at": 867,
+            "kind": "msg",
+            "text": "Response to turn 433"
+          },
+          {
+            "at": 868,
+            "kind": "user",
+            "text": "Turn 434"
+          },
+          {
+            "at": 869,
+            "kind": "msg",
+            "text": "Response to turn 434"
+          },
+          {
+            "at": 870,
+            "kind": "user",
+            "text": "Turn 435"
+          },
+          {
+            "at": 871,
+            "kind": "msg",
+            "text": "Response to turn 435"
+          },
+          {
+            "at": 872,
+            "kind": "user",
+            "text": "Turn 436"
+          },
+          {
+            "at": 873,
+            "kind": "msg",
+            "text": "Response to turn 436"
+          },
+          {
+            "at": 874,
+            "kind": "user",
+            "text": "Turn 437"
+          },
+          {
+            "at": 875,
+            "kind": "msg",
+            "text": "Response to turn 437"
+          },
+          {
+            "at": 876,
+            "kind": "user",
+            "text": "Turn 438"
+          },
+          {
+            "at": 877,
+            "kind": "msg",
+            "text": "Response to turn 438"
+          },
+          {
+            "at": 878,
+            "kind": "user",
+            "text": "Turn 439"
+          },
+          {
+            "at": 879,
+            "kind": "msg",
+            "text": "Response to turn 439"
+          },
+          {
+            "at": 880,
+            "kind": "user",
+            "text": "Turn 440"
+          },
+          {
+            "at": 881,
+            "kind": "msg",
+            "text": "Response to turn 440"
+          },
+          {
+            "at": 882,
+            "kind": "user",
+            "text": "Turn 441"
+          },
+          {
+            "at": 883,
+            "kind": "msg",
+            "text": "Response to turn 441"
+          },
+          {
+            "at": 884,
+            "kind": "user",
+            "text": "Turn 442"
+          },
+          {
+            "at": 885,
+            "kind": "msg",
+            "text": "Response to turn 442"
+          },
+          {
+            "at": 886,
+            "kind": "user",
+            "text": "Turn 443"
+          },
+          {
+            "at": 887,
+            "kind": "msg",
+            "text": "Response to turn 443"
+          },
+          {
+            "at": 888,
+            "kind": "user",
+            "text": "Turn 444"
+          },
+          {
+            "at": 889,
+            "kind": "msg",
+            "text": "Response to turn 444"
+          },
+          {
+            "at": 890,
+            "kind": "user",
+            "text": "Turn 445"
+          },
+          {
+            "at": 891,
+            "kind": "msg",
+            "text": "Response to turn 445"
+          },
+          {
+            "at": 892,
+            "kind": "user",
+            "text": "Turn 446"
+          },
+          {
+            "at": 893,
+            "kind": "msg",
+            "text": "Response to turn 446"
+          },
+          {
+            "at": 894,
+            "kind": "user",
+            "text": "Turn 447"
+          },
+          {
+            "at": 895,
+            "kind": "msg",
+            "text": "Response to turn 447"
+          },
+          {
+            "at": 896,
+            "kind": "user",
+            "text": "Turn 448"
+          },
+          {
+            "at": 897,
+            "kind": "msg",
+            "text": "Response to turn 448"
+          },
+          {
+            "at": 898,
+            "kind": "user",
+            "text": "Turn 449"
+          },
+          {
+            "at": 899,
+            "kind": "msg",
+            "text": "Response to turn 449"
+          },
+          {
+            "at": 900,
+            "kind": "user",
+            "text": "Turn 450"
+          },
+          {
+            "at": 901,
+            "kind": "msg",
+            "text": "Response to turn 450"
+          },
+          {
+            "at": 902,
+            "kind": "user",
+            "text": "Turn 451"
+          },
+          {
+            "at": 903,
+            "kind": "msg",
+            "text": "Response to turn 451"
+          },
+          {
+            "at": 904,
+            "kind": "user",
+            "text": "Turn 452"
+          },
+          {
+            "at": 905,
+            "kind": "msg",
+            "text": "Response to turn 452"
+          },
+          {
+            "at": 906,
+            "kind": "user",
+            "text": "Turn 453"
+          },
+          {
+            "at": 907,
+            "kind": "msg",
+            "text": "Response to turn 453"
+          },
+          {
+            "at": 908,
+            "kind": "user",
+            "text": "Turn 454"
+          },
+          {
+            "at": 909,
+            "kind": "msg",
+            "text": "Response to turn 454"
+          },
+          {
+            "at": 910,
+            "kind": "user",
+            "text": "Turn 455"
+          },
+          {
+            "at": 911,
+            "kind": "msg",
+            "text": "Response to turn 455"
+          },
+          {
+            "at": 912,
+            "kind": "user",
+            "text": "Turn 456"
+          },
+          {
+            "at": 913,
+            "kind": "msg",
+            "text": "Response to turn 456"
+          },
+          {
+            "at": 914,
+            "kind": "user",
+            "text": "Turn 457"
+          },
+          {
+            "at": 915,
+            "kind": "msg",
+            "text": "Response to turn 457"
+          },
+          {
+            "at": 916,
+            "kind": "user",
+            "text": "Turn 458"
+          },
+          {
+            "at": 917,
+            "kind": "msg",
+            "text": "Response to turn 458"
+          },
+          {
+            "at": 918,
+            "kind": "user",
+            "text": "Turn 459"
+          },
+          {
+            "at": 919,
+            "kind": "msg",
+            "text": "Response to turn 459"
+          },
+          {
+            "at": 920,
+            "kind": "user",
+            "text": "Turn 460"
+          },
+          {
+            "at": 921,
+            "kind": "msg",
+            "text": "Response to turn 460"
+          },
+          {
+            "at": 922,
+            "kind": "user",
+            "text": "Turn 461"
+          },
+          {
+            "at": 923,
+            "kind": "msg",
+            "text": "Response to turn 461"
+          },
+          {
+            "at": 924,
+            "kind": "user",
+            "text": "Turn 462"
+          },
+          {
+            "at": 925,
+            "kind": "msg",
+            "text": "Response to turn 462"
+          },
+          {
+            "at": 926,
+            "kind": "user",
+            "text": "Turn 463"
+          },
+          {
+            "at": 927,
+            "kind": "msg",
+            "text": "Response to turn 463"
+          },
+          {
+            "at": 928,
+            "kind": "user",
+            "text": "Turn 464"
+          },
+          {
+            "at": 929,
+            "kind": "msg",
+            "text": "Response to turn 464"
+          },
+          {
+            "at": 930,
+            "kind": "user",
+            "text": "Turn 465"
+          },
+          {
+            "at": 931,
+            "kind": "msg",
+            "text": "Response to turn 465"
+          },
+          {
+            "at": 932,
+            "kind": "user",
+            "text": "Turn 466"
+          },
+          {
+            "at": 933,
+            "kind": "msg",
+            "text": "Response to turn 466"
+          },
+          {
+            "at": 934,
+            "kind": "user",
+            "text": "Turn 467"
+          },
+          {
+            "at": 935,
+            "kind": "msg",
+            "text": "Response to turn 467"
+          },
+          {
+            "at": 936,
+            "kind": "user",
+            "text": "Turn 468"
+          },
+          {
+            "at": 937,
+            "kind": "msg",
+            "text": "Response to turn 468"
+          },
+          {
+            "at": 938,
+            "kind": "user",
+            "text": "Turn 469"
+          },
+          {
+            "at": 939,
+            "kind": "msg",
+            "text": "Response to turn 469"
+          },
+          {
+            "at": 940,
+            "kind": "user",
+            "text": "Turn 470"
+          },
+          {
+            "at": 941,
+            "kind": "msg",
+            "text": "Response to turn 470"
+          },
+          {
+            "at": 942,
+            "kind": "user",
+            "text": "Turn 471"
+          },
+          {
+            "at": 943,
+            "kind": "msg",
+            "text": "Response to turn 471"
+          },
+          {
+            "at": 944,
+            "kind": "user",
+            "text": "Turn 472"
+          },
+          {
+            "at": 945,
+            "kind": "msg",
+            "text": "Response to turn 472"
+          },
+          {
+            "at": 946,
+            "kind": "user",
+            "text": "Turn 473"
+          },
+          {
+            "at": 947,
+            "kind": "msg",
+            "text": "Response to turn 473"
+          },
+          {
+            "at": 948,
+            "kind": "user",
+            "text": "Turn 474"
+          },
+          {
+            "at": 949,
+            "kind": "msg",
+            "text": "Response to turn 474"
+          },
+          {
+            "at": 950,
+            "kind": "user",
+            "text": "Turn 475"
+          },
+          {
+            "at": 951,
+            "kind": "msg",
+            "text": "Response to turn 475"
+          },
+          {
+            "at": 952,
+            "kind": "user",
+            "text": "Turn 476"
+          },
+          {
+            "at": 953,
+            "kind": "msg",
+            "text": "Response to turn 476"
+          },
+          {
+            "at": 954,
+            "kind": "user",
+            "text": "Turn 477"
+          },
+          {
+            "at": 955,
+            "kind": "msg",
+            "text": "Response to turn 477"
+          },
+          {
+            "at": 956,
+            "kind": "user",
+            "text": "Turn 478"
+          },
+          {
+            "at": 957,
+            "kind": "msg",
+            "text": "Response to turn 478"
+          },
+          {
+            "at": 958,
+            "kind": "user",
+            "text": "Turn 479"
+          },
+          {
+            "at": 959,
+            "kind": "msg",
+            "text": "Response to turn 479"
+          },
+          {
+            "at": 960,
+            "kind": "user",
+            "text": "Turn 480"
+          },
+          {
+            "at": 961,
+            "kind": "msg",
+            "text": "Response to turn 480"
+          },
+          {
+            "at": 962,
+            "kind": "user",
+            "text": "Turn 481"
+          },
+          {
+            "at": 963,
+            "kind": "msg",
+            "text": "Response to turn 481"
+          },
+          {
+            "at": 964,
+            "kind": "user",
+            "text": "Turn 482"
+          },
+          {
+            "at": 965,
+            "kind": "msg",
+            "text": "Response to turn 482"
+          },
+          {
+            "at": 966,
+            "kind": "user",
+            "text": "Turn 483"
+          },
+          {
+            "at": 967,
+            "kind": "msg",
+            "text": "Response to turn 483"
+          },
+          {
+            "at": 968,
+            "kind": "user",
+            "text": "Turn 484"
+          },
+          {
+            "at": 969,
+            "kind": "msg",
+            "text": "Response to turn 484"
+          },
+          {
+            "at": 970,
+            "kind": "user",
+            "text": "Turn 485"
+          },
+          {
+            "at": 971,
+            "kind": "msg",
+            "text": "Response to turn 485"
+          },
+          {
+            "at": 972,
+            "kind": "user",
+            "text": "Turn 486"
+          },
+          {
+            "at": 973,
+            "kind": "msg",
+            "text": "Response to turn 486"
+          },
+          {
+            "at": 974,
+            "kind": "user",
+            "text": "Turn 487"
+          },
+          {
+            "at": 975,
+            "kind": "msg",
+            "text": "Response to turn 487"
+          },
+          {
+            "at": 976,
+            "kind": "user",
+            "text": "Turn 488"
+          },
+          {
+            "at": 977,
+            "kind": "msg",
+            "text": "Response to turn 488"
+          },
+          {
+            "at": 978,
+            "kind": "user",
+            "text": "Turn 489"
+          },
+          {
+            "at": 979,
+            "kind": "msg",
+            "text": "Response to turn 489"
+          },
+          {
+            "at": 980,
+            "kind": "user",
+            "text": "Turn 490"
+          },
+          {
+            "at": 981,
+            "kind": "msg",
+            "text": "Response to turn 490"
+          },
+          {
+            "at": 982,
+            "kind": "user",
+            "text": "Turn 491"
+          },
+          {
+            "at": 983,
+            "kind": "msg",
+            "text": "Response to turn 491"
+          },
+          {
+            "at": 984,
+            "kind": "user",
+            "text": "Turn 492"
+          },
+          {
+            "at": 985,
+            "kind": "msg",
+            "text": "Response to turn 492"
+          },
+          {
+            "at": 986,
+            "kind": "user",
+            "text": "Turn 493"
+          },
+          {
+            "at": 987,
+            "kind": "msg",
+            "text": "Response to turn 493"
+          },
+          {
+            "at": 988,
+            "kind": "user",
+            "text": "Turn 494"
+          },
+          {
+            "at": 989,
+            "kind": "msg",
+            "text": "Response to turn 494"
+          },
+          {
+            "at": 990,
+            "kind": "user",
+            "text": "Turn 495"
+          },
+          {
+            "at": 991,
+            "kind": "msg",
+            "text": "Response to turn 495"
+          },
+          {
+            "at": 992,
+            "kind": "user",
+            "text": "Turn 496"
+          },
+          {
+            "at": 993,
+            "kind": "msg",
+            "text": "Response to turn 496"
+          },
+          {
+            "at": 994,
+            "kind": "user",
+            "text": "Turn 497"
+          },
+          {
+            "at": 995,
+            "kind": "msg",
+            "text": "Response to turn 497"
+          },
+          {
+            "at": 996,
+            "kind": "user",
+            "text": "Turn 498"
+          },
+          {
+            "at": 997,
+            "kind": "msg",
+            "text": "Response to turn 498"
+          },
+          {
+            "at": 998,
+            "kind": "user",
+            "text": "Turn 499"
+          },
+          {
+            "at": 999,
+            "kind": "msg",
+            "text": "Response to turn 499"
+          },
+          {
+            "at": 1000,
+            "kind": "user",
+            "text": "Turn 500"
+          },
+          {
+            "at": 1001,
+            "kind": "msg",
+            "text": "Response to turn 500"
+          },
+          {
+            "at": 1002,
+            "kind": "user",
+            "text": "Turn 501"
+          },
+          {
+            "at": 1003,
+            "kind": "msg",
+            "text": "Response to turn 501"
+          },
+          {
+            "at": 1004,
+            "kind": "user",
+            "text": "Turn 502"
+          },
+          {
+            "at": 1005,
+            "kind": "msg",
+            "text": "Response to turn 502"
+          },
+          {
+            "at": 1006,
+            "kind": "user",
+            "text": "Turn 503"
+          },
+          {
+            "at": 1007,
+            "kind": "msg",
+            "text": "Response to turn 503"
+          },
+          {
+            "at": 1008,
+            "kind": "user",
+            "text": "Turn 504"
+          },
+          {
+            "at": 1009,
+            "kind": "msg",
+            "text": "Response to turn 504"
+          },
+          {
+            "at": 1010,
+            "kind": "user",
+            "text": "Turn 505"
+          },
+          {
+            "at": 1011,
+            "kind": "msg",
+            "text": "Response to turn 505"
+          },
+          {
+            "at": 1012,
+            "kind": "user",
+            "text": "Turn 506"
+          },
+          {
+            "at": 1013,
+            "kind": "msg",
+            "text": "Response to turn 506"
+          },
+          {
+            "at": 1014,
+            "kind": "user",
+            "text": "Turn 507"
+          },
+          {
+            "at": 1015,
+            "kind": "msg",
+            "text": "Response to turn 507"
+          },
+          {
+            "at": 1016,
+            "kind": "user",
+            "text": "Turn 508"
+          },
+          {
+            "at": 1017,
+            "kind": "msg",
+            "text": "Response to turn 508"
+          },
+          {
+            "at": 1018,
+            "kind": "user",
+            "text": "Turn 509"
+          },
+          {
+            "at": 1019,
+            "kind": "msg",
+            "text": "Response to turn 509"
+          },
+          {
+            "at": 1020,
+            "kind": "user",
+            "text": "Turn 510"
+          },
+          {
+            "at": 1021,
+            "kind": "msg",
+            "text": "Response to turn 510"
+          },
+          {
+            "at": 1022,
+            "kind": "user",
+            "text": "Turn 511"
+          },
+          {
+            "at": 1023,
+            "kind": "msg",
+            "text": "Response to turn 511"
+          },
+          {
+            "at": 1024,
+            "kind": "user",
+            "text": "Turn 512"
+          },
+          {
+            "at": 1025,
+            "kind": "msg",
+            "text": "Response to turn 512"
+          },
+          {
+            "at": 1026,
+            "kind": "user",
+            "text": "Turn 513"
+          },
+          {
+            "at": 1027,
+            "kind": "msg",
+            "text": "Response to turn 513"
+          },
+          {
+            "at": 1028,
+            "kind": "user",
+            "text": "Turn 514"
+          },
+          {
+            "at": 1029,
+            "kind": "msg",
+            "text": "Response to turn 514"
+          },
+          {
+            "at": 1030,
+            "kind": "user",
+            "text": "Turn 515"
+          },
+          {
+            "at": 1031,
+            "kind": "msg",
+            "text": "Response to turn 515"
+          },
+          {
+            "at": 1032,
+            "kind": "user",
+            "text": "Turn 516"
+          },
+          {
+            "at": 1033,
+            "kind": "msg",
+            "text": "Response to turn 516"
+          },
+          {
+            "at": 1034,
+            "kind": "user",
+            "text": "Turn 517"
+          },
+          {
+            "at": 1035,
+            "kind": "msg",
+            "text": "Response to turn 517"
+          },
+          {
+            "at": 1036,
+            "kind": "user",
+            "text": "Turn 518"
+          },
+          {
+            "at": 1037,
+            "kind": "msg",
+            "text": "Response to turn 518"
+          },
+          {
+            "at": 1038,
+            "kind": "user",
+            "text": "Turn 519"
+          },
+          {
+            "at": 1039,
+            "kind": "msg",
+            "text": "Response to turn 519"
+          },
+          {
+            "at": 1040,
+            "kind": "user",
+            "text": "Turn 520"
+          },
+          {
+            "at": 1041,
+            "kind": "msg",
+            "text": "Response to turn 520"
+          },
+          {
+            "at": 1042,
+            "kind": "user",
+            "text": "Turn 521"
+          },
+          {
+            "at": 1043,
+            "kind": "msg",
+            "text": "Response to turn 521"
+          },
+          {
+            "at": 1044,
+            "kind": "user",
+            "text": "Turn 522"
+          },
+          {
+            "at": 1045,
+            "kind": "msg",
+            "text": "Response to turn 522"
+          },
+          {
+            "at": 1046,
+            "kind": "user",
+            "text": "Turn 523"
+          },
+          {
+            "at": 1047,
+            "kind": "msg",
+            "text": "Response to turn 523"
+          },
+          {
+            "at": 1048,
+            "kind": "user",
+            "text": "Turn 524"
+          },
+          {
+            "at": 1049,
+            "kind": "msg",
+            "text": "Response to turn 524"
+          },
+          {
+            "at": 1050,
+            "kind": "user",
+            "text": "Turn 525"
+          },
+          {
+            "at": 1051,
+            "kind": "msg",
+            "text": "Response to turn 525"
+          },
+          {
+            "at": 1052,
+            "kind": "user",
+            "text": "Turn 526"
+          },
+          {
+            "at": 1053,
+            "kind": "msg",
+            "text": "Response to turn 526"
+          },
+          {
+            "at": 1054,
+            "kind": "user",
+            "text": "Turn 527"
+          },
+          {
+            "at": 1055,
+            "kind": "msg",
+            "text": "Response to turn 527"
+          },
+          {
+            "at": 1056,
+            "kind": "user",
+            "text": "Turn 528"
+          },
+          {
+            "at": 1057,
+            "kind": "msg",
+            "text": "Response to turn 528"
+          },
+          {
+            "at": 1058,
+            "kind": "user",
+            "text": "Turn 529"
+          },
+          {
+            "at": 1059,
+            "kind": "msg",
+            "text": "Response to turn 529"
+          },
+          {
+            "at": 1060,
+            "kind": "user",
+            "text": "Turn 530"
+          },
+          {
+            "at": 1061,
+            "kind": "msg",
+            "text": "Response to turn 530"
+          },
+          {
+            "at": 1062,
+            "kind": "user",
+            "text": "Turn 531"
+          },
+          {
+            "at": 1063,
+            "kind": "msg",
+            "text": "Response to turn 531"
+          },
+          {
+            "at": 1064,
+            "kind": "user",
+            "text": "Turn 532"
+          },
+          {
+            "at": 1065,
+            "kind": "msg",
+            "text": "Response to turn 532"
+          },
+          {
+            "at": 1066,
+            "kind": "user",
+            "text": "Turn 533"
+          },
+          {
+            "at": 1067,
+            "kind": "msg",
+            "text": "Response to turn 533"
+          },
+          {
+            "at": 1068,
+            "kind": "user",
+            "text": "Turn 534"
+          },
+          {
+            "at": 1069,
+            "kind": "msg",
+            "text": "Response to turn 534"
+          },
+          {
+            "at": 1070,
+            "kind": "user",
+            "text": "Turn 535"
+          },
+          {
+            "at": 1071,
+            "kind": "msg",
+            "text": "Response to turn 535"
+          },
+          {
+            "at": 1072,
+            "kind": "user",
+            "text": "Turn 536"
+          },
+          {
+            "at": 1073,
+            "kind": "msg",
+            "text": "Response to turn 536"
+          },
+          {
+            "at": 1074,
+            "kind": "user",
+            "text": "Turn 537"
+          },
+          {
+            "at": 1075,
+            "kind": "msg",
+            "text": "Response to turn 537"
+          },
+          {
+            "at": 1076,
+            "kind": "user",
+            "text": "Turn 538"
+          },
+          {
+            "at": 1077,
+            "kind": "msg",
+            "text": "Response to turn 538"
+          },
+          {
+            "at": 1078,
+            "kind": "user",
+            "text": "Turn 539"
+          },
+          {
+            "at": 1079,
+            "kind": "msg",
+            "text": "Response to turn 539"
+          },
+          {
+            "at": 1080,
+            "kind": "user",
+            "text": "Turn 540"
+          },
+          {
+            "at": 1081,
+            "kind": "msg",
+            "text": "Response to turn 540"
+          },
+          {
+            "at": 1082,
+            "kind": "user",
+            "text": "Turn 541"
+          },
+          {
+            "at": 1083,
+            "kind": "msg",
+            "text": "Response to turn 541"
+          },
+          {
+            "at": 1084,
+            "kind": "user",
+            "text": "Turn 542"
+          },
+          {
+            "at": 1085,
+            "kind": "msg",
+            "text": "Response to turn 542"
+          },
+          {
+            "at": 1086,
+            "kind": "user",
+            "text": "Turn 543"
+          },
+          {
+            "at": 1087,
+            "kind": "msg",
+            "text": "Response to turn 543"
+          },
+          {
+            "at": 1088,
+            "kind": "user",
+            "text": "Turn 544"
+          },
+          {
+            "at": 1089,
+            "kind": "msg",
+            "text": "Response to turn 544"
+          },
+          {
+            "at": 1090,
+            "kind": "user",
+            "text": "Turn 545"
+          },
+          {
+            "at": 1091,
+            "kind": "msg",
+            "text": "Response to turn 545"
+          },
+          {
+            "at": 1092,
+            "kind": "user",
+            "text": "Turn 546"
+          },
+          {
+            "at": 1093,
+            "kind": "msg",
+            "text": "Response to turn 546"
+          },
+          {
+            "at": 1094,
+            "kind": "user",
+            "text": "Turn 547"
+          },
+          {
+            "at": 1095,
+            "kind": "msg",
+            "text": "Response to turn 547"
+          },
+          {
+            "at": 1096,
+            "kind": "user",
+            "text": "Turn 548"
+          },
+          {
+            "at": 1097,
+            "kind": "msg",
+            "text": "Response to turn 548"
+          },
+          {
+            "at": 1098,
+            "kind": "user",
+            "text": "Turn 549"
+          },
+          {
+            "at": 1099,
+            "kind": "msg",
+            "text": "Response to turn 549"
+          },
+          {
+            "at": 1100,
+            "kind": "user",
+            "text": "Turn 550"
+          },
+          {
+            "at": 1101,
+            "kind": "msg",
+            "text": "Response to turn 550"
+          },
+          {
+            "at": 1102,
+            "kind": "user",
+            "text": "Turn 551"
+          },
+          {
+            "at": 1103,
+            "kind": "msg",
+            "text": "Response to turn 551"
+          },
+          {
+            "at": 1104,
+            "kind": "user",
+            "text": "Turn 552"
+          },
+          {
+            "at": 1105,
+            "kind": "msg",
+            "text": "Response to turn 552"
+          },
+          {
+            "at": 1106,
+            "kind": "user",
+            "text": "Turn 553"
+          },
+          {
+            "at": 1107,
+            "kind": "msg",
+            "text": "Response to turn 553"
+          },
+          {
+            "at": 1108,
+            "kind": "user",
+            "text": "Turn 554"
+          },
+          {
+            "at": 1109,
+            "kind": "msg",
+            "text": "Response to turn 554"
+          },
+          {
+            "at": 1110,
+            "kind": "user",
+            "text": "Turn 555"
+          },
+          {
+            "at": 1111,
+            "kind": "msg",
+            "text": "Response to turn 555"
+          },
+          {
+            "at": 1112,
+            "kind": "user",
+            "text": "Turn 556"
+          },
+          {
+            "at": 1113,
+            "kind": "msg",
+            "text": "Response to turn 556"
+          },
+          {
+            "at": 1114,
+            "kind": "user",
+            "text": "Turn 557"
+          },
+          {
+            "at": 1115,
+            "kind": "msg",
+            "text": "Response to turn 557"
+          },
+          {
+            "at": 1116,
+            "kind": "user",
+            "text": "Turn 558"
+          },
+          {
+            "at": 1117,
+            "kind": "msg",
+            "text": "Response to turn 558"
+          },
+          {
+            "at": 1118,
+            "kind": "user",
+            "text": "Turn 559"
+          },
+          {
+            "at": 1119,
+            "kind": "msg",
+            "text": "Response to turn 559"
+          },
+          {
+            "at": 1120,
+            "kind": "user",
+            "text": "Turn 560"
+          },
+          {
+            "at": 1121,
+            "kind": "msg",
+            "text": "Response to turn 560"
+          },
+          {
+            "at": 1122,
+            "kind": "user",
+            "text": "Turn 561"
+          },
+          {
+            "at": 1123,
+            "kind": "msg",
+            "text": "Response to turn 561"
+          },
+          {
+            "at": 1124,
+            "kind": "user",
+            "text": "Turn 562"
+          },
+          {
+            "at": 1125,
+            "kind": "msg",
+            "text": "Response to turn 562"
+          },
+          {
+            "at": 1126,
+            "kind": "user",
+            "text": "Turn 563"
+          },
+          {
+            "at": 1127,
+            "kind": "msg",
+            "text": "Response to turn 563"
+          },
+          {
+            "at": 1128,
+            "kind": "user",
+            "text": "Turn 564"
+          },
+          {
+            "at": 1129,
+            "kind": "msg",
+            "text": "Response to turn 564"
+          },
+          {
+            "at": 1130,
+            "kind": "user",
+            "text": "Turn 565"
+          },
+          {
+            "at": 1131,
+            "kind": "msg",
+            "text": "Response to turn 565"
+          },
+          {
+            "at": 1132,
+            "kind": "user",
+            "text": "Turn 566"
+          },
+          {
+            "at": 1133,
+            "kind": "msg",
+            "text": "Response to turn 566"
+          },
+          {
+            "at": 1134,
+            "kind": "user",
+            "text": "Turn 567"
+          },
+          {
+            "at": 1135,
+            "kind": "msg",
+            "text": "Response to turn 567"
+          },
+          {
+            "at": 1136,
+            "kind": "user",
+            "text": "Turn 568"
+          },
+          {
+            "at": 1137,
+            "kind": "msg",
+            "text": "Response to turn 568"
+          },
+          {
+            "at": 1138,
+            "kind": "user",
+            "text": "Turn 569"
+          },
+          {
+            "at": 1139,
+            "kind": "msg",
+            "text": "Response to turn 569"
+          },
+          {
+            "at": 1140,
+            "kind": "user",
+            "text": "Turn 570"
+          },
+          {
+            "at": 1141,
+            "kind": "msg",
+            "text": "Response to turn 570"
+          },
+          {
+            "at": 1142,
+            "kind": "user",
+            "text": "Turn 571"
+          },
+          {
+            "at": 1143,
+            "kind": "msg",
+            "text": "Response to turn 571"
+          },
+          {
+            "at": 1144,
+            "kind": "user",
+            "text": "Turn 572"
+          },
+          {
+            "at": 1145,
+            "kind": "msg",
+            "text": "Response to turn 572"
+          },
+          {
+            "at": 1146,
+            "kind": "user",
+            "text": "Turn 573"
+          },
+          {
+            "at": 1147,
+            "kind": "msg",
+            "text": "Response to turn 573"
+          },
+          {
+            "at": 1148,
+            "kind": "user",
+            "text": "Turn 574"
+          },
+          {
+            "at": 1149,
+            "kind": "msg",
+            "text": "Response to turn 574"
+          },
+          {
+            "at": 1150,
+            "kind": "user",
+            "text": "Turn 575"
+          },
+          {
+            "at": 1151,
+            "kind": "msg",
+            "text": "Response to turn 575"
+          },
+          {
+            "at": 1152,
+            "kind": "user",
+            "text": "Turn 576"
+          },
+          {
+            "at": 1153,
+            "kind": "msg",
+            "text": "Response to turn 576"
+          },
+          {
+            "at": 1154,
+            "kind": "user",
+            "text": "Turn 577"
+          },
+          {
+            "at": 1155,
+            "kind": "msg",
+            "text": "Response to turn 577"
+          },
+          {
+            "at": 1156,
+            "kind": "user",
+            "text": "Turn 578"
+          },
+          {
+            "at": 1157,
+            "kind": "msg",
+            "text": "Response to turn 578"
+          },
+          {
+            "at": 1158,
+            "kind": "user",
+            "text": "Turn 579"
+          },
+          {
+            "at": 1159,
+            "kind": "msg",
+            "text": "Response to turn 579"
+          },
+          {
+            "at": 1160,
+            "kind": "user",
+            "text": "Turn 580"
+          },
+          {
+            "at": 1161,
+            "kind": "msg",
+            "text": "Response to turn 580"
+          },
+          {
+            "at": 1162,
+            "kind": "user",
+            "text": "Turn 581"
+          },
+          {
+            "at": 1163,
+            "kind": "msg",
+            "text": "Response to turn 581"
+          },
+          {
+            "at": 1164,
+            "kind": "user",
+            "text": "Turn 582"
+          },
+          {
+            "at": 1165,
+            "kind": "msg",
+            "text": "Response to turn 582"
+          },
+          {
+            "at": 1166,
+            "kind": "user",
+            "text": "Turn 583"
+          },
+          {
+            "at": 1167,
+            "kind": "msg",
+            "text": "Response to turn 583"
+          },
+          {
+            "at": 1168,
+            "kind": "user",
+            "text": "Turn 584"
+          },
+          {
+            "at": 1169,
+            "kind": "msg",
+            "text": "Response to turn 584"
+          },
+          {
+            "at": 1170,
+            "kind": "user",
+            "text": "Turn 585"
+          },
+          {
+            "at": 1171,
+            "kind": "msg",
+            "text": "Response to turn 585"
+          },
+          {
+            "at": 1172,
+            "kind": "user",
+            "text": "Turn 586"
+          },
+          {
+            "at": 1173,
+            "kind": "msg",
+            "text": "Response to turn 586"
+          },
+          {
+            "at": 1174,
+            "kind": "user",
+            "text": "Turn 587"
+          },
+          {
+            "at": 1175,
+            "kind": "msg",
+            "text": "Response to turn 587"
+          },
+          {
+            "at": 1176,
+            "kind": "user",
+            "text": "Turn 588"
+          },
+          {
+            "at": 1177,
+            "kind": "msg",
+            "text": "Response to turn 588"
+          },
+          {
+            "at": 1178,
+            "kind": "user",
+            "text": "Turn 589"
+          },
+          {
+            "at": 1179,
+            "kind": "msg",
+            "text": "Response to turn 589"
+          },
+          {
+            "at": 1180,
+            "kind": "user",
+            "text": "Turn 590"
+          },
+          {
+            "at": 1181,
+            "kind": "msg",
+            "text": "Response to turn 590"
+          },
+          {
+            "at": 1182,
+            "kind": "user",
+            "text": "Turn 591"
+          },
+          {
+            "at": 1183,
+            "kind": "msg",
+            "text": "Response to turn 591"
+          },
+          {
+            "at": 1184,
+            "kind": "user",
+            "text": "Turn 592"
+          },
+          {
+            "at": 1185,
+            "kind": "msg",
+            "text": "Response to turn 592"
+          },
+          {
+            "at": 1186,
+            "kind": "user",
+            "text": "Turn 593"
+          },
+          {
+            "at": 1187,
+            "kind": "msg",
+            "text": "Response to turn 593"
+          },
+          {
+            "at": 1188,
+            "kind": "user",
+            "text": "Turn 594"
+          },
+          {
+            "at": 1189,
+            "kind": "msg",
+            "text": "Response to turn 594"
+          },
+          {
+            "at": 1190,
+            "kind": "user",
+            "text": "Turn 595"
+          },
+          {
+            "at": 1191,
+            "kind": "msg",
+            "text": "Response to turn 595"
+          },
+          {
+            "at": 1192,
+            "kind": "user",
+            "text": "Turn 596"
+          },
+          {
+            "at": 1193,
+            "kind": "msg",
+            "text": "Response to turn 596"
+          },
+          {
+            "at": 1194,
+            "kind": "user",
+            "text": "Turn 597"
+          },
+          {
+            "at": 1195,
+            "kind": "msg",
+            "text": "Response to turn 597"
+          },
+          {
+            "at": 1196,
+            "kind": "user",
+            "text": "Turn 598"
+          },
+          {
+            "at": 1197,
+            "kind": "msg",
+            "text": "Response to turn 598"
+          },
+          {
+            "at": 1198,
+            "kind": "user",
+            "text": "Turn 599"
+          },
+          {
+            "at": 1199,
+            "kind": "msg",
+            "text": "Response to turn 599"
+          },
+          {
+            "at": 1200,
+            "kind": "user",
+            "text": "Turn 600"
+          },
+          {
+            "at": 1201,
+            "kind": "msg",
+            "text": "Response to turn 600"
+          },
+          {
+            "at": 1202,
+            "kind": "user",
+            "text": "Turn 601"
+          },
+          {
+            "at": 1203,
+            "kind": "msg",
+            "text": "Response to turn 601"
+          },
+          {
+            "at": 1204,
+            "kind": "user",
+            "text": "Turn 602"
+          },
+          {
+            "at": 1205,
+            "kind": "msg",
+            "text": "Response to turn 602"
+          },
+          {
+            "at": 1206,
+            "kind": "user",
+            "text": "Turn 603"
+          },
+          {
+            "at": 1207,
+            "kind": "msg",
+            "text": "Response to turn 603"
+          },
+          {
+            "at": 1208,
+            "kind": "user",
+            "text": "Turn 604"
+          },
+          {
+            "at": 1209,
+            "kind": "msg",
+            "text": "Response to turn 604"
+          },
+          {
+            "at": 1210,
+            "kind": "user",
+            "text": "Turn 605"
+          },
+          {
+            "at": 1211,
+            "kind": "msg",
+            "text": "Response to turn 605"
+          },
+          {
+            "at": 1212,
+            "kind": "user",
+            "text": "Turn 606"
+          },
+          {
+            "at": 1213,
+            "kind": "msg",
+            "text": "Response to turn 606"
+          },
+          {
+            "at": 1214,
+            "kind": "user",
+            "text": "Turn 607"
+          },
+          {
+            "at": 1215,
+            "kind": "msg",
+            "text": "Response to turn 607"
+          },
+          {
+            "at": 1216,
+            "kind": "user",
+            "text": "Turn 608"
+          },
+          {
+            "at": 1217,
+            "kind": "msg",
+            "text": "Response to turn 608"
+          },
+          {
+            "at": 1218,
+            "kind": "user",
+            "text": "Turn 609"
+          },
+          {
+            "at": 1219,
+            "kind": "msg",
+            "text": "Response to turn 609"
+          },
+          {
+            "at": 1220,
+            "kind": "user",
+            "text": "Turn 610"
+          },
+          {
+            "at": 1221,
+            "kind": "msg",
+            "text": "Response to turn 610"
+          }
+        ],
+        "completeness": "partial",
+        "file": "~/trimmed_turns/workspaceStorage/h4/chatSessions/s4.json",
+        "phases": [
+          {
+            "at": 1221,
+            "state": "waiting",
+            "note": "Finished its turn. Waiting for your next message."
+          }
+        ],
+        "trimmed": 621,
+        "approxTimes": true
+      }
+    ]
+  }
+]

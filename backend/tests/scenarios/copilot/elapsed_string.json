@@ -1,0 +1,12 @@
+{
+  "case": "elapsed_string",
+  "now": 1790596800000,
+  "sessionId": "copilot:s19",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

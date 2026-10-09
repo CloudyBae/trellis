@@ -1,0 +1,267 @@
+{
+  "function": "mentionedPaths",
+  "cases": [
+    {
+      "input": [
+        null
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        ""
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "Read /work/acme/api/src/auth/issue.ts and update it."
+      ],
+      "output": [
+        "/work/acme/api/src/auth/issue.ts"
+      ]
+    },
+    {
+      "input": [
+        "see src/auth/issue.ts, then src/middleware/requireUser.ts."
+      ],
+      "output": [
+        "src/auth/issue.ts",
+        "src/middleware/requireUser.ts"
+      ]
+    },
+    {
+      "input": [
+        "open ~/notes/todo.md now"
+      ],
+      "output": [
+        "~/notes/todo.md"
+      ]
+    },
+    {
+      "input": [
+        "see ./local/file.py and ../up/one.js"
+      ],
+      "output": [
+        "./local/file.py",
+        "../up/one.js"
+      ]
+    },
+    {
+      "input": [
+        "(src/a/b.ts) and \"src/c/d.ts\" and `src/e/f.ts`"
+      ],
+      "output": [
+        "src/a/b.ts",
+        "src/c/d.ts",
+        "src/e/f.ts"
+      ]
+    },
+    {
+      "input": [
+        "quoted 'src/g/h.ts' ok"
+      ],
+      "output": [
+        "src/g/h.ts"
+      ]
+    },
+    {
+      "input": [
+        "url https://example.com/a/b/c.html not a path"
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "//network/share/x/y and http://h/a/b.c"
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "/only/one"
+      ],
+      "output": [
+        "/only/one"
+      ]
+    },
+    {
+      "input": [
+        "/two/segments/ trailing slash/"
+      ],
+      "output": [
+        "/two/segments/"
+      ]
+    },
+    {
+      "input": [
+        "/work/acme/api/src/x.ts then /work/acme/other/y.ts",
+        "/work/acme/api"
+      ],
+      "output": [
+        "src/x.ts",
+        "/work/acme/other/y.ts"
+      ]
+    },
+    {
+      "input": [
+        "/work/acme/api/src/x.ts",
+        "/work/acme/api"
+      ],
+      "output": [
+        "src/x.ts"
+      ]
+    },
+    {
+      "input": [
+        "/home/synthetic/proj/a/b.ts"
+      ],
+      "output": [
+        "~/proj/a/b.ts"
+      ]
+    },
+    {
+      "input": [
+        "a/b.c."
+      ],
+      "output": [
+        "a/b.c"
+      ]
+    },
+    {
+      "input": [
+        "file at src/a/b.ts:12 has a bug"
+      ],
+      "output": [
+        "src/a/b.ts"
+      ]
+    },
+    {
+      "input": [
+        "file src/a/b.ts; next src/c/d.ts: end"
+      ],
+      "output": [
+        "src/a/b.ts",
+        "src/c/d.ts"
+      ]
+    },
+    {
+      "input": [
+        "end src/a/b.ts\nnext line src/c/d.ts\r\nthen src/e/f.ts src/g/h.ts src/i/j.ts"
+      ],
+      "output": [
+        "src/a/b.ts",
+        "src/c/d.ts",
+        "src/e/f.ts",
+        "src/g/h.ts",
+        "src/i/j.ts"
+      ]
+    },
+    {
+      "input": [
+        " src/a/b.ts and　src/c/d.ts﻿src/e/f.ts"
+      ],
+      "output": [
+        "src/a/b.ts",
+        "src/c/d.ts",
+        "src/e/f.ts"
+      ]
+    },
+    {
+      "input": [
+        "src/café/b.ts and src/中文/c.ts and über/x/y.ts"
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "src/٣/b.ts and 1/2/3.٣ts"
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "src/a/b.toolongext and src/a/b.ts"
+      ],
+      "output": [
+        "src/a/b.ts"
+      ]
+    },
+    {
+      "input": [
+        "1/2/3.ts 4/5/6.ts 7/8/9.ts a/b/c.ts d/e/f.ts g/h/i.ts j/k/l.ts"
+      ],
+      "output": [
+        "1/2/3.ts",
+        "4/5/6.ts",
+        "7/8/9.ts",
+        "a/b/c.ts",
+        "d/e/f.ts",
+        "g/h/i.ts"
+      ]
+    },
+    {
+      "input": [
+        "a/b/c.ts a/b/c.ts a/b/c.ts d/e/f.ts d/e/f.ts g/h/i.ts j/k/l.ts m/n/o.ts p/q/r.ts"
+      ],
+      "output": [
+        "a/b/c.ts",
+        "d/e/f.ts",
+        "g/h/i.ts",
+        "j/k/l.ts",
+        "m/n/o.ts",
+        "p/q/r.ts"
+      ]
+    },
+    {
+      "input": [
+        "nothing to see here, just words. /"
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "x/y/z.ts."
+      ],
+      "output": [
+        "x/y/z.ts"
+      ]
+    },
+    {
+      "input": [
+        "x/y/z."
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "x/y.z/w.ts"
+      ],
+      "output": [
+        "x/y.z/w.ts"
+      ]
+    },
+    {
+      "input": [
+        "prefix-src/a/b.ts"
+      ],
+      "output": [
+        "prefix-src/a/b.ts"
+      ]
+    },
+    {
+      "input": [
+        "x@y/z@w/v.ts"
+      ],
+      "output": []
+    },
+    {
+      "input": [
+        "😀 src/a/b.ts 😀"
+      ],
+      "output": [
+        "src/a/b.ts"
+      ]
+    }
+  ]
+}

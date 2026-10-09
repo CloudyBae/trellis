@@ -1,0 +1,488 @@
+[
+  {
+    "returned": 12,
+    "logged": 4,
+    "sessions": {
+      "otel:st": {
+        "id": "otel:st",
+        "rawId": "st",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 15,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "status-number-two",
+                "target": "",
+                "out": "boom",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "status-float-two",
+                "target": "",
+                "out": "float boom",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "status-string-two",
+                "target": "",
+                "out": "string two",
+                "ms": 10
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "status-named-error",
+                "target": "",
+                "out": "",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "status-none",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "status-null",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "status-code-one",
+                "target": "",
+                "out": "fine",
+                "ms": 10
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "status-bool",
+                "target": "",
+                "out": "bool",
+                "ms": 10
+              },
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "status-empty",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 11,
+                "kind": "tool",
+                "name": "status-empty-message",
+                "target": "",
+                "out": "",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 14,
+                "kind": "tool",
+                "name": "status-unset",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 15,
+                "kind": "tool",
+                "name": "status-named-ok",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:st2": null
+    }
+  },
+  {
+    "returned": 12,
+    "logged": 4,
+    "sessions": {
+      "otel:st": {
+        "id": "otel:st",
+        "rawId": "st",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 15,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "status-number-two",
+                "target": "",
+                "out": "boom",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "status-float-two",
+                "target": "",
+                "out": "float boom",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "status-string-two",
+                "target": "",
+                "out": "string two",
+                "ms": 10
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "status-named-error",
+                "target": "",
+                "out": "",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "status-none",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "status-null",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 6,
+                "kind": "tool",
+                "name": "status-code-one",
+                "target": "",
+                "out": "fine",
+                "ms": 10
+              },
+              {
+                "at": 7,
+                "kind": "tool",
+                "name": "status-bool",
+                "target": "",
+                "out": "bool",
+                "ms": 10
+              },
+              {
+                "at": 9,
+                "kind": "tool",
+                "name": "status-empty",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 11,
+                "kind": "tool",
+                "name": "status-empty-message",
+                "target": "",
+                "out": "",
+                "ms": 10,
+                "fail": true
+              },
+              {
+                "at": 14,
+                "kind": "tool",
+                "name": "status-unset",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 15,
+                "kind": "tool",
+                "name": "status-named-ok",
+                "target": "",
+                "out": "",
+                "ms": 10
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:st2": {
+        "id": "otel:st2",
+        "rawId": "st2",
+        "live": true,
+        "t0": 1790593201000,
+        "endAt": 16,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent-number-two",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 1,
+            "final": "failed",
+            "returned": {
+              "summary": "boom",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Agent-float-two",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 2,
+            "final": "failed",
+            "returned": {
+              "summary": "float boom",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "Agent-string-two",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 3,
+            "final": "complete",
+            "returned": {
+              "summary": "string two",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent-named-error",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 4,
+            "final": "failed",
+            "returned": {
+              "summary": "Failed.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "Agent-none",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 5,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "Agent-null",
+            "src": "Codex",
+            "start": 5,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent-code-one",
+            "src": "Codex",
+            "start": 6,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "fine",
+              "items": []
+            }
+          },
+          {
+            "id": 8,
+            "name": "Agent-bool",
+            "src": "Codex",
+            "start": 7,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "bool",
+              "items": []
+            }
+          },
+          {
+            "id": 9,
+            "name": "Agent-empty",
+            "src": "Codex",
+            "start": 9,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 10,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 10,
+            "name": "Agent-empty-message",
+            "src": "Codex",
+            "start": 11,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 12,
+            "final": "failed",
+            "returned": {
+              "summary": "Failed.",
+              "items": []
+            }
+          },
+          {
+            "id": 11,
+            "name": "Agent-unset",
+            "src": "Codex",
+            "start": 14,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 15,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 12,
+            "name": "Agent-named-ok",
+            "src": "Codex",
+            "start": 15,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 16,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

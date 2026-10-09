@@ -1,0 +1,381 @@
+[
+  {
+    "returned": 2,
+    "logged": 1,
+    "sessions": {
+      "otel:cy": null,
+      "otel:cy2": null,
+      "otel:cy3": null,
+      "otel:cy4": null
+    }
+  },
+  {
+    "returned": 6,
+    "logged": 0,
+    "sessions": {
+      "otel:cy": null,
+      "otel:cy2": {
+        "id": "otel:cy2",
+        "rawId": "cy2",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 10,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Root",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "cycle-tool",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "self-parent",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 10,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Child",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:cy3": null,
+      "otel:cy4": null
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:cy": null,
+      "otel:cy2": {
+        "id": "otel:cy2",
+        "rawId": "cy2",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 10,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Root",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "cycle-tool",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "self-parent",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 10,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Child",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:cy3": {
+        "id": "otel:cy3",
+        "rawId": "cy3",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "solo",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "solo",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "end": 0,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:cy4": null
+    }
+  },
+  {
+    "returned": 4,
+    "logged": 0,
+    "sessions": {
+      "otel:cy": null,
+      "otel:cy2": {
+        "id": "otel:cy2",
+        "rawId": "cy2",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 10,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Root",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "cycle-tool",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "self-parent",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "end": 10,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Child",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:cy3": {
+        "id": "otel:cy3",
+        "rawId": "cy3",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "solo",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "solo",
+            "context": [],
+            "turns": [],
+            "completeness": "partial",
+            "end": 0,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:cy4": {
+        "id": "otel:cy4",
+        "rawId": "cy4",
+        "live": true,
+        "t0": 1790593200500,
+        "endAt": 2,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Earliest",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 2,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Second",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 2,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "First",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 2,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Kid",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 2,
+            "end": 1,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

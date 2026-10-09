@@ -1,0 +1,12 @@
+{
+  "case": "tolerant_records",
+  "now": 1790596800000,
+  "sessionId": "codex:tr01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "returned": 19,
+    "logged": 0,
+    "sessions": {
+      "otel-log:dc": {
+        "id": "otel-log:dc",
+        "rawId": "dc",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 18,
+        "via": "logs",
+        "run": {
+          "name": "decisions",
+          "repo": "",
+          "source": "Claude Code",
+          "file": "OpenTelemetry logs"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Claude Code",
+            "start": 0,
+            "task": "decisions",
+            "context": [],
+            "turns": [
+              {
+                "at": 1,
+                "kind": "msg",
+                "text": "Bash was not approved (user)."
+              },
+              {
+                "at": 2,
+                "kind": "msg",
+                "text": "A tool was not approved (DENIED)."
+              },
+              {
+                "at": 3,
+                "kind": "msg",
+                "text": "A tool was not approved (Abort)."
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "A tool was not approved (config)."
+              },
+              {
+                "at": 8,
+                "kind": "msg",
+                "text": "A tool was not approved (denied)."
+              },
+              {
+                "at": 10,
+                "kind": "msg",
+                "text": "A tool was not approved (REJECT\n)."
+              },
+              {
+                "at": 12,
+                "kind": "msg",
+                "text": "A tool was not approved (a,b)."
+              },
+              {
+                "at": 13,
+                "kind": "msg",
+                "text": "API error: boom"
+              },
+              {
+                "at": 14,
+                "kind": "msg",
+                "text": "API error: 500"
+              },
+              {
+                "at": 15,
+                "kind": "msg",
+                "text": "API error: 404"
+              },
+              {
+                "at": 16,
+                "kind": "msg",
+                "text": "API error: unknown"
+              },
+              {
+                "at": 17,
+                "kind": "msg",
+                "text": "API error: 1.5"
+              },
+              {
+                "at": 18,
+                "kind": "msg",
+                "text": "API error: x"
+              }
+            ],
+            "completeness": "partial"
+          }
+        ]
+      }
+    }
+  }
+]

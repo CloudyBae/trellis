@@ -1,0 +1,29 @@
+{
+  "case": "log_events",
+  "ids": [
+    "otel-log:ev1",
+    "otel-log:ev2",
+    "otel-log:ev3",
+    "otel-log:ev4",
+    "otel-log:ev5",
+    "otel-log:ev6",
+    "otel-log:ev6b",
+    "otel-log:ev7",
+    "otel-log:ev8",
+    "otel-log:ev9",
+    "otel-log:ev10",
+    "otel-log:ev11",
+    "otel-log:ev12",
+    "otel-log:1.5"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "logs",
+        "file": "01-logs.json"
+      },
+      "now": 1790593210000
+    }
+  ]
+}

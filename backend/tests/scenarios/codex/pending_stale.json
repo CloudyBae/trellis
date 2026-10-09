@@ -1,0 +1,12 @@
+{
+  "case": "pending_stale",
+  "now": 1790596800000,
+  "sessionId": "codex:ps01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

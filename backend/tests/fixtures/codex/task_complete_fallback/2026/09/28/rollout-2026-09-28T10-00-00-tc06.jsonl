@@ -1,0 +1,3 @@
+{"timestamp":"2026-09-28T09:00:50.000Z","type":"session_meta","payload":{"id":"tc06","cwd":"/work/acme/web","parent_session_id":"tc01","agent_name":"Epsilon"}}
+{"timestamp":"2026-09-28T09:00:50.500Z","type":"event_msg","payload":{"type":"user_message","message":"Task for Epsilon"}}
+{"timestamp":"2026-09-28T09:00:51.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Only say."}]}}

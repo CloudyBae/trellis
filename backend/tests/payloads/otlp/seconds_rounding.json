@@ -1,0 +1,126 @@
+[
+  {
+    "returned": 12,
+    "logged": 0,
+    "sessions": {
+      "otel:sr": {
+        "id": "otel:sr",
+        "rawId": "sr",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 7,
+        "via": "traces",
+        "run": {
+          "name": "rounding",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Main agent",
+            "src": "Codex",
+            "start": 1,
+            "task": "rounding",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "zero",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "at-500",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "at-999",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 1,
+                "kind": "tool",
+                "name": "at-1499",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "at-1500",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 2,
+                "kind": "tool",
+                "name": "at-2499",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 3,
+                "kind": "tool",
+                "name": "at-2500",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "at-3500",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "at-4500",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "at-5499",
+                "target": "",
+                "out": "",
+                "ms": 10
+              },
+              {
+                "at": 7,
+                "kind": "msg",
+                "text": "half"
+              }
+            ],
+            "completeness": "complete",
+            "end": 3,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      }
+    }
+  }
+]

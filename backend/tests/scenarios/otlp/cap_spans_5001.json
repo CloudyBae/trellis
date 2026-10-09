@@ -1,0 +1,21 @@
+{
+  "case": "cap_spans_5001",
+  "ids": [
+    "otel:span5001"
+  ],
+  "project": true,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "generate": {
+          "kind": "spans",
+          "session": "span5001",
+          "from": 0,
+          "to": 5001
+        }
+      },
+      "now": 1790598300000
+    }
+  ]
+}

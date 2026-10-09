@@ -1,0 +1,33 @@
+{
+  "name": "head_requests",
+  "bindHost": "127.0.0.1",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "HEAD",
+      "path": "/api/health"
+    },
+    {
+      "method": "HEAD",
+      "path": "/api/sessions"
+    },
+    {
+      "method": "HEAD",
+      "path": "/nope"
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "status": 404,
+      "contentType": "text/plain"
+    }
+  ]
+}

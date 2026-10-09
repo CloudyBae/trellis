@@ -1,0 +1,2 @@
+{"sessionId":"77777777-aaaa","cwd":"/work/acme/api","gitBranch":"main","version":"2.1.0","type":"user","timestamp":"2026-09-28T11:59:00.000Z","message":{"role":"user","content":"Run the checks."}}
+{"sessionId":"77777777-aaaa","cwd":"/work/acme/api","gitBranch":"main","version":"2.1.0","type":"assistant","timestamp":"2026-09-28T11:59:20.000Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"root1","name":"Bash","input":{"command":"npm test"}}]}}

@@ -1,0 +1,16 @@
+{
+  "case": "value_shapes",
+  "ids": [
+    "otel:vs"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593400000
+    }
+  ]
+}

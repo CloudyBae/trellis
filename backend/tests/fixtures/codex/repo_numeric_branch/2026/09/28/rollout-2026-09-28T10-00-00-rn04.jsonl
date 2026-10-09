@@ -1,0 +1,2 @@
+{"timestamp":"2026-09-28T10:00:00.000Z","type":"session_meta","payload":{"id":"rn04","cwd":"/work/acme/web","git":{"branch":5}}}
+{"timestamp":"2026-09-28T10:00:01.000Z","type":"event_msg","payload":{"type":"user_message","message":"Where am I"}}

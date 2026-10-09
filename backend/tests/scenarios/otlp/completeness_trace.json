@@ -1,0 +1,22 @@
+{
+  "case": "completeness_trace",
+  "ids": [
+    "otel:co"
+  ],
+  "project": false,
+  "steps": [
+    {
+      "action": {
+        "type": "traces",
+        "file": "01-traces.json"
+      },
+      "now": 1790593230000
+    },
+    {
+      "action": {
+        "type": "refresh"
+      },
+      "now": 1790593810100
+    }
+  ]
+}

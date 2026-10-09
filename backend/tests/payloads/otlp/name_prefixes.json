@@ -1,0 +1,2200 @@
+[
+  {
+    "returned": 16,
+    "logged": 1,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": null,
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": null,
+      "otel:nm5": null,
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": null,
+      "otel:nm5": null,
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 0,
+    "logged": 1,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": null,
+      "otel:nm5": null,
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 0,
+    "logged": 1,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": null,
+      "otel:nm5": null,
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": {
+        "id": "otel:nm4",
+        "rawId": "nm4",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm5": null,
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 1,
+    "logged": 0,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": {
+        "id": "otel:nm4",
+        "rawId": "nm4",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm5": {
+        "id": "otel:nm5",
+        "rawId": "nm5",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 0,
+    "logged": 1,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": {
+        "id": "otel:nm4",
+        "rawId": "nm4",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm5": {
+        "id": "otel:nm5",
+        "rawId": "nm5",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 0,
+    "logged": 1,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": {
+        "id": "otel:nm4",
+        "rawId": "nm4",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm5": {
+        "id": "otel:nm5",
+        "rawId": "nm5",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  },
+  {
+    "returned": 0,
+    "logged": 1,
+    "sessions": {
+      "otel:np": {
+        "id": "otel:np",
+        "rawId": "np",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 9,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "codex",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Worker",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "end": 9,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Builder",
+            "src": "Codex",
+            "start": 1,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "tool_a",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 4,
+                "kind": "tool",
+                "name": "X",
+                "target": "",
+                "out": "",
+                "ms": 100
+              },
+              {
+                "at": 5,
+                "kind": "tool",
+                "name": "chat something",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 8,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "X",
+            "src": "Codex",
+            "start": 2,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatted"
+              },
+              {
+                "at": 4,
+                "kind": "msg",
+                "text": "chatty too"
+              }
+            ],
+            "completeness": "partial",
+            "parent": 1,
+            "end": 7,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 3,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "\u0085Bob",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "\u001fCarl",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 4,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only",
+            "parent": 1,
+            "end": 6,
+            "final": "complete",
+            "returned": {
+              "summary": "Finished.",
+              "items": []
+            }
+          }
+        ]
+      },
+      "otel:nm1": {
+        "id": "otel:nm1",
+        "rawId": "nm1",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm2": null,
+      "otel:nm3": null,
+      "otel:nm4": {
+        "id": "otel:nm4",
+        "rawId": "nm4",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [
+              {
+                "at": 0,
+                "kind": "tool",
+                "name": "",
+                "target": "",
+                "out": "",
+                "ms": 100
+              }
+            ],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm5": {
+        "id": "otel:nm5",
+        "rawId": "nm5",
+        "live": true,
+        "t0": 1790593200000,
+        "endAt": 0,
+        "via": "traces",
+        "run": {
+          "name": "No task was recorded in the trace.",
+          "repo": "",
+          "source": "Codex",
+          "file": "OpenTelemetry traces"
+        },
+        "agents": [
+          {
+            "id": 1,
+            "name": "Agent",
+            "src": "Codex",
+            "start": 0,
+            "task": "No task was recorded in the trace.",
+            "context": [],
+            "turns": [],
+            "completeness": "activity_only"
+          }
+        ]
+      },
+      "otel:nm6": null,
+      "otel:nm7": null,
+      "otel:nm8": null
+    }
+  }
+]

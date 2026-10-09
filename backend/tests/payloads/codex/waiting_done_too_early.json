@@ -1,0 +1,34 @@
+[
+  {
+    "id": "codex:wd03",
+    "rawId": "wd03",
+    "live": true,
+    "t0": 1790596777000,
+    "endAt": 3,
+    "run": {
+      "name": "Say hello",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/waiting_done_too_early/2026/09/28/rollout-2026-09-28T10-00-00-wd03.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Say hello",
+        "context": [],
+        "turns": [
+          {
+            "at": 3,
+            "kind": "msg",
+            "text": "One more thing."
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/waiting_done_too_early/2026/09/28/rollout-2026-09-28T10-00-00-wd03.jsonl"
+      }
+    ]
+  }
+]

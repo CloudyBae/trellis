@@ -1,0 +1,48 @@
+[
+  {
+    "id": "copilot:s19",
+    "rawId": "s19",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 5,
+    "run": {
+      "name": "Elapsed as string",
+      "repo": "elapsed",
+      "source": "GitHub Copilot",
+      "file": "~/elapsed_string/workspaceStorage/h19/chatSessions/s19.json"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Elapsed as string",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "msg",
+            "text": "one"
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "t1",
+            "target": "",
+            "out": ""
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/elapsed_string/workspaceStorage/h19/chatSessions/s19.json",
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "one",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+]

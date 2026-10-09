@@ -1,0 +1,41 @@
+[
+  {
+    "id": "copilot:s20",
+    "rawId": "s20",
+    "live": false,
+    "t0": 1790586000000,
+    "endAt": 5,
+    "run": {
+      "name": "Start",
+      "repo": "cr",
+      "source": "GitHub Copilot",
+      "file": "~/mutation_lone_carriage_return/workspaceStorage/h20/chatSessions/s20.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "GitHub Copilot",
+        "start": 0,
+        "task": "Start",
+        "context": [],
+        "turns": [
+          {
+            "at": 5,
+            "kind": "msg",
+            "text": "beforecrlf lineafter"
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/mutation_lone_carriage_return/workspaceStorage/h20/chatSessions/s20.jsonl",
+        "end": 5,
+        "final": "complete",
+        "returned": {
+          "summary": "beforecrlf lineafter",
+          "items": []
+        },
+        "approxTimes": true
+      }
+    ]
+  }
+]

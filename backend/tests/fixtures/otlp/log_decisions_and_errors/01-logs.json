@@ -1,0 +1,510 @@
+{
+  "resourceLogs": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            }
+          }
+        ]
+      },
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "timeUnixNano": "1790593200000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.user_prompt"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "prompt",
+                  "value": {
+                    "stringValue": "decisions"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593201000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "rejected"
+                  }
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  }
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "stringValue": "user"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593202000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "DENIED"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593203000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "Abort"
+                  }
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "stringValue": ""
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593204000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "aborted by user"
+                  }
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "stringValue": "config"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593205000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "approved"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593206000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593207000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "intValue": "5"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593208000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "denied"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593209000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "denıed"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593210000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "REJECT\n"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593211000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "rejeſt"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593212000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.tool_decision"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "denied"
+                  }
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "a"
+                        },
+                        {
+                          "stringValue": "b"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593213000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.api_error"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "error",
+                  "value": {
+                    "stringValue": "boom"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593214000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.api_error"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "status_code",
+                  "value": {
+                    "intValue": "500"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593215000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.api_error"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "error",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "status_code",
+                  "value": {
+                    "intValue": "404"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593216000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.api_error"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593217000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.api_error"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "error",
+                  "value": {
+                    "doubleValue": 1.5
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1790593218000000000",
+              "attributes": [
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "claude_code.api_error"
+                  }
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "dc"
+                  }
+                },
+                {
+                  "key": "error",
+                  "value": {
+                    "boolValue": false
+                  }
+                },
+                {
+                  "key": "status_code",
+                  "value": {
+                    "stringValue": "x"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "codex:ap01",
+    "rawId": "ap01",
+    "live": true,
+    "t0": 1790596771000,
+    "endAt": 9,
+    "run": {
+      "name": "Run the checks",
+      "repo": "web",
+      "source": "Codex",
+      "file": "~/approval_types/2026/09/28/rollout-2026-09-28T10-00-00-ap01.jsonl"
+    },
+    "agents": [
+      {
+        "id": 1,
+        "name": "Main agent",
+        "src": "Codex",
+        "start": 0,
+        "task": "Run the checks",
+        "context": [],
+        "turns": [
+          {
+            "at": 2,
+            "kind": "tool",
+            "name": "shell",
+            "target": "npm run lint",
+            "out": "clean",
+            "ms": 2000
+          },
+          {
+            "at": 5,
+            "kind": "tool",
+            "name": "shell",
+            "target": "npm test",
+            "out": "No result yet.",
+            "pending": true
+          }
+        ],
+        "completeness": "complete",
+        "file": "~/approval_types/2026/09/28/rollout-2026-09-28T10-00-00-ap01.jsonl",
+        "phases": [
+          {
+            "at": 6,
+            "state": "blocked",
+            "note": "Waiting for your approval to run shell npm test."
+          }
+        ]
+      }
+    ]
+  }
+]

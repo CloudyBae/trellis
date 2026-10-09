@@ -1,0 +1,41 @@
+{
+  "name": "wrong_host_when_bound_to_all_interfaces",
+  "bindHost": "0.0.0.0",
+  "evidenceOnly": false,
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "headers": {
+        "host": "evil.example"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/sessions",
+      "headers": {
+        "host": "anything"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": {
+        "ok": true,
+        "sources": [
+          "claude",
+          "codex",
+          "copilot"
+        ],
+        "sessions": 0
+      }
+    },
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": []
+    }
+  ]
+}

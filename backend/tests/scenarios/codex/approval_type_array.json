@@ -1,0 +1,12 @@
+{
+  "case": "approval_type_array",
+  "now": 1790596800000,
+  "sessionId": "codex:aa01",
+  "steps": [
+    {
+      "action": {
+        "type": "scan_poll"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "copilot:s1",
+  "rawId": "s1",
+  "live": false,
+  "t0": 1790586000000,
+  "endAt": 60,
+  "run": {
+    "name": "Draft release notes for v2.4",
+    "repo": "api",
+    "source": "GitHub Copilot",
+    "file": "~/copilot/workspaceStorage/h1/chatSessions/s1.json"
+  },
+  "agents": [
+    {
+      "id": 1,
+      "name": "Orchestrator",
+      "src": "GitHub Copilot",
+      "start": 0,
+      "task": "Draft release notes for v2.4",
+      "context": [],
+      "turns": [
+        {
+          "at": 20,
+          "kind": "msg",
+          "text": "Collecting merged PRs first."
+        },
+        {
+          "at": 60,
+          "kind": "msg",
+          "text": "Done drafting."
+        }
+      ],
+      "file": "~/copilot/workspaceStorage/h1/chatSessions/s1.json",
+      "end": 60,
+      "final": "complete",
+      "returned": {
+        "summary": "Done drafting.",
+        "items": []
+      },
+      "approxTimes": true
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "name": "Explorer",
+      "src": "GitHub Copilot",
+      "start": 20,
+      "task": "List PRs merged since v2.3",
+      "context": [],
+      "turns": [
+        {
+          "at": 40,
+          "kind": "tool",
+          "name": "runInTerminal",
+          "target": "git log v2.3..HEAD --oneline",
+          "out": ""
+        }
+      ],
+      "file": "~/copilot/workspaceStorage/h1/chatSessions/s1.json",
+      "end": 40,
+      "final": "complete",
+      "returned": {
+        "summary": "38 PRs.",
+        "items": []
+      }
+    }
+  ]
+}
