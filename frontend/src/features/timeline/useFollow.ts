@@ -17,7 +17,12 @@ function visibleBottom(garden: HTMLElement): number {
   return garden.getBoundingClientRect().bottom - covered;
 }
 
-export function useFollow(graphRef: RefObject<HTMLElement | null>, sessionId: string, view: View): Follow {
+export function useFollow(
+  graphRef: RefObject<HTMLElement | null>,
+  sessionId: string,
+  view: View,
+  selectedId: number | null,
+): Follow {
   const [follow, setFollow] = useState(true);
   const autoScrolling = useRef(false);
   const autoTimer = useRef<number | undefined>(undefined);
@@ -56,6 +61,17 @@ export function useFollow(graphRef: RefObject<HTMLElement | null>, sessionId: st
   useLayoutEffect(() => {
     setFollow(true);
   }, [sessionId, inTimeline]);
+
+  const seen = useRef({ sessionId, inTimeline, selectedId });
+
+  useLayoutEffect(() => {
+    const previous = seen.current;
+    seen.current = { sessionId, inTimeline, selectedId };
+    const sameContext = previous.sessionId === sessionId && previous.inTimeline === inTimeline;
+    if (sameContext && inTimeline && selectedId !== null && selectedId !== previous.selectedId) {
+      setFollow(false);
+    }
+  }, [sessionId, inTimeline, selectedId]);
 
   useLayoutEffect(() => {
     if (follow && inTimeline) {

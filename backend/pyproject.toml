@@ -1,13 +1,27 @@
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
 [project]
-name = "trellis-backend"
+name = "trellis"
 version = "0.1.0"
-requires-python = ">=3.11"
+description = "Watch your AI agents work as live delegation trees."
+requires-python = ">=3.12"
 dependencies = [
     "fastapi==0.142.1",
     "pydantic==2.13.5",
     "typer==0.27.2",
     "uvicorn==0.54.0",
 ]
+
+[project.scripts]
+trellis = "trellis.cli:run"
+
+[tool.hatch.build.targets.wheel]
+packages = ["trellis"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"../frontend/dist" = "trellis/web"
 
 [dependency-groups]
 dev = [
@@ -18,10 +32,10 @@ dev = [
 ]
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py312"
 
 [tool.pyright]
-pythonVersion = "3.11"
+pythonVersion = "3.12"
 include = ["trellis", "tests"]
 exclude = ["**/__pycache__", ".venv"]
 

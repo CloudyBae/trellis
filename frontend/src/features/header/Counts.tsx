@@ -75,7 +75,14 @@ export function Counts({
             onClick={() => onCycle(state)}
           >
             <StateGlyph state={state} />
-            <Badge key={`${session.id}:${total}`} className={cn(changed && "bump", total === 0 && "text-ink-3")}>
+            <Badge
+              key={`${session.id}:${total}`}
+              className={cn(
+                changed && state !== "complete" && "bump",
+                (total === 0 || state === "complete") && "text-ink-3",
+                state === "complete" && "font-medium",
+              )}
+            >
               {total}
             </Badge>
             <span className="col-span-full text-caption text-ink-3">{state}</span>

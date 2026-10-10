@@ -93,22 +93,35 @@ describe("live stream", () => {
 });
 
 describe("connection loss", () => {
-  it("falls back to the demo runs when the first connection fails", () => {
+  it("shows the unreachable empty state when the first connection fails", () => {
     const { sources } = renderApp();
     expect(screen.getByRole("heading", { name: "Nothing growing yet" })).toBeTruthy();
     sources[0]?.emit("error");
     expect(sources[0]?.closed).toBe(true);
-    expect(runName()).toBe("Rotate session tokens");
-    openRunMenu();
-    expect(screen.getAllByRole("menuitemradio")).toHaveLength(6);
+    expect(screen.getByRole("heading", { name: "Can't reach the Trellis server" })).toBeTruthy();
+    expect(runName()).toBeUndefined();
     expect(screen.queryByRole("button", { name: "Close demo" })).toBeNull();
   });
 
-  it("falls back when the source opened but never said hello", () => {
+  it("shows the unreachable empty state when the source opened but never said hello", () => {
     const { sources } = renderApp();
     sources[0]?.emit("open");
     sources[0]?.emit("error");
-    expect(runName()).toBe("Rotate session tokens");
+    expect(screen.getByRole("heading", { name: "Can't reach the Trellis server" })).toBeTruthy();
+    expect(runName()).toBeUndefined();
+    expect(screen.queryByRole("button", { name: "Close demo" })).toBeNull();
+  });
+
+  it("starts the demo from the unreachable state and closes back to it", () => {
+    const { sources } = renderApp();
+    sources[0]?.emit("error");
+    expect(screen.getByRole("heading", { name: "Can't reach the Trellis server" })).toBeTruthy();
+    fireEvent.click(screen.getByRole("button", { name: "Watch a demo run" }));
+    expect(runName()).toBe("Add rate limiting to our API");
+    expect(screen.getByRole("button", { name: "Close demo" })).toBeTruthy();
+    fireEvent.click(screen.getByRole("button", { name: "Close demo" }));
+    expect(screen.getByRole("heading", { name: "Can't reach the Trellis server" })).toBeTruthy();
+    expect(runName()).toBeUndefined();
   });
 
   it("only marks the link down after hello and recovers on the next hello", () => {
@@ -118,9 +131,10 @@ describe("connection loss", () => {
     sources[0]?.emit("error");
     expect(sources[0]?.closed).toBe(false);
     expect(runName()).toBe("First run");
-    expect(document.querySelector(".run-meta")?.textContent).toContain(" · Trellis server stopped, reconnecting");
+    expect(document.querySelector(".run-status.stale")?.textContent).toBe("Trellis server stopped · showing the last state");
+    expect(document.querySelector(".run-meta")?.textContent).not.toContain("stopped");
 
     sources[0]?.emit("hello", { sessions: [sessionOf("cc:a", "First run")] });
-    expect(document.querySelector(".run-meta")?.textContent).not.toContain("reconnecting");
+    expect(document.querySelector(".run-status.stale")).toBeNull();
   });
 });

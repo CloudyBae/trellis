@@ -14,7 +14,7 @@ def _has_expected_shape(text: str) -> bool:
         return True
     if text[10] != "T" or len(text) < 14 or text[13] != ":":
         return False
-    if "," in text:
+    if "," in text or text[11:13] == "24":
         return False
     whole, dot, fraction = text.partition(".")
     if dot and (len(whole) != 19 or not fraction[:1].isdigit()):

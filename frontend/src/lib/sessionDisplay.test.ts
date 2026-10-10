@@ -43,9 +43,20 @@ describe("attentionAlert", () => {
     expect(attentionAlert([open, failedRun], open, clock)).toEqual({
       kind: "failed",
       why: "Failed run has a failed agent",
+      count: 1,
     });
-    expect(attentionAlert([open, failedRun, blockedRun], open, clock).kind).toBe("blocked");
-    expect(attentionAlert([open], open, clock)).toEqual({ kind: "none", why: "" });
+    expect(attentionAlert([open, failedRun, blockedRun], open, clock)).toEqual({
+      kind: "blocked",
+      why: "Blocked run needs you",
+      count: 1,
+    });
+    const another = real(sessionOf("another", "Another"));
+    expect(attentionAlert([open, blockedRun, another], open, clock)).toEqual({
+      kind: "blocked",
+      why: "2 other runs need you",
+      count: 2,
+    });
+    expect(attentionAlert([open], open, clock)).toEqual({ kind: "none", why: "", count: 0 });
   });
 });
 

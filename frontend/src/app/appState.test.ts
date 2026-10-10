@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 import type { Session } from "@/api";
-import { createDemoSessions } from "@/demo";
 import type { AppIntent, AppState } from "./appState";
 import { createInitialState, isServed, reduceApp, wantsEmpty } from "./appState";
 import type { ShellEnvironment } from "@/lib/clock";
@@ -68,11 +67,12 @@ describe("stream intents", () => {
     expect(next.selectedId).toBe(4);
   });
 
-  it("treats an error before hello as the demo fallback and after hello as link loss", () => {
-    const fallback = run(createInitialState(served, env), { type: "streamError" });
-    expect(fallback.served).toBe(false);
-    expect(ids(fallback)).toEqual(createDemoSessions().map((session) => session.id));
-    expect(fallback.store.current?.id).toBe("rotate");
+  it("treats an error before hello as unreachable and after hello as link loss", () => {
+    const unreachable = run(createInitialState(served, env), { type: "streamError" });
+    expect(unreachable.unreachable).toBe(true);
+    expect(unreachable.served).toBe(true);
+    expect(ids(unreachable)).toEqual([]);
+    expect(unreachable.store.current).toBeNull();
 
     const connected = run(createInitialState(served, env), { type: "hello", sessions: [first] });
     const lost = run(connected, { type: "streamError" });
@@ -81,9 +81,11 @@ describe("stream intents", () => {
     expect(lost.store).toBe(connected.store);
   });
 
-  it("does not duplicate a demo that is already running when the fallback lands", () => {
+  it("does not duplicate a demo that is already running when unreachable", () => {
     const started = run(createInitialState(served, env), { type: "startDemo" });
     const next = run(started, { type: "streamError" });
+    expect(next.unreachable).toBe(true);
+    expect(next.store.current?.id).toBe("research");
     expect(ids(next).filter((id) => id === "research")).toHaveLength(1);
   });
 

@@ -103,7 +103,7 @@ export function TimelineView({ view, ...props }: ViewProps & { view: View }) {
   const { session, selectedId, now, narrow } = props;
   const placed = useMemo(() => layout(session.agents, now, narrow, selectedId), [session, now, narrow, selectedId]);
   const graphRef = useBoxStyle<HTMLDivElement>({ height: placed.height });
-  const { follow, resume } = useFollow(graphRef, session.id, view);
+  const { follow, resume } = useFollow(graphRef, session.id, view, selectedId);
   return (
     <div
       className="graph"

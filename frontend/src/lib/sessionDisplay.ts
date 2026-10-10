@@ -18,7 +18,7 @@ export type SessionOrder = {
   all: ModelSession[];
 };
 
-export type AttentionAlert = { kind: "blocked" | "failed" | "none"; why: string };
+export type AttentionAlert = { kind: "blocked" | "failed" | "none"; why: string; count: number };
 
 export type NoteTone = "blocked" | "failed" | "plain";
 
@@ -89,15 +89,25 @@ export function attentionAlert(
   const others = sessions
     .filter((session) => session.id !== current.id && isLive(session, clock))
     .map((session) => ({ session, summary: summarize(session, clock) }));
-  const blocked = others.find((entry) => entry.summary.blocked.length > 0);
-  if (blocked) {
-    return { kind: "blocked", why: `${blocked.session.run.name} needs you` };
+  const blocked = others.filter((entry) => entry.summary.blocked.length > 0);
+  const [firstBlocked] = blocked;
+  if (firstBlocked !== undefined) {
+    const why =
+      blocked.length === 1
+        ? `${firstBlocked.session.run.name} needs you`
+        : `${blocked.length} other runs need you`;
+    return { kind: "blocked", why, count: blocked.length };
   }
-  const failed = others.find((entry) => entry.summary.failed.length > 0);
-  if (failed) {
-    return { kind: "failed", why: `${failed.session.run.name} has a failed agent` };
+  const failed = others.filter((entry) => entry.summary.failed.length > 0);
+  const [firstFailed] = failed;
+  if (firstFailed !== undefined) {
+    const why =
+      failed.length === 1
+        ? `${firstFailed.session.run.name} has a failed agent`
+        : `${failed.length} other runs have a failed agent`;
+    return { kind: "failed", why, count: failed.length };
   }
-  return { kind: "none", why: "" };
+  return { kind: "none", why: "", count: 0 };
 }
 
 export function defaultSelection(
@@ -145,7 +155,11 @@ function noteFor(session: ModelSession, live: boolean, summary: SessionSummary):
     };
   }
   if (summary.failed.length) {
-    return { text: `${summary.failed.length} failed, ${summary.running} running`, tone: "failed" };
+    const failed = summary.failed.length;
+    return {
+      text: `${failed} agent${failed === 1 ? "" : "s"} failed, ${summary.running} running`,
+      tone: "failed",
+    };
   }
   return { text: `${summary.running} running`, tone: "plain" };
 }

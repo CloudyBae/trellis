@@ -2,6 +2,7 @@ import type { LeafState } from "@/model";
 import type { View } from "@/lib/view";
 import { StateGlyph } from "@/components/agent/StateGlyph";
 import { ToolLeaf } from "@/components/agent/ToolLeaf";
+import { useLegendFold } from "./useLegendFold";
 
 const LEAF_VIEW_BOX = "-1 -5 14 10";
 
@@ -24,7 +25,10 @@ function Key({ children }: { children: string }) {
 
 const STATES = ["running", "waiting", "blocked", "failed", "complete"] as const;
 
+const DETAIL_ID = "legend-detail";
+
 export function Legend({ view }: { view: View }) {
+  const { collapsed, toggle } = useLegendFold();
   return (
     <div
       className="legend flex flex-none flex-wrap items-center gap-x-md gap-y-xs border-t border-rule bg-ground px-lg pt-m pb-m text-note text-ink-3"
@@ -44,13 +48,17 @@ export function Legend({ view }: { view: View }) {
           {label}
         </span>
       ))}
-      <span className="brk -mt-xs h-zero basis-full"></span>
-      <span className="legend-note">{LEGEND_NOTE[view]}</span>
-      <span className="keys ml-auto">
-        <Key>↑</Key>
-        <Key>↓</Key> agents · <Key>n</Key> blocked · <Key>[</Key>
-        <Key>]</Key> runs · <Key>Esc</Key> root
-      </span>
+      <button type="button" className="legend-toggle" aria-expanded={!collapsed} aria-controls={DETAIL_ID} onClick={toggle}>
+        How to read
+      </button>
+      <div id={DETAIL_ID} className="legend-detail flex basis-full flex-wrap items-center gap-x-md gap-y-xs" hidden={collapsed}>
+        <span className="legend-note">{LEGEND_NOTE[view]}</span>
+        <span className="keys ml-auto">
+          <Key>↑</Key>
+          <Key>↓</Key> agents · <Key>n</Key> blocked or failed · <Key>[</Key>
+          <Key>]</Key> runs · <Key>Esc</Key> root
+        </span>
+      </div>
     </div>
   );
 }

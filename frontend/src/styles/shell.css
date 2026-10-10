@@ -63,6 +63,9 @@
 .ea-bar {
   fill: var(--rule);
 }
+.run-status.settle {
+  animation: bump var(--duration-count) var(--ease-out);
+}
 .count b.bump {
   animation: bump var(--duration-count) var(--ease-out);
 }
@@ -97,6 +100,17 @@
   z-index: 3;
   margin-top: auto;
 }
+.legend-toggle {
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: var(--ink-3);
+  text-decoration: underline;
+  text-decoration-color: var(--stem);
+  text-underline-offset: 3px;
+}
 @media (max-width: 1280px) {
   .top {
     gap: var(--space-ml);
@@ -109,6 +123,18 @@
     display: none;
   }
 }
+@media (min-width: 901px) and (max-width: 1280px) {
+  .count[data-state="blocked"]:not(:disabled),
+  .count[data-state="failed"]:not(:disabled) {
+    grid-template-columns: auto auto auto;
+    align-items: center;
+  }
+  .count[data-state="blocked"]:not(:disabled) span,
+  .count[data-state="failed"]:not(:disabled) span {
+    display: block;
+    grid-column: auto;
+  }
+}
 @media (max-width: 1100px) {
   .top {
     flex-wrap: wrap;
@@ -116,6 +142,9 @@
   }
 }
 @media (max-width: 900px) {
+  .alert-pill .word {
+    display: none;
+  }
   .app {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -191,8 +220,16 @@
   .legend .keys {
     display: none;
   }
+  .garden .flow {
+    flex: none;
+  }
 }
 @media (pointer: coarse) {
+  .legend-toggle {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
   .mark {
     min-width: 44px;
     min-height: 44px;

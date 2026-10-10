@@ -1,7 +1,7 @@
 import type { Session } from "@/api";
 import { createDemoSessions, createReplayDemo, DEMO_REPLAY_ID } from "@/demo";
 import { assertNever, EMPTY_STORE, plainName, reduceStore, stateOf } from "@/model";
-import type { DemoSession, ModelSession, SessionStore } from "@/model";
+import type { ModelSession, SessionStore } from "@/model";
 import type { ShellEnvironment } from "@/lib/clock";
 import { defaultSelection, orderSessions, timeOf } from "@/lib/sessionDisplay";
 
@@ -14,6 +14,7 @@ export type AppState = {
   emptyMode: boolean;
   connected: boolean;
   linkDown: boolean;
+  unreachable: boolean;
   announcement: Announcement;
 };
 
@@ -55,6 +56,7 @@ export function createInitialState(location: LocationParts, env: ShellEnvironmen
     emptyMode,
     connected: false,
     linkDown: false,
+    unreachable: false,
     announcement: { text: "" },
   };
 }
@@ -98,15 +100,16 @@ function showFirst(state: AppState, sessions: ModelSession[], env: ShellEnvironm
   return openSession(state, sessions, first.id, env, false);
 }
 
-function addMissingDemos(sessions: ModelSession[], demos: DemoSession[]): ModelSession[] {
-  const known = new Set(sessions.map((session) => session.id));
-  return [...sessions, ...demos.filter((demo) => !known.has(demo.id))];
-}
-
 function applyHello(state: AppState, incoming: Session[], env: ShellEnvironment): AppState {
   const open = state.store.current;
   const store = reduceStore(state.store, { type: "hello", sessions: incoming });
-  const base = { ...state, connected: true, linkDown: false };
+  const base: AppState = {
+    ...state,
+    connected: true,
+    linkDown: false,
+    unreachable: false,
+    announcement: state.linkDown ? { text: "Reconnected to the Trellis server" } : state.announcement,
+  };
   if (open === null || store.current === null) {
     return showFirst(base, store.sessions, env);
   }
@@ -150,12 +153,21 @@ function applyRemove(state: AppState, id: string, env: ShellEnvironment): AppSta
   return { ...state, store };
 }
 
-function applyStreamError(state: AppState, env: ShellEnvironment): AppState {
+function applyStreamError(state: AppState, _env: ShellEnvironment): AppState {
   if (state.connected) {
-    return state.linkDown ? state : { ...state, linkDown: true };
+    return state.linkDown
+      ? state
+      : {
+          ...state,
+          linkDown: true,
+          announcement: { text: "Trellis server stopped. Showing the last state and reconnecting." },
+        };
   }
-  const sessions = addMissingDemos(state.store.sessions, createDemoSessions());
-  return showFirst({ ...state, served: false }, sessions, env);
+  return {
+    ...state,
+    unreachable: true,
+    announcement: { text: "Can't reach the Trellis server." },
+  };
 }
 
 function applyStartDemo(state: AppState, env: ShellEnvironment): AppState {

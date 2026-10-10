@@ -416,6 +416,7 @@
   color: var(--ink-3);
 }
 .src-foot .mono {
+  font-size: var(--text-caption);
   word-break: break-all;
 }
 

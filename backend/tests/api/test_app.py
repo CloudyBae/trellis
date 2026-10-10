@@ -419,7 +419,7 @@ def test_app_without_a_static_directory_serves_the_default_one(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
     dist = make_dist(tmp_path)
-    monkeypatch.setattr(static_files, "DEFAULT_STATIC_DIRECTORY", dist)
+    monkeypatch.setattr(static_files, "CHECKOUT_STATIC_DIRECTORY", dist)
     with TestClient(make_app(tmp_path)) as web:
         assert (
             "<title>Trellis</title>"

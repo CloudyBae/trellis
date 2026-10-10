@@ -10,11 +10,14 @@ CONTENT_TYPES = {
     ".css": "text/css; charset=utf-8",
     ".woff2": "font/woff2",
 }
-DEFAULT_STATIC_DIRECTORY = Path(__file__).resolve().parents[3] / "frontend" / "dist"
+PACKAGED_STATIC_DIRECTORY = Path(__file__).resolve().parents[1] / "web"
+CHECKOUT_STATIC_DIRECTORY = Path(__file__).resolve().parents[3] / "frontend" / "dist"
 
 
 def default_static_directory() -> Path:
-    return DEFAULT_STATIC_DIRECTORY
+    if PACKAGED_STATIC_DIRECTORY.is_dir():
+        return PACKAGED_STATIC_DIRECTORY
+    return CHECKOUT_STATIC_DIRECTORY
 
 
 def content_type_of(path: Path) -> str:

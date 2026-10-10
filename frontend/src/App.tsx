@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useState } from "react";
+import { useEffect, useReducer, useRef, useState } from "react";
 import type { StreamSourceFactory } from "@/api";
 import { BrandMark } from "@/features/header/BrandMark";
 import { Counts } from "@/features/header/Counts";
@@ -16,6 +16,8 @@ import type { ShellEnvironment } from "@/lib/clock";
 import { alive, stateOf } from "@/model";
 import type { AgentStateName } from "@/model";
 import { NARROW_QUERY, useMediaQuery } from "@/hooks/mediaQuery";
+import { runStatus, statusText } from "@/lib/runStatus";
+import type { RunStatusKind } from "@/lib/runStatus";
 import { orderSessions, timeOf } from "@/lib/sessionDisplay";
 import type { SelectOptions } from "@/lib/viewProps";
 import { useClock } from "@/hooks/useClock";
@@ -23,6 +25,7 @@ import { useDeferredAction } from "@/hooks/useDeferredAction";
 import { useKeyboardShortcuts } from "./app/useKeyboardShortcuts";
 import { useLatest } from "@/hooks/useLatest";
 import { useStream } from "./app/useStream";
+import { useTabSignal } from "@/hooks/useTabSignal";
 import { useTheme } from "./app/useTheme";
 import { useView } from "./app/useView";
 import { AgentPane } from "@/features/pane/AgentPane";
@@ -62,6 +65,41 @@ export function App({ createSource }: { createSource?: StreamSourceFactory }) {
   }
 
   useStream(streamEnabled, send, createSource);
+  useTabSignal(state.store.sessions, clock);
+
+  const status = current === null ? null : runStatus(current, clock);
+  const latestRun = useLatest({ current, status, selectedId: state.selectedId, view, now });
+  const lastStatus = useRef<{ id: string; kind: RunStatusKind } | null>(null);
+  const statusKind = status?.kind ?? null;
+  const openedId = current?.id ?? null;
+
+  useEffect(() => {
+    const { current: session, status: latest } = latestRun.current;
+    const previous = lastStatus.current;
+    lastStatus.current = session === null || latest === null ? null : { id: session.id, kind: latest.kind };
+    if (session === null || latest === null || previous === null || previous.id !== session.id) {
+      return;
+    }
+    const worthSaying = latest.kind === "needs-you" || latest.kind === "run-failed" || latest.kind === "agent-failed" || latest.kind === "done";
+    if (worthSaying && previous.kind !== latest.kind) {
+      dispatch({
+        env: { ...latestEnvironment.current, clockMs: Date.now() },
+        intent: { type: "announce", text: `${session.run.name}: ${statusText(latest)}` },
+      });
+    }
+  }, [openedId, statusKind, latestRun, latestEnvironment]);
+
+  useEffect(() => {
+    const { current: session, selectedId, view: activeView, now: at } = latestRun.current;
+    const agent = session === null || selectedId === null ? undefined : session.by[selectedId];
+    if (agent === undefined || selectedId === null) {
+      return;
+    }
+    const agentState = stateOf(agent, at).s;
+    if (agentState === "blocked" || agentState === "failed") {
+      revealAgentTarget(activeView, selectedId);
+    }
+  }, [openedId, latestRun]);
 
   useEffect(() => {
     if (state.store.current === null) {
@@ -187,6 +225,7 @@ export function App({ createSource }: { createSource?: StreamSourceFactory }) {
               onOpenSession={(id) => send({ type: "open", id, announce: true })}
               onReplay={() => send({ type: "open", id: current.id, announce: false })}
               onCloseDemo={closeDemo}
+              onShowAgent={(id) => selectAgent(id, { focusPane: true, reveal: true })}
             />
           )}
           {current !== null && <Counts session={current} now={now} onCycle={cycleState} />}
@@ -195,7 +234,7 @@ export function App({ createSource }: { createSource?: StreamSourceFactory }) {
             <ThemeToggle dark={theme.dark} onToggle={theme.toggle} />
           </div>
         </header>
-        {current === null && <EmptyState onStartDemo={startDemo} />}
+        {current === null && <EmptyState onStartDemo={startDemo} unreachable={state.unreachable} />}
         {viewProps !== null && (
           <>
             <main className="garden" id="garden" aria-label="Delegation graph" tabIndex={-1} data-view={view}>

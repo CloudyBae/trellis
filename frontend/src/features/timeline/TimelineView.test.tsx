@@ -358,6 +358,93 @@ describe("TimelineView follow", () => {
     expect(scroll.scrollTo).toHaveBeenCalledTimes(1);
   });
 
+  it("pauses following when another row is selected, and resumes from the jump button", () => {
+    const scroll = stubScroll();
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} />);
+    expect(document.querySelector(".jump")).toBeNull();
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} />);
+    expect(document.querySelector(".jump")?.textContent).toBe("Follow the growing tips");
+    const callsBefore = scroll.scrollTo.mock.calls.length;
+    growTo(1200, scroll);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 29, selectedId: 2 })} />);
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore);
+
+    fireEvent.click(document.querySelector(".jump") as Element);
+    expect(document.querySelector(".jump")).toBeNull();
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore + 1);
+    expect(scroll.scrollTo).toHaveBeenLastCalledWith({ top: 504 + (1200 - 504) - 520 + 24, behavior: "smooth" });
+  });
+
+  it("pauses again only when the selected id changes after the viewer resumed", () => {
+    const scroll = stubScroll();
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} />);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} />);
+    fireEvent.click(document.querySelector(".jump") as Element);
+    expect(document.querySelector(".jump")).toBeNull();
+    rerender(<TimelineHarness {...timelineProps(session, { now: 29, selectedId: 2 })} />);
+    expect(document.querySelector(".jump")).toBeNull();
+    rerender(<TimelineHarness {...timelineProps(session, { now: 29, selectedId: 3 })} />);
+    expect(document.querySelector(".jump")).not.toBeNull();
+    expect(scroll.scrollTo).toHaveBeenCalled();
+  });
+
+  it("keeps the follow state when the selection is cleared", () => {
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} />);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} />);
+    expect(document.querySelector(".jump")).not.toBeNull();
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: null })} />);
+    expect(document.querySelector(".jump")).not.toBeNull();
+    fireEvent.click(document.querySelector(".jump") as Element);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} />);
+    expect(document.querySelector(".jump")).not.toBeNull();
+    fireEvent.click(document.querySelector(".jump") as Element);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: null })} />);
+    expect(document.querySelector(".jump")).toBeNull();
+  });
+
+  it("follows again in another session even when it opens with a selection", () => {
+    const scroll = stubScroll();
+    const first = payloadSession("claude/live_blocked.json", 0);
+    const second = payloadSession("claude/finished.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(first, { now: 28 })} />);
+    rerender(<TimelineHarness {...timelineProps(first, { now: 28, selectedId: 2 })} />);
+    expect(document.querySelector(".jump")).not.toBeNull();
+    const callsBefore = scroll.scrollTo.mock.calls.length;
+    scroll.contentBottom = 1500;
+    rerender(<TimelineHarness {...timelineProps(second, { now: 60, selectedId: 1 })} />);
+    expect(document.querySelector(".jump")).toBeNull();
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore + 1);
+    scroll.contentBottom = 1800;
+    rerender(<TimelineHarness {...timelineProps(second, { now: 61, selectedId: 1 })} />);
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore + 2);
+  });
+
+  it("follows again when the timeline is shown, even if the selection changed with it", async () => {
+    const scroll = stubScroll();
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} />);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} />);
+    expect(document.querySelector(".jump")).not.toBeNull();
+    await showView("tree", rerender, timelineProps(session, { now: 28, selectedId: 2 }));
+    const callsBefore = scroll.scrollTo.mock.calls.length;
+    await showView("timeline", rerender, timelineProps(session, { now: 28, selectedId: 3 }));
+    expect(document.querySelector(".jump")).toBeNull();
+    scroll.contentBottom = 1300;
+    rerender(<TimelineHarness {...timelineProps(session, { now: 29, selectedId: 3 })} />);
+    expect(scroll.scrollTo.mock.calls.length).toBeGreaterThan(callsBefore);
+  });
+
+  it("does not pause following for a selection that changes while the tree is showing", async () => {
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} view="tree" />);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} view="tree" />);
+    await showView("timeline", rerender, timelineProps(session, { now: 28, selectedId: 2 }));
+    expect(document.querySelector(".jump")).toBeNull();
+  });
+
   it("removes its listeners on unmount", async () => {
     const scroll = stubScroll();
     const session = payloadSession("claude/live_blocked.json", 0);
