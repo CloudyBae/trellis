@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from ..sessions.models import Agent, Run, Session
+from ..sessions.models import Agent, Run, Session, ToolTurn
 from ..util.timestamps import secs
 
 
@@ -11,6 +11,9 @@ class BaseSessionBuilder(ABC):
 
     def build(self) -> Session:
         agents = self.build_agents()
+        for agent in agents:
+            if self.gave_up_on_failed_call(agent):
+                agent.final = "failed"
         if len(agents) > 1:
             agents[0].name = "Orchestrator"
         return self.to_session(agents)
@@ -25,6 +28,15 @@ class BaseSessionBuilder(ABC):
             run=self.run(agents),
             agents=agents,
         )
+
+    def gave_up_on_failed_call(self, agent: Agent) -> bool:
+        if agent.parent is None or agent.final != "complete":
+            return False
+        last_call = next(
+            (turn for turn in reversed(agent.turns) if isinstance(turn, ToolTurn)),
+            None,
+        )
+        return last_call is not None and last_call.fail is True
 
     def raw_id(self) -> str | None:
         return None

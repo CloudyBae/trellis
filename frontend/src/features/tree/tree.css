@@ -19,6 +19,14 @@
 .flow-sizer {
   position: relative;
 }
+.nprobe {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  pointer-events: none;
+}
 .flow-in {
   position: absolute;
   left: 0;

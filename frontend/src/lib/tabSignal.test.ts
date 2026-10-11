@@ -28,6 +28,23 @@ function withFailedKid(id: string) {
   });
 }
 
+function withFailedCall(id: string) {
+  return real({
+    ...sessionOf(id, id),
+    agents: [
+      agentOf(1, { name: "Orchestrator" }),
+      agentOf(2, {
+        parent: 1,
+        start: 1,
+        end: 5,
+        final: "complete",
+        returned: { summary: "x", items: [] },
+        turns: [{ at: 3, kind: "tool", name: "Read", target: "", out: "", fail: true }],
+      }),
+    ],
+  });
+}
+
 describe("attentionSnapshot", () => {
   it("flags a blocked agent in any live run", () => {
     expect(attentionSnapshot([calm("a"), real(sessionOf("b", "b"))], clock).blocked).toBe(true);
@@ -65,6 +82,16 @@ describe("newlySettled", () => {
     expect(newlySettled(before, attentionSnapshot([withFailedKid("a")], clock))).toBe("agent-failed");
   });
 
+  it("reports a failed call in a run already being watched, even when the agent finished", () => {
+    const before = attentionSnapshot([calm("a")], clock);
+    expect(newlySettled(before, attentionSnapshot([withFailedCall("a")], clock))).toBe("call-failed");
+  });
+
+  it("does not repeat a failed call that was already counted", () => {
+    const loaded = attentionSnapshot([withFailedCall("a")], clock);
+    expect(newlySettled(loaded, loaded)).toBeNull();
+  });
+
   it("does not treat runs and failures that were already there as news", () => {
     const loaded = attentionSnapshot([withFailedKid("a"), calm("b", { live: false })], clock);
     const empty = attentionSnapshot([], clock);
@@ -88,6 +115,8 @@ describe("signalOf", () => {
     expect(worseOf("agent-failed", "done")).toBe("done");
     expect(worseOf("done", "agent-failed")).toBe("done");
     expect(worseOf(null, "done")).toBe("done");
+    expect(worseOf("call-failed", "agent-failed")).toBe("agent-failed");
+    expect(signalOf(false, "call-failed")).toBe("call-failed");
   });
 });
 

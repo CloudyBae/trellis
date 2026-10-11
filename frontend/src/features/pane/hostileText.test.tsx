@@ -62,7 +62,7 @@ describe("hostile transcript text", () => {
     expectInert(container);
     const node = container.querySelector('[data-fid="2"]') as HTMLElement;
     expect(node.querySelector(".nname")?.textContent).toBe(IMAGE);
-    expect(node.getAttribute("aria-label")).toBe(`${IMAGE}, complete. ${SCRIPT}`);
+    expect(node.getAttribute("aria-label")).toBe(`${IMAGE}, delegated by Orchestrator, complete. ${SCRIPT}`);
     expect(node.querySelector(".nact")?.textContent).toBe(SCRIPT);
     expect(container.querySelector('[data-fid="1"] .nact')?.textContent).toBe(IMAGE);
     expect(container.querySelector(".crumb.now")?.textContent).toBe(IMAGE);

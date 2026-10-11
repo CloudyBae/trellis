@@ -1,4 +1,4 @@
-import { alive, sessionNow, stateOf } from "@/model";
+import { alive, failedCalls, sessionNow, stateOf } from "@/model";
 import type { AgentStateName, ModelSession, PreparedAgent } from "@/model";
 import type { Clock } from "./clock";
 import { clockAt, duration } from "./format";
@@ -10,6 +10,8 @@ export type SessionSummary = {
   blocked: PreparedAgent[];
   failed: PreparedAgent[];
   running: number;
+  failedCalls: number;
+  failedCallAgent: PreparedAgent | null;
 };
 
 export type SessionOrder = {
@@ -47,6 +49,9 @@ export function summarize(session: ModelSession, clock: Clock): SessionSummary {
     .filter((agent) => alive(agent, time))
     .map((agent) => ({ agent, state: stateOf(agent, time).s }));
   const root = session.by[1];
+  const callFailures = session.agents
+    .map((agent) => ({ agent, count: failedCalls(agent, time) }))
+    .filter((entry) => entry.count > 0);
   return {
     time,
     states,
@@ -54,6 +59,8 @@ export function summarize(session: ModelSession, clock: Clock): SessionSummary {
     blocked: states.filter((entry) => entry.state === "blocked").map((entry) => entry.agent),
     failed: states.filter((entry) => entry.state === "failed").map((entry) => entry.agent),
     running: states.filter((entry) => entry.state === "running").length,
+    failedCalls: callFailures.reduce((total, entry) => total + entry.count, 0),
+    failedCallAgent: callFailures.at(-1)?.agent ?? null,
   };
 }
 
@@ -158,6 +165,12 @@ function noteFor(session: ModelSession, live: boolean, summary: SessionSummary):
     const failed = summary.failed.length;
     return {
       text: `${failed} agent${failed === 1 ? "" : "s"} failed, ${summary.running} running`,
+      tone: "failed",
+    };
+  }
+  if (summary.failedCalls > 0) {
+    return {
+      text: `${summary.running} running · ${summary.failedCalls} failed ${summary.failedCalls === 1 ? "call" : "calls"}`,
       tone: "failed",
     };
   }

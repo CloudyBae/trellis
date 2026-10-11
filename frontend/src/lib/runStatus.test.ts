@@ -13,6 +13,20 @@ function status(session: Session) {
 
 const failedKid = agentOf(2, { name: "Test writer", parent: 1, start: 1, end: 5, final: "failed", returned: { summary: "x", items: [] } });
 
+const failedRead = { at: 6, kind: "tool" as const, name: "Read", target: "missing.txt", out: "File does not exist.", fail: true };
+
+function withFailedCall(overrides: { live?: boolean } = {}) {
+  return {
+    ...sessionOf("a", "Run", overrides),
+    agents: [
+      overrides.live === false
+        ? agentOf(1, { name: "Orchestrator", end: 20, final: "complete" })
+        : agentOf(1, { name: "Orchestrator", phases: [{ at: 1, state: "waiting", note: "Waiting on agents." }] }),
+      agentOf(2, { name: "Explorer", parent: 1, start: 1, end: 9, final: "complete", returned: { summary: "FAILED", items: [] }, turns: [failedRead] }),
+    ],
+  };
+}
+
 describe("runStatus", () => {
   it("asks for you first and names the blocked agent", () => {
     const result = status(sessionOf("a", "Run"));
@@ -52,5 +66,23 @@ describe("runStatus", () => {
       agents: [agentOf(1, { name: "Orchestrator", end: 20, final: "failed", returned: { summary: "x", items: [] } })],
     });
     expect(failed).toMatchObject({ kind: "run-failed", label: "Run failed", target: 1 });
+  });
+
+  it("keeps a failed call visible when the agent that hit it still finished", () => {
+    const result = status(withFailedCall());
+    expect(result).toMatchObject({ kind: "waiting", failedCalls: 1, target: 2 });
+    expect(statusText(result)).toBe("Waiting on agents · 1 call failed");
+  });
+
+  it("carries the failed calls into a finished run", () => {
+    const result = status(withFailedCall({ live: false }));
+    expect(result).toMatchObject({ kind: "done", failedCalls: 1, target: 2 });
+    expect(statusText(result)).toMatch(/^Done · took .+ · 1 call failed$/);
+  });
+
+  it("leaves failed calls out once an agent failure already says so", () => {
+    const base = withFailedCall();
+    const result = status({ ...base, agents: [...base.agents, failedKid] });
+    expect(result).toMatchObject({ kind: "agent-failed", failedCalls: 0 });
   });
 });

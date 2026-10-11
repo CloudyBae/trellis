@@ -28,6 +28,14 @@ export function useFollow(
   const autoTimer = useRef<number | undefined>(undefined);
   const rendered = useRef(false);
 
+  const holdAutoScroll = useCallback(() => {
+    autoScrolling.current = true;
+    window.clearTimeout(autoTimer.current);
+    autoTimer.current = window.setTimeout(() => {
+      autoScrolling.current = false;
+    }, AUTO_SCROLL_MS);
+  }, []);
+
   const followEdge = useCallback(() => {
     const garden = gardenOf(graphRef.current);
     const nowRow = graphRef.current?.querySelector<HTMLElement>(".nowrow") ?? null;
@@ -41,16 +49,12 @@ export function useFollow(
     if (Math.abs(garden.scrollTop - target) < SETTLED_DISTANCE) {
       return;
     }
-    autoScrolling.current = true;
     const smooth = rendered.current && !matchesQuery(REDUCED_MOTION_QUERY);
     if (typeof garden.scrollTo === "function") {
       garden.scrollTo({ top: target, behavior: smooth ? "smooth" : "auto" });
     }
-    window.clearTimeout(autoTimer.current);
-    autoTimer.current = window.setTimeout(() => {
-      autoScrolling.current = false;
-    }, AUTO_SCROLL_MS);
-  }, [graphRef]);
+    holdAutoScroll();
+  }, [graphRef, holdAutoScroll]);
 
   const inTimeline = view === "timeline";
 
@@ -63,18 +67,30 @@ export function useFollow(
   }, [sessionId, inTimeline]);
 
   const seen = useRef({ sessionId, inTimeline, selectedId });
+  const pausedByCommit = useRef(false);
 
   useLayoutEffect(() => {
     const previous = seen.current;
     seen.current = { sessionId, inTimeline, selectedId };
     const sameContext = previous.sessionId === sessionId && previous.inTimeline === inTimeline;
-    if (sameContext && inTimeline && selectedId !== null && selectedId !== previous.selectedId) {
-      setFollow(false);
+    if (!sameContext || !inTimeline || selectedId === null || selectedId === previous.selectedId) {
+      return;
     }
-  }, [sessionId, inTimeline, selectedId]);
+    pausedByCommit.current = true;
+    if (autoScrolling.current) {
+      const garden = gardenOf(graphRef.current);
+      if (garden !== null && typeof garden.scrollTo === "function") {
+        garden.scrollTo({ top: garden.scrollTop, behavior: "auto" });
+      }
+      holdAutoScroll();
+    }
+    setFollow(false);
+  }, [sessionId, inTimeline, selectedId, graphRef, holdAutoScroll]);
 
   useLayoutEffect(() => {
-    if (follow && inTimeline) {
+    const paused = pausedByCommit.current;
+    pausedByCommit.current = false;
+    if (follow && inTimeline && !paused) {
       followEdge();
     }
     rendered.current = true;
@@ -99,6 +115,7 @@ export function useFollow(
   useEffect(
     () => () => {
       window.clearTimeout(autoTimer.current);
+      autoScrolling.current = false;
     },
     [],
   );

@@ -1,11 +1,13 @@
 import { cleanup, fireEvent, render } from "@testing-library/react";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import type { Session } from "@/api";
+import { plainName } from "@/model";
 import { payloadSession } from "@/test/payloadSessions";
 import { TreeHarness, nodeElement, nodeIds, treeProps } from "@/test/treeTestSupport";
 
 afterEach(() => {
   cleanup();
+  vi.restoreAllMocks();
   Reflect.deleteProperty(window, "matchMedia");
 });
 
@@ -32,8 +34,18 @@ describe("TreeView states", () => {
     expect(nodeElement(1).getAttribute("aria-label")).toBe(
       "Orchestrator, waiting. Waiting on Explorer and Security reviewer to return.",
     );
-    expect(nodeElement(2).getAttribute("aria-label")).toBe("Explorer, running. Find token call sites");
+    expect(nodeElement(2).getAttribute("aria-label")).toBe("Explorer, delegated by Orchestrator, running. Find token call sites");
     expect(nodeElement(2).querySelector(".nname")?.textContent).toBe("Explorer");
+  });
+
+  it("names the delegating parent in a child label and leaves the root label alone", () => {
+    const session = payloadSession("codex/parent_variants.json");
+    render(<TreeHarness {...treeProps(session)} />);
+    const parent = session.agents.find((agent) => agent.id === 2);
+    const grandchild = nodeElement(17).getAttribute("aria-label") ?? "";
+    expect(grandchild).toContain(`delegated by ${parent === undefined ? "" : plainName(parent)}`);
+    expect(nodeElement(2).getAttribute("aria-label")).toContain("delegated by Orchestrator");
+    expect(nodeElement(1).getAttribute("aria-label")).not.toContain("delegated by");
   });
 
   it("shows the returned summary for a finished agent and marks the root with the wide label", () => {
@@ -125,5 +137,31 @@ describe("TreeView earlier-prompt fold", () => {
     expect(nodeIds()).toEqual([1, 2, 3]);
     rerender(<TreeHarness {...treeProps(promptedSession([0, 20, 65]), { now: 70 })} />);
     expect(nodeIds()).toEqual([1]);
+  });
+});
+
+describe("TreeView label reserve", () => {
+  function stubProbeHeights(node: number, root: number): void {
+    vi.spyOn(HTMLElement.prototype, "getBoundingClientRect").mockImplementation(function (this: HTMLElement) {
+      const height = this.closest(".nprobe") === null ? 0 : this.classList.contains("root") ? root : node;
+      return { x: 0, y: 0, left: 0, top: 0, right: 0, bottom: height, width: 0, height, toJSON: () => ({}) };
+    });
+  }
+
+  function rowGap(): number {
+    const session = payloadSession("codex/parent_variants.json");
+    render(<TreeHarness {...treeProps(session)} />);
+    return Number.parseFloat(nodeElement(17).style.top) - Number.parseFloat(nodeElement(2).style.top);
+  }
+
+  it("spaces rows by the default reserve before anything is measured", () => {
+    expect(rowGap()).toBe(288);
+  });
+
+  it("spaces rows by the measured probe height without drawing the probe as a node", () => {
+    stubProbeHeights(220, 130);
+    expect(rowGap()).toBe(220 + 80);
+    expect(document.querySelector(".nprobe")?.getAttribute("aria-hidden")).toBe("true");
+    expect(document.querySelectorAll(".nprobe [data-fid]")).toHaveLength(0);
   });
 });

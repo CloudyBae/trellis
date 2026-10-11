@@ -153,7 +153,7 @@ function applyRemove(state: AppState, id: string, env: ShellEnvironment): AppSta
   return { ...state, store };
 }
 
-function applyStreamError(state: AppState, _env: ShellEnvironment): AppState {
+function applyStreamError(state: AppState): AppState {
   if (state.connected) {
     return state.linkDown
       ? state
@@ -203,7 +203,7 @@ export function reduceApp(state: AppState, action: AppAction): AppState {
     case "remove":
       return applyRemove(state, intent.id, env);
     case "streamError":
-      return applyStreamError(state, env);
+      return applyStreamError(state);
     case "open":
       return openSession(state, state.store.sessions, intent.id, env, intent.announce);
     case "startDemo":

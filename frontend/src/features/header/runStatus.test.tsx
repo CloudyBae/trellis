@@ -51,6 +51,36 @@ describe("run status chip", () => {
   });
 });
 
+function withFailedCall(id: string, name: string) {
+  return {
+    ...sessionOf(id, name),
+    agents: [
+      agentOf(1, { name: "Orchestrator", phases: [{ at: 1, state: "waiting" as const, note: "Waiting on agents." }] }),
+      agentOf(2, {
+        name: "Explorer",
+        parent: 1,
+        start: 1,
+        end: 9,
+        final: "complete" as const,
+        returned: { summary: "FAILED: File does not exist.", items: [] },
+        turns: [{ at: 6, kind: "tool" as const, name: "Read", target: "missing.txt", out: "File does not exist.", fail: true }],
+      }),
+    ],
+  };
+}
+
+describe("failed calls", () => {
+  it("names a failed call on the chip, jumps to its agent, and announces it once", () => {
+    const source = open(calm("cc:a", "Fix checkout"));
+    source?.emit("session", withFailedCall("cc:a", "Fix checkout"));
+    advance(60);
+    expect(chip()?.textContent).toBe("Waiting on agents · 1 call failedShow");
+    expect(document.getElementById("sr")?.textContent).toBe("Fix checkout: Waiting on agents · 1 call failed");
+    fireEvent.click(screen.getByRole("button", { name: "Waiting on agents · 1 call failed. Show" }));
+    expect(document.getElementById("pane")?.dataset.selectedId).toBe("2");
+  });
+});
+
 describe("other runs", () => {
   it("shows a labelled pill with a count for other runs that need you", () => {
     open(sessionOf("cc:a", "First", { t0: SESSION_START }), sessionOf("cc:b", "Second", { t0: SESSION_START - 1000 }));

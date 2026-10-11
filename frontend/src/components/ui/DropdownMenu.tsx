@@ -16,7 +16,7 @@ export function DropdownMenuContent({ className, sideOffset = 0, ...props }: Dro
       <DropdownMenuPrimitive.Content
         sideOffset={sideOffset}
         className={cn(
-          "z-40 overflow-auto overscroll-contain rounded-popover bg-pane p-s text-ink shadow-menu",
+          "z-40 overflow-auto overscroll-contain rounded-popover border border-rule bg-pane p-s text-ink",
           className,
         )}
         {...props}

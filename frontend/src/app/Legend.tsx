@@ -13,7 +13,7 @@ const CALL_KEYS: { state: LeafState; label: string }[] = [
 ];
 
 const LEGEND_NOTE: Record<View, string> = {
-  tree: "Icons show role, badges show state. Bright stems are working; faded ones have returned. A stem shows up to four calls, ×N is the total, and a rose leaf is a failed call (the agent can still finish). A number tells same-role agents apart under one parent.",
+  tree: "Icons show role, badges show state. Bright stems are working; faded ones have returned. A stem shows up to four calls, ×N is the total, and a rose leaf is a failed call (the agent can still finish, unless it returned right after one). A number tells same-role agents apart under one parent.",
   timeline: "Lanes fork on delegation and rejoin on return. Bright is working, faded has returned. A lane shows up to four calls, ×N is the total.",
 };
 

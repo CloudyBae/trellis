@@ -39,7 +39,9 @@ export function TreeNode(props: TreeNodeProps) {
     .join(" ");
   const task = taskLabel(agent);
   const failedNote = props.failedCalls > 0 ? `, ${props.failedCalls} failed call${props.failedCalls === 1 ? "" : "s"}` : "";
-  const label = `${task ? `${task}, ` : ""}${plainName(agent)}, ${state}${failedNote}${activityText ? `. ${activityText}` : ""}`;
+  const parent = agent.parent ? agent.by[agent.parent] : undefined;
+  const delegation = parent === undefined ? "" : `, delegated by ${plainName(parent)}`;
+  const label = `${task ? `${task}, ` : ""}${plainName(agent)}${delegation}, ${state}${failedNote}${activityText ? `. ${activityText}` : ""}`;
   return (
     <button
       className={className}

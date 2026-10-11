@@ -7,11 +7,12 @@ import { TreeEdge } from "./TreeEdge";
 import { TreeFold } from "./TreeFold";
 import { TreeNode } from "./TreeNode";
 import { nodeActivity } from "./nodeText";
-import { ROOT_ID, latestPromptAt, placeTree } from "./placement";
+import { ROOT_ID, latestPromptAt, placeTree, rootLabelWidthFor } from "./placement";
 import type { TreePlacement } from "./placement";
 import { useBoxStyle } from "@/hooks/useBoxStyle";
 import { useFlowWidth } from "./useFlowWidth";
 import { useGlide } from "./useGlide";
+import { useLabelReserve } from "./useLabelReserve";
 import type { GlideFrame } from "./glide";
 import "./tree.css";
 
@@ -34,14 +35,24 @@ function glideFrameFor(
 export function TreeView({ session, selectedId, now, narrow, onSelect }: ViewProps) {
   const flowRef = useRef<HTMLDivElement>(null);
   const flowWidth = useFlowWidth(flowRef);
+  const { labelReserve, rootLabelReserve, probe } = useLabelReserve(narrow, rootLabelWidthFor(flowWidth ?? 0));
   const [expanded, setExpanded] = useState<{ sessionId: string; promptAt: number } | null>(null);
   const root = session.agents.find((agent) => agent.id === ROOT_ID);
   const promptAt = root === undefined ? -Infinity : latestPromptAt(root, now);
   const foldEarlier = expanded === null || expanded.sessionId !== session.id || expanded.promptAt !== promptAt;
   const placement = useMemo(
     () =>
-      placeTree({ agents: session.agents, time: now, narrow, selectedId, flowWidth: flowWidth ?? 0, foldEarlier }),
-    [session, now, narrow, selectedId, flowWidth, foldEarlier],
+      placeTree({
+        agents: session.agents,
+        time: now,
+        narrow,
+        selectedId,
+        flowWidth: flowWidth ?? 0,
+        foldEarlier,
+        labelReserve,
+        rootLabelReserve,
+      }),
+    [session, now, narrow, selectedId, flowWidth, foldEarlier, labelReserve, rootLabelReserve],
   );
   const agentsById = useMemo(() => {
     const byId = new Map<number, PreparedAgent>();
@@ -93,6 +104,7 @@ export function TreeView({ session, selectedId, now, narrow, onSelect }: ViewPro
         data-now={now}
         data-narrow={String(narrow)}
       >
+        {probe}
         <div className="flow-sizer" ref={sizerRef}>
           <div className="flow-in" ref={innerRef}>
             <svg

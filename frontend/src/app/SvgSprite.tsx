@@ -102,7 +102,7 @@ export function SvgSprite() {
           <path d="M10 8.6L15.4 12L10 15.4Z" />
         </RoleSymbol>
         <RoleSymbol id="r-agent">
-          <path d="M12 21V11M12 13C12 9 8.5 6.5 5 7C5 10.5 8 13 12 13ZM12 11C12 7.5 15 5 19 5.5C19 9 16 11 12 11Z" />
+          <path d="M5.3 11C5.3 7.2 8 5 12 5C16 5 18.7 7.2 18.7 11C16 11.8 8 11.8 5.3 11ZM12 5V3.4M7 12.2C7 16 9 19.3 12 20.8C15 19.3 17 16 17 12.2" />
         </RoleSymbol>
       </defs>
     </svg>

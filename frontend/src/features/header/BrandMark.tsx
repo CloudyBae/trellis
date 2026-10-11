@@ -5,16 +5,19 @@ export function BrandMark() {
       href="#"
       aria-label="Trellis"
     >
-      <svg className="size-lg" viewBox="0 0 24 24" aria-hidden="true">
-        <path
-          d="M12 21V11.5C12 8 15.4 6.2 17.6 8.2C19.3 9.8 18.3 12.6 16 12.5C14.4 12.4 13.8 10.8 14.6 9.8"
-          fill="none"
-          stroke="var(--stem-active)"
-          strokeWidth="2.2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path d="M12 18C12 15.2 9.4 13.4 6.5 13.8C6.5 16.6 8.8 18.3 12 18Z" fill="var(--leaf)" />
+      <svg
+        className="size-lg"
+        viewBox="2.65 3.5 19 19"
+        fill="none"
+        stroke="var(--stem)"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M11 21V13" />
+        <path d="M11 13.2C10 8 13 5 19.4 4.8C20.2 10.8 17 14 11 13.2Z" />
+        <path d="M11 14C10.4 10.4 8 7.8 4.6 7.8C4.4 11.8 7.2 14.6 11 14Z" />
       </svg>
       trellis
     </a>

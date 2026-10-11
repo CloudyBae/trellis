@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { StateGlyph } from "@/components/agent/StateGlyph";
 import { cn } from "@/components/ui/cn";
-import { statusText } from "@/lib/runStatus";
+import { callsText, leadText, statusText } from "@/lib/runStatus";
 import type { RunStatus as RunStatusValue, RunStatusKind } from "@/lib/runStatus";
 
 const TONE: Record<RunStatusKind, string> = {
@@ -17,6 +17,16 @@ const CHIP =
   "run-status inline-flex flex-none items-center gap-xs rounded-round py-3xs pr-sm pl-xs text-state font-medium [&_svg]:size-icon-s";
 
 type Seen = { sessionId: string; kind: RunStatusKind; changed: boolean };
+
+function StatusLabel({ status }: { status: RunStatusValue }) {
+  const calls = callsText(status);
+  return (
+    <span className="min-w-zero truncate">
+      {leadText(status)}
+      {calls === "" ? null : <span className="text-rose-ink"> · {calls}</span>}
+    </span>
+  );
+}
 
 type Props = {
   sessionId: string;
@@ -49,7 +59,7 @@ export function RunStatus({ sessionId, status, stale, onShow }: Props) {
     return (
       <span key={key} className={cn(CHIP, TONE[status.kind], settle)} data-status={status.kind}>
         <StateGlyph state={status.glyph} />
-        {text}
+        <StatusLabel status={status} />
       </span>
     );
   }
@@ -63,7 +73,7 @@ export function RunStatus({ sessionId, status, stale, onShow }: Props) {
       onClick={() => onShow(target)}
     >
       <StateGlyph state={status.glyph} />
-      <span className="min-w-zero truncate">{text}</span>
+      <StatusLabel status={status} />
       <span className="font-normal underline decoration-current underline-offset-3">Show</span>
     </button>
   );

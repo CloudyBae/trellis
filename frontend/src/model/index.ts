@@ -7,4 +7,5 @@ export type { LeafState, ToolLeaves } from "./toolLeaves";
 export { EMPTY_STORE, reduceStore } from "./store";
 export type { SessionStore, StoreAction } from "./store";
 export { listAnd, pad, plainName, siblingNumber } from "./text";
+export type * from "./evals";
 export type * from "./types";

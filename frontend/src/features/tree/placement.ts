@@ -6,14 +6,16 @@ export const ROOT_ID = 1;
 export const MIN_AVAILABLE_WIDTH = 300;
 export const FLOW_SIDE_ALLOWANCE = 8;
 
-const LABEL_HEIGHT = 150;
+export const DEFAULT_LABEL_RESERVE = 150;
+export const DEFAULT_ROOT_LABEL_RESERVE = 108;
+export const WIDE_COLUMN_WIDTH = 152;
+export const NARROW_COLUMN_WIDTH = 132;
+export const ROOT_LABEL_MAX_WIDTH = 460;
+
 const WIRE_HEIGHT = 20;
 const DROP_HEIGHT = 60;
 const EDGE_PADDING = 16;
 const TIER_GAP = 30;
-const ROW_HEIGHT = POD_SIZE + LABEL_HEIGHT + WIRE_HEIGHT + DROP_HEIGHT;
-const ROOT_LABEL_MAX_WIDTH = 460;
-const ROOT_LABEL_HEIGHT = 108;
 const FOLD_LABEL_HEIGHT = 60;
 export const FOLD_EDGE_ID = 0;
 
@@ -24,6 +26,8 @@ export type PlacementInput = {
   selectedId: number | null;
   flowWidth: number;
   foldEarlier: boolean;
+  labelReserve: number;
+  rootLabelReserve: number;
 };
 
 export type NodePlacement = {
@@ -100,19 +104,36 @@ function toolLeaves(states: LeafState[], centerX: number, wireY: number, endY: n
   }));
 }
 
+export function columnWidthFor(narrow: boolean): number {
+  return narrow ? NARROW_COLUMN_WIDTH : WIDE_COLUMN_WIDTH;
+}
+
+export function availableWidthFor(flowWidth: number): number {
+  return Math.max(flowWidth - FLOW_SIDE_ALLOWANCE, MIN_AVAILABLE_WIDTH);
+}
+
+export function rootLabelWidthFor(flowWidth: number): number {
+  return Math.min(availableWidthFor(flowWidth) - EDGE_PADDING, ROOT_LABEL_MAX_WIDTH);
+}
+
+function trailingEdge(cursor: number, availableWidth: number): number {
+  return cursor > availableWidth ? cursor + EDGE_PADDING : availableWidth;
+}
+
 function emptyPlacement(availableWidth: number): TreePlacement {
   return { nodes: [], fold: null, edges: [], width: availableWidth, height: 0, availableWidth };
 }
 
 export function placeTree(input: PlacementInput): TreePlacement {
-  const { agents, time, narrow, selectedId } = input;
-  const availableWidth = Math.max(input.flowWidth - FLOW_SIDE_ALLOWANCE, MIN_AVAILABLE_WIDTH);
+  const { agents, time, narrow, selectedId, labelReserve, rootLabelReserve } = input;
+  const availableWidth = availableWidthFor(input.flowWidth);
+  const rowHeight = POD_SIZE + labelReserve + WIRE_HEIGHT + DROP_HEIGHT;
   const root = agents.find((agent) => agent.id === ROOT_ID);
   if (root === undefined || !alive(root, time)) {
     return emptyPlacement(availableWidth);
   }
 
-  const columnWidth = narrow ? 132 : 152;
+  const columnWidth = columnWidthFor(narrow);
   const widths = new Map<number, number>();
   const levels = new Map<number, number>();
 
@@ -148,7 +169,7 @@ export function placeTree(input: PlacementInput): TreePlacement {
     }
     let cursor = left + (width - kids.reduce((sum, kid) => sum + widthOf(kid), 0)) / 2;
     kids.forEach((kid) => {
-      place(kid, cursor, top + ROW_HEIGHT);
+      place(kid, cursor, top + rowHeight);
       cursor += widthOf(kid);
     });
     const firstKid = slots.get(kids[0]?.id ?? -1);
@@ -162,7 +183,7 @@ export function placeTree(input: PlacementInput): TreePlacement {
   const firstColumnX = postX + 18;
   const rootBottom = EDGE_PADDING + POD_SIZE;
   const wireOf = new Map<number, number>();
-  let wireY = Math.max(rootBottom, EDGE_PADDING + ROOT_LABEL_HEIGHT) + 34;
+  let wireY = Math.max(rootBottom, EDGE_PADDING + rootLabelReserve) + 34;
   let cursor = firstColumnX;
   let tierBottom = wireY;
   let contentWidth = availableWidth;
@@ -194,7 +215,7 @@ export function placeTree(input: PlacementInput): TreePlacement {
       toolTotal: 0,
     };
     cursor += columnWidth;
-    contentWidth = Math.max(contentWidth, cursor + EDGE_PADDING);
+    contentWidth = Math.max(contentWidth, trailingEdge(cursor, availableWidth));
     tierBottom = Math.max(tierBottom, foldTop + POD_SIZE + FOLD_LABEL_HEIGHT);
   }
 
@@ -207,8 +228,8 @@ export function placeTree(input: PlacementInput): TreePlacement {
     place(kid, cursor, wireY + DROP_HEIGHT);
     wireOf.set(kid.id, wireY);
     cursor += width;
-    contentWidth = Math.max(contentWidth, cursor + EDGE_PADDING);
-    tierBottom = Math.max(tierBottom, wireY + DROP_HEIGHT + (levelsOf(kid) - 1) * ROW_HEIGHT + POD_SIZE + LABEL_HEIGHT);
+    contentWidth = Math.max(contentWidth, trailingEdge(cursor, availableWidth));
+    tierBottom = Math.max(tierBottom, wireY + DROP_HEIGHT + (levelsOf(kid) - 1) * rowHeight + POD_SIZE + labelReserve);
   });
 
   const rootSlot: Slot = { centerX: postX, top: EDGE_PADDING };
@@ -225,7 +246,7 @@ export function placeTree(input: PlacementInput): TreePlacement {
           id: agent.id,
           left: EDGE_PADDING,
           top: EDGE_PADDING,
-          width: Math.min(availableWidth - EDGE_PADDING, ROOT_LABEL_MAX_WIDTH),
+          width: rootLabelWidthFor(input.flowWidth),
           root: true,
         },
       ];
@@ -244,7 +265,7 @@ export function placeTree(input: PlacementInput): TreePlacement {
       return [];
     }
     const isRootKid = agent.parent === root.id;
-    const startY = isRootKid ? rootBottom + 6 : parentSlot.top + POD_SIZE + LABEL_HEIGHT + 4;
+    const startY = isRootKid ? rootBottom + 6 : parentSlot.top + POD_SIZE + labelReserve + 4;
     const edgeWireY = isRootKid ? (wireOf.get(agent.id) ?? slot.top - DROP_HEIGHT) : slot.top - DROP_HEIGHT + 4;
     const endY = slot.top - 8;
     const tools = toolLeafStates(agent, time);

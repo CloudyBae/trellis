@@ -6,7 +6,12 @@ import { placeTree } from "./placement";
 import { payloadSession, withAgents } from "@/test/payloadSessions";
 
 const WIDE = 5000;
-const ROW_HEIGHT = 288;
+const LABEL_RESERVE = 150;
+const ROOT_LABEL_RESERVE = 108;
+const POD = 58;
+const WIRE_AND_DROP = 80;
+const ROW_HEIGHT = POD + LABEL_RESERVE + WIRE_AND_DROP;
+const RESERVES = { labelReserve: LABEL_RESERVE, rootLabelReserve: ROOT_LABEL_RESERVE };
 
 function ascending(left: number, right: number): number {
   return left - right;
@@ -19,6 +24,7 @@ function byId(nodes: NodePlacement[]): Map<number, NodePlacement> {
 function place(flowWidth: number) {
   const session = payloadSession("codex/parent_variants.json");
   const placement = placeTree({
+    ...RESERVES,
     agents: session.agents,
     time: session.endAt,
     narrow: false,
@@ -76,7 +82,7 @@ describe("placeTree on the parent_variants payload", () => {
     const parent = nodeOf(nodes, 2);
     const grandchild = nodeOf(nodes, 17);
     const columnCenter = parent.left + 76;
-    expect(grandchildEdge?.path).toBe(`M${columnCenter} ${parent.top + 58 + 150 + 4} L${columnCenter} ${grandchild.top - 8}`);
+    expect(grandchildEdge?.path).toBe(`M${columnCenter} ${parent.top + POD + LABEL_RESERVE + 4} L${columnCenter} ${grandchild.top - 8}`);
 
     const firstChild = nodeOf(nodes, 2);
     const firstEdge = edges.get(2);
@@ -92,7 +98,7 @@ describe("placeTree on the parent_variants payload", () => {
     const tool = { at: 1, kind: "tool" as const, name: "Read", target: "", out: "" };
     const turns = [{ ...tool, fail: true }, ...Array.from({ length: 6 }, () => tool)];
     const agents = session.agents.map((agent) => (agent.id === 2 ? { ...agent, turns } : agent));
-    const placement = placeTree({ agents, time: session.endAt, narrow: false, selectedId: null, flowWidth: WIDE, foldEarlier: false });
+    const placement = placeTree({ ...RESERVES, agents, time: session.endAt, narrow: false, selectedId: null, flowWidth: WIDE, foldEarlier: false });
     const edge = placement.edges.find((candidate) => candidate.id === 2);
     expect(edge?.leaves.map((leaf) => leaf.state)).toEqual(["failed", "ok", "ok", "ok"]);
     expect(edge?.toolTotal).toBe(7);
@@ -101,6 +107,7 @@ describe("placeTree on the parent_variants payload", () => {
   it("draws the ancestry of the selected agent last", () => {
     const { session } = place(WIDE);
     const placement = placeTree({
+      ...RESERVES,
       agents: session.agents,
       time: session.endAt,
       narrow: false,
@@ -115,14 +122,14 @@ describe("placeTree on the parent_variants payload", () => {
 
   it("uses narrower columns on a narrow screen", () => {
     const session = payloadSession("codex/parent_variants.json");
-    const placement = placeTree({ agents: session.agents, time: session.endAt, narrow: true, selectedId: null, flowWidth: WIDE, foldEarlier: false });
+    const placement = placeTree({ ...RESERVES, agents: session.agents, time: session.endAt, narrow: true, selectedId: null, flowWidth: WIDE, foldEarlier: false });
     const nodes = byId(placement.nodes);
     expect(nodeOf(nodes, 3).left - nodeOf(nodes, 2).left).toBe(132);
   });
 
   it("omits agents that have not started yet", () => {
     const session = payloadSession("codex/parent_variants.json");
-    const placement = placeTree({ agents: session.agents, time: 5, narrow: false, selectedId: null, flowWidth: WIDE, foldEarlier: false });
+    const placement = placeTree({ ...RESERVES, agents: session.agents, time: 5, narrow: false, selectedId: null, flowWidth: WIDE, foldEarlier: false });
     expect(placement.nodes.map((node) => node.id)).not.toContain(17);
     expect(placement.edges.map((edge) => edge.id)).not.toContain(17);
   });
@@ -141,7 +148,7 @@ describe("folding agents from earlier prompts", () => {
   }
 
   function place(foldEarlier: boolean, selectedId: number | null = null) {
-    return placeTree({ agents: foldedSession(), time: 70, narrow: false, selectedId, flowWidth: WIDE, foldEarlier });
+    return placeTree({ ...RESERVES, agents: foldedSession(), time: 70, narrow: false, selectedId, flowWidth: WIDE, foldEarlier });
   }
 
   it("replaces finished agents from before the latest prompt with one counted node", () => {
@@ -165,7 +172,7 @@ describe("the tree invariant", () => {
 
   function nodesAt(edit: (session: Session) => Session, flowWidth: number): Map<number, NodePlacement> {
     const session = payloadSession("codex/parent_variants.json", 0, edit);
-    return byId(placeTree({ agents: session.agents, time: LATER, narrow: false, selectedId: null, flowWidth, foldEarlier: false }).nodes);
+    return byId(placeTree({ ...RESERVES, agents: session.agents, time: LATER, narrow: false, selectedId: null, flowWidth, foldEarlier: false }).nodes);
   }
 
   it("keeps every existing node where it was when a leaf joins a parent that is not the deepest in its tier", () => {
@@ -199,5 +206,95 @@ describe("the tree invariant", () => {
     expect(nodeOf(wrapped, 18).top).toBeGreaterThan(nodeOf(single, 18).top);
     expect(nodeOf(wrapped, 18).top - nodeOf(wrapped, 8).top).toBe(ROW_HEIGHT);
     expect(nodeOf(wrapped, 14).top).toBeGreaterThan(nodeOf(single, 14).top);
+  });
+});
+
+describe("the measured label reserve", () => {
+  const TALL_RESERVE = 190;
+  const TALL_ROOT_RESERVE = 140;
+
+  function placeReserved(labelReserve: number, rootLabelReserve: number, agents = payloadSession("codex/parent_variants.json").agents) {
+    const placement = placeTree({
+      agents,
+      time: payloadSession("codex/parent_variants.json").endAt,
+      narrow: false,
+      selectedId: null,
+      flowWidth: WIDE,
+      foldEarlier: false,
+      labelReserve,
+      rootLabelReserve,
+    });
+    return { placement, nodes: byId(placement.nodes) };
+  }
+
+  it("spaces rows and starts child edges by the passed reserve", () => {
+    const base = placeReserved(LABEL_RESERVE, ROOT_LABEL_RESERVE);
+    const tall = placeReserved(TALL_RESERVE, ROOT_LABEL_RESERVE);
+    const extra = TALL_RESERVE - LABEL_RESERVE;
+    expect(nodeOf(tall.nodes, 17).top - nodeOf(tall.nodes, 2).top).toBe(POD + TALL_RESERVE + WIRE_AND_DROP);
+    expect(tall.placement.height - base.placement.height).toBe(extra * 2);
+    const parent = nodeOf(tall.nodes, 2);
+    const edge = tall.placement.edges.find((candidate) => candidate.id === 17);
+    expect(edge?.path.startsWith(`M${parent.left + 76} ${parent.top + POD + TALL_RESERVE + 4} `)).toBe(true);
+  });
+
+  it("pushes the first wire below a taller root label", () => {
+    const base = placeReserved(LABEL_RESERVE, ROOT_LABEL_RESERVE);
+    const tall = placeReserved(LABEL_RESERVE, TALL_ROOT_RESERVE);
+    expect(nodeOf(tall.nodes, 2).top - nodeOf(base.nodes, 2).top).toBe(TALL_ROOT_RESERVE - ROOT_LABEL_RESERVE);
+  });
+
+  it("keeps every position when an unrelated agent's activity changes", () => {
+    const session = payloadSession("codex/parent_variants.json");
+    const tool = { at: 1, kind: "tool" as const, name: "Read", target: "a very long path that would make the label wrap", out: "" };
+    const changed = session.agents.map((agent) =>
+      agent.id === 3 ? { ...agent, brief: "x ".repeat(200), turns: [tool, tool, tool] } : agent,
+    );
+    const before = placeReserved(TALL_RESERVE, TALL_ROOT_RESERVE, session.agents);
+    const after = placeReserved(TALL_RESERVE, TALL_ROOT_RESERVE, changed);
+    expect(after.placement.nodes).toEqual(before.placement.nodes);
+    expect(after.placement.height).toBe(before.placement.height);
+  });
+
+  it("follows the passed content width for the available width", () => {
+    const wide = place(900);
+    const narrower = place(600);
+    expect(wide.placement.availableWidth).toBe(892);
+    expect(narrower.placement.availableWidth).toBe(592);
+  });
+});
+
+describe("the trailing edge padding", () => {
+  const FIRST_COLUMN_X = 63;
+  const COLUMN = 152;
+  const EDGE_PADDING = 16;
+  const ALLOWANCE = 8;
+
+  function placeLeaves(count: number, availableWidth: number) {
+    const kids = Array.from({ length: count }, (_, index) => agentOf(index + 2, { parent: 1, start: 1, name: `Leaf ${index}` }));
+    const agents = preparedOf([agentOf(1, {}), ...kids]);
+    return placeTree({
+      ...RESERVES,
+      agents,
+      time: 10,
+      narrow: false,
+      selectedId: null,
+      flowWidth: availableWidth + ALLOWANCE,
+      foldEarlier: false,
+    });
+  }
+
+  it("keeps a tier that ends inside the edge padding on one row without widening past the available width", () => {
+    const availableWidth = FIRST_COLUMN_X + COLUMN * 3 + EDGE_PADDING - 1;
+    const placement = placeLeaves(3, availableWidth);
+    expect(placement.availableWidth).toBe(availableWidth);
+    expect(new Set(placement.nodes.filter((node) => !node.root).map((node) => node.top)).size).toBe(1);
+    expect(placement.width).toBe(availableWidth);
+  });
+
+  it("wraps a tier whose last column would pass the available width", () => {
+    const placement = placeLeaves(3, FIRST_COLUMN_X + COLUMN * 3 - 1);
+    expect(new Set(placement.nodes.filter((node) => !node.root).map((node) => node.top)).size).toBe(2);
+    expect(placement.width).toBeLessThanOrEqual(placement.availableWidth);
   });
 });

@@ -69,25 +69,28 @@ export function App({ createSource }: { createSource?: StreamSourceFactory }) {
 
   const status = current === null ? null : runStatus(current, clock);
   const latestRun = useLatest({ current, status, selectedId: state.selectedId, view, now });
-  const lastStatus = useRef<{ id: string; kind: RunStatusKind } | null>(null);
+  const lastStatus = useRef<{ id: string; kind: RunStatusKind; failedCalls: number } | null>(null);
   const statusKind = status?.kind ?? null;
+  const failedCallCount = status?.failedCalls ?? 0;
   const openedId = current?.id ?? null;
 
   useEffect(() => {
     const { current: session, status: latest } = latestRun.current;
     const previous = lastStatus.current;
-    lastStatus.current = session === null || latest === null ? null : { id: session.id, kind: latest.kind };
+    lastStatus.current =
+      session === null || latest === null ? null : { id: session.id, kind: latest.kind, failedCalls: latest.failedCalls };
     if (session === null || latest === null || previous === null || previous.id !== session.id) {
       return;
     }
     const worthSaying = latest.kind === "needs-you" || latest.kind === "run-failed" || latest.kind === "agent-failed" || latest.kind === "done";
-    if (worthSaying && previous.kind !== latest.kind) {
+    const callsRose = latest.failedCalls > previous.failedCalls;
+    if ((worthSaying && previous.kind !== latest.kind) || callsRose) {
       dispatch({
         env: { ...latestEnvironment.current, clockMs: Date.now() },
         intent: { type: "announce", text: `${session.run.name}: ${statusText(latest)}` },
       });
     }
-  }, [openedId, statusKind, latestRun, latestEnvironment]);
+  }, [openedId, statusKind, failedCallCount, latestRun, latestEnvironment]);
 
   useEffect(() => {
     const { current: session, selectedId, view: activeView, now: at } = latestRun.current;

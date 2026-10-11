@@ -68,6 +68,25 @@ describe("describeEntry", () => {
     expect(entry.when).toEqual({ text: "30s", ticking: true });
   });
 
+  it("counts failed calls in the note of a live run even when every agent finished", () => {
+    const session = real({
+      ...sessionOf("a", "Run"),
+      agents: [
+        agentOf(1, { name: "Orchestrator" }),
+        agentOf(2, {
+          parent: 1,
+          start: 1,
+          end: 9,
+          final: "complete",
+          returned: { summary: "x", items: [] },
+          turns: [{ at: 6, kind: "tool", name: "Read", target: "", out: "", fail: true }],
+        }),
+      ],
+    });
+    const entry = describeEntry(session, clock);
+    expect(entry.note).toEqual({ text: "1 running · 1 failed call", tone: "failed" });
+  });
+
   it("shows the final result of a finished run and its end time", () => {
     const finished = real({
       ...sessionOf("a", "Run", { live: false, endAt: 20 }),

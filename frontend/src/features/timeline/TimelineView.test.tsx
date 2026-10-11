@@ -376,6 +376,55 @@ describe("TimelineView follow", () => {
     expect(scroll.scrollTo).toHaveBeenLastCalledWith({ top: 504 + (1200 - 504) - 520 + 24, behavior: "smooth" });
   });
 
+  it("does not follow the Now row in the commit that changes the selection", () => {
+    vi.useFakeTimers({ toFake: ["setTimeout", "clearTimeout"] });
+    const scroll = stubScroll();
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} />);
+    act(() => {
+      vi.advanceTimersByTime(700);
+    });
+    const callsBefore = scroll.scrollTo.mock.calls.length;
+    growTo(1300, scroll);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 29, selectedId: 2 })} />);
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore);
+    expect(document.querySelector(".jump")).not.toBeNull();
+  });
+
+  it("stops an auto scroll in flight where it is when a row is selected", () => {
+    vi.useFakeTimers({ toFake: ["setTimeout", "clearTimeout"] });
+    const scroll = stubScroll();
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} />);
+    const garden = scroll.garden();
+    const callsBefore = scroll.scrollTo.mock.calls.length;
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} />);
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore + 1);
+    expect(scroll.scrollTo).toHaveBeenLastCalledWith({ top: garden.scrollTop, behavior: "auto" });
+
+    scrollGardenTo(garden.scrollTop, scroll);
+    expect(document.querySelector(".jump")).not.toBeNull();
+    act(() => {
+      vi.advanceTimersByTime(700);
+    });
+    growTo(1300, scroll);
+    rerender(<TimelineHarness {...timelineProps(session, { now: 29, selectedId: 2 })} />);
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore + 1);
+  });
+
+  it("does not cancel anything when no auto scroll is in flight", () => {
+    vi.useFakeTimers({ toFake: ["setTimeout", "clearTimeout"] });
+    const scroll = stubScroll();
+    const session = payloadSession("claude/live_blocked.json", 0);
+    const { rerender } = render(<TimelineHarness {...timelineProps(session, { now: 28 })} />);
+    act(() => {
+      vi.advanceTimersByTime(700);
+    });
+    const callsBefore = scroll.scrollTo.mock.calls.length;
+    rerender(<TimelineHarness {...timelineProps(session, { now: 28, selectedId: 2 })} />);
+    expect(scroll.scrollTo).toHaveBeenCalledTimes(callsBefore);
+  });
+
   it("pauses again only when the selected id changes after the viewer resumed", () => {
     const scroll = stubScroll();
     const session = payloadSession("claude/live_blocked.json", 0);
